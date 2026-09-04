@@ -1,0 +1,33 @@
+#!/usr/bin/with-contenv bash
+# Servicio s6 que arranca el server bun de lupa.
+# Espera a X server de selkies (DISPLAY=:1), bun instalado en /config/.bun
+# y pulseaudio arriba; luego crea sink "output" como default para que
+# chromium pueda enrutar audio aunque ningún cliente WebRTC esté conectado.
+
+while ! xset -display :1 q >/dev/null 2>&1; do sleep 0.5; done
+while [ ! -x /config/.bun/bin/bun ]; do sleep 1; done
+while [ ! -d /app/node_modules ]; do sleep 1; done
+while ! s6-setuidgid abc pactl info >/dev/null 2>&1; do sleep 0.5; done
+
+# Pre-crear el sink "output" antes de que chromium arranque su AudioContext.
+# Sin esto, chromium puede iniciar antes que pcmflux (selkies) cree los sinks
+# y AudioContext falla con "encountered an error from the audio device".
+if ! s6-setuidgid abc pactl list short sinks | awk '{print $2}' | grep -q '^output$'; then
+  s6-setuidgid abc pactl load-module module-null-sink \
+    sink_name=output rate=44100 channels=2 format=s16le \
+    sink_properties=device.description=output >/dev/null
+fi
+s6-setuidgid abc pactl set-default-sink output >/dev/null 2>&1 || true
+
+cd /app
+exec s6-setuidgid abc bash -lc '
+  export HOME=/config
+  export PATH=/config/.bun/bin:$PATH
+  export PLAYWRIGHT_BROWSERS_PATH=/config/.cache/ms-playwright
+  export DISPLAY=:1
+  export PORT="${PORT:-3036}"
+  export API_HOST="${API_HOST:-127.0.0.1}"
+  # PULSE_RUNTIME_PATH=/defaults ya viene de la imagen base; chromium encontrará
+  # el socket en /defaults/native sin necesidad de setear PULSE_SERVER.
+  exec bun run src/server.ts
+'

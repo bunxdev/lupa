@@ -1,0 +1,37 @@
+services:
+  lupa:
+    image: ghcr.io/linuxserver/baseimage-selkies:debiantrixie
+    hostname: ${LUPA_HOSTNAME:-lupa}
+    ports:
+      - "${LUPA_API_BIND:-127.0.0.1}:${LUPA_API_PORT:-3036}:3036"
+      - "${SELKIES_BIND:-127.0.0.1}:${SELKIES_PORT:-6080}:3000"
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
+    shm_size: 2gb
+    environment:
+      TITLE: lupa
+      PUID: ${PUID:-911}
+      PGID: ${PGID:-911}
+      API_HOST: 0.0.0.0
+      PORT: 3036
+      LUPA_API_TOKEN: ${LUPA_API_TOKEN:-}
+      LUPA_API_TOKEN_FILE: ${LUPA_API_TOKEN_FILE:-}
+      LUPA_MAX_BODY_BYTES: ${LUPA_MAX_BODY_BYTES:-5242880}
+      SELKIES_PUBLIC_PORT: ${SELKIES_PORT:-6080}
+      CUSTOM_USER: ${SELKIES_USER:-lupa}
+      PASSWORD: ${SELKIES_PASSWORD:-}
+      # Selkies tuning — autoresize a la pantalla del cliente, sin resolución fija.
+      SELKIES_FRAMERATE: "60"
+      SELKIES_ENCODER: "x264enc"
+    volumes:
+      - ./custom-cont-init.d:/custom-cont-init.d:ro
+      - ./custom-services.d:/custom-services.d:ro
+      - ./app:/app
+      - ./extensions:/extensions:ro
+      # Descargas recuperables desde el host, fuera del perfil persistente.
+      - ./downloads:/config/Downloads
+      - lupa_config:/config
+    restart: unless-stopped
+
+volumes:
+  lupa_config:
