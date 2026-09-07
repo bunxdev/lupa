@@ -1,6 +1,7 @@
 node_modules/
 *.log
 .env
+docker-compose.override.yml
 .DS_Store
 extensions/*
 !extensions/.gitkeep
