@@ -1,0 +1,58 @@
+{
+  "name": "obscura",
+  "adapter": "puppeteer-core",
+  "runs": [
+    {
+      "navigation_ms": 83.125675,
+      "checks": {
+        "title": "Lupa comparison fixture",
+        "js": true,
+        "fetch": true,
+        "cards": 3,
+        "cookie": true,
+        "greeting": "",
+        "canvas": true,
+        "audioContext": true,
+        "videoMP4": false
+      }
+    },
+    {
+      "navigation_ms": 36.50092299999994,
+      "checks": {
+        "title": "Lupa comparison fixture",
+        "js": true,
+        "fetch": true,
+        "cards": 3,
+        "cookie": true,
+        "greeting": "",
+        "canvas": true,
+        "audioContext": true,
+        "videoMP4": false
+      }
+    },
+    {
+      "navigation_ms": 35.44377899999995,
+      "checks": {
+        "title": "Lupa comparison fixture",
+        "js": true,
+        "fetch": true,
+        "cards": 3,
+        "cookie": true,
+        "greeting": "",
+        "canvas": true,
+        "audioContext": true,
+        "videoMP4": false
+      }
+    }
+  ],
+  "errors": [],
+  "interaction": "Hola Lupa",
+  "screenshot": {
+    "ok": true,
+    "ms": 23.5046319999999
+  },
+  "pdf": {
+    "ok": true,
+    "ms": 44.06170199999997
+  }
+}

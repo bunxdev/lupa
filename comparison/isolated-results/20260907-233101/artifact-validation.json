@@ -1,0 +1,47 @@
+{
+  "lupa": {
+    "png_dimensions": [
+      800,
+      600
+    ],
+    "png_bytes": 27197,
+    "pdf_bytes": 39879,
+    "file_signatures_valid": true
+  },
+  "browser-use": {
+    "png_dimensions": [
+      800,
+      513
+    ],
+    "png_bytes": 26654,
+    "pdf_bytes": 42034,
+    "file_signatures_valid": true
+  },
+  "scrapling": {
+    "png_dimensions": [
+      1600,
+      1200
+    ],
+    "png_bytes": 69307,
+    "pdf_bytes": 40286,
+    "file_signatures_valid": true
+  },
+  "obscura": {
+    "png_dimensions": [
+      800,
+      600
+    ],
+    "png_bytes": 25152,
+    "pdf_bytes": 54542,
+    "file_signatures_valid": true
+  },
+  "lightpanda": {
+    "png_dimensions": [
+      800,
+      600
+    ],
+    "png_bytes": 14678,
+    "pdf_bytes": 13974,
+    "file_signatures_valid": true
+  }
+}

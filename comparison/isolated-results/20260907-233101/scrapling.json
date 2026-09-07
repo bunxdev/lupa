@@ -1,0 +1,86 @@
+{
+  "name": "scrapling",
+  "version": "0.4.15",
+  "adapter": "DynamicSession + system Chromium",
+  "runs": [
+    {
+      "checks": {
+        "title": "Lupa comparison fixture",
+        "js": true,
+        "fetch": true,
+        "cards": 3,
+        "cookie": true,
+        "greeting": "",
+        "canvas": true,
+        "audioContext": true,
+        "videoMP4": true
+      },
+      "navigation_to_ready_ms": 934.7585520008579,
+      "total_ms": 1646.376168999268,
+      "extracted_cards": [
+        "Automatizaci\u00f3n",
+        "Extracci\u00f3n",
+        "Renderizado"
+      ]
+    },
+    {
+      "checks": {
+        "title": "Lupa comparison fixture",
+        "js": true,
+        "fetch": true,
+        "cards": 3,
+        "cookie": true,
+        "greeting": "",
+        "canvas": true,
+        "audioContext": true,
+        "videoMP4": true
+      },
+      "navigation_to_ready_ms": 168.48621200188063,
+      "total_ms": 177.29539500214742,
+      "extracted_cards": [
+        "Automatizaci\u00f3n",
+        "Extracci\u00f3n",
+        "Renderizado"
+      ]
+    },
+    {
+      "checks": {
+        "title": "Lupa comparison fixture",
+        "js": true,
+        "fetch": true,
+        "cards": 3,
+        "cookie": true,
+        "greeting": "",
+        "canvas": true,
+        "audioContext": true,
+        "videoMP4": true
+      },
+      "navigation_to_ready_ms": 134.00389100206667,
+      "total_ms": 182.20624100285931,
+      "extracted_cards": [
+        "Automatizaci\u00f3n",
+        "Extracci\u00f3n",
+        "Renderizado"
+      ]
+    }
+  ],
+  "startup_ms": 1938.724720999744,
+  "interaction": "Hola Lupa",
+  "screenshot": {
+    "ok": true,
+    "ms": 205.88946199859492
+  },
+  "pdf": {
+    "ok": true,
+    "ms": 109.86264199891593
+  },
+  "http_only": {
+    "ms": 10.047517000202788,
+    "cards": [
+      "Automatizaci\u00f3n",
+      "Extracci\u00f3n",
+      "Renderizado"
+    ],
+    "ready_text": "Cargando JavaScript\u2026"
+  }
+}

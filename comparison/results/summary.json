@@ -1,0 +1,37 @@
+{
+  "lupa": {
+    "runs": 3,
+    "functional_pass": true,
+    "screenshot_pass": true,
+    "pdf_pass": true,
+    "error": false
+  },
+  "browser-use": {
+    "runs": 0,
+    "functional_pass": false,
+    "screenshot_pass": false,
+    "pdf_pass": false,
+    "error": true
+  },
+  "scrapling": {
+    "runs": 3,
+    "functional_pass": true,
+    "screenshot_pass": true,
+    "pdf_pass": true,
+    "error": false
+  },
+  "obscura": {
+    "runs": 3,
+    "functional_pass": true,
+    "screenshot_pass": true,
+    "pdf_pass": true,
+    "error": false
+  },
+  "lightpanda": {
+    "runs": 3,
+    "functional_pass": true,
+    "screenshot_pass": true,
+    "pdf_pass": true,
+    "error": false
+  }
+}

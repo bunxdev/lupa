@@ -1,0 +1,68 @@
+[
+  {
+    "container": "lupa-lupa-1",
+    "image_id": "sha256:82df55995a7fdda0aed32a2a2ccb59202003f57cb92b36d78a7fb078e202f2c3",
+    "digests": [
+      "ghcr.io/linuxserver/baseimage-selkies@sha256:82df55995a7fdda0aed32a2a2ccb59202003f57cb92b36d78a7fb078e202f2c3"
+    ],
+    "image_bytes": 986478000,
+    "memory_limit": 0,
+    "nano_cpus": 0,
+    "state": "running"
+  },
+  {
+    "container": "lupa-compare-base",
+    "image_id": "sha256:78387bc3881b8273120a12ebe6c1ab22b018ccc2c9adf565ae1ac9b536e184ea",
+    "digests": [
+      "python@sha256:78387bc3881b8273120a12ebe6c1ab22b018ccc2c9adf565ae1ac9b536e184ea"
+    ],
+    "image_bytes": 46192946,
+    "memory_limit": 1258291200,
+    "nano_cpus": 1000000000,
+    "state": "running"
+  },
+  {
+    "container": "lupa-compare-browser-use",
+    "image_id": "sha256:efbe67283ff11b5c73dc7e059772a8e95e159054fc989af366112081d49405d4",
+    "digests": [
+      "lupa-compare-python@sha256:efbe67283ff11b5c73dc7e059772a8e95e159054fc989af366112081d49405d4"
+    ],
+    "image_bytes": 467723068,
+    "memory_limit": 1073741824,
+    "nano_cpus": 1000000000,
+    "state": "running"
+  },
+  {
+    "container": "lupa-compare-scrapling",
+    "image_id": "sha256:efbe67283ff11b5c73dc7e059772a8e95e159054fc989af366112081d49405d4",
+    "digests": [
+      "lupa-compare-python@sha256:efbe67283ff11b5c73dc7e059772a8e95e159054fc989af366112081d49405d4"
+    ],
+    "image_bytes": 467723068,
+    "memory_limit": 1073741824,
+    "nano_cpus": 1000000000,
+    "state": "running"
+  },
+  {
+    "container": "lupa-compare-obscura",
+    "image_id": "sha256:4f915617741d2e7cd5fac6dd03592c10ca2653d37d9ac53c8224a621af874197",
+    "digests": [
+      "h4ckf0r0day/obscura@sha256:4f915617741d2e7cd5fac6dd03592c10ca2653d37d9ac53c8224a621af874197"
+    ],
+    "image_bytes": 91523548,
+    "memory_limit": 1073741824,
+    "nano_cpus": 1000000000,
+    "state": "running"
+  },
+  {
+    "container": "lupa-compare-lightpanda",
+    "image_id": "sha256:2621461f9e56208055c79f4e2aadb49a9c337ef385c7ee23216563b14a5f4b04",
+    "digests": [
+      "lightpanda/browser@sha256:2621461f9e56208055c79f4e2aadb49a9c337ef385c7ee23216563b14a5f4b04"
+    ],
+    "image_bytes": 79453565,
+    "memory_limit": 1073741824,
+    "nano_cpus": 1000000000,
+    "state": "running"
+  }
+]

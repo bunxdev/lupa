@@ -1,0 +1,1 @@
+Chromium 152.0.7977.82 built on Debian GNU/Linux 13 (trixie)

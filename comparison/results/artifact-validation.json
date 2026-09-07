@@ -1,0 +1,47 @@
+{
+  "lupa": {
+    "png_size": [
+      800,
+      600
+    ],
+    "png_bytes": 27197,
+    "pdf_pages": 1,
+    "pdf_bytes": 39879
+  },
+  "browser-use": {
+    "png_size": [
+      800,
+      513
+    ],
+    "png_bytes": 26654,
+    "pdf_pages": 1,
+    "pdf_bytes": 42034
+  },
+  "scrapling": {
+    "png_size": [
+      1600,
+      1200
+    ],
+    "png_bytes": 69307,
+    "pdf_pages": 1,
+    "pdf_bytes": 40286
+  },
+  "obscura": {
+    "png_size": [
+      800,
+      600
+    ],
+    "png_bytes": 25162,
+    "pdf_pages": 1,
+    "pdf_bytes": 54648
+  },
+  "lightpanda": {
+    "png_size": [
+      800,
+      600
+    ],
+    "png_bytes": 14678,
+    "pdf_pages": 1,
+    "pdf_bytes": 13974
+  }
+}

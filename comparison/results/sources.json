@@ -1,0 +1,25 @@
+{
+  "date": "2026-09-07",
+  "documentation_revisions": [
+    {
+      "repo": "browser-use/browser-use",
+      "branch": "main",
+      "commit": "2b1f9d377999a59fe7627c1a5aa88c12aa42e11f"
+    },
+    {
+      "repo": "lightpanda-io/browser",
+      "branch": "main",
+      "commit": "909108e293bbe8f74f119957067b761855b88a69"
+    },
+    {
+      "repo": "h4ckf0r0day/obscura",
+      "branch": "main",
+      "commit": "727cc46d56290995245fbe790caed52fc699452a"
+    },
+    {
+      "repo": "D4Vinci/Scrapling",
+      "branch": "main",
+      "commit": "28c329671485daaea89a40fb34a7db8622e51468"
+    }
+  ]
+}

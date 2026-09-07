@@ -1,0 +1,61 @@
+{
+  "name": "browser-use",
+  "version": "0.13.10",
+  "adapter": "BrowserSession Actor API + system Chromium; no LLM",
+  "runs": [
+    {
+      "navigation_ms": 524.9217540003883,
+      "checks": {
+        "title": "Lupa comparison fixture",
+        "js": true,
+        "fetch": true,
+        "cards": 3,
+        "cookie": true,
+        "greeting": "",
+        "canvas": true,
+        "audioContext": true,
+        "videoMP4": true
+      }
+    },
+    {
+      "navigation_ms": 316.9883030022902,
+      "checks": {
+        "title": "Lupa comparison fixture",
+        "js": true,
+        "fetch": true,
+        "cards": 3,
+        "cookie": true,
+        "greeting": "",
+        "canvas": true,
+        "audioContext": true,
+        "videoMP4": true
+      }
+    },
+    {
+      "navigation_ms": 254.07199499750277,
+      "checks": {
+        "title": "Lupa comparison fixture",
+        "js": true,
+        "fetch": true,
+        "cards": 3,
+        "cookie": true,
+        "greeting": "",
+        "canvas": true,
+        "audioContext": true,
+        "videoMP4": true
+      }
+    }
+  ],
+  "startup_ms": 1283.7601249993895,
+  "startup_scope": "BrowserSession connection to prestarted Chromium; browser process launch excluded",
+  "interaction": "Hola Lupa",
+  "screenshot": {
+    "ok": true,
+    "ms": 147.3084299977927
+  },
+  "pdf": {
+    "ok": true,
+    "ms": 172.56521299714223,
+    "via": "BrowserSession CDP"
+  }
+}

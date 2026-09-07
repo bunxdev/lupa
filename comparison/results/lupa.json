@@ -1,0 +1,60 @@
+{
+  "name": "lupa",
+  "adapter": "HTTP API",
+  "runs": [
+    {
+      "request_ms": 7643.291969999999,
+      "checks": {
+        "title": "Lupa comparison fixture",
+        "js": true,
+        "fetch": true,
+        "cards": 3,
+        "cookie": true,
+        "greeting": "",
+        "canvas": true,
+        "audioContext": true,
+        "videoMP4": true
+      },
+      "pageErrors": []
+    },
+    {
+      "request_ms": 1127.9511700000003,
+      "checks": {
+        "title": "Lupa comparison fixture",
+        "js": true,
+        "fetch": true,
+        "cards": 3,
+        "cookie": true,
+        "greeting": "",
+        "canvas": true,
+        "audioContext": true,
+        "videoMP4": true
+      },
+      "pageErrors": []
+    },
+    {
+      "request_ms": 1116.3409619999984,
+      "checks": {
+        "title": "Lupa comparison fixture",
+        "js": true,
+        "fetch": true,
+        "cards": 3,
+        "cookie": true,
+        "greeting": "",
+        "canvas": true,
+        "audioContext": true,
+        "videoMP4": true
+      },
+      "pageErrors": []
+    }
+  ],
+  "interaction": "Hola Lupa",
+  "screenshot": {
+    "ok": true,
+    "ms": 862.7137920000005
+  },
+  "pdf": {
+    "ok": true,
+    "ms": 683.843291000001
+  }
+}

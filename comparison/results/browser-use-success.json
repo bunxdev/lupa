@@ -1,0 +1,62 @@
+{
+  "name": "browser-use",
+  "version": "0.13.10",
+  "adapter": "BrowserSession Actor API + system Chromium; no LLM",
+  "runs": [
+    {
+      "navigation_ms": 2438.5559110014583,
+      "checks": {
+        "title": "Lupa comparison fixture",
+        "js": true,
+        "fetch": true,
+        "cards": 3,
+        "cookie": true,
+        "greeting": "",
+        "canvas": true,
+        "audioContext": true,
+        "videoMP4": true
+      }
+    },
+    {
+      "navigation_ms": 5206.619208001939,
+      "checks": {
+        "title": "Lupa comparison fixture",
+        "js": true,
+        "fetch": true,
+        "cards": 3,
+        "cookie": true,
+        "greeting": "",
+        "canvas": true,
+        "audioContext": true,
+        "videoMP4": true
+      }
+    },
+    {
+      "navigation_ms": 572.1223010004906,
+      "checks": {
+        "title": "Lupa comparison fixture",
+        "js": true,
+        "fetch": true,
+        "cards": 3,
+        "cookie": true,
+        "greeting": "",
+        "canvas": true,
+        "audioContext": true,
+        "videoMP4": true
+      }
+    }
+  ],
+  "startup_ms": 4117.106821999187,
+  "startup_scope": "BrowserSession connection to prestarted Chromium; browser process launch excluded",
+  "interaction": "Hola Lupa",
+  "screenshot": {
+    "ok": true,
+    "ms": 77.96843299729517
+  },
+  "pdf": {
+    "ok": true,
+    "ms": 474.07431499959785,
+    "via": "BrowserSession CDP"
+  },
+  "provenance": "Successful exploratory pass before final sequential run; prestarted Chromium on fixed port 9333."
+}

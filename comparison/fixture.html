@@ -1,0 +1,14 @@
+<!doctype html>
+<html lang="es"><head><meta charset="utf-8"><title>Lupa comparison fixture</title>
+<style>body{font:18px sans-serif;background:#eef2f7;color:#18324a;margin:40px}main{max-width:900px;margin:auto}h1{color:#125dcc}.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:white;border-radius:12px;padding:24px;box-shadow:0 3px 12px #0002}button,input{font:inherit;padding:10px;margin:8px}canvas{border:1px solid #123}</style></head>
+<body><main><h1>Lupa · comparación de navegadores</h1><p id="ready">Cargando JavaScript…</p>
+<div class="cards"><div class="card">Automatización</div><div class="card">Extracción</div><div class="card">Renderizado</div></div>
+<input id="name" aria-label="Nombre" placeholder="Nombre"><button id="go">Saludar</button><p id="greeting"></p>
+<p id="data">Esperando API…</p><canvas width="320" height="80" id="canvas"></canvas>
+<script>
+document.querySelector('#ready').textContent='JavaScript OK';
+document.querySelector('#go').onclick=()=>document.querySelector('#greeting').textContent='Hola '+document.querySelector('#name').value;
+document.cookie='comparison=ok; path=/; SameSite=Lax';
+fetch('/data.json').then(r=>r.json()).then(d=>{document.querySelector('#data').textContent=d.message;window.fixtureReady=true});
+try{const c=document.querySelector('canvas').getContext('2d');c.fillStyle='#125dcc';c.fillRect(0,0,320,80);c.fillStyle='white';c.font='24px sans-serif';c.fillText('Canvas OK',20,48)}catch(e){}
+</script></main></body></html>

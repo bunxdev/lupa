@@ -1,0 +1,6 @@
+lupa-compare-scrapling Exited (137) 1 second ago
+lupa-compare-browser-use Exited (137) 8 seconds ago
+lupa-compare-lightpanda Exited (137) 23 seconds ago
+lupa-compare-obscura Up 1 second
+lupa-compare-base Up 37 minutes
+lupa-lupa-1 Up About an hour (Paused)

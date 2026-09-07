@@ -1,0 +1,10 @@
+{
+  "name": "client",
+  "dependencies": {
+    "puppeteer-core": {
+      "version": "25.10.0",
+      "resolved": "https://registry.npmjs.org/puppeteer-core/-/puppeteer-core-25.10.0.tgz",
+      "overridden": false
+    }
+  }
+}
