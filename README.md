@@ -247,4 +247,51 @@ La integración Browser Use incluye un recolector reutilizable de contactos púb
 
 ## Laboratorio de cinco navegadores
 
-La rama `testing` incluye [un laboratorio](lab/README.md) con Lupa, Obscura, Lightpanda, BrowserOS y agent-browser, siguiendo el patrón de Compose y scripts de `nyaweb/micro`. Arranca todos con `./lab/lab up -d`.
+La rama `testing` incluye [un laboratorio](lab/README.md) con Lupa, Obscura, Lightpanda, BrowserOS y agent-browser, siguiendo el patrón de Compose y scripts de `nyaweb/micro`.
+
+En máquinas con memoria limitada, prueba un servicio por turno:
+
+```sh
+./lab/lab stop
+./lab/lab up -d --no-deps obscura
+# Ejecuta las pruebas del servicio antes de detenerlo.
+./lab/lab stop obscura
+./lab/lab up -d --no-deps lightpanda
+```
+
+Detén también cualquier instancia de navegador iniciada desde otro proyecto Compose antes de medir. Los nombres de servicio disponibles son `lupa`, `obscura`, `lightpanda`, `browseros` y `agent-browser`.
+
+### Resultados de la comparación secuencial — 15 de septiembre de 2026
+
+Se probó Lupa slim como referencia y cada navegador alternativo por separado, deteniendo el anterior antes de iniciar el siguiente. La página local compartida comprobó JavaScript, `fetch`, formularios, canvas, cookies, `localStorage`, capturas y PDF. También se comprobó navegación HTTPS a example.com.
+
+| Servicio probado | RAM observada tras las pruebas | Resultado y posible aportación a Lupa |
+|---|---:|---|
+| Lupa slim / Chromium 147.0.7727.15 | 783 MiB | Pasó las pruebas comunes; conserva Chromium como base para compatibilidad y sesión visual. |
+| Obscura 0.2.2 | 60 MiB | Ejecutó JS, formularios y canvas; generó PNG/PDF y conservó cookies. Perdió `localStorage` al recargar. Candidato experimental para trabajos cortos de extracción y renderizado. |
+| Lightpanda nightly 9448+baf45f03e | 27 MiB | Pasó extracción, formularios y almacenamiento. Generó PNG/PDF, pero la captura fue textual y el canvas no reprodujo los píxeles esperados. Candidato para extracción de datos bajo demanda. |
+| BrowserOS 0.50.3 / Chromium 151.0.8160.137 | 1,32 GiB | Pasó las pruebas comunes y su backend informó conexión CDP operativa. Interesan sus herramientas y orquestación; incorporar el navegador completo no ayuda a reducir recursos. |
+| agent-browser 0.37.1 / Chromium 152.0.7977.82 | 483 MiB | Pasó las pruebas y produjo snapshots con referencias a campos y botones. Interesa reutilizar esas acciones sobre el CDP de Lupa. |
+
+La RAM corresponde a muestras de `docker stats`, no a máximos. Lupa y BrowserOS incluyen escritorio y servicios adicionales; agent-browser incluye su Chromium, daemon y dashboard. No son cargas equivalentes ni una predicción del consumo en sitios complejos. Generar PNG/PDF no garantiza fidelidad visual respecto a Chromium.
+
+Una segunda ronda confirmó conexión Playwright, creación de contextos y clic por rol en Obscura y Lightpanda. En Obscura, la pérdida de `localStorage` se reprodujo tres veces: lectura inmediata correcta y `null` después de recargar. Las cookies sí sobrevivieron la recarga; esto no demuestra persistencia entre reinicios.
+
+**Recomendación:** mantener Chromium como motor predeterminado; evaluar agent-browser reutilizando el navegador existente y Lightpanda como servicio opcional para extracción. La integración autenticada de agent-browser con el WebSocket Bearer de Lupa todavía no está validada. Obscura puede servir para tareas acotadas que no dependan de `localStorage`, pero debe seguir experimental hasta resolver ese fallo y ampliar las pruebas. Estas propuestas no son motores alternativos ya integrados en la API de Lupa. No se evaluó razonamiento de agentes con modelos de IA ni aplicaciones autenticadas reales.
+
+## Imagen optimizada publicada en Docker Hub
+
+La variante construida en el proyecto `debina` está publicada en [Docker Hub](https://hub.docker.com/r/bunxdev/lupa/tags):
+
+```sh
+docker pull bunxdev/lupa:slim-20260915
+```
+
+- Plataforma publicada y probada: `linux/amd64`.
+- Digest verificado después de publicar y descargar de nuevo: `sha256:d7c94e9360e2b9d258b4cf659e586517a7b635a132e0e7b4694fb85d138cf6f6`.
+- Capas comprimidas: aproximadamente **656 MB de descarga**.
+- Tamaño local reportado por Docker: **2,27 GB**, frente a **3,87 GB** de la imagen base original en la misma máquina. La variante slim incluye navegador y dependencias; la base original descarga parte de ellos al arrancar.
+
+La imagen reutiliza un único binario completo de Chromium para los trabajos headless y la sesión visual. Las pruebas específicas verificaron API, CDP autenticado, aislamiento, extensiones, persistencia de perfiles, descargas y escritorio Selkies con vídeo, audio, teclado, ratón, portapapeles y redimensionado. También se verificó arranque sin red y conservación de cookies y descargas al recrear el contenedor.
+
+Los archivos Compose y scripts descritos al principio de este README siguen correspondiendo al despliegue original de este repositorio. La imagen slim tiene su propia receta en `debina`; no basta con sustituir la imagen del Compose original, que monta scripts y dependencias para otra distribución. La instancia slim usada en estas pruebas publicó la API/CDP en `3136` y el escritorio en `6180`; el despliegue original conserva los valores `3036` y `6080`.
