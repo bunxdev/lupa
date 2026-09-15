@@ -1,5 +1,5 @@
 import { chromium, type Browser, type BrowserContext, type Cookie, type Page } from 'playwright';
-import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from 'node:fs';
+import { existsSync, mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
 const BASE_ARGS = [
@@ -73,12 +73,7 @@ export async function closeBrowser(): Promise<void> {
     headedPromise = null;
     await b.close();
   }
-  if (liveCtx) {
-    const c = liveCtx;
-    liveCtx = null;
-    livePage = null;
-    try { await c.close(); } catch {}
-  }
+  await liveClose();
 }
 
 export type Viewport = { width: number; height: number };
@@ -156,7 +151,7 @@ code{color:#00f0ff}</style></head>
 let liveCtx: BrowserContext | null = null;
 let livePage: Page | null = null;
 
-const LIVE_PROFILE = '/config/live-profile';
+const LIVE_PROFILE = process.env.LUPA_LIVE_PROFILE ?? '/config/live-profile';
 
 // Carpeta donde aterrizan las descargas del Chromium headed. Sibling de Desktop
 // dentro del HOME del container y bind-mounteada al host (`./downloads` en
@@ -211,7 +206,18 @@ function liveCtxIsHealthy(): boolean {
   return b ? b.isConnected() : false;
 }
 
+// Share startup across HTTP and CDP callers to avoid launching the same profile twice.
+let livePagePromise: Promise<Page> | null = null;
+let liveClosePromise: Promise<void> | null = null;
 async function ensureLivePage(viewport?: Viewport): Promise<Page> {
+  if (liveClosePromise) await liveClosePromise;
+  if (!livePagePromise) {
+    livePagePromise = prepareLivePage(viewport).finally(() => { livePagePromise = null; });
+  }
+  return livePagePromise;
+}
+
+async function prepareLivePage(viewport?: Viewport): Promise<Page> {
   if (liveCtx && !liveCtxIsHealthy()) {
     liveCtx = null;
     livePage = null;
@@ -228,6 +234,7 @@ async function ensureLivePage(viewport?: Viewport): Promise<Page> {
       : [];
     // Pre-seed download path antes de lanzar — evita el diálogo "Save As".
     ensureDownloadPrefs(LIVE_PROFILE, DOWNLOAD_DIR);
+    rmSync(join(LIVE_PROFILE, 'DevToolsActivePort'), { force: true });
     liveCtx = await chromium.launchPersistentContext(LIVE_PROFILE, {
       headless: false,
       // acceptDownloads:true es el default; Playwright intercepta cada download.
@@ -236,6 +243,8 @@ async function ensureLivePage(viewport?: Viewport): Promise<Page> {
       // /tmp/playwright-artifacts-*). Ver attachDownloadHandler abajo.
       acceptDownloads: true,
       args: [
+        '--remote-debugging-address=127.0.0.1',
+        '--remote-debugging-port=0',
         ...BASE_ARGS,
         '--start-maximized',
         '--autoplay-policy=no-user-gesture-required',
@@ -265,6 +274,17 @@ async function ensureLivePage(viewport?: Viewport): Promise<Page> {
     livePage = await liveCtx.newPage();
   }
   return livePage;
+}
+
+// Chromium listens only on container loopback. The authenticated API relays CDP.
+export async function getLiveCdpEndpoint(): Promise<string> {
+  await ensureLivePage();
+  const [port, path] = readFileSync(join(LIVE_PROFILE, 'DevToolsActivePort'), 'utf8').trim().split(/\r?\n/);
+  if (!/^\d+$/.test(port) || Number(port) < 1 || Number(port) > 65535 ||
+      !/^\/devtools\/browser\/[a-zA-Z0-9-]+$/.test(path ?? '')) {
+    throw new Error('Invalid Chromium CDP endpoint');
+  }
+  return `ws://127.0.0.1:${port}${path}`;
 }
 
 export async function liveOpen(url: string, viewport?: Viewport): Promise<void> {
@@ -348,9 +368,15 @@ export async function liveClose(): Promise<void> {
   // Cierra de verdad: termina el context y mata el chromium subyacente, así
   // `lupa close && lupa` realmente respawna una ventana nueva en lugar de
   // quedar mostrando una página splash con el browser todavía vivo.
-  if (!liveCtx) return;
-  const c = liveCtx;
-  liveCtx = null;
-  livePage = null;
-  try { await c.close(); } catch {}
+  if (!liveClosePromise) {
+    liveClosePromise = (async () => {
+      if (livePagePromise) await livePagePromise.catch(() => {});
+      if (!liveCtx) return;
+      const c = liveCtx;
+      liveCtx = null;
+      livePage = null;
+      try { await c.close(); } catch {}
+    })().finally(() => { liveClosePromise = null; });
+  }
+  await liveClosePromise;
 }

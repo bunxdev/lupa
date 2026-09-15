@@ -1,5 +1,5 @@
 import { withPage, liveOpen, liveStatus, liveClose, liveEval, liveClick, liveMouseClick, liveMouseMove, liveType, liveKey, liveScreenshot, liveAddCookies, liveGetCookies, getExtContext, closeExtContext, type Viewport } from './browser';
-import { timingSafeEqual } from 'node:crypto';
+import { authorized } from './auth';
 
 const json = (data: unknown, status = 200) =>
   new Response(JSON.stringify(data), {
@@ -67,13 +67,6 @@ type Body = Record<string, unknown>;
 
 type HandlerOptions = { apiToken: string; maxBodyBytes: number };
 
-function authorized(req: Request, apiToken: string): boolean {
-  const header = req.headers.get('authorization');
-  if (!header?.startsWith('Bearer ')) return false;
-  const supplied = Buffer.from(header.slice(7), 'utf8');
-  const expected = Buffer.from(apiToken, 'utf8');
-  return supplied.length === expected.length && timingSafeEqual(supplied, expected);
-}
 
 export function createHandler({ apiToken, maxBodyBytes }: HandlerOptions) {
   return async function handle(req: Request): Promise<Response> {

@@ -1,6 +1,7 @@
 import { readFileSync } from 'node:fs';
 import { createHandler } from './routes';
-import { closeBrowser, liveSplash } from './browser';
+import { closeBrowser, liveSplash, getLiveCdpEndpoint } from './browser';
+import { createCdpGateway, type CdpSocket } from './cdp';
 
 const PORT = Number(process.env.PORT ?? 3000);
 const HOST = process.env.API_HOST ?? '127.0.0.1';
@@ -25,14 +26,20 @@ if (!Number.isInteger(MAX_BODY_BYTES) || MAX_BODY_BYTES < 1024 || MAX_BODY_BYTES
   throw new Error('LUPA_MAX_BODY_BYTES must be between 1024 and 16777216');
 }
 
-const handle = createHandler({ apiToken: loadApiToken(), maxBodyBytes: MAX_BODY_BYTES });
+const apiToken = loadApiToken();
+const handle = createHandler({ apiToken, maxBodyBytes: MAX_BODY_BYTES });
+const cdp = createCdpGateway(apiToken, getLiveCdpEndpoint);
 
-const server = Bun.serve({
+const server = Bun.serve<CdpSocket>({
   port: PORT,
   hostname: HOST,
   idleTimeout: 60,
   maxRequestBodySize: MAX_BODY_BYTES,
-  fetch: handle,
+  fetch(req, server) {
+    const path = new URL(req.url).pathname;
+    return path === '/cdp' || path.startsWith('/cdp/') ? cdp.fetch(req, server) : handle(req);
+  },
+  websocket: cdp.websocket,
 });
 
 console.log(`lupa listening on ${HOST}:${PORT}`);

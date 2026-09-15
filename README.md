@@ -1,6 +1,6 @@
 # Lupa
 
-Lupa es un servicio de automatización de Chromium con API HTTP y una sesión visual persistente transmitida por Selkies WebRTC. Incluye audio, perfiles persistentes, descargas al host, carga de extensiones, captura de pantalla y contenido, render de HTML, PDF, evaluación JavaScript y controles de sesión en vivo.
+Lupa es un servicio de automatización de Chromium con API HTTP, acceso CDP autenticado y una sesión visual persistente transmitida por Selkies WebRTC. Incluye audio, perfiles persistentes, descargas al host, carga de extensiones, captura de pantalla y contenido, render de HTML, PDF, evaluación JavaScript y controles de sesión en vivo.
 
 ![Autotest de video y audio](docs/screenshots/selftest-20260503-014754.png)
 
@@ -98,6 +98,8 @@ Todos los cuerpos indicados son objetos JSON con `Content-Type: application/json
 | `POST` | `/extension/run` | `{ extension, url, script?, screenshot?, waitFor?, fresh?, viewport? }` | Resultado y captura base64 opcional. |
 | `POST` | `/live` | `{ url, viewport? }` | Abre la URL en la sesión visual persistente. |
 | `GET` | `/live` | ninguno | Estado y URL de la sesión. |
+| `GET` | `/cdp/json/version` | ninguno | Metadatos Chromium y URL WebSocket CDP. |
+| `GET` (WebSocket) | `/cdp` | mensajes CDP | Conexión al navegador de la sesión visual. |
 | `POST` | `/live/close` | ninguno | Cierra el contexto live. |
 | `POST` | `/live/eval` | `{ script }` | Evalúa JavaScript en la página live. |
 | `POST` | `/live/click` | `{ selector }` | Click por selector. |
@@ -110,6 +112,63 @@ Todos los cuerpos indicados son objetos JSON con `Content-Type: application/json
 | `POST` | `/live/cookies/add` | `{ cookies }` | Añade entre 1 y 200 cookies Playwright. |
 
 `viewport` admite enteros entre 64x64 y 7680x4320. Los scripts tienen un máximo adicional de 256 KiB. El límite total de cuerpo evita cargas sin cota, pero sigue permitiendo renderizados HTML grandes.
+
+## CDP: conectar herramientas al Chromium de Lupa
+
+CDP (Chrome DevTools Protocol) está disponible en `ws://127.0.0.1:3036/cdp`. Usa el mismo token Bearer que la API, tanto para el descubrimiento HTTP como para el handshake WebSocket. No hace falta publicar un puerto 9222: Chromium escucha en un puerto dinámico del loopback del contenedor y Lupa retransmite la conexión autenticada.
+
+El cliente accede al navegador **live**, con sus pestañas, cookies, perfil y extensiones. Las pestañas del contexto persistente aparecen en Selkies. Los endpoints `/live/*` siguen controlando la página que administra Lupa; crear otra pestaña mediante CDP no cambia esa selección. Los trabajos HTTP aislados, como `/eval` y `/screenshot`, conservan sus contextos independientes.
+
+Con Playwright, desde un proceso que tenga acceso a la API y el token en su entorno:
+
+```js
+import { chromium } from 'playwright';
+
+const browser = await chromium.connectOverCDP('http://127.0.0.1:3036/cdp', {
+  headers: { Authorization: `Bearer ${process.env.LUPA_API_TOKEN}` },
+});
+try {
+  const context = browser.contexts()[0];
+  const page = await context.newPage();
+  await page.goto('https://example.com');
+  console.log(await page.title());
+} finally {
+  await browser.close(); // En connectOverCDP, desconecta este cliente.
+}
+```
+
+Con Puppeteer:
+
+```js
+import puppeteer from 'puppeteer-core';
+
+const browser = await puppeteer.connect({
+  browserWSEndpoint: 'ws://127.0.0.1:3036/cdp',
+  headers: { Authorization: `Bearer ${process.env.LUPA_API_TOKEN}` },
+  defaultViewport: null,
+});
+try {
+  console.log((await browser.pages()).map(page => page.url()));
+} finally {
+  browser.disconnect();
+}
+```
+
+Para otras herramientas, configura la URL WebSocket y el encabezado `Authorization`. La ruta de descubrimiento es `GET /cdp/json/version` y también admite barra final, como requiere Playwright. El gateway expone el endpoint de navegador; los targets se enumeran mediante CDP, sin implementar `/json/list` ni el frontend de DevTools. Detrás de un proxy TLS, usa directamente `wss://tu-host/cdp` y habilita el forwarding de WebSocket y Authorization.
+
+Desconectar el transporte deja la sesión abierta. Un comando CDP `Browser.close` (incluido `browser.close()` de Puppeteer) sí cierra el navegador compartido, igual que `POST /live/close`; los clientes pierden la conexión y deben reconectarse. La siguiente conexión inicia Chromium de nuevo con el perfil persistente. CDP concede control completo sobre esa sesión a quien posea el token.
+
+Después de actualizar el código de una instancia que ya está ejecutándose, aplica el cambio con `docker compose restart lupa`; esto reinicia la sesión visual. Para desarrollo y pruebas puede elegirse otro perfil mediante `LUPA_LIVE_PROFILE` (por defecto `/config/live-profile`); en Compose se configura con un override de `environment`.
+
+## Browser Use en la sesión visual
+
+La [integración Browser Use](integrations/browser-use/README.md) permite que un asistente controle la misma pestaña de `/live` mientras observas los movimientos en Selkies. Incluye una demo pausada y comandos de navegación, inspección, clic, escritura, scroll y captura, sin necesitar un proveedor de modelos.
+
+```sh
+python3 integrations/browser-use/run.py demo
+```
+
+Abre `http://localhost:6080` para seguirla en directo. El cliente se desconecta al terminar y deja Lupa abierta.
 
 ## Sesión Visual Y Audio
 
@@ -168,6 +227,20 @@ docker compose config --quiet
 git diff --check
 ```
 
+La integración CDP usa Chromium real, dos clientes simultáneos y una instancia temporal de la API con un perfil separado. Comprueba autenticación mediante archivo, navegación compartida, cookies, captura y reconexión tras cerrar la sesión:
+
+```sh
+docker compose exec --user abc \
+  -e HOME=/config -e DISPLAY=:1 \
+  -e PLAYWRIGHT_BROWSERS_PATH=/config/.cache/ms-playwright \
+  -e RUN_BROWSER_TESTS=1 lupa \
+  /config/.bun/bin/bun test --cwd /app
+```
+
 El autotest manual está en `http://127.0.0.1:3036/selftest`: comprueba reproducción de video y genera tonos con WebAudio. Para una prueba completa, ábralo mediante `/live`, entre en Selkies y confirme imagen y audio.
 
 Consulte [Camino.md](Camino.md) para la evolución técnica y decisiones de compatibilidad.
+
+### Prospección local con Lupa
+
+La integración Browser Use incluye un recolector reutilizable de contactos públicos de Google Maps con filtros por municipio y categoría, deduplicación, reanudación y exportación CSV/JSON/HTML. Consulta los [comandos y requisitos](integrations/browser-use/README.md#contactos-locales-desde-google-maps) y la [skill lupa-local-leads](skills/lupa-local-leads/SKILL.md).

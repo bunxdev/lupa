@@ -10,3 +10,7 @@ downloads/*
 
 # Chromium core dumps
 app/core.*
+
+# Local Python environments for integrations
+.venv-browser-use/
+integrations/**/__pycache__/
