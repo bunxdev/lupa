@@ -1,0 +1,9 @@
+#!/usr/bin/with-contenv bash
+set -euo pipefail
+until xset -display :1 q >/dev/null 2>&1; do sleep 1; done
+# BrowserOS also connects its integrated backend to CDP on port 9100.
+exec s6-setuidgid abc env HOME=/config DISPLAY=:1 /usr/bin/browseros \
+  --no-sandbox --no-first-run --no-default-browser-check \
+  --user-data-dir=/config/browseros-profile \
+  --remote-debugging-address=127.0.0.1 --remote-debugging-port=9100 \
+  about:blank

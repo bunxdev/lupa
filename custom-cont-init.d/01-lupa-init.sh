@@ -29,12 +29,14 @@ if [ ! -x /config/.bun/bin/bun ]; then
 fi
 
 # Dependencias de la app (bun install) e instalar chromium-headless-shell + chromium.
-if [ ! -d /app/node_modules ]; then
+if [ ! -f /app/node_modules/playwright/package.json ]; then
   echo "[lupa-init] bun install"
+  mkdir -p /app/node_modules
+  chown abc:abc /app/node_modules
   cd /app && s6-setuidgid abc bash -lc '
     export HOME=/config
     export PATH=/config/.bun/bin:$PATH
-    bun install
+    bun install --frozen-lockfile
   '
 fi
 

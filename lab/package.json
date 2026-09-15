@@ -1,0 +1,7 @@
+{
+  "name": "lupa-browser-lab",
+  "private": true,
+  "type": "module",
+  "scripts": { "smoke": "bun run smoke.ts" },
+  "dependencies": { "puppeteer-core": "24.16.0" }
+}

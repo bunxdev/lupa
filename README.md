@@ -244,3 +244,7 @@ Consulte [Camino.md](Camino.md) para la evolución técnica y decisiones de comp
 ### Prospección local con Lupa
 
 La integración Browser Use incluye un recolector reutilizable de contactos públicos de Google Maps con filtros por municipio y categoría, deduplicación, reanudación y exportación CSV/JSON/HTML. Consulta los [comandos y requisitos](integrations/browser-use/README.md#contactos-locales-desde-google-maps) y la [skill lupa-local-leads](skills/lupa-local-leads/SKILL.md).
+
+## Laboratorio de cinco navegadores
+
+La rama `testing` incluye [un laboratorio](lab/README.md) con Lupa, Obscura, Lightpanda, BrowserOS y agent-browser, siguiendo el patrón de Compose y scripts de `nyaweb/micro`. Arranca todos con `./lab/lab up -d`.
