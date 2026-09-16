@@ -1,0 +1,13 @@
+.env
+.env.*
+!.env.example
+node_modules/
+.venv*/
+__pycache__/
+.runtime/
+reports/*.png
+reports/*.pdf
+reports/*.wav
+reports/*.log
+reports/browsers/*.png
+reports/browsers/*.pdf

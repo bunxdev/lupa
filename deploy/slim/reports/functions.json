@@ -1,0 +1,121 @@
+{
+  "timestamp": "2026-09-15T20:19:39.275Z",
+  "results": [
+    {
+      "name": "authentication",
+      "ok": true,
+      "details": {
+        "health": true,
+        "selftest": true,
+        "protected": true
+      }
+    },
+    {
+      "name": "headless-eval-and-isolation",
+      "ok": true,
+      "details": {
+        "title": "Lupa compatibility",
+        "answer": 42,
+        "canvas": true
+      }
+    },
+    {
+      "name": "screenshot-png",
+      "ok": true,
+      "details": {
+        "bytes": 18858
+      }
+    },
+    {
+      "name": "screenshot-jpeg",
+      "ok": true,
+      "details": {
+        "bytes": 16758
+      }
+    },
+    {
+      "name": "html-render",
+      "ok": true,
+      "details": {
+        "bytes": 9377
+      }
+    },
+    {
+      "name": "pdf",
+      "ok": true,
+      "details": {
+        "bytes": 33260
+      }
+    },
+    {
+      "name": "content",
+      "ok": true,
+      "details": {
+        "bytes": 850
+      }
+    },
+    {
+      "name": "extension-isolated-profile",
+      "ok": true,
+      "details": {
+        "contentScript": "loaded"
+      }
+    },
+    {
+      "name": "live-keyboard-mouse",
+      "ok": true,
+      "details": {
+        "form": true,
+        "coordinates": true,
+        "extension": true
+      }
+    },
+    {
+      "name": "download-to-host-mount",
+      "ok": true,
+      "details": {
+        "saved": true
+      }
+    },
+    {
+      "name": "cdp-shared-session",
+      "ok": true,
+      "details": {
+        "shared": true
+      }
+    },
+    {
+      "name": "cookie-profile-persistence",
+      "ok": true,
+      "details": {
+        "persisted": true
+      }
+    },
+    {
+      "name": "audio-pulseaudio",
+      "ok": true,
+      "details": {
+        "state": "running",
+        "samples": 154904,
+        "peak": 13112
+      }
+    },
+    {
+      "name": "video-decode",
+      "ok": true,
+      "details": {
+        "time": 0.300896,
+        "width": 320,
+        "frames": 7
+      }
+    },
+    {
+      "name": "desktop-http-https",
+      "ok": true,
+      "details": {
+        "http": true,
+        "https": true
+      }
+    }
+  ]
+}

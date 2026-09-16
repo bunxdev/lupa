@@ -1,0 +1,5 @@
+load-module module-native-protocol-unix socket=/run/lupa/pulse/native auth-anonymous=1
+load-module module-null-sink sink_name=output rate=48000 channels=2 sink_properties=device.description=output
+load-module module-null-sink sink_name=input rate=48000 channels=2 sink_properties=device.description=input
+set-default-sink output
+set-default-source input.monitor

@@ -295,3 +295,19 @@ docker pull bunxdev/lupa:slim-20260915
 La imagen reutiliza un único binario completo de Chromium para los trabajos headless y la sesión visual. Las pruebas específicas verificaron API, CDP autenticado, aislamiento, extensiones, persistencia de perfiles, descargas y escritorio Selkies con vídeo, audio, teclado, ratón, portapapeles y redimensionado. También se verificó arranque sin red y conservación de cookies y descargas al recrear el contenedor.
 
 Los archivos Compose y scripts descritos al principio de este README siguen correspondiendo al despliegue original de este repositorio. La imagen slim tiene su propia receta en `debina`; no basta con sustituir la imagen del Compose original, que monta scripts y dependencias para otra distribución. La instancia slim usada en estas pruebas publicó la API/CDP en `3136` y el escritorio en `6180`; el despliegue original conserva los valores `3036` y `6080`.
+
+## MCP para Codex, OpenCode y Claude
+
+El [servidor MCP de Lupa](integrations/mcp/README.md) expone 21 herramientas por
+stdio para navegar e investigar en la sesión visible, inspeccionar controles,
+hacer clic, escribir, evaluar JavaScript, extraer contenido y generar capturas/PDF.
+Reutiliza la API autenticada y el Chromium existente. Incluye configuraciones
+para Codex, OpenCode y Claude Code/Desktop, y pruebas de protocolo y navegador.
+Se ejecuta como integración local; no modifica la imagen Docker Hub ya publicada.
+
+## LupaX y Voxy
+
+La rama `lupax` guarda el estado técnico, pruebas y decisiones en
+[docs/LUPAX.md](docs/LUPAX.md), junto con las [recetas de Lupa slim](deploy/slim/README.md).
+[Voxy](https://github.com/bunxdev/voxy) es un proyecto separado para ejecutar
+Debian mínimo dentro de QEMU; Docker y Lupa serán integraciones posteriores.

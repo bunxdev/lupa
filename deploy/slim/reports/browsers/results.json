@@ -1,0 +1,430 @@
+{
+  "date": "2026-09-15T20:30:13.737Z",
+  "method": "Sequential containers; 5 warm local navigations. Docker stats point samples, not peak. CLI includes docker exec and client overhead.",
+  "results": [
+    {
+      "name": "lupa",
+      "container": "debina-lupa-lupa-1",
+      "checks": [
+        {
+          "name": "dom-js-fetch",
+          "ok": true,
+          "result": {
+            "title": "Lupa comparison",
+            "js": 42,
+            "fetch": 42
+          }
+        },
+        {
+          "name": "form",
+          "ok": true,
+          "result": "Hola Lupa"
+        },
+        {
+          "name": "canvas",
+          "ok": true,
+          "result": {
+            "prefix": "data:image/png;base64,iVBORw0K",
+            "pixel": [
+              255,
+              0,
+              0,
+              255
+            ]
+          }
+        },
+        {
+          "name": "cookies",
+          "ok": true,
+          "result": {
+            "cookie": "lab=ok",
+            "storage": "ok"
+          }
+        },
+        {
+          "name": "screenshot",
+          "ok": true,
+          "result": 8918
+        },
+        {
+          "name": "pdf",
+          "ok": true,
+          "result": 14850
+        },
+        {
+          "name": "public-https",
+          "ok": true,
+          "result": "Example Domain"
+        }
+      ],
+      "timingsMs": [
+        185,
+        159,
+        189,
+        172,
+        170
+      ],
+      "startedAt": "2026-09-15T20:29:06.656Z",
+      "readyMs": 4638,
+      "idle": {
+        "BlockIO": "12.2MB / 193kB",
+        "CPUPerc": "26.55%",
+        "Container": "debina-lupa-lupa-1",
+        "ID": "c98791309143",
+        "MemPerc": "9.56%",
+        "MemUsage": "760.2MiB / 7.762GiB",
+        "Name": "debina-lupa-lupa-1",
+        "NetIO": "60.8kB / 26.5kB",
+        "PIDs": "120"
+      },
+      "version": "Chrome/147.0.7727.15",
+      "loaded": {
+        "BlockIO": "13.2MB / 311kB",
+        "CPUPerc": "16.52%",
+        "Container": "debina-lupa-lupa-1",
+        "ID": "c98791309143",
+        "MemPerc": "9.85%",
+        "MemUsage": "783.1MiB / 7.762GiB",
+        "Name": "debina-lupa-lupa-1",
+        "NetIO": "140kB / 227kB",
+        "PIDs": "130"
+      },
+      "medianNavigationMs": 172
+    },
+    {
+      "name": "obscura",
+      "container": "lupa-obscura-1",
+      "checks": [
+        {
+          "name": "dom-js-fetch",
+          "ok": true,
+          "result": {
+            "title": "Lupa comparison",
+            "js": 42,
+            "fetch": 42
+          }
+        },
+        {
+          "name": "form",
+          "ok": true,
+          "result": "Hola Lupa"
+        },
+        {
+          "name": "canvas",
+          "ok": true,
+          "result": {
+            "prefix": "data:image/png;base64,iVBORw0K",
+            "pixel": [
+              255,
+              0,
+              0,
+              255
+            ]
+          }
+        },
+        {
+          "name": "cookies",
+          "ok": false,
+          "error": "Error: {\"cookie\":\"lab=ok\",\"storage\":null}"
+        },
+        {
+          "name": "screenshot",
+          "ok": true,
+          "result": 10700
+        },
+        {
+          "name": "pdf",
+          "ok": true,
+          "result": 32930
+        },
+        {
+          "name": "public-https",
+          "ok": true,
+          "result": "Example Domain"
+        }
+      ],
+      "timingsMs": [
+        70,
+        46,
+        34,
+        38,
+        43
+      ],
+      "startedAt": "2026-09-15T20:29:20.237Z",
+      "readyMs": 1321,
+      "idle": {
+        "BlockIO": "20.1MB / 0B",
+        "CPUPerc": "0.00%",
+        "Container": "lupa-obscura-1",
+        "ID": "3953666abcff",
+        "MemPerc": "2.20%",
+        "MemUsage": "22.54MiB / 1GiB",
+        "Name": "lupa-obscura-1",
+        "NetIO": "0B / 0B",
+        "PIDs": "5"
+      },
+      "version": "Chrome/145.0.0.0",
+      "loaded": {
+        "BlockIO": "43.5MB / 0B",
+        "CPUPerc": "0.00%",
+        "Container": "lupa-obscura-1",
+        "ID": "3953666abcff",
+        "MemPerc": "5.86%",
+        "MemUsage": "60.05MiB / 1GiB",
+        "Name": "lupa-obscura-1",
+        "NetIO": "0B / 0B",
+        "PIDs": "8"
+      },
+      "medianNavigationMs": 43
+    },
+    {
+      "name": "lightpanda",
+      "container": "lupa-lightpanda-1",
+      "checks": [
+        {
+          "name": "dom-js-fetch",
+          "ok": true,
+          "result": {
+            "title": "Lupa comparison",
+            "js": 42,
+            "fetch": 42
+          }
+        },
+        {
+          "name": "form",
+          "ok": true,
+          "result": "Hola Lupa"
+        },
+        {
+          "name": "canvas",
+          "ok": false,
+          "error": "Error: {\"prefix\":\"data:image/png;base64,iVBORw0K\",\"pixel\":[0,0,0,0]}"
+        },
+        {
+          "name": "cookies",
+          "ok": true,
+          "result": {
+            "cookie": "lab=ok",
+            "storage": "ok"
+          }
+        },
+        {
+          "name": "screenshot",
+          "ok": true,
+          "result": 13152
+        },
+        {
+          "name": "pdf",
+          "ok": true,
+          "result": 9290
+        },
+        {
+          "name": "public-https",
+          "ok": true,
+          "result": "Example Domain"
+        }
+      ],
+      "timingsMs": [
+        30,
+        19,
+        26,
+        16,
+        16
+      ],
+      "startedAt": "2026-09-15T20:29:27.998Z",
+      "readyMs": 1316,
+      "idle": {
+        "BlockIO": "5.55MB / 0B",
+        "CPUPerc": "0.01%",
+        "Container": "lupa-lightpanda-1",
+        "ID": "380a5864b569",
+        "MemPerc": "0.75%",
+        "MemUsage": "7.672MiB / 1GiB",
+        "Name": "lupa-lightpanda-1",
+        "NetIO": "0B / 0B",
+        "PIDs": "5"
+      },
+      "version": "Chrome/124.0.6367.29",
+      "loaded": {
+        "BlockIO": "21.4MB / 0B",
+        "CPUPerc": "0.09%",
+        "Container": "lupa-lightpanda-1",
+        "ID": "380a5864b569",
+        "MemPerc": "2.63%",
+        "MemUsage": "26.97MiB / 1GiB",
+        "Name": "lupa-lightpanda-1",
+        "NetIO": "0B / 0B",
+        "PIDs": "8"
+      },
+      "medianNavigationMs": 19
+    },
+    {
+      "name": "browseros",
+      "container": "lupa-browseros-1",
+      "checks": [
+        {
+          "name": "dom-js-fetch",
+          "ok": true,
+          "result": {
+            "title": "Lupa comparison",
+            "js": 42,
+            "fetch": 42
+          }
+        },
+        {
+          "name": "form",
+          "ok": true,
+          "result": "Hola Lupa"
+        },
+        {
+          "name": "canvas",
+          "ok": true,
+          "result": {
+            "prefix": "data:image/png;base64,iVBORw0K",
+            "pixel": [
+              255,
+              0,
+              0,
+              255
+            ]
+          }
+        },
+        {
+          "name": "cookies",
+          "ok": true,
+          "result": {
+            "cookie": "lab=ok",
+            "storage": "ok"
+          }
+        },
+        {
+          "name": "screenshot",
+          "ok": true,
+          "result": 7995
+        },
+        {
+          "name": "pdf",
+          "ok": true,
+          "result": 14112
+        },
+        {
+          "name": "public-https",
+          "ok": true,
+          "result": "Example Domain"
+        },
+        {
+          "name": "agent-backend",
+          "ok": true,
+          "result": "{\"status\":\"ok\",\"cdpConnected\":true}"
+        }
+      ],
+      "timingsMs": [
+        287,
+        232,
+        172,
+        132,
+        136
+      ],
+      "startedAt": "2026-09-15T20:29:35.661Z",
+      "readyMs": 9444,
+      "idle": {
+        "BlockIO": "407MB / 500kB",
+        "CPUPerc": "87.91%",
+        "Container": "lupa-browseros-1",
+        "ID": "03e370f08c1b",
+        "MemPerc": "63.75%",
+        "MemUsage": "1.275GiB / 2GiB",
+        "Name": "lupa-browseros-1",
+        "NetIO": "109kB / 55.6kB",
+        "PIDs": "180"
+      },
+      "version": "Chrome/151.0.8160.137",
+      "loaded": {
+        "BlockIO": "422MB / 602kB",
+        "CPUPerc": "14.23%",
+        "Container": "lupa-browseros-1",
+        "ID": "03e370f08c1b",
+        "MemPerc": "66.00%",
+        "MemUsage": "1.32GiB / 2GiB",
+        "Name": "lupa-browseros-1",
+        "NetIO": "229kB / 276kB",
+        "PIDs": "192"
+      },
+      "medianNavigationMs": 172
+    },
+    {
+      "name": "agent-browser",
+      "container": "lupa-agent-browser-1",
+      "checks": [
+        {
+          "name": "dom-js-fetch",
+          "ok": true,
+          "result": "\"{\\\"title\\\":\\\"Lupa comparison\\\",\\\"js\\\":42,\\\"fetch\\\":42}\""
+        },
+        {
+          "name": "form",
+          "ok": true,
+          "result": "Hola Lupa"
+        },
+        {
+          "name": "snapshot",
+          "ok": true,
+          "result": "- heading \"Prueba Lupa\" [level=1, ref=e1]\n- textbox \"Nombre\" [ref=e2]: Lupa\n- button \"Enviar\" [ref=e3]"
+        },
+        {
+          "name": "canvas",
+          "ok": true,
+          "result": "\"data:image/png;base64,iVBORw0K\""
+        },
+        {
+          "name": "cookies",
+          "ok": true,
+          "result": "\"{\\\"cookie\\\":\\\"lab=ok\\\",\\\"storage\\\":\\\"ok\\\"}\""
+        },
+        {
+          "name": "screenshot",
+          "ok": true,
+          "result": 8851
+        },
+        {
+          "name": "pdf",
+          "ok": true,
+          "result": 15263
+        }
+      ],
+      "timingsMs": [
+        675,
+        610,
+        587,
+        625,
+        650
+      ],
+      "startedAt": "2026-09-15T20:29:57.200Z",
+      "readyMs": 4323,
+      "idle": {
+        "BlockIO": "171MB / 9.23MB",
+        "CPUPerc": "82.27%",
+        "Container": "lupa-agent-browser-1",
+        "ID": "2fb531bec106",
+        "MemPerc": "30.49%",
+        "MemUsage": "468.3MiB / 1.5GiB",
+        "Name": "lupa-agent-browser-1",
+        "NetIO": "0B / 0B",
+        "PIDs": "121"
+      },
+      "version": "agent-browser 0.37.1",
+      "loaded": {
+        "BlockIO": "179MB / 9.26MB",
+        "CPUPerc": "1.07%",
+        "Container": "lupa-agent-browser-1",
+        "ID": "2fb531bec106",
+        "MemPerc": "31.42%",
+        "MemUsage": "482.6MiB / 1.5GiB",
+        "Name": "lupa-agent-browser-1",
+        "NetIO": "0B / 0B",
+        "PIDs": "122"
+      },
+      "medianNavigationMs": 625
+    }
+  ]
+}

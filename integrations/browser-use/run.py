@@ -27,7 +27,9 @@ def main():
         subprocess.run(['docker', 'build', '--network', 'host', '-t', image, str(source)], check=True)
     # Capture the secret internally and transmit it over stdin, never argv or logs.
     token = subprocess.check_output([
-        'docker', 'exec', container, '/config/.bun/bin/bun', '-e',
+        'docker', 'exec', container, 'sh', '-c',
+        'if command -v bun >/dev/null 2>&1; then exec bun "$@"; else exec /config/.bun/bin/bun "$@"; fi',
+        'lupa-bun', '-e',
         'import {readFileSync} from "node:fs"; const t=process.env.LUPA_API_TOKEN_FILE?readFileSync(process.env.LUPA_API_TOKEN_FILE,"utf8").trim():process.env.LUPA_API_TOKEN; if(!t)process.exit(1);process.stdout.write(t);',
     ])
     output = root / 'downloads'

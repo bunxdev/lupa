@@ -1,0 +1,58 @@
+{
+  "timestamp": "2026-09-15T20:21:19.503395+00:00",
+  "notes": [
+    "Docker reported image size is compared with the same engine/metric.",
+    "rootfs_bytes is the merged container filesystem including writable changes.",
+    "Directory sizes are apparent bytes, not allocated filesystem blocks.",
+    "Original /app/node_modules is an additional host bind mount; slim embeds it.",
+    "Build cache and shared image layers are not per-instance runtime costs."
+  ],
+  "original": {
+    "image": "ghcr.io/linuxserver/baseimage-selkies:debiantrixie",
+    "container": "lupa-lupa-1",
+    "id": "sha256:a0b70771408d216d3f80f8cf06bc0380afb717a5c8fc68871792b8d49ffa4995",
+    "docker_reported_bytes": 3869951131,
+    "descriptor": {
+      "digest": "sha256:a0b70771408d216d3f80f8cf06bc0380afb717a5c8fc68871792b8d49ffa4995",
+      "mediaType": "application/vnd.oci.image.index.v1+json",
+      "size": 1611
+    },
+    "registry_layer_bytes": 986548601,
+    "registry_layer_media_types": [
+      "application/vnd.oci.image.layer.v1.tar+gzip"
+    ],
+    "writable_bytes": 76439552,
+    "rootfs_bytes": 2959839232,
+    "directories_bytes": {
+      "/config": 802212508,
+      "/app/node_modules": 42626176
+    },
+    "rootfs_plus_config_bytes": 3762051740,
+    "runtime_total_bytes": 3804677916
+  },
+  "slim": {
+    "image": "debina/lupa:slim-testing",
+    "container": "debina-lupa-lupa-1",
+    "id": "sha256:d7c94e9360e2b9d258b4cf659e586517a7b635a132e0e7b4694fb85d138cf6f6",
+    "docker_reported_bytes": 2272962929,
+    "descriptor": {
+      "digest": "sha256:d7c94e9360e2b9d258b4cf659e586517a7b635a132e0e7b4694fb85d138cf6f6",
+      "mediaType": "application/vnd.oci.image.index.v1+json",
+      "size": 856
+    },
+    "registry_layer_bytes": 655865858,
+    "registry_layer_media_types": [
+      "application/vnd.oci.image.layer.v1.tar+gzip"
+    ],
+    "writable_bytes": 2469888,
+    "rootfs_bytes": 1619574784,
+    "directories_bytes": {
+      "/config": 25794320,
+      "/app/node_modules": 13793694
+    },
+    "rootfs_plus_config_bytes": 1645369104,
+    "runtime_total_bytes": 1645369104
+  },
+  "image_reduction_percent": 41.27,
+  "runtime_reduction_percent": 56.75
+}

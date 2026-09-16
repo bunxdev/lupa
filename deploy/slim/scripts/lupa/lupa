@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+set -euo pipefail
+exec bun -e '
+const arg = process.argv[1] || "about:blank";
+const token = process.env.LUPA_API_TOKEN_FILE ? (await Bun.file(process.env.LUPA_API_TOKEN_FILE).text()).trim() : process.env.LUPA_API_TOKEN;
+const headers = {authorization: `Bearer ${token}`, "content-type": "application/json"};
+const base = `http://127.0.0.1:${process.env.PORT || 3036}`;
+const response = await fetch(base + (arg === "close" ? "/live/close" : "/live"), {
+  method: arg === "status" ? "GET" : "POST", headers,
+  body: arg === "status" ? undefined : JSON.stringify(arg === "close" ? {} : {url: arg})
+});
+console.log(await response.text());
+if (!response.ok) process.exit(1);
+' "${1:-about:blank}"

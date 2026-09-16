@@ -1,0 +1,6 @@
+[Desktop Entry]
+Type=Application
+Name=Chromium · Lupa
+Exec=/usr/local/bin/lupa
+Terminal=false
+Categories=Network;WebBrowser;

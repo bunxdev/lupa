@@ -1,0 +1,6 @@
+interface:
+  display_name: "Leads locales con Lupa"
+  short_description: "Contactos de Maps con fuentes, CSV y navegador visible"
+  default_prompt: "Usa $lupa-local-leads para reunir contactos públicos de negocios en el municipio indicado y exportarlos con sus fuentes."
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openbox_config xmlns="http://openbox.org/3.4/rc">
+  <desktops><number>1</number></desktops>
+  <keyboard><keybind key="C-S-d"><action name="ToggleDecorations"/></keybind></keyboard>
+  <mouse><context name="Desktop"><mousebind button="Right" action="Press"><action name="ShowMenu"><menu>root-menu</menu></action></mousebind></context></mouse>
+  <menu><file>/config/.config/openbox/menu.xml</file></menu>
+  <applications><application class="*"><maximized>yes</maximized></application></applications>
+</openbox_config>

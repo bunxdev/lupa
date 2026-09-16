@@ -1,0 +1,79 @@
+{
+  "failedRequests": [],
+  "body": "",
+  "buttons": [
+    {
+      "text": "Play Stream",
+      "title": null,
+      "aria-label": null
+    },
+    {
+      "text": "",
+      "title": null,
+      "aria-label": null
+    },
+    {
+      "text": "",
+      "title": null,
+      "aria-label": null
+    },
+    {
+      "text": "",
+      "title": null,
+      "aria-label": null
+    },
+    {
+      "text": "",
+      "title": null,
+      "aria-label": null
+    },
+    {
+      "text": "",
+      "title": null,
+      "aria-label": null
+    },
+    {
+      "text": "",
+      "title": null,
+      "aria-label": null
+    }
+  ],
+  "stream": {
+    "videoDecodes": 274,
+    "draws": 277,
+    "audioNodes": 1
+  },
+  "remoteClick": "REMOTE CLICK OK",
+  "remoteKeyboard": "Selkies input OK",
+  "remoteClipboard": "Clipboard OK",
+  "resize": {
+    "before": {
+      "width": 1280,
+      "height": 800
+    },
+    "after": {
+      "width": 1120,
+      "height": 740
+    }
+  },
+  "audioPeak": 0.5320245027542114,
+  "binaryBytes": 771125,
+  "canvases": [
+    {
+      "width": 1120,
+      "height": 740,
+      "visible": true
+    },
+    {
+      "width": 13,
+      "height": 23,
+      "visible": true
+    }
+  ],
+  "errors": [
+    "Could not acquire Wake Lock: NotAllowedError, Wake Lock permission request denied",
+    "Could not acquire Wake Lock: NotAllowedError, Wake Lock permission request denied",
+    "Could not acquire Wake Lock: NotAllowedError, Wake Lock permission request denied"
+  ],
+  "ok": true
+}

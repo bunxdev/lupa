@@ -1,0 +1,15 @@
+**
+!Dockerfiles/
+!Dockerfiles/lupa/
+!Dockerfiles/lupa/**
+!vendor/
+!vendor/lupa/
+!vendor/lupa/app/
+!vendor/lupa/app/package.json
+!vendor/lupa/app/bun.lock
+!vendor/lupa/app/src/
+!vendor/lupa/app/src/**
+!vendor/lupa/UPSTREAM
+!scripts/
+!scripts/lupa/
+!scripts/lupa/**

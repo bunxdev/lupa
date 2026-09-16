@@ -1,0 +1,15 @@
+services:
+  neofetch:
+    image: debina
+    container_name: neofetch
+    hostname: neofetch
+    network_mode: "host"
+    volumes:
+      - ./scripts:/scripts
+      - /var/run/docker.sock:/var/run/docker.sock
+    cap_add:
+      - NET_ADMIN
+    devices:
+      - /dev/net/tun
+    command: ["/bin/bash", "/scripts/neofetch.sh"]
+    restart: unless-stopped
