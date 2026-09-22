@@ -1,0 +1,5417 @@
+{
+  "config": {
+    "queries": [
+      "escuelas en Zapopan",
+      "colegios en Zapopan"
+    ],
+    "municipality": "Zapopan",
+    "limit": 50,
+    "categories": [
+      "escuela",
+      "colegio",
+      "instituto"
+    ]
+  },
+  "accepted": [
+    {
+      "name": "Colegio Juana De Arco La Estancia, A.C.",
+      "category": "Escuela",
+      "query": "escuelas en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Tchaikovsky 402, La Estancia, 45037 Zapopan, Jal.",
+      "phone": "+523336293149",
+      "website": "http://www.colegiojuanadearco.edu.mx/",
+      "maps": "https://www.google.com/maps?cid=185440324659796311",
+      "sources": [
+        "https://www.google.com/maps?cid=185440324659796311"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T05:18:33+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Colegio Finlandés Campus Zapopan",
+      "category": "Colegio bilingüe",
+      "query": "escuelas en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Paseo de La Luna 885, San Juan de Ocotán, 45019 Zapopan, Jal.",
+      "phone": "+523312040749",
+      "website": "http://www.colegiofinlandes.com/",
+      "maps": "https://www.google.com/maps?cid=6754590309388616185",
+      "sources": [
+        "https://www.google.com/maps?cid=6754590309388616185"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T05:18:33+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Colegio Internacional SEK Guadalajara",
+      "category": "Colegio privado",
+      "query": "escuelas en Zapopan",
+      "municipality": "Zapopan",
+      "address": "C. Daniel Comboni #850, Jardines de Guadalupe, 45030 Zapopan, Jal.",
+      "phone": "+523336202423",
+      "website": "http://www.sekmexico.com/",
+      "maps": "https://www.google.com/maps?cid=17076936943830411267",
+      "sources": [
+        "https://www.google.com/maps?cid=17076936943830411267"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T05:18:33+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Summit School",
+      "category": "Colegio bilingüe",
+      "query": "escuelas en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Prol. Av. 5 De Mayo 500, San Juan de Ocotán, 45019 Zapopan, Jal.",
+      "phone": "+523336275993",
+      "website": "http://www.summitschool.mx/",
+      "maps": "https://www.google.com/maps?cid=7376115026579073176",
+      "sources": [
+        "https://www.google.com/maps?cid=7376115026579073176"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T05:18:33+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Escuela Antonio Caso Campus Zapopan",
+      "category": "Colegio privado",
+      "query": "escuelas en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Sta. Laura 91, Santa Margarita1a Secc., 45140 Zapopan, Jal.",
+      "phone": "+523311919474",
+      "website": "http://escuelaantoniocasozapopancontacto.mx/",
+      "maps": "https://www.google.com/maps?cid=12599397074147861942",
+      "sources": [
+        "https://www.google.com/maps?cid=12599397074147861942"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T05:18:33+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Colegio Albert Camus",
+      "category": "Colegio privado",
+      "query": "escuelas en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Cam. Arenero 777, El Bajío, 45019 Zapopan, Jal.",
+      "phone": "+523333669878",
+      "website": "http://www.colegioalbertcamus.com/",
+      "maps": "https://www.google.com/maps?cid=7797001065178640406",
+      "sources": [
+        "https://www.google.com/maps?cid=7797001065178640406"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T05:18:33+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Täleny School Reggio Emilia",
+      "category": "Colegio privado",
+      "query": "escuelas en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Privada del Carmen No. 1396, Residencial Poniente, 45138 Zapopan, Jal.",
+      "phone": "+523318927991",
+      "website": "https://taleny.com.mx/",
+      "maps": "https://www.google.com/maps?cid=3826921146402543269",
+      "sources": [
+        "https://www.google.com/maps?cid=3826921146402543269"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T05:18:33+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Colegio Cambridge",
+      "category": "Colegio privado",
+      "query": "escuelas en Zapopan",
+      "municipality": "Zapopan",
+      "address": "3786, La Calma, 45070 Zapopan, Jal.",
+      "phone": "+523336344127",
+      "website": "https://www.facebook.com/colegiocambridge3786/",
+      "maps": "https://www.google.com/maps?cid=5513682150544106774",
+      "sources": [
+        "https://www.google.com/maps?cid=5513682150544106774"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T05:18:33+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Colegio Altamira A. C.",
+      "category": "Colegio privado",
+      "query": "escuelas en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av Moctezuma 2390, Jardines del Sol, 45056 Zapopan, Jal.",
+      "phone": "+523336205338",
+      "website": "http://www.altamira.edu.mx/",
+      "maps": "https://www.google.com/maps?cid=11961408335587110230",
+      "sources": [
+        "https://www.google.com/maps?cid=11961408335587110230"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T05:18:33+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Escuela Primaria Bilingüe en Zapopan Howard Gardner School",
+      "category": "Colegio bilingüe",
+      "query": "escuelas en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Sebastian Bach 5669, La Estancia, 45030 Zapopan, Jal.",
+      "phone": "+523336821821",
+      "website": "https://howardgardnerschool.wixsite.com/education",
+      "maps": "https://www.google.com/maps?cid=9071595229478952965",
+      "sources": [
+        "https://www.google.com/maps?cid=9071595229478952965"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T05:18:33+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Colegio Altamira La Cima",
+      "category": "Escuela de enseñanza general",
+      "query": "escuelas en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. la Cima 614, La Cima, 45134 Zapopan, Jal.",
+      "phone": "+523338342433",
+      "website": "http://www.altamiralacima.mx/",
+      "maps": "https://www.google.com/maps?cid=18145442435630034834",
+      "sources": [
+        "https://www.google.com/maps?cid=18145442435630034834"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T05:18:33+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "CMA educación",
+      "category": "Colegio bilingüe",
+      "query": "escuelas en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av, Prol. Mariano Otero 2811, Villas De Otero De Guadalupe, 45067 Zapopan, Jal.",
+      "phone": "+523331254004",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=16382232532985838376",
+      "sources": [
+        "https://www.google.com/maps?cid=16382232532985838376"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T05:18:33+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "CENTRO EDUCATIVO JOSÉ CLEMENTE OROZCO",
+      "category": "Escuela primaria y secundaria",
+      "query": "escuelas en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Calle Turquesa 1885 Esquina con, Av. Obsidiana, Victoria, 45089 Zapopan, Jal.",
+      "phone": "+523316612741",
+      "website": "http://www.joseclementeorozco.edu.mx/",
+      "maps": "https://www.google.com/maps?cid=12854148580800667449",
+      "sources": [
+        "https://www.google.com/maps?cid=12854148580800667449"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T05:18:33+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Colegio Alemán de Guadalajara",
+      "category": "Colegio bilingüe",
+      "query": "escuelas en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Bosque de los Cedros 32, Las Cañadas, 45140 Zapopan, Jal.",
+      "phone": "+523336850136",
+      "website": "https://alemangdl.edu.mx/",
+      "maps": "https://www.google.com/maps?cid=13448848606047564397",
+      "sources": [
+        "https://www.google.com/maps?cid=13448848606047564397"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T05:18:33+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Instituto Anahuacalli",
+      "category": "Escuela de enseñanza general",
+      "query": "escuelas en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av San Ignacio 201, Jardín de San Ignacio, 45040 Zapopan, Jal.",
+      "phone": "+523331218884",
+      "website": "https://www.anahuacalli.com.mx/",
+      "maps": "https://www.google.com/maps?cid=17195625702008078035",
+      "sources": [
+        "https://www.google.com/maps?cid=17195625702008078035"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T05:18:33+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Colegio Gregorio Mendel",
+      "category": "Colegio privado",
+      "query": "escuelas en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Sta. Rita 1450, Chapalita Oriente, 45040 Zapopan, Jal.",
+      "phone": "+523333434770",
+      "website": "https://www.gregoriomendel.edu.mx/",
+      "maps": "https://www.google.com/maps?cid=12665371583264148196",
+      "sources": [
+        "https://www.google.com/maps?cid=12665371583264148196"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T05:18:33+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Instituto Miguel Ángel de Occidente",
+      "category": "Colegio bilingüe",
+      "query": "escuelas en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av Guadalupe 6600, Guadalupe Inn, Exitmex, 45010 Zapopan, Jal.",
+      "phone": "+523331251878",
+      "website": "http://www.imaoccidente.edu.mx/",
+      "maps": "https://www.google.com/maps?cid=8628737503546969443",
+      "sources": [
+        "https://www.google.com/maps?cid=8628737503546969443"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T05:18:33+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Colegio | Newland School",
+      "category": "Instituto de secundaria",
+      "query": "escuelas en Zapopan",
+      "municipality": "Zapopan",
+      "address": "C. Sofia Camarena de Jiménez 331, Loma Blanca, 45167 Zapopan, Jal.",
+      "phone": "+523336337535",
+      "website": "https://www.newland.edu.mx/",
+      "maps": "https://www.google.com/maps?cid=14886656523905529697",
+      "sources": [
+        "https://www.google.com/maps?cid=14886656523905529697"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T05:18:33+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Colegio Los Altos",
+      "category": "Colegio privado",
+      "query": "escuelas en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Los Pinos 50, Sta Rita, 45120 Zapopan, Jal.",
+      "phone": "+523336485370",
+      "website": "https://www.facebook.com/colegiolosaltos/",
+      "maps": "https://www.google.com/maps?cid=8687354101530419008",
+      "sources": [
+        "https://www.google.com/maps?cid=8687354101530419008"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T05:18:33+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "COLEGIO TERCER MILENIO",
+      "category": "Colegio privado",
+      "query": "escuelas en Zapopan",
+      "municipality": "Zapopan",
+      "address": "C. P.º de Los Frambuesos 1535, Tabachines, 45130 Zapopan, Jal.",
+      "phone": "+523338610425",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=12481253863338377566",
+      "sources": [
+        "https://www.google.com/maps?cid=12481253863338377566"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T05:18:33+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Instituto Philadelphia",
+      "category": "Escuela primaria y secundaria",
+      "query": "escuelas en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av Xochitl 311, Prados Tepeyac, 45050 Zapopan, Jal.",
+      "phone": "+523331223742",
+      "website": "http://www.institutophiladelphia.edu.mx/",
+      "maps": "https://www.google.com/maps?cid=11708437456094752235",
+      "sources": [
+        "https://www.google.com/maps?cid=11708437456094752235"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T05:18:33+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Colegio \"Margil\"",
+      "category": "Escuela primaria",
+      "query": "escuelas en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Prol. 20 De Noviembre 169, Zapopan, 45100 Zapopan, Jal.",
+      "phone": "+523336330003",
+      "website": "http://www.colegiomargil.mx/",
+      "maps": "https://www.google.com/maps?cid=2246488979694203338",
+      "sources": [
+        "https://www.google.com/maps?cid=2246488979694203338"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T05:18:33+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Colegio Inglés de Guadalajara",
+      "category": "Colegio bilingüe",
+      "query": "escuelas en Zapopan",
+      "municipality": "Zapopan",
+      "address": "C. Santo Tomás de Aquino 5245, Jardines de Guadalupe, 45030 Zapopan, Jal.",
+      "phone": "+523336299760",
+      "website": "http://www.cig.edu.mx/",
+      "maps": "https://www.google.com/maps?cid=558274234823893022",
+      "sources": [
+        "https://www.google.com/maps?cid=558274234823893022"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T05:18:33+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Centro Educativo Los Pinos",
+      "category": "Escuela primaria y secundaria",
+      "query": "escuelas en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Plantel primaria y secundaria:, Camino a Sta. Ana Tepetitlán 633, El Briseño, 45050 Zapopan, Jal.",
+      "phone": "+523336842622",
+      "website": "http://centroeducativolospinos.edu.mx/",
+      "maps": "https://www.google.com/maps?cid=3056289184610941410",
+      "sources": [
+        "https://www.google.com/maps?cid=3056289184610941410"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T05:18:33+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Instituto Copérnico, A.C.",
+      "category": "Colegio privado",
+      "query": "escuelas en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Nicolás Copérnico 4001, Arboledas, 45070 Zapopan, Jal.",
+      "phone": "+523336313423",
+      "website": "http://www.institutocopernico.com/",
+      "maps": "https://www.google.com/maps?cid=11030421357469564616",
+      "sources": [
+        "https://www.google.com/maps?cid=11030421357469564616"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T05:18:33+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Colegio Victoria",
+      "category": "Escuela católica",
+      "query": "escuelas en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Manuel Ávila Camacho 325, Seattle, 45150 Zapopan, Jal.",
+      "phone": "+523336330770",
+      "website": "https://www.cv.edu.mx/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=11058293878775671920",
+      "maps": "https://www.google.com/maps?cid=302193068298435078",
+      "sources": [
+        "https://www.google.com/maps?cid=302193068298435078"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T05:18:33+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Cumbres International School Guadalajara",
+      "category": "Escuela Internacional",
+      "query": "escuelas en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Cto. de las Flores Nte. 2137, Bugambilias, 45238 Zapopan, Jal.",
+      "phone": "+523336843210",
+      "website": "https://www.cumbresguadalajara.com/",
+      "maps": "https://www.google.com/maps?cid=14125146342008322438",
+      "sources": [
+        "https://www.google.com/maps?cid=14125146342008322438"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T05:18:33+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "montessori Guadalajara",
+      "category": "Escuela Montessori",
+      "query": "escuelas en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av Novelistas, Jardines Vallarta, 45027 Zapopan, Jal.",
+      "phone": "+523336270974",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=7177922025127638006",
+      "sources": [
+        "https://www.google.com/maps?cid=7177922025127638006"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T05:18:33+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Colegio José Vasconcelos Zapopan",
+      "category": "Escuela de enseñanza general",
+      "query": "escuelas en Zapopan",
+      "municipality": "Zapopan",
+      "address": "C. Agricultores 5325, La Estancia, 45030 Zapopan, Jal.",
+      "phone": "+523336280349",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=17717833533792124220",
+      "sources": [
+        "https://www.google.com/maps?cid=17717833533792124220"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T05:18:33+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Colegio Británico de Guadalajara (Primaria y Secundaria)",
+      "category": "Escuela de enseñanza general",
+      "query": "escuelas en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Adolfo López Mateos Sur 2020, Chapalita Sur, 45040 Zapopan, Jal.",
+      "phone": "+523336471111",
+      "website": "http://www.britanico.mx/",
+      "maps": "https://www.google.com/maps?cid=17693634277466590203",
+      "sources": [
+        "https://www.google.com/maps?cid=17693634277466590203"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T05:18:33+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Centro Educativo Freire",
+      "category": "Colegio privado",
+      "query": "escuelas en Zapopan",
+      "municipality": "Zapopan",
+      "address": "(D) 868, Seattle, 45150 Zapopan, Jal.",
+      "phone": "+523338332264",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=17238509888329227267",
+      "sources": [
+        "https://www.google.com/maps?cid=17238509888329227267"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T05:18:33+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Instituto Pierre Faure",
+      "category": "Escuela K-12",
+      "query": "escuelas en Zapopan",
+      "municipality": "Zapopan",
+      "address": "C. Tezozomoc 170, Cd del Sol, 45050 Zapopan, Jal.",
+      "phone": "+523331213183",
+      "website": "http://www.pierrefaure.edu.mx/",
+      "maps": "https://www.google.com/maps?cid=7084528464559626194",
+      "sources": [
+        "https://www.google.com/maps?cid=7084528464559626194"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T05:18:33+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Colegio Moctezuma",
+      "category": "Escuela de primaria",
+      "query": "escuelas en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av Moctezuma 349, Jardines del Sol, 45050 Zapopan, Jal.",
+      "phone": "+523336328238",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=2065295322220447157",
+      "sources": [
+        "https://www.google.com/maps?cid=2065295322220447157"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T05:18:33+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Lazos Montessori",
+      "category": "Escuela Montessori",
+      "query": "escuelas en Zapopan",
+      "municipality": "Zapopan",
+      "address": "C. Enrique Gómez Carrillo 5159, Jardines de la Patria, 45110 Zapopan, Jal.",
+      "phone": "+523327167077",
+      "website": "http://www.lazosmontessori.com/",
+      "maps": "https://www.google.com/maps?cid=1939304499867572241",
+      "sources": [
+        "https://www.google.com/maps?cid=1939304499867572241"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T05:18:33+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Cumbres International School San Javier",
+      "category": "Escuela de enseñanza general",
+      "query": "escuelas en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Avenida del Servidor Público 3030, La Mora, Exhacienda de, 45138 Zapopan, Jal.",
+      "phone": "+523338321929",
+      "website": "http://www.cumbressanjavier.edu.mx/",
+      "maps": "https://www.google.com/maps?cid=8810161060391738105",
+      "sources": [
+        "https://www.google.com/maps?cid=8810161060391738105"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T05:18:34+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Colegio Centro Educativo Hammurabi",
+      "category": "Escuela primaria",
+      "query": "escuelas en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Tikal 2796, Pinar de la Calma, 45080 Zapopan, Jal.",
+      "phone": "+523336345900",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=3397416500749997811",
+      "sources": [
+        "https://www.google.com/maps?cid=3397416500749997811"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T05:18:34+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "COLEGIO Bertha Von Glummer",
+      "category": "Colegio privado",
+      "query": "escuelas en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Picador 6613, Hacienda del Tepeyac, 45053 Zapopan, Jal.",
+      "phone": "+523336205474",
+      "website": "https://www.berthavonglummer.com/?fbclid=IwAR3u1awfG4y-TNqttSms4OIIdTrxDPsoBsYitft2drMytRjMxb5JiqhfpcY",
+      "maps": "https://www.google.com/maps?cid=7683107632745133097",
+      "sources": [
+        "https://www.google.com/maps?cid=7683107632745133097"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T05:18:34+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "NUEVO COLEGIO LA CALMA A.C.",
+      "category": "Escuela de enseñanza general",
+      "query": "escuelas en Zapopan",
+      "municipality": "Zapopan",
+      "address": "C. Volcán Popocatépetl 3326, Colli Urbano, 45070 Zapopan, Jal.",
+      "phone": "+523335876257",
+      "website": "https://lacalma.edu.mx/",
+      "maps": "https://www.google.com/maps?cid=12359377035362663245",
+      "sources": [
+        "https://www.google.com/maps?cid=12359377035362663245"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T05:18:34+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Colegio Pedregal de Guadalajara Campus bajío",
+      "category": "Colegio privado",
+      "query": "escuelas en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Del Bajío 5903, El Bajío, 45019 Zapopan, Jal.",
+      "phone": "+523337770900",
+      "website": "http://www.colegiopedregalgdl.com/",
+      "maps": "https://www.google.com/maps?cid=7382888163638395051",
+      "sources": [
+        "https://www.google.com/maps?cid=7382888163638395051"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T05:18:34+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Colegio Insurgentes MERAKI",
+      "category": "Colegio privado",
+      "query": "escuelas en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Volcán Fujiyama 5, Colli Urbano, 45070 Zapopan, Jal.",
+      "phone": "+523332028318",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=5291687818612505258",
+      "sources": [
+        "https://www.google.com/maps?cid=5291687818612505258"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T05:18:34+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "CIH - Community of Innovative Humans (Colegio Inglés Hidalgo)",
+      "category": "Colegio privado",
+      "query": "escuelas en Zapopan",
+      "municipality": "Zapopan",
+      "address": "C. Héctor Berlioz 4783, Residencial Cordilleras, 45039 Zapopan, Jal.",
+      "phone": "+523336297640",
+      "website": "https://www.cih.edu.mx/",
+      "maps": "https://www.google.com/maps?cid=13894452074428375248",
+      "sources": [
+        "https://www.google.com/maps?cid=13894452074428375248"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T05:18:34+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Instituto Tanesque A. C.",
+      "category": "Colegio bilingüe",
+      "query": "escuelas en Zapopan",
+      "municipality": "Zapopan",
+      "address": "C. Jorge Santayana 4931, Jardines Universidad, 45110 Zapopan, Jal.",
+      "phone": "+523336299095",
+      "website": "https://www.tanesque.com.mx/",
+      "maps": "https://www.google.com/maps?cid=5076890052756619839",
+      "sources": [
+        "https://www.google.com/maps?cid=5076890052756619839"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T05:18:34+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Primaria Colegio Camelot",
+      "category": "Colegio privado",
+      "query": "escuelas en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Independencia 359, Arcos de Guadalupe, 45037 Zapopan, Jal.",
+      "phone": "+523336202331",
+      "website": "http://www.colegiocamelot.com/",
+      "maps": "https://www.google.com/maps?cid=16126602304495769582",
+      "sources": [
+        "https://www.google.com/maps?cid=16126602304495769582"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T05:18:34+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Colegio Naciones Unidas",
+      "category": "Escuela de enseñanza general",
+      "query": "escuelas en Zapopan",
+      "municipality": "Zapopan",
+      "address": "45069, Calle Jacaranda, C. Arrayán 1718, Paraísos del Colli, 45069 Zapopan, Jal.",
+      "phone": "+523310289642",
+      "website": "https://colegionacionesunidas.es.tl/",
+      "maps": "https://www.google.com/maps?cid=11723782996600877922",
+      "sources": [
+        "https://www.google.com/maps?cid=11723782996600877922"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T05:18:34+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Centro Educativo Juan Sebastian Bach",
+      "category": "Colegio bilingüe",
+      "query": "escuelas en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Juan Palomar y Arias 126, Jardines Vallarta, 45027 Zapopan, Jal.",
+      "phone": "+523324939745",
+      "website": "http://colegiojsb.com/",
+      "maps": "https://www.google.com/maps?cid=12737421610485462927",
+      "sources": [
+        "https://www.google.com/maps?cid=12737421610485462927"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T05:18:34+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Neill School",
+      "category": "Colegio privado",
+      "query": "escuelas en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Calle, J. Antonio Torres 757, Arcos de Guadalupe, 45030 Zapopan, Jal.",
+      "phone": "+523331250100",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=18396773883271803141",
+      "sources": [
+        "https://www.google.com/maps?cid=18396773883271803141"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T05:18:34+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Escuela Primaria de Tiempo Completo Margarito Ramírez URBANA 704",
+      "category": "Escuela de primaria",
+      "query": "escuelas en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Emiliano Zapata 95, Sta María del Pueblito, 45018 Zapopan, Jal.",
+      "phone": "+523315116793",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=16927220590993203593",
+      "sources": [
+        "https://www.google.com/maps?cid=16927220590993203593"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T05:18:34+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Instituto de Ciencias",
+      "category": "Colegio privado",
+      "query": "escuelas en Zapopan",
+      "municipality": "Zapopan",
+      "address": "P.º de la Estrella 1371, Col. San Juan de Ocotán, 45019 Zapopan, Jal.",
+      "phone": "+523338364334",
+      "website": "https://www.idec.edu.mx/",
+      "maps": "https://www.google.com/maps?cid=2251928194866503015",
+      "sources": [
+        "https://www.google.com/maps?cid=2251928194866503015"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T05:18:34+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Colegio Harland School",
+      "category": "Escuela de primaria",
+      "query": "escuelas en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Calle Volcán Cofre de Perote 1985, Colli Urbano, 45070 Zapopan, Jal.",
+      "phone": "+523336205502",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=6216147132705318052",
+      "sources": [
+        "https://www.google.com/maps?cid=6216147132705318052"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T05:18:34+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "CENTRO EDUCATIVO JCO",
+      "category": "Colegio privado",
+      "query": "escuelas en Zapopan",
+      "municipality": "Zapopan",
+      "address": "C. Volcán Jorullo 1928, Colli Urbano, 45070 Zapopan, Jal.",
+      "phone": "+523336200129",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=11100984499822373618",
+      "sources": [
+        "https://www.google.com/maps?cid=11100984499822373618"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T05:18:34+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    }
+  ],
+  "rejected": [
+    {
+      "detail": {
+        "name": "Colegio Guadalajara Sagrado Corazón",
+        "url": "https://www.google.com/maps?cid=9637860667052290362",
+        "category": "Institución educativa",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Adolfo López Mateos Sur 2199, Cd del Sol, 45050 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://colguadalajara.edu.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3121 2240",
+            "text": "+52 33 3121 2240",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      },
+      "reason": "category_mismatch"
+    },
+    {
+      "detail": {
+        "name": "Universidad del Valle de México Campus Zapopan",
+        "url": "https://www.google.com/maps?cid=9595902942902509395",
+        "category": "Universidad privada",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Lateral Perif. Pte. 7900, Jardines de Collí, 45010 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://uvm.mx/la-uvm/campus/zapopan/?utm_source=GOOGLE_MY_BUSINESS&utm_medium=ORGANIC&utm_campaign=GM_UVM_ZAP&utm_term=CONOCER_CAMPUS&utm_content=PRESTIGIO"
+          },
+          {
+            "id": "phone:tel:+52 800 000 0886",
+            "text": "+52 800 000 0886",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      },
+      "reason": "category_mismatch"
+    },
+    {
+      "detail": {
+        "name": "Jean Piaget",
+        "url": "https://www.google.com/maps?cid=5138483857590510986",
+        "category": "Institución educativa",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Johannes Brahms, Arcos de Guadalupe, 45037 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 3628 1661",
+            "text": "+52 33 3628 1661",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      },
+      "reason": "category_mismatch"
+    },
+    {
+      "detail": {
+        "name": "Instituto Nelson Mandela",
+        "url": "https://www.google.com/maps?cid=6712876730658230258",
+        "category": "Institución educativa",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Antiguo Camino a Copalita 2385, Marcelino García Barragán, 45130 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://www.nelsonmandela.edu.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 1371 7458",
+            "text": "+52 33 1371 7458",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      },
+      "reason": "category_mismatch"
+    },
+    {
+      "detail": {
+        "name": "COLEGIO DECROLY",
+        "url": "https://www.google.com/maps?cid=4136925452406441627",
+        "category": "Institución educativa",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "C. Colón 177, Zapopan, 45100 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 3633 2974",
+            "text": "+52 33 3633 2974",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      },
+      "reason": "category_mismatch"
+    },
+    {
+      "detail": {
+        "name": "Escuela Francisco Villa",
+        "url": "https://www.google.com/maps?cid=11967447228024632878",
+        "category": "Institución educativa",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "A La Explanada 115, Prados Vallarta, 45020 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 3629 1058",
+            "text": "+52 33 3629 1058",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      },
+      "reason": "category_mismatch"
+    },
+    {
+      "detail": {
+        "name": "Laubscher School - Colegio en Zapopan para Kinder y Primaria",
+        "url": "https://www.google.com/maps?cid=3780289150603043103",
+        "category": "Centro de educación preescolar",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "45130, Av Valle de San Isidro 1492, Misión San Isidro, 45130 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://laubscherschool.com/"
+          },
+          {
+            "id": "phone:tel:+52 33 2623 2671",
+            "text": "+52 33 2623 2671",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      },
+      "reason": "category_mismatch"
+    },
+    {
+      "detail": {
+        "name": "CENTRO EDUCATIVO BUCKINGHAM",
+        "url": "https://www.google.com/maps?cid=13152948521913858089",
+        "category": "Centro de educación preescolar",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Volcán de Fuego # 2680, Colli Urbano, 45070 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 2929 7430",
+            "text": "+52 33 2929 7430",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      },
+      "reason": "category_mismatch"
+    },
+    {
+      "detail": {
+        "name": "Colegio Ker Liber",
+        "url": "https://www.google.com/maps?cid=6922329908676828129",
+        "category": "Institución educativa",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "C. Volcán Popocatépetl 4774, Colli Urbano, 45070 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://kerliber.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3628 4881",
+            "text": "+52 33 3628 4881",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      },
+      "reason": "category_mismatch"
+    },
+    {
+      "detail": {
+        "name": "InstitutoTepeyac Campus Capital Norte",
+        "url": "https://www.google.com/maps?cid=3520559062770746895",
+        "category": "Institución educativa",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. de las Sendas No. 1265, Sendas Residencial, 45134 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 1031 1361",
+            "text": "+52 33 1031 1361",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      },
+      "reason": "category_mismatch"
+    },
+    {
+      "detail": {
+        "name": "Instituto Zapopan",
+        "url": "https://www.google.com/maps?cid=5297866394774824336",
+        "category": "Institución educativa",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Calle Emiliano Zapata 110-Primer Piso, Centro, 45100 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://institutozapopan-mediaysuperior.com.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3633 5642",
+            "text": "+52 33 3633 5642",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      },
+      "reason": "category_mismatch"
+    },
+    {
+      "detail": {
+        "name": "Instituto Cultural Freinet",
+        "url": "https://www.google.com/maps?cid=6414735879945177061",
+        "category": "Educación mixta",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Ciurcunvalación, Calz. Circunvalación Pte 255, Granja, 45010 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://ifreinet.edu.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3673 0906",
+            "text": "+52 33 3673 0906",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      },
+      "reason": "category_mismatch"
+    },
+    {
+      "detail": {
+        "name": "Educare Escuela Para El Exito",
+        "url": "https://www.google.com/maps?cid=13904090062624327775",
+        "category": "Institución educativa",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "C. Francisco I. Madero 5850, Jocotán, 45017 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://www.educare.edu.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3777 0205",
+            "text": "+52 33 3777 0205",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      },
+      "reason": "category_mismatch"
+    },
+    {
+      "detail": {
+        "name": "Colegio Mano Amiga Guadalajara",
+        "url": "https://www.google.com/maps?cid=5902381897068080766",
+        "category": "Escuela católica",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Segunda Poniente 275 Col. Jardines de Nuevo México, 45200 Guadalajara, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://www.manoamiga.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3624 0937",
+            "text": "+52 33 3624 0937",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      },
+      "reason": "municipality_unconfirmed"
+    },
+    {
+      "detail": {
+        "name": "Instituto Británico",
+        "url": "https://www.google.com/maps?cid=14404762055060317194",
+        "category": "Centro escolar",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Mariano Otero 2350, Rinconada del Sol, 45050 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://www.ibritanico.edu.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3855 8767",
+            "text": "+52 33 3855 8767",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      },
+      "reason": "category_mismatch"
+    },
+    {
+      "detail": {
+        "name": "Colegio Camelot Secundaria",
+        "url": "https://www.google.com/maps?cid=18341423080859326216",
+        "category": "Centro de educación secundaria",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Calz. Circunvalación Pte 104, Granja, 45010 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://www.colegiocamelot.com/secundaria/"
+          },
+          {
+            "id": "phone:tel:+52 33 1657 0964",
+            "text": "+52 33 1657 0964",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      },
+      "reason": "category_mismatch"
+    },
+    {
+      "detail": {
+        "name": "Colegio Liceo Humanistico, A.C.",
+        "url": "https://www.google.com/maps?cid=13454749213818417750",
+        "category": "Centro educativo",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Sta. Rita 1225, Chapalita Oriente, 45040 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 1499 0278",
+            "text": "+52 33 1499 0278",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      },
+      "reason": "category_mismatch"
+    },
+    {
+      "detail": {
+        "name": "Bambino Montessori",
+        "url": "https://www.google.com/maps?cid=11951602604350183811",
+        "category": "Preescolar Montessori",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Calz de los Laureles 69, Granja, 45010 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://bambino-montessori.com/"
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      },
+      "reason": "no_public_phone"
+    },
+    {
+      "detail": {
+        "name": "World Academy \"Making Talents\"",
+        "url": "https://www.google.com/maps?cid=3255323403304137079",
+        "category": "Centro de educación preescolar",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Cuauhtémoc 375, Cd del Sol, 45050 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://www.worldacademy.com.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3121 7215",
+            "text": "+52 33 3121 7215",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      },
+      "reason": "category_mismatch"
+    },
+    {
+      "detail": {
+        "name": "UNIVA campus Guadalajara",
+        "url": "https://www.google.com/maps?cid=2066869343669485445",
+        "category": "Universidad privada",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Tepeyac 4800, Prados Tepeyac, 45050 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://www.univa.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3134 0800",
+            "text": "+52 33 3134 0800",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      },
+      "reason": "category_mismatch"
+    }
+  ],
+  "errors": [],
+  "candidates": [
+    {
+      "name": "Colegio Guadalajara Sagrado Corazón",
+      "url": "https://www.google.com/maps?cid=9637860667052290362",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Colegio Guadalajara Sagrado Corazón",
+        "url": "https://www.google.com/maps?cid=9637860667052290362",
+        "category": "Institución educativa",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Adolfo López Mateos Sur 2199, Cd del Sol, 45050 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://colguadalajara.edu.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3121 2240",
+            "text": "+52 33 3121 2240",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Colegio Juana De Arco La Estancia, A.C.",
+      "url": "https://www.google.com/maps?cid=185440324659796311",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Colegio Juana De Arco La Estancia, A.C.",
+        "url": "https://www.google.com/maps?cid=185440324659796311",
+        "category": "Escuela",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Tchaikovsky 402, La Estancia, 45037 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://www.colegiojuanadearco.edu.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3629 3149",
+            "text": "+52 33 3629 3149",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Colegio Finlandés Campus Zapopan",
+      "url": "https://www.google.com/maps?cid=6754590309388616185",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Colegio Finlandés Campus Zapopan",
+        "url": "https://www.google.com/maps?cid=6754590309388616185",
+        "category": "Colegio bilingüe",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Paseo de La Luna 885, San Juan de Ocotán, 45019 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://www.colegiofinlandes.com/"
+          },
+          {
+            "id": "phone:tel:+52 33 1204 0749",
+            "text": "+52 33 1204 0749",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Colegio Internacional SEK Guadalajara",
+      "url": "https://www.google.com/maps?cid=17076936943830411267",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Colegio Internacional SEK Guadalajara",
+        "url": "https://www.google.com/maps?cid=17076936943830411267",
+        "category": "Colegio privado",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "C. Daniel Comboni #850, Jardines de Guadalupe, 45030 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://www.sekmexico.com/"
+          },
+          {
+            "id": "phone:tel:+52 33 3620 2423",
+            "text": "+52 33 3620 2423",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Summit School",
+      "url": "https://www.google.com/maps?cid=7376115026579073176",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Summit School",
+        "url": "https://www.google.com/maps?cid=7376115026579073176",
+        "category": "Colegio bilingüe",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Prol. Av. 5 De Mayo 500, San Juan de Ocotán, 45019 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://www.summitschool.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3627 5993",
+            "text": "+52 33 3627 5993",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Escuela Antonio Caso Campus Zapopan",
+      "url": "https://www.google.com/maps?cid=12599397074147861942",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Escuela Antonio Caso Campus Zapopan",
+        "url": "https://www.google.com/maps?cid=12599397074147861942",
+        "category": "Colegio privado",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Sta. Laura 91, Santa Margarita1a Secc., 45140 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://escuelaantoniocasozapopancontacto.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 1191 9474",
+            "text": "+52 33 1191 9474",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Colegio Albert Camus",
+      "url": "https://www.google.com/maps?cid=7797001065178640406",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Colegio Albert Camus",
+        "url": "https://www.google.com/maps?cid=7797001065178640406",
+        "category": "Colegio privado",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Cam. Arenero 777, El Bajío, 45019 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://www.colegioalbertcamus.com/"
+          },
+          {
+            "id": "phone:tel:+52 33 3366 9878",
+            "text": "+52 33 3366 9878",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Universidad del Valle de México Campus Zapopan",
+      "url": "https://www.google.com/maps?cid=9595902942902509395",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Universidad del Valle de México Campus Zapopan",
+        "url": "https://www.google.com/maps?cid=9595902942902509395",
+        "category": "Universidad privada",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Lateral Perif. Pte. 7900, Jardines de Collí, 45010 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://uvm.mx/la-uvm/campus/zapopan/?utm_source=GOOGLE_MY_BUSINESS&utm_medium=ORGANIC&utm_campaign=GM_UVM_ZAP&utm_term=CONOCER_CAMPUS&utm_content=PRESTIGIO"
+          },
+          {
+            "id": "phone:tel:+52 800 000 0886",
+            "text": "+52 800 000 0886",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Täleny School Reggio Emilia",
+      "url": "https://www.google.com/maps?cid=3826921146402543269",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Täleny School Reggio Emilia",
+        "url": "https://www.google.com/maps?cid=3826921146402543269",
+        "category": "Colegio privado",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Privada del Carmen No. 1396, Residencial Poniente, 45138 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://taleny.com.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 1892 7991",
+            "text": "+52 33 1892 7991",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Jean Piaget",
+      "url": "https://www.google.com/maps?cid=5138483857590510986",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Jean Piaget",
+        "url": "https://www.google.com/maps?cid=5138483857590510986",
+        "category": "Institución educativa",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Johannes Brahms, Arcos de Guadalupe, 45037 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 3628 1661",
+            "text": "+52 33 3628 1661",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Colegio Cambridge",
+      "url": "https://www.google.com/maps?cid=5513682150544106774",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Colegio Cambridge",
+        "url": "https://www.google.com/maps?cid=5513682150544106774",
+        "category": "Colegio privado",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "3786, La Calma, 45070 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://www.facebook.com/colegiocambridge3786/"
+          },
+          {
+            "id": "phone:tel:+52 33 3634 4127",
+            "text": "+52 33 3634 4127",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Colegio Altamira A. C.",
+      "url": "https://www.google.com/maps?cid=11961408335587110230",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Colegio Altamira A. C.",
+        "url": "https://www.google.com/maps?cid=11961408335587110230",
+        "category": "Colegio privado",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av Moctezuma 2390, Jardines del Sol, 45056 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://www.altamira.edu.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3620 5338",
+            "text": "+52 33 3620 5338",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Instituto Nelson Mandela",
+      "url": "https://www.google.com/maps?cid=6712876730658230258",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Instituto Nelson Mandela",
+        "url": "https://www.google.com/maps?cid=6712876730658230258",
+        "category": "Institución educativa",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Antiguo Camino a Copalita 2385, Marcelino García Barragán, 45130 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://www.nelsonmandela.edu.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 1371 7458",
+            "text": "+52 33 1371 7458",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Escuela Primaria Bilingüe en Zapopan Howard Gardner School",
+      "url": "https://www.google.com/maps?cid=9071595229478952965",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Escuela Primaria Bilingüe en Zapopan Howard Gardner School",
+        "url": "https://www.google.com/maps?cid=9071595229478952965",
+        "category": "Colegio bilingüe",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Sebastian Bach 5669, La Estancia, 45030 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://howardgardnerschool.wixsite.com/education"
+          },
+          {
+            "id": "phone:tel:+52 33 3682 1821",
+            "text": "+52 33 3682 1821",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Colegio Altamira La Cima",
+      "url": "https://www.google.com/maps?cid=18145442435630034834",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Colegio Altamira La Cima",
+        "url": "https://www.google.com/maps?cid=18145442435630034834",
+        "category": "Escuela de enseñanza general",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. la Cima 614, La Cima, 45134 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://www.altamiralacima.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3834 2433",
+            "text": "+52 33 3834 2433",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "COLEGIO DECROLY",
+      "url": "https://www.google.com/maps?cid=4136925452406441627",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "COLEGIO DECROLY",
+        "url": "https://www.google.com/maps?cid=4136925452406441627",
+        "category": "Institución educativa",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "C. Colón 177, Zapopan, 45100 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 3633 2974",
+            "text": "+52 33 3633 2974",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "CMA educación",
+      "url": "https://www.google.com/maps?cid=16382232532985838376",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "CMA educación",
+        "url": "https://www.google.com/maps?cid=16382232532985838376",
+        "category": "Colegio bilingüe",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av, Prol. Mariano Otero 2811, Villas De Otero De Guadalupe, 45067 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 3125 4004",
+            "text": "+52 33 3125 4004",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "CENTRO EDUCATIVO JOSÉ CLEMENTE OROZCO",
+      "url": "https://www.google.com/maps?cid=12854148580800667449",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "CENTRO EDUCATIVO JOSÉ CLEMENTE OROZCO",
+        "url": "https://www.google.com/maps?cid=12854148580800667449",
+        "category": "Escuela primaria y secundaria",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Calle Turquesa 1885 Esquina con, Av. Obsidiana, Victoria, 45089 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://www.joseclementeorozco.edu.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 1661 2741",
+            "text": "+52 33 1661 2741",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Colegio Alemán de Guadalajara",
+      "url": "https://www.google.com/maps?cid=13448848606047564397",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Colegio Alemán de Guadalajara",
+        "url": "https://www.google.com/maps?cid=13448848606047564397",
+        "category": "Colegio bilingüe",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Bosque de los Cedros 32, Las Cañadas, 45140 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://alemangdl.edu.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3685 0136",
+            "text": "+52 33 3685 0136",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Instituto Anahuacalli",
+      "url": "https://www.google.com/maps?cid=17195625702008078035",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Instituto Anahuacalli",
+        "url": "https://www.google.com/maps?cid=17195625702008078035",
+        "category": "Escuela de enseñanza general",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av San Ignacio 201, Jardín de San Ignacio, 45040 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://www.anahuacalli.com.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3121 8884",
+            "text": "+52 33 3121 8884",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Escuela Francisco Villa",
+      "url": "https://www.google.com/maps?cid=11967447228024632878",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Escuela Francisco Villa",
+        "url": "https://www.google.com/maps?cid=11967447228024632878",
+        "category": "Institución educativa",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "A La Explanada 115, Prados Vallarta, 45020 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 3629 1058",
+            "text": "+52 33 3629 1058",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Colegio Gregorio Mendel",
+      "url": "https://www.google.com/maps?cid=12665371583264148196",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Colegio Gregorio Mendel",
+        "url": "https://www.google.com/maps?cid=12665371583264148196",
+        "category": "Colegio privado",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Sta. Rita 1450, Chapalita Oriente, 45040 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://www.gregoriomendel.edu.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3343 4770",
+            "text": "+52 33 3343 4770",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Laubscher School - Colegio en Zapopan para Kinder y Primaria",
+      "url": "https://www.google.com/maps?cid=3780289150603043103",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Laubscher School - Colegio en Zapopan para Kinder y Primaria",
+        "url": "https://www.google.com/maps?cid=3780289150603043103",
+        "category": "Centro de educación preescolar",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "45130, Av Valle de San Isidro 1492, Misión San Isidro, 45130 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://laubscherschool.com/"
+          },
+          {
+            "id": "phone:tel:+52 33 2623 2671",
+            "text": "+52 33 2623 2671",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Instituto Miguel Ángel de Occidente",
+      "url": "https://www.google.com/maps?cid=8628737503546969443",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Instituto Miguel Ángel de Occidente",
+        "url": "https://www.google.com/maps?cid=8628737503546969443",
+        "category": "Colegio bilingüe",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av Guadalupe 6600, Guadalupe Inn, Exitmex, 45010 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://www.imaoccidente.edu.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3125 1878",
+            "text": "+52 33 3125 1878",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Colegio | Newland School",
+      "url": "https://www.google.com/maps?cid=14886656523905529697",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Colegio | Newland School",
+        "url": "https://www.google.com/maps?cid=14886656523905529697",
+        "category": "Instituto de secundaria",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "C. Sofia Camarena de Jiménez 331, Loma Blanca, 45167 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://www.newland.edu.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3633 7535",
+            "text": "+52 33 3633 7535",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "CENTRO EDUCATIVO BUCKINGHAM",
+      "url": "https://www.google.com/maps?cid=13152948521913858089",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "CENTRO EDUCATIVO BUCKINGHAM",
+        "url": "https://www.google.com/maps?cid=13152948521913858089",
+        "category": "Centro de educación preescolar",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Volcán de Fuego # 2680, Colli Urbano, 45070 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 2929 7430",
+            "text": "+52 33 2929 7430",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Colegio Los Altos",
+      "url": "https://www.google.com/maps?cid=8687354101530419008",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Colegio Los Altos",
+        "url": "https://www.google.com/maps?cid=8687354101530419008",
+        "category": "Colegio privado",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Los Pinos 50, Sta Rita, 45120 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://www.facebook.com/colegiolosaltos/"
+          },
+          {
+            "id": "phone:tel:+52 33 3648 5370",
+            "text": "+52 33 3648 5370",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "COLEGIO TERCER MILENIO",
+      "url": "https://www.google.com/maps?cid=12481253863338377566",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "COLEGIO TERCER MILENIO",
+        "url": "https://www.google.com/maps?cid=12481253863338377566",
+        "category": "Colegio privado",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "C. P.º de Los Frambuesos 1535, Tabachines, 45130 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 3861 0425",
+            "text": "+52 33 3861 0425",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Instituto Philadelphia",
+      "url": "https://www.google.com/maps?cid=11708437456094752235",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Instituto Philadelphia",
+        "url": "https://www.google.com/maps?cid=11708437456094752235",
+        "category": "Escuela primaria y secundaria",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av Xochitl 311, Prados Tepeyac, 45050 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://www.institutophiladelphia.edu.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3122 3742",
+            "text": "+52 33 3122 3742",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Colegio \"Margil\"",
+      "url": "https://www.google.com/maps?cid=2246488979694203338",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Colegio \"Margil\"",
+        "url": "https://www.google.com/maps?cid=2246488979694203338",
+        "category": "Escuela primaria",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Prol. 20 De Noviembre 169, Zapopan, 45100 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://www.colegiomargil.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3633 0003",
+            "text": "+52 33 3633 0003",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Colegio Inglés de Guadalajara",
+      "url": "https://www.google.com/maps?cid=558274234823893022",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Colegio Inglés de Guadalajara",
+        "url": "https://www.google.com/maps?cid=558274234823893022",
+        "category": "Colegio bilingüe",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "C. Santo Tomás de Aquino 5245, Jardines de Guadalupe, 45030 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://www.cig.edu.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3629 9760",
+            "text": "+52 33 3629 9760",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Colegio Ker Liber",
+      "url": "https://www.google.com/maps?cid=6922329908676828129",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Colegio Ker Liber",
+        "url": "https://www.google.com/maps?cid=6922329908676828129",
+        "category": "Institución educativa",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "C. Volcán Popocatépetl 4774, Colli Urbano, 45070 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://kerliber.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3628 4881",
+            "text": "+52 33 3628 4881",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Centro Educativo Los Pinos",
+      "url": "https://www.google.com/maps?cid=3056289184610941410",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Centro Educativo Los Pinos",
+        "url": "https://www.google.com/maps?cid=3056289184610941410",
+        "category": "Escuela primaria y secundaria",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Plantel primaria y secundaria:, Camino a Sta. Ana Tepetitlán 633, El Briseño, 45050 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://centroeducativolospinos.edu.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3684 2622",
+            "text": "+52 33 3684 2622",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Instituto Copérnico, A.C.",
+      "url": "https://www.google.com/maps?cid=11030421357469564616",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Instituto Copérnico, A.C.",
+        "url": "https://www.google.com/maps?cid=11030421357469564616",
+        "category": "Colegio privado",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Nicolás Copérnico 4001, Arboledas, 45070 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://www.institutocopernico.com/"
+          },
+          {
+            "id": "phone:tel:+52 33 3631 3423",
+            "text": "+52 33 3631 3423",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "InstitutoTepeyac Campus Capital Norte",
+      "url": "https://www.google.com/maps?cid=3520559062770746895",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "InstitutoTepeyac Campus Capital Norte",
+        "url": "https://www.google.com/maps?cid=3520559062770746895",
+        "category": "Institución educativa",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. de las Sendas No. 1265, Sendas Residencial, 45134 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 1031 1361",
+            "text": "+52 33 1031 1361",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Colegio Victoria",
+      "url": "https://www.google.com/maps?cid=302193068298435078",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Colegio Victoria",
+        "url": "https://www.google.com/maps?cid=302193068298435078",
+        "category": "Escuela católica",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Manuel Ávila Camacho 325, Seattle, 45150 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://www.cv.edu.mx/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=11058293878775671920"
+          },
+          {
+            "id": "phone:tel:+52 33 3633 0770",
+            "text": "+52 33 3633 0770",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Cumbres International School Guadalajara",
+      "url": "https://www.google.com/maps?cid=14125146342008322438",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Cumbres International School Guadalajara",
+        "url": "https://www.google.com/maps?cid=14125146342008322438",
+        "category": "Escuela Internacional",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Cto. de las Flores Nte. 2137, Bugambilias, 45238 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://www.cumbresguadalajara.com/"
+          },
+          {
+            "id": "phone:tel:+52 33 3684 3210",
+            "text": "+52 33 3684 3210",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "montessori Guadalajara",
+      "url": "https://www.google.com/maps?cid=7177922025127638006",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "montessori Guadalajara",
+        "url": "https://www.google.com/maps?cid=7177922025127638006",
+        "category": "Escuela Montessori",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av Novelistas, Jardines Vallarta, 45027 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 3627 0974",
+            "text": "+52 33 3627 0974",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Colegio José Vasconcelos Zapopan",
+      "url": "https://www.google.com/maps?cid=17717833533792124220",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Colegio José Vasconcelos Zapopan",
+        "url": "https://www.google.com/maps?cid=17717833533792124220",
+        "category": "Escuela de enseñanza general",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "C. Agricultores 5325, La Estancia, 45030 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 3628 0349",
+            "text": "+52 33 3628 0349",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Colegio Británico de Guadalajara (Primaria y Secundaria)",
+      "url": "https://www.google.com/maps?cid=17693634277466590203",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Colegio Británico de Guadalajara (Primaria y Secundaria)",
+        "url": "https://www.google.com/maps?cid=17693634277466590203",
+        "category": "Escuela de enseñanza general",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Adolfo López Mateos Sur 2020, Chapalita Sur, 45040 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://www.britanico.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3647 1111",
+            "text": "+52 33 3647 1111",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Centro Educativo Freire",
+      "url": "https://www.google.com/maps?cid=17238509888329227267",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Centro Educativo Freire",
+        "url": "https://www.google.com/maps?cid=17238509888329227267",
+        "category": "Colegio privado",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "(D) 868, Seattle, 45150 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 3833 2264",
+            "text": "+52 33 3833 2264",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Instituto Pierre Faure",
+      "url": "https://www.google.com/maps?cid=7084528464559626194",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Instituto Pierre Faure",
+        "url": "https://www.google.com/maps?cid=7084528464559626194",
+        "category": "Escuela K-12",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "C. Tezozomoc 170, Cd del Sol, 45050 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://www.pierrefaure.edu.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3121 3183",
+            "text": "+52 33 3121 3183",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Instituto Zapopan",
+      "url": "https://www.google.com/maps?cid=5297866394774824336",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Instituto Zapopan",
+        "url": "https://www.google.com/maps?cid=5297866394774824336",
+        "category": "Institución educativa",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Calle Emiliano Zapata 110-Primer Piso, Centro, 45100 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://institutozapopan-mediaysuperior.com.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3633 5642",
+            "text": "+52 33 3633 5642",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Colegio Moctezuma",
+      "url": "https://www.google.com/maps?cid=2065295322220447157",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Colegio Moctezuma",
+        "url": "https://www.google.com/maps?cid=2065295322220447157",
+        "category": "Escuela de primaria",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av Moctezuma 349, Jardines del Sol, 45050 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 3632 8238",
+            "text": "+52 33 3632 8238",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Lazos Montessori",
+      "url": "https://www.google.com/maps?cid=1939304499867572241",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Lazos Montessori",
+        "url": "https://www.google.com/maps?cid=1939304499867572241",
+        "category": "Escuela Montessori",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "C. Enrique Gómez Carrillo 5159, Jardines de la Patria, 45110 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://www.lazosmontessori.com/"
+          },
+          {
+            "id": "phone:tel:+52 33 2716 7077",
+            "text": "+52 33 2716 7077",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Instituto Cultural Freinet",
+      "url": "https://www.google.com/maps?cid=6414735879945177061",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Instituto Cultural Freinet",
+        "url": "https://www.google.com/maps?cid=6414735879945177061",
+        "category": "Educación mixta",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Ciurcunvalación, Calz. Circunvalación Pte 255, Granja, 45010 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://ifreinet.edu.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3673 0906",
+            "text": "+52 33 3673 0906",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Cumbres International School San Javier",
+      "url": "https://www.google.com/maps?cid=8810161060391738105",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Cumbres International School San Javier",
+        "url": "https://www.google.com/maps?cid=8810161060391738105",
+        "category": "Escuela de enseñanza general",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Avenida del Servidor Público 3030, La Mora, Exhacienda de, 45138 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://www.cumbressanjavier.edu.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3832 1929",
+            "text": "+52 33 3832 1929",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Colegio Centro Educativo Hammurabi",
+      "url": "https://www.google.com/maps?cid=3397416500749997811",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Colegio Centro Educativo Hammurabi",
+        "url": "https://www.google.com/maps?cid=3397416500749997811",
+        "category": "Escuela primaria",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Tikal 2796, Pinar de la Calma, 45080 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 3634 5900",
+            "text": "+52 33 3634 5900",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Educare Escuela Para El Exito",
+      "url": "https://www.google.com/maps?cid=13904090062624327775",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Educare Escuela Para El Exito",
+        "url": "https://www.google.com/maps?cid=13904090062624327775",
+        "category": "Institución educativa",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "C. Francisco I. Madero 5850, Jocotán, 45017 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://www.educare.edu.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3777 0205",
+            "text": "+52 33 3777 0205",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "COLEGIO Bertha Von Glummer",
+      "url": "https://www.google.com/maps?cid=7683107632745133097",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "COLEGIO Bertha Von Glummer",
+        "url": "https://www.google.com/maps?cid=7683107632745133097",
+        "category": "Colegio privado",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Picador 6613, Hacienda del Tepeyac, 45053 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://www.berthavonglummer.com/?fbclid=IwAR3u1awfG4y-TNqttSms4OIIdTrxDPsoBsYitft2drMytRjMxb5JiqhfpcY"
+          },
+          {
+            "id": "phone:tel:+52 33 3620 5474",
+            "text": "+52 33 3620 5474",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Colegio Mano Amiga Guadalajara",
+      "url": "https://www.google.com/maps?cid=5902381897068080766",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Colegio Mano Amiga Guadalajara",
+        "url": "https://www.google.com/maps?cid=5902381897068080766",
+        "category": "Escuela católica",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Segunda Poniente 275 Col. Jardines de Nuevo México, 45200 Guadalajara, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://www.manoamiga.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3624 0937",
+            "text": "+52 33 3624 0937",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Instituto Británico",
+      "url": "https://www.google.com/maps?cid=14404762055060317194",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Instituto Británico",
+        "url": "https://www.google.com/maps?cid=14404762055060317194",
+        "category": "Centro escolar",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Mariano Otero 2350, Rinconada del Sol, 45050 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://www.ibritanico.edu.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3855 8767",
+            "text": "+52 33 3855 8767",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "NUEVO COLEGIO LA CALMA A.C.",
+      "url": "https://www.google.com/maps?cid=12359377035362663245",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "NUEVO COLEGIO LA CALMA A.C.",
+        "url": "https://www.google.com/maps?cid=12359377035362663245",
+        "category": "Escuela de enseñanza general",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "C. Volcán Popocatépetl 3326, Colli Urbano, 45070 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://lacalma.edu.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3587 6257",
+            "text": "+52 33 3587 6257",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Colegio Pedregal de Guadalajara Campus bajío",
+      "url": "https://www.google.com/maps?cid=7382888163638395051",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Colegio Pedregal de Guadalajara Campus bajío",
+        "url": "https://www.google.com/maps?cid=7382888163638395051",
+        "category": "Colegio privado",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Del Bajío 5903, El Bajío, 45019 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://www.colegiopedregalgdl.com/"
+          },
+          {
+            "id": "phone:tel:+52 33 3777 0900",
+            "text": "+52 33 3777 0900",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Colegio Insurgentes MERAKI",
+      "url": "https://www.google.com/maps?cid=5291687818612505258",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Colegio Insurgentes MERAKI",
+        "url": "https://www.google.com/maps?cid=5291687818612505258",
+        "category": "Colegio privado",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Volcán Fujiyama 5, Colli Urbano, 45070 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 3202 8318",
+            "text": "+52 33 3202 8318",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "CIH - Community of Innovative Humans (Colegio Inglés Hidalgo)",
+      "url": "https://www.google.com/maps?cid=13894452074428375248",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "CIH - Community of Innovative Humans (Colegio Inglés Hidalgo)",
+        "url": "https://www.google.com/maps?cid=13894452074428375248",
+        "category": "Colegio privado",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "C. Héctor Berlioz 4783, Residencial Cordilleras, 45039 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://www.cih.edu.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3629 7640",
+            "text": "+52 33 3629 7640",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Colegio Camelot Secundaria",
+      "url": "https://www.google.com/maps?cid=18341423080859326216",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Colegio Camelot Secundaria",
+        "url": "https://www.google.com/maps?cid=18341423080859326216",
+        "category": "Centro de educación secundaria",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Calz. Circunvalación Pte 104, Granja, 45010 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://www.colegiocamelot.com/secundaria/"
+          },
+          {
+            "id": "phone:tel:+52 33 1657 0964",
+            "text": "+52 33 1657 0964",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Colegio Liceo Humanistico, A.C.",
+      "url": "https://www.google.com/maps?cid=13454749213818417750",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Colegio Liceo Humanistico, A.C.",
+        "url": "https://www.google.com/maps?cid=13454749213818417750",
+        "category": "Centro educativo",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Sta. Rita 1225, Chapalita Oriente, 45040 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 1499 0278",
+            "text": "+52 33 1499 0278",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Instituto Tanesque A. C.",
+      "url": "https://www.google.com/maps?cid=5076890052756619839",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Instituto Tanesque A. C.",
+        "url": "https://www.google.com/maps?cid=5076890052756619839",
+        "category": "Colegio bilingüe",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "C. Jorge Santayana 4931, Jardines Universidad, 45110 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://www.tanesque.com.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3629 9095",
+            "text": "+52 33 3629 9095",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Primaria Colegio Camelot",
+      "url": "https://www.google.com/maps?cid=16126602304495769582",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Primaria Colegio Camelot",
+        "url": "https://www.google.com/maps?cid=16126602304495769582",
+        "category": "Colegio privado",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Independencia 359, Arcos de Guadalupe, 45037 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://www.colegiocamelot.com/"
+          },
+          {
+            "id": "phone:tel:+52 33 3620 2331",
+            "text": "+52 33 3620 2331",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Colegio Naciones Unidas",
+      "url": "https://www.google.com/maps?cid=11723782996600877922",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Colegio Naciones Unidas",
+        "url": "https://www.google.com/maps?cid=11723782996600877922",
+        "category": "Escuela de enseñanza general",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "45069, Calle Jacaranda, C. Arrayán 1718, Paraísos del Colli, 45069 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://colegionacionesunidas.es.tl/"
+          },
+          {
+            "id": "phone:tel:+52 33 1028 9642",
+            "text": "+52 33 1028 9642",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Centro Educativo Juan Sebastian Bach",
+      "url": "https://www.google.com/maps?cid=12737421610485462927",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Centro Educativo Juan Sebastian Bach",
+        "url": "https://www.google.com/maps?cid=12737421610485462927",
+        "category": "Colegio bilingüe",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Juan Palomar y Arias 126, Jardines Vallarta, 45027 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://colegiojsb.com/"
+          },
+          {
+            "id": "phone:tel:+52 33 2493 9745",
+            "text": "+52 33 2493 9745",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Neill School",
+      "url": "https://www.google.com/maps?cid=18396773883271803141",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Neill School",
+        "url": "https://www.google.com/maps?cid=18396773883271803141",
+        "category": "Colegio privado",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Calle, J. Antonio Torres 757, Arcos de Guadalupe, 45030 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 3125 0100",
+            "text": "+52 33 3125 0100",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Bambino Montessori",
+      "url": "https://www.google.com/maps?cid=11951602604350183811",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Bambino Montessori",
+        "url": "https://www.google.com/maps?cid=11951602604350183811",
+        "category": "Preescolar Montessori",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Calz de los Laureles 69, Granja, 45010 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://bambino-montessori.com/"
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "World Academy \"Making Talents\"",
+      "url": "https://www.google.com/maps?cid=3255323403304137079",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "World Academy \"Making Talents\"",
+        "url": "https://www.google.com/maps?cid=3255323403304137079",
+        "category": "Centro de educación preescolar",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Cuauhtémoc 375, Cd del Sol, 45050 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://www.worldacademy.com.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3121 7215",
+            "text": "+52 33 3121 7215",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Escuela Primaria de Tiempo Completo Margarito Ramírez URBANA 704",
+      "url": "https://www.google.com/maps?cid=16927220590993203593",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Escuela Primaria de Tiempo Completo Margarito Ramírez URBANA 704",
+        "url": "https://www.google.com/maps?cid=16927220590993203593",
+        "category": "Escuela de primaria",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Emiliano Zapata 95, Sta María del Pueblito, 45018 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 1511 6793",
+            "text": "+52 33 1511 6793",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Instituto de Ciencias",
+      "url": "https://www.google.com/maps?cid=2251928194866503015",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Instituto de Ciencias",
+        "url": "https://www.google.com/maps?cid=2251928194866503015",
+        "category": "Colegio privado",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "P.º de la Estrella 1371, Col. San Juan de Ocotán, 45019 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://www.idec.edu.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3836 4334",
+            "text": "+52 33 3836 4334",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "UNIVA campus Guadalajara",
+      "url": "https://www.google.com/maps?cid=2066869343669485445",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "UNIVA campus Guadalajara",
+        "url": "https://www.google.com/maps?cid=2066869343669485445",
+        "category": "Universidad privada",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Tepeyac 4800, Prados Tepeyac, 45050 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://www.univa.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3134 0800",
+            "text": "+52 33 3134 0800",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Colegio Harland School",
+      "url": "https://www.google.com/maps?cid=6216147132705318052",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Colegio Harland School",
+        "url": "https://www.google.com/maps?cid=6216147132705318052",
+        "category": "Escuela de primaria",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Calle Volcán Cofre de Perote 1985, Colli Urbano, 45070 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 3620 5502",
+            "text": "+52 33 3620 5502",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "CENTRO EDUCATIVO JCO",
+      "url": "https://www.google.com/maps?cid=11100984499822373618",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "CENTRO EDUCATIVO JCO",
+        "url": "https://www.google.com/maps?cid=11100984499822373618",
+        "category": "Colegio privado",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "C. Volcán Jorullo 1928, Colli Urbano, 45070 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 3620 0129",
+            "text": "+52 33 3620 0129",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Colegio Tulipanes Agustin Yañez Delgadillo",
+      "url": "https://www.google.com/maps?cid=14196319767270012714",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Colegio Tulipanes Agustin Yañez Delgadillo",
+        "url": "https://www.google.com/maps?cid=14196319767270012714",
+        "category": "Colegio bilingüe",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Rosal 1250, Los Tulipanes, 45640 Guadalajara, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 3684 3759",
+            "text": "+52 33 3684 3759",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Breton School Primary",
+      "url": "https://www.google.com/maps?cid=9798146651953050343",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Breton School Primary",
+        "url": "https://www.google.com/maps?cid=9798146651953050343",
+        "category": "Escuela primaria",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Centro Escolar Siglo XXI Av. San Luis Gonzaga, C. Arquitectos 5059, Jardines de Guadalupe, 45030 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://bretonedu.com/"
+          },
+          {
+            "id": "phone:tel:+52 33 3121 2714",
+            "text": "+52 33 3121 2714",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Escuela de Manejo del Sol - Matriz",
+      "url": "https://www.google.com/maps?cid=1142039205367638455",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Escuela de Manejo del Sol - Matriz",
+        "url": "https://www.google.com/maps?cid=1142039205367638455",
+        "category": "Autoescuela",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av Moctezuma 5709, Moctezuma Pte., Moctezuma Poniente, 45059 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://www.manejodelsol.com.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3628 9022",
+            "text": "+52 33 3628 9022",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Colegio Maximiliano Maria Kolbe",
+      "url": "https://www.google.com/maps?cid=8146530430772865051",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Colegio Maximiliano Maria Kolbe",
+        "url": "https://www.google.com/maps?cid=8146530430772865051",
+        "category": "Escuela de primaria",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Playa Oro 5755-B, La Primavera, 45058 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 3620 4316",
+            "text": "+52 33 3620 4316",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Urbana 811",
+      "url": "https://www.google.com/maps?cid=6066988488036990733",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Urbana 811",
+        "url": "https://www.google.com/maps?cid=6066988488036990733",
+        "category": "Institución educativa",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "45020, La Estancia, 45020 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://primaria811.com.mx/"
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Misión Waldorf",
+      "url": "https://www.google.com/maps?cid=14786305147161119199",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Misión Waldorf",
+        "url": "https://www.google.com/maps?cid=14786305147161119199",
+        "category": "Escuela Waldorf",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "C. Santo Tomás de Aquino 5314, Jardines Guadalupe, 45037 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://www.pedagogiawaldorf.com/?utm_source=google&utm_medium=wix_google_business_profile&utm_campaign=6846452127322494499"
+          },
+          {
+            "id": "phone:tel:+52 33 1716 3936",
+            "text": "+52 33 1716 3936",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Colegio Salesiano Anahuac Chapalita",
+      "url": "https://www.google.com/maps?cid=5765885695857960586",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Colegio Salesiano Anahuac Chapalita",
+        "url": "https://www.google.com/maps?cid=5765885695857960586",
+        "category": "Colegio religioso",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Calle San Juan Bosco 4265, Las Flores, Jardín de San Ignacio, 45050 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://csalesianosgdl.mx/web/chapalita/"
+          },
+          {
+            "id": "phone:tel:+52 33 3121 6623",
+            "text": "+52 33 3121 6623",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "IQ English Zapopan",
+      "url": "https://www.google.com/maps?cid=10899209605552245416",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "IQ English Zapopan",
+        "url": "https://www.google.com/maps?cid=10899209605552245416",
+        "category": "Academia de inglés",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Ignacio L Vallarta 5566-Interior E3, Lomas Universidad, 45016 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://www.iqenglishzapopan.com/"
+          },
+          {
+            "id": "phone:tel:+52 33 1572 8327",
+            "text": "+52 33 1572 8327",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Escuela Primaria ENRIQUE C. REBSAMEN",
+      "url": "https://www.google.com/maps?cid=3668405134902561703",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Escuela Primaria ENRIQUE C. REBSAMEN",
+        "url": "https://www.google.com/maps?cid=3668405134902561703",
+        "category": "Colegio concertado",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "C. P.º de Los Ahuehuetes, Tabachines, 45188 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://www.sep.gob.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 1641 5900",
+            "text": "+52 33 1641 5900",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Centro Escolar Torreblanca",
+      "url": "https://www.google.com/maps?cid=8109493638738802160",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Centro Escolar Torreblanca",
+        "url": "https://www.google.com/maps?cid=8109493638738802160",
+        "category": "Instituto femenino",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Calz de los Fresnos 15, Granja, 45010 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://torreblanca.edu.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3641 3200",
+            "text": "+52 33 3641 3200",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Escuela Primaria Ignacio B Pamplona",
+      "url": "https://www.google.com/maps?cid=12781677557997122308",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Escuela Primaria Ignacio B Pamplona",
+        "url": "https://www.google.com/maps?cid=12781677557997122308",
+        "category": "Escuela de primaria",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Constantino Cavafis 6063, Lomas Universidad, 45016 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Escuela Federal José María Morelos y Pavón",
+      "url": "https://www.google.com/maps?cid=14383645905755264452",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Escuela Federal José María Morelos y Pavón",
+        "url": "https://www.google.com/maps?cid=14383645905755264452",
+        "category": "Escuela primaria",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av Prado de los Laureles 110, Prados Tepeyac, 45050 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Colegio Isaac Newton",
+      "url": "https://www.google.com/maps?cid=3510066706426647",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Colegio Isaac Newton",
+        "url": "https://www.google.com/maps?cid=3510066706426647",
+        "category": "Colegio bilingüe",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "C. Administradores 5349, Arcos de Guadalupe, 45037 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://www.colegio-isaacnewton.com/"
+          },
+          {
+            "id": "phone:tel:+52 33 3611 2988",
+            "text": "+52 33 3611 2988",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Escuela de Manejo del Sol - Sede Central",
+      "url": "https://www.google.com/maps?cid=16104605530157100537",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Escuela de Manejo del Sol - Sede Central",
+        "url": "https://www.google.com/maps?cid=16104605530157100537",
+        "category": "Autoescuela",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Patria 4926, Jardines Universidad, 45110 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://www.escuelademanejodelsol.com/"
+          },
+          {
+            "id": "phone:tel:+52 33 3165 0973",
+            "text": "+52 33 3165 0973",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Escuela Secundaria Técnica 51",
+      "url": "https://www.google.com/maps?cid=14578389268522605987",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Escuela Secundaria Técnica 51",
+        "url": "https://www.google.com/maps?cid=14578389268522605987",
+        "category": "Instituto de secundaria",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Emiliano Zapata 135, Sta María del Pueblito, 45018 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 3627 1772",
+            "text": "+52 33 3627 1772",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Escuela Primaria Vespertina URBANA 990",
+      "url": "https://www.google.com/maps?cid=14806985392169556713",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Escuela Primaria Vespertina URBANA 990",
+        "url": "https://www.google.com/maps?cid=14806985392169556713",
+        "category": "Escuela de primaria",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "45016, L. Ariosto 6097, Lomas Universidad, Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 4497 0512",
+            "text": "+52 33 4497 0512",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Colegio Albert Einstein Ac",
+      "url": "https://www.google.com/maps?cid=5770794884733107404",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Colegio Albert Einstein Ac",
+        "url": "https://www.google.com/maps?cid=5770794884733107404",
+        "category": "Escuela de enseñanza general",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "C. Enrique Gómez Carrillo 5159, Jardines de la Patria, 45110 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 1653 3866",
+            "text": "+52 33 1653 3866",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "CreeSer Montessori Primaria",
+      "url": "https://www.google.com/maps?cid=5959183270199048132",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "CreeSer Montessori Primaria",
+        "url": "https://www.google.com/maps?cid=5959183270199048132",
+        "category": "Escuela primaria",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Calz de los Paraísos 13A, Granja, 45010 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://www.facebook.com/CreeserMontessori"
+          },
+          {
+            "id": "phone:tel:+52 33 3629 7861",
+            "text": "+52 33 3629 7861",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Colegio Guadalajara",
+      "url": "https://www.google.com/maps?cid=7444228485544379239",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Colegio Guadalajara",
+        "url": "https://www.google.com/maps?cid=7444228485544379239",
+        "category": "Escuela primaria y secundaria",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Rinconada de Los Ahuehuetes 41, Plaza del Sol, 45055 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://colguadalajara.edu.mx/"
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Jardin de NiñosTeresa de Calcuta",
+      "url": "https://www.google.com/maps?cid=7346930819163697451",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Jardin de NiñosTeresa de Calcuta",
+        "url": "https://www.google.com/maps?cid=7346930819163697451",
+        "category": "Centro de educación preescolar",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Juan, Av. Sebastian Bach 4797, Prados Vallarta, 45020 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://www.jardinteresadecalcuta.edu.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3682 0841",
+            "text": "+52 33 3682 0841",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "CALLE 42 Chapalita",
+      "url": "https://www.google.com/maps?cid=11779281374689058009",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "CALLE 42 Chapalita",
+        "url": "https://www.google.com/maps?cid=11779281374689058009",
+        "category": "Escuela de arte",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Calz. Lázaro Cárdenas 3859-A, Jardín de San Ignacio, 45040 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://www.calle42.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3121 3142",
+            "text": "+52 33 3121 3142",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Mundo Bilingüe",
+      "url": "https://www.google.com/maps?cid=11840932113122341965",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Mundo Bilingüe",
+        "url": "https://www.google.com/maps?cid=11840932113122341965",
+        "category": "Academia de idiomas",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av Guadalupe 6000-Loc 10, Arcos de Guadalupe, 45011 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://mundobilingue.com.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3628 1141",
+            "text": "+52 33 3628 1141",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Colegio CEDI - Plantel Patria",
+      "url": "https://www.google.com/maps?cid=6044730587603951482",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Colegio CEDI - Plantel Patria",
+        "url": "https://www.google.com/maps?cid=6044730587603951482",
+        "category": "Escuela de enseñanza general",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "C. Volcán Jorullo 4654, Colli Urbano, 45070 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://www.cedi.edu.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3620 3310",
+            "text": "+52 33 3620 3310",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Montessori Casa Del Papalote",
+      "url": "https://www.google.com/maps?cid=15171179708518961222",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Montessori Casa Del Papalote",
+        "url": "https://www.google.com/maps?cid=15171179708518961222",
+        "category": "Centro de educación preescolar",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Sta. Teresa de Jesús 706, Camino Real, 45040 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://www.instagram.com/casadelpapalote/"
+          },
+          {
+            "id": "phone:tel:+52 33 3647 2913",
+            "text": "+52 33 3647 2913",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Zapopan Jalisco",
+      "url": "https://www.google.com/maps?cid=13240006862057919131",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Zapopan Jalisco",
+        "url": "https://www.google.com/maps?cid=13240006862057919131",
+        "category": "Escuela primaria",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Los Pinos, Los Pinos, 45120 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Colegio Internacional SEK Guadalajara",
+      "url": "https://www.google.com/maps?cid=8487145857924309741",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Colegio Internacional SEK Guadalajara",
+        "url": "https://www.google.com/maps?cid=8487145857924309741",
+        "category": "Escuela de enseñanza general",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Piotr Ilich Tchaikovski 14, Plaza Guadalupe, 45030 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 3620 2423",
+            "text": "+52 33 3620 2423",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "AGUSTÍN YAÑEZ DELGADILLO",
+      "url": "https://www.google.com/maps?cid=10752458404532889602",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "AGUSTÍN YAÑEZ DELGADILLO",
+        "url": "https://www.google.com/maps?cid=10752458404532889602",
+        "category": "Escuela primaria",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Flamenco 1688, Valle San Isidro, 45190 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 3630 8934",
+            "text": "+52 33 3630 8934",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "PRESCOLAR MARGARITA LOPEZ BARBA",
+      "url": "https://www.google.com/maps?cid=21602375898697743",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "PRESCOLAR MARGARITA LOPEZ BARBA",
+        "url": "https://www.google.com/maps?cid=21602375898697743",
+        "category": "Centro de educación preescolar",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "George Haendel 335, Residencial Cordilleras, 45039 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 1403 0285",
+            "text": "+52 33 1403 0285",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Escuela Une Destrezas",
+      "url": "https://www.google.com/maps?cid=14391766964759088275",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Escuela Une Destrezas",
+        "url": "https://www.google.com/maps?cid=14391766964759088275",
+        "category": "Colegio privado",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "C. Axayácatl 490, Jardines del Sol, 45050 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://www.facebook.com/profile.php?id=100064099540531"
+          },
+          {
+            "id": "phone:tel:+52 33 1010 2631",
+            "text": "+52 33 1010 2631",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "Secretaria de Educación del Estado de Jalisco",
+      "url": "https://www.google.com/maps?cid=13244620138218923559",
+      "query": "escuelas en Zapopan",
+      "detail": {
+        "name": "Secretaria de Educación del Estado de Jalisco",
+        "url": "https://www.google.com/maps?cid=13244620138218923559",
+        "category": "Secretaría municipal",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Central Guillermo Gonzalez Camarena 615, Residencial Poniente, 45136 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://portalsej.jalisco.gob.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3030 7500",
+            "text": "+52 33 3030 7500",
+            "href": ""
+          }
+        ],
+        "query": "escuelas en Zapopan"
+      }
+    },
+    {
+      "name": "El Colegio de Jalisco, A. C.",
+      "url": "https://www.google.com/maps?cid=17915420740524891305",
+      "query": "colegios en Zapopan",
+      "detail": {
+        "name": "El Colegio de Jalisco, A. C.",
+        "url": "https://www.google.com/maps?cid=17915420740524891305",
+        "category": "Escuela universitaria",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "C. 5 de Mayo 321, Centro, 45100 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://www.coljal.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 4705 3560",
+            "text": "+52 33 4705 3560",
+            "href": ""
+          }
+        ],
+        "query": "colegios en Zapopan"
+      }
+    },
+    {
+      "name": "COLEGIO INTERAMERICANO GUADALAJARA",
+      "url": "https://www.google.com/maps?cid=18428742182307172928",
+      "query": "colegios en Zapopan",
+      "detail": {
+        "name": "COLEGIO INTERAMERICANO GUADALAJARA",
+        "url": "https://www.google.com/maps?cid=18428742182307172928",
+        "category": "Escuela",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Circunvalación Nte. #160, Las Fuentes, 45070 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://ciguadalajara.com/"
+          },
+          {
+            "id": "phone:tel:+52 33 3631 0140",
+            "text": "+52 33 3631 0140",
+            "href": ""
+          }
+        ],
+        "query": "colegios en Zapopan"
+      }
+    },
+    {
+      "name": "AMERICAN ACADEMY",
+      "url": "https://www.google.com/maps?cid=3836586624919339576",
+      "query": "colegios en Zapopan",
+      "detail": {
+        "name": "AMERICAN ACADEMY",
+        "url": "https://www.google.com/maps?cid=3836586624919339576",
+        "category": "Colegio bilingüe",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "C. Sofia Camarena de Jiménez, 38Loma Blanca, 45100 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://www.americanacademy.com.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3656 7441",
+            "text": "+52 33 3656 7441",
+            "href": ""
+          }
+        ],
+        "query": "colegios en Zapopan"
+      }
+    },
+    {
+      "name": "Colegio México Nuevo Campus La Calma, Guadalajara.",
+      "url": "https://www.google.com/maps?cid=2851434700417272133",
+      "query": "colegios en Zapopan",
+      "detail": {
+        "name": "Colegio México Nuevo Campus La Calma, Guadalajara.",
+        "url": "https://www.google.com/maps?cid=2851434700417272133",
+        "category": "Institución educativa",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "C. Montemorelos 3403, Rinconada de la Calma, 45070 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://cmn.edu.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3631 1259",
+            "text": "+52 33 3631 1259",
+            "href": ""
+          }
+        ],
+        "query": "colegios en Zapopan"
+      }
+    },
+    {
+      "name": "Instituto Educativo América Latina",
+      "url": "https://www.google.com/maps?cid=8537880561266599373",
+      "query": "colegios en Zapopan",
+      "detail": {
+        "name": "Instituto Educativo América Latina",
+        "url": "https://www.google.com/maps?cid=8537880561266599373",
+        "category": "Colegio privado",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Héctor Hernández 5743, Paseos del Sol, 45079 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://ieal.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3631 9080",
+            "text": "+52 33 3631 9080",
+            "href": ""
+          }
+        ],
+        "query": "colegios en Zapopan"
+      }
+    },
+    {
+      "name": "Colegio Nueva España",
+      "url": "https://www.google.com/maps?cid=17339619792790864090",
+      "query": "colegios en Zapopan",
+      "detail": {
+        "name": "Colegio Nueva España",
+        "url": "https://www.google.com/maps?cid=17339619792790864090",
+        "category": "Colegio privado",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "(B) 605, Seattle, 45150 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://colegionuevaespana.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3633 1092",
+            "text": "+52 33 3633 1092",
+            "href": ""
+          }
+        ],
+        "query": "colegios en Zapopan"
+      }
+    },
+    {
+      "name": "Colegio Jean Piaget School",
+      "url": "https://www.google.com/maps?cid=2961510482265207902",
+      "query": "colegios en Zapopan",
+      "detail": {
+        "name": "Colegio Jean Piaget School",
+        "url": "https://www.google.com/maps?cid=2961510482265207902",
+        "category": "Colegio privado",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Manuel M. Tortolero 132, Los Maestros, 45150 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://www.jeanpiagetschool.com/"
+          },
+          {
+            "id": "phone:tel:+52 33 3342 1447",
+            "text": "+52 33 3342 1447",
+            "href": ""
+          }
+        ],
+        "query": "colegios en Zapopan"
+      }
+    },
+    {
+      "name": "HISPANO AMERICANO",
+      "url": "https://www.google.com/maps?cid=4389654627587542411",
+      "query": "colegios en Zapopan",
+      "detail": {
+        "name": "HISPANO AMERICANO",
+        "url": "https://www.google.com/maps?cid=4389654627587542411",
+        "category": "Institución educativa",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Pirámides del Sol 71, Pirámides, 45070 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 3634 5516",
+            "text": "+52 33 3634 5516",
+            "href": ""
+          }
+        ],
+        "query": "colegios en Zapopan"
+      }
+    },
+    {
+      "name": "Colegio Isabel la Católica",
+      "url": "https://www.google.com/maps?cid=634207158452780215",
+      "query": "colegios en Zapopan",
+      "detail": {
+        "name": "Colegio Isabel la Católica",
+        "url": "https://www.google.com/maps?cid=634207158452780215",
+        "category": "Colegio privado",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "C. Libertad 198, El Vigía, 45100 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://www.isabelacatolica.edu.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3633 0721",
+            "text": "+52 33 3633 0721",
+            "href": ""
+          }
+        ],
+        "query": "colegios en Zapopan"
+      }
+    },
+    {
+      "name": "Colegio York",
+      "url": "https://www.google.com/maps?cid=5368977725793278148",
+      "query": "colegios en Zapopan",
+      "detail": {
+        "name": "Colegio York",
+        "url": "https://www.google.com/maps?cid=5368977725793278148",
+        "category": "Colegio bilingüe",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "C. Puerto Mazatlan, Miramar, 45060 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://www.facebook.com/colegioyorkprimaria/"
+          },
+          {
+            "id": "phone:tel:+52 33 3109 0889",
+            "text": "+52 33 3109 0889",
+            "href": ""
+          }
+        ],
+        "query": "colegios en Zapopan"
+      }
+    },
+    {
+      "name": "Centro Escolar Anna Freud",
+      "url": "https://www.google.com/maps?cid=8944809999535706669",
+      "query": "colegios en Zapopan",
+      "detail": {
+        "name": "Centro Escolar Anna Freud",
+        "url": "https://www.google.com/maps?cid=8944809999535706669",
+        "category": "Centro escolar",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Luis Pérez Verdia 76, Hab Seattle, 45159 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 3656 1242",
+            "text": "+52 33 3656 1242",
+            "href": ""
+          }
+        ],
+        "query": "colegios en Zapopan"
+      }
+    },
+    {
+      "name": "Instituto Anglo Francés",
+      "url": "https://www.google.com/maps?cid=7300300774514384362",
+      "query": "colegios en Zapopan",
+      "detail": {
+        "name": "Instituto Anglo Francés",
+        "url": "https://www.google.com/maps?cid=7300300774514384362",
+        "category": "Institución educativa",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. de Las Fuentes 75, Las Fuentes, 45070 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://institutoanglofrances.edu.mx/planteles/"
+          },
+          {
+            "id": "phone:tel:+52 33 3631 1680",
+            "text": "+52 33 3631 1680",
+            "href": ""
+          }
+        ],
+        "query": "colegios en Zapopan"
+      }
+    },
+    {
+      "name": "Nuevo Centro de Educación Integral",
+      "url": "https://www.google.com/maps?cid=85750420936646642",
+      "query": "colegios en Zapopan",
+      "detail": {
+        "name": "Nuevo Centro de Educación Integral",
+        "url": "https://www.google.com/maps?cid=85750420936646642",
+        "category": "Colegio bilingüe",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av De La Calma N° 3111, La Calma, 45070 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://nuevocei.edu.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3634 2279",
+            "text": "+52 33 3634 2279",
+            "href": ""
+          }
+        ],
+        "query": "colegios en Zapopan"
+      }
+    },
+    {
+      "name": "Instituto Verde Valle - Secundaria",
+      "url": "https://www.google.com/maps?cid=3898016580743437390",
+      "query": "colegios en Zapopan",
+      "detail": {
+        "name": "Instituto Verde Valle - Secundaria",
+        "url": "https://www.google.com/maps?cid=3898016580743437390",
+        "category": "Colegio bilingüe",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Obsidiana 2630, Victoria, 45060 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://verdevalle.edu.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 2305 0584",
+            "text": "+52 33 2305 0584",
+            "href": ""
+          }
+        ],
+        "query": "colegios en Zapopan"
+      }
+    },
+    {
+      "name": "Colegio Franco Mexicano de Guadalajara",
+      "url": "https://www.google.com/maps?cid=6011508351694099048",
+      "query": "colegios en Zapopan",
+      "detail": {
+        "name": "Colegio Franco Mexicano de Guadalajara",
+        "url": "https://www.google.com/maps?cid=6011508351694099048",
+        "category": "Colegio bilingüe",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Francisco Villa 235, El Bajío, 45017 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://cfm.edu.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3682 2221",
+            "text": "+52 33 3682 2221",
+            "href": ""
+          }
+        ],
+        "query": "colegios en Zapopan"
+      }
+    },
+    {
+      "name": "Von Glümmer School",
+      "url": "https://www.google.com/maps?cid=5662337150444375298",
+      "query": "colegios en Zapopan",
+      "detail": {
+        "name": "Von Glümmer School",
+        "url": "https://www.google.com/maps?cid=5662337150444375298",
+        "category": "Centro escolar",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Niño Obrero 616, Cd del Sol, 45050 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://www.facebook.com/share/1BSQfth6ju/?mibextid=wwXIfr"
+          },
+          {
+            "id": "phone:tel:+52 33 3121 0991",
+            "text": "+52 33 3121 0991",
+            "href": ""
+          }
+        ],
+        "query": "colegios en Zapopan"
+      }
+    },
+    {
+      "name": "Colegio IMI - Instituto México Inglés",
+      "url": "https://www.google.com/maps?cid=10734570731615858958",
+      "query": "colegios en Zapopan",
+      "detail": {
+        "name": "Colegio IMI - Instituto México Inglés",
+        "url": "https://www.google.com/maps?cid=10734570731615858958",
+        "category": "Colegio bilingüe",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Cvln. Medas 488-A, Altamira, 45160 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://www.colegioimi.net/"
+          },
+          {
+            "id": "phone:tel:+52 33 1767 8181",
+            "text": "+52 33 1767 8181",
+            "href": ""
+          }
+        ],
+        "query": "colegios en Zapopan"
+      }
+    },
+    {
+      "name": "Instituto Juan Bosco",
+      "url": "https://www.google.com/maps?cid=1468962933605474332",
+      "query": "colegios en Zapopan",
+      "detail": {
+        "name": "Instituto Juan Bosco",
+        "url": "https://www.google.com/maps?cid=1468962933605474332",
+        "category": "Escuela primaria y secundaria",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "C. Azaleas 1520, Mariano Otero, 45067 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://www.institutojuanbosco.com/"
+          },
+          {
+            "id": "phone:tel:+52 33 1306 6203",
+            "text": "+52 33 1306 6203",
+            "href": ""
+          }
+        ],
+        "query": "colegios en Zapopan"
+      }
+    },
+    {
+      "name": "COLEGIO INGLES BUGAMBILIAS A.C.",
+      "url": "https://www.google.com/maps?cid=12297340265432537968",
+      "query": "colegios en Zapopan",
+      "detail": {
+        "name": "COLEGIO INGLES BUGAMBILIAS A.C.",
+        "url": "https://www.google.com/maps?cid=12297340265432537968",
+        "category": "Colegio bilingüe",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Río Verde 1485, Las Águilas, 45080 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://colegioinglesbugambilias.com/"
+          },
+          {
+            "id": "phone:tel:+52 33 3634 4096",
+            "text": "+52 33 3634 4096",
+            "href": ""
+          }
+        ],
+        "query": "colegios en Zapopan"
+      }
+    },
+    {
+      "name": "Erikson School",
+      "url": "https://www.google.com/maps?cid=8040112113083601029",
+      "query": "colegios en Zapopan",
+      "detail": {
+        "name": "Erikson School",
+        "url": "https://www.google.com/maps?cid=8040112113083601029",
+        "category": "Escuela primaria",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "C. Volcan Paricutin 6190, Colli Urbano, 45070 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 3631 1848",
+            "text": "+52 33 3631 1848",
+            "href": ""
+          }
+        ],
+        "query": "colegios en Zapopan"
+      }
+    },
+    {
+      "name": "Colegio Cervantes Kínder y Primaria",
+      "url": "https://www.google.com/maps?cid=4213651549305627540",
+      "query": "colegios en Zapopan",
+      "detail": {
+        "name": "Colegio Cervantes Kínder y Primaria",
+        "url": "https://www.google.com/maps?cid=4213651549305627540",
+        "category": "Colegio privado",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "C. M. Champagnat 2845, Loma Bonita Sur, 45086 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://ccpgdl.edu.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 2305 9541",
+            "text": "+52 33 2305 9541",
+            "href": ""
+          }
+        ],
+        "query": "colegios en Zapopan"
+      }
+    },
+    {
+      "name": "Colegio Bécquer",
+      "url": "https://www.google.com/maps?cid=15566285684738876446",
+      "query": "colegios en Zapopan",
+      "detail": {
+        "name": "Colegio Bécquer",
+        "url": "https://www.google.com/maps?cid=15566285684738876446",
+        "category": "Colegio privado",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. del Pinar 1874, Pinar de la Calma, 45080 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 3133 4837",
+            "text": "+52 33 3133 4837",
+            "href": ""
+          }
+        ],
+        "query": "colegios en Zapopan"
+      }
+    },
+    {
+      "name": "COLEGIHUM",
+      "url": "https://www.google.com/maps?cid=18322665497531101123",
+      "query": "colegios en Zapopan",
+      "detail": {
+        "name": "COLEGIHUM",
+        "url": "https://www.google.com/maps?cid=18322665497531101123",
+        "category": "Escuela de enseñanza general",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "C. Tomás Balcázar 5095, Paseos del Sol, 45070 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://colegihum.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3631 0111",
+            "text": "+52 33 3631 0111",
+            "href": ""
+          }
+        ],
+        "query": "colegios en Zapopan"
+      }
+    },
+    {
+      "name": "Nikola Tesla (Primaria y Secundaria bilingüe)",
+      "url": "https://www.google.com/maps?cid=14541347225891027941",
+      "query": "colegios en Zapopan",
+      "detail": {
+        "name": "Nikola Tesla (Primaria y Secundaria bilingüe)",
+        "url": "https://www.google.com/maps?cid=14541347225891027941",
+        "category": "Escuela de primaria",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Nicolás Copérnico 4128, Arboledas, 45070 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://guadalajara.edu.mx/tesla/"
+          },
+          {
+            "id": "phone:tel:+52 33 1150 0243",
+            "text": "+52 33 1150 0243",
+            "href": ""
+          }
+        ],
+        "query": "colegios en Zapopan"
+      }
+    },
+    {
+      "name": "Colegio Albert Einstein",
+      "url": "https://www.google.com/maps?cid=17209628143200415006",
+      "query": "colegios en Zapopan",
+      "detail": {
+        "name": "Colegio Albert Einstein",
+        "url": "https://www.google.com/maps?cid=17209628143200415006",
+        "category": "Colegio privado",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Prol. Río Blanco 1955, El Centinela, 45187 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://www.facebook.com/aecolegiomx"
+          },
+          {
+            "id": "phone:tel:+52 33 1745 3659",
+            "text": "+52 33 1745 3659",
+            "href": ""
+          }
+        ],
+        "query": "colegios en Zapopan"
+      }
+    },
+    {
+      "name": "Montessori La Calma",
+      "url": "https://www.google.com/maps?cid=11742702328871427334",
+      "query": "colegios en Zapopan",
+      "detail": {
+        "name": "Montessori La Calma",
+        "url": "https://www.google.com/maps?cid=11742702328871427334",
+        "category": "Preescolar Montessori",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "C. Pegaso 3349, La Calma, 45070 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://www.montessorilacalma.edu.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 1156 8386",
+            "text": "+52 33 1156 8386",
+            "href": ""
+          }
+        ],
+        "query": "colegios en Zapopan"
+      }
+    },
+    {
+      "name": "Aspen Catholic School",
+      "url": "https://www.google.com/maps?cid=12681761185997019382",
+      "query": "colegios en Zapopan",
+      "detail": {
+        "name": "Aspen Catholic School",
+        "url": "https://www.google.com/maps?cid=12681761185997019382",
+        "category": "Escuela católica",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Perif. Pte. Manuel Gómez Morin 25, Parque Industrial Belenes, 45130 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://www.aspencatholicschool.com/"
+          },
+          {
+            "id": "phone:tel:+52 33 3656 1622",
+            "text": "+52 33 3656 1622",
+            "href": ""
+          }
+        ],
+        "query": "colegios en Zapopan"
+      }
+    },
+    {
+      "name": "It Innovation School Campus Guadalajara",
+      "url": "https://www.google.com/maps?cid=12671590544008698967",
+      "query": "colegios en Zapopan",
+      "detail": {
+        "name": "It Innovation School Campus Guadalajara",
+        "url": "https://www.google.com/maps?cid=12671590544008698967",
+        "category": "Colegio privado",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "C. Ocampo 389, San Juan de Ocotán, 45019 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://institutotepeyac.mx/campus-guadalajara"
+          },
+          {
+            "id": "phone:tel:+52 33 3629 5014",
+            "text": "+52 33 3629 5014",
+            "href": ""
+          }
+        ],
+        "query": "colegios en Zapopan"
+      }
+    },
+    {
+      "name": "Instituto México Inglés IMI",
+      "url": "https://www.google.com/maps?cid=5009925140883279051",
+      "query": "colegios en Zapopan",
+      "detail": {
+        "name": "Instituto México Inglés IMI",
+        "url": "https://www.google.com/maps?cid=5009925140883279051",
+        "category": "Colegio bilingüe",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "P.º de Las Palmeras 1240, Tabachines, 45188 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://www.facebook.com/IMIKinderyPrimaria"
+          },
+          {
+            "id": "phone:tel:+52 33 1602 6114",
+            "text": "+52 33 1602 6114",
+            "href": ""
+          }
+        ],
+        "query": "colegios en Zapopan"
+      }
+    },
+    {
+      "name": "Guadalajara Escuela Del Futuro AC",
+      "url": "https://www.google.com/maps?cid=15062647050970521642",
+      "query": "colegios en Zapopan",
+      "detail": {
+        "name": "Guadalajara Escuela Del Futuro AC",
+        "url": "https://www.google.com/maps?cid=15062647050970521642",
+        "category": "Institución educativa",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Adolfo López Mateos Sur 6178, Las Fuentes, 45070 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://www.guadalajaraescueladelfuturo.com/"
+          },
+          {
+            "id": "phone:tel:+52 33 3632 1198",
+            "text": "+52 33 3632 1198",
+            "href": ""
+          }
+        ],
+        "query": "colegios en Zapopan"
+      }
+    },
+    {
+      "name": "Colegio Once México",
+      "url": "https://www.google.com/maps?cid=12141030137309937527",
+      "query": "colegios en Zapopan",
+      "detail": {
+        "name": "Colegio Once México",
+        "url": "https://www.google.com/maps?cid=12141030137309937527",
+        "category": "Colegio privado",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Del Bajío 1134, San Juan de Ocotán, 45017 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://oncemexico.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3682 1170",
+            "text": "+52 33 3682 1170",
+            "href": ""
+          }
+        ],
+        "query": "colegios en Zapopan"
+      }
+    },
+    {
+      "name": "Liceo Deyari",
+      "url": "https://www.google.com/maps?cid=10961112163817917552",
+      "query": "colegios en Zapopan",
+      "detail": {
+        "name": "Liceo Deyari",
+        "url": "https://www.google.com/maps?cid=10961112163817917552",
+        "category": "Preescolar bilingüe",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Sacromonte 331, Chapalita Sur, 45040 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://www.liceodeyari.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 1306 6176",
+            "text": "+52 33 1306 6176",
+            "href": ""
+          }
+        ],
+        "query": "colegios en Zapopan"
+      }
+    },
+    {
+      "name": "Colegio Cruz de Lorena",
+      "url": "https://www.google.com/maps?cid=170793693609718041",
+      "query": "colegios en Zapopan",
+      "detail": {
+        "name": "Colegio Cruz de Lorena",
+        "url": "https://www.google.com/maps?cid=170793693609718041",
+        "category": "Colegio privado",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Granito 2174, Mariano Otero, 45067 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 3180 9191",
+            "text": "+52 33 3180 9191",
+            "href": ""
+          }
+        ],
+        "query": "colegios en Zapopan"
+      }
+    },
+    {
+      "name": "Colegio Bilingüe Juan Pablo II",
+      "url": "https://www.google.com/maps?cid=8808706974331472065",
+      "query": "colegios en Zapopan",
+      "detail": {
+        "name": "Colegio Bilingüe Juan Pablo II",
+        "url": "https://www.google.com/maps?cid=8808706974331472065",
+        "category": "Escuela primaria",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Obsidiana 3533, Loma Bonita, 45086 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 3224 2516",
+            "text": "+52 33 3224 2516",
+            "href": ""
+          }
+        ],
+        "query": "colegios en Zapopan"
+      }
+    },
+    {
+      "name": "Colegio Caridis",
+      "url": "https://www.google.com/maps?cid=14765241202303799178",
+      "query": "colegios en Zapopan",
+      "detail": {
+        "name": "Colegio Caridis",
+        "url": "https://www.google.com/maps?cid=14765241202303799178",
+        "category": "Escuela de enseñanza general",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. del Bronce 35, El Fortín, 45066 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 2003 0153",
+            "text": "+52 33 2003 0153",
+            "href": ""
+          }
+        ],
+        "query": "colegios en Zapopan"
+      }
+    }
+  ],
+  "completed": [
+    "https://www.google.com/maps?cid=9637860667052290362",
+    "https://www.google.com/maps?cid=185440324659796311",
+    "https://www.google.com/maps?cid=6754590309388616185",
+    "https://www.google.com/maps?cid=17076936943830411267",
+    "https://www.google.com/maps?cid=7376115026579073176",
+    "https://www.google.com/maps?cid=12599397074147861942",
+    "https://www.google.com/maps?cid=7797001065178640406",
+    "https://www.google.com/maps?cid=9595902942902509395",
+    "https://www.google.com/maps?cid=3826921146402543269",
+    "https://www.google.com/maps?cid=5138483857590510986",
+    "https://www.google.com/maps?cid=5513682150544106774",
+    "https://www.google.com/maps?cid=11961408335587110230",
+    "https://www.google.com/maps?cid=6712876730658230258",
+    "https://www.google.com/maps?cid=9071595229478952965",
+    "https://www.google.com/maps?cid=18145442435630034834",
+    "https://www.google.com/maps?cid=4136925452406441627",
+    "https://www.google.com/maps?cid=16382232532985838376",
+    "https://www.google.com/maps?cid=12854148580800667449",
+    "https://www.google.com/maps?cid=13448848606047564397",
+    "https://www.google.com/maps?cid=17195625702008078035",
+    "https://www.google.com/maps?cid=11967447228024632878",
+    "https://www.google.com/maps?cid=12665371583264148196",
+    "https://www.google.com/maps?cid=3780289150603043103",
+    "https://www.google.com/maps?cid=8628737503546969443",
+    "https://www.google.com/maps?cid=14886656523905529697",
+    "https://www.google.com/maps?cid=13152948521913858089",
+    "https://www.google.com/maps?cid=8687354101530419008",
+    "https://www.google.com/maps?cid=12481253863338377566",
+    "https://www.google.com/maps?cid=11708437456094752235",
+    "https://www.google.com/maps?cid=2246488979694203338",
+    "https://www.google.com/maps?cid=558274234823893022",
+    "https://www.google.com/maps?cid=6922329908676828129",
+    "https://www.google.com/maps?cid=3056289184610941410",
+    "https://www.google.com/maps?cid=11030421357469564616",
+    "https://www.google.com/maps?cid=3520559062770746895",
+    "https://www.google.com/maps?cid=302193068298435078",
+    "https://www.google.com/maps?cid=14125146342008322438",
+    "https://www.google.com/maps?cid=7177922025127638006",
+    "https://www.google.com/maps?cid=17717833533792124220",
+    "https://www.google.com/maps?cid=17693634277466590203",
+    "https://www.google.com/maps?cid=17238509888329227267",
+    "https://www.google.com/maps?cid=7084528464559626194",
+    "https://www.google.com/maps?cid=5297866394774824336",
+    "https://www.google.com/maps?cid=2065295322220447157",
+    "https://www.google.com/maps?cid=1939304499867572241",
+    "https://www.google.com/maps?cid=6414735879945177061",
+    "https://www.google.com/maps?cid=8810161060391738105",
+    "https://www.google.com/maps?cid=3397416500749997811",
+    "https://www.google.com/maps?cid=13904090062624327775",
+    "https://www.google.com/maps?cid=7683107632745133097",
+    "https://www.google.com/maps?cid=5902381897068080766",
+    "https://www.google.com/maps?cid=14404762055060317194",
+    "https://www.google.com/maps?cid=12359377035362663245",
+    "https://www.google.com/maps?cid=7382888163638395051",
+    "https://www.google.com/maps?cid=5291687818612505258",
+    "https://www.google.com/maps?cid=13894452074428375248",
+    "https://www.google.com/maps?cid=18341423080859326216",
+    "https://www.google.com/maps?cid=13454749213818417750",
+    "https://www.google.com/maps?cid=5076890052756619839",
+    "https://www.google.com/maps?cid=16126602304495769582",
+    "https://www.google.com/maps?cid=11723782996600877922",
+    "https://www.google.com/maps?cid=12737421610485462927",
+    "https://www.google.com/maps?cid=18396773883271803141",
+    "https://www.google.com/maps?cid=11951602604350183811",
+    "https://www.google.com/maps?cid=3255323403304137079",
+    "https://www.google.com/maps?cid=16927220590993203593",
+    "https://www.google.com/maps?cid=2251928194866503015",
+    "https://www.google.com/maps?cid=2066869343669485445",
+    "https://www.google.com/maps?cid=6216147132705318052",
+    "https://www.google.com/maps?cid=11100984499822373618"
+  ],
+  "discovery_complete": true,
+  "updated_at": "2026-09-22T05:18:34+00:00",
+  "complete": true
+}

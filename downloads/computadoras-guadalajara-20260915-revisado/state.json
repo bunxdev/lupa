@@ -1,0 +1,322 @@
+{
+  "config": {
+    "queries": [
+      "reparación de computadoras en Guadalajara Jalisco",
+      "servicio técnico computadoras Guadalajara Jalisco"
+    ],
+    "municipality": "Guadalajara",
+    "limit": 10,
+    "categories": [
+      "comput",
+      "inform",
+      "laptop",
+      "ordenador"
+    ]
+  },
+  "accepted": [
+    {
+      "name": "Reparacion Computadoras Compuservice1",
+      "category": "Servicio de reparación de ordenadores",
+      "query": "reparación de computadoras en Guadalajara Jalisco",
+      "municipality": "Guadalajara",
+      "address": "C. Francia 1665, Moderna, 44190 Guadalajara, Jal., México",
+      "phone": "+523338113868",
+      "website": "http://www.reparaciondecomputadorascompuservice1.com/",
+      "maps": "https://www.google.com/maps?cid=7631555121576598436",
+      "sources": [
+        "https://www.google.com/maps?cid=7631555121576598436"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-15T21:33:12+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "pc soluciones reparacion de equipo de computo",
+      "category": "Servicio de informática",
+      "query": "servicio técnico computadoras Guadalajara Jalisco",
+      "municipality": "Guadalajara",
+      "address": "Natividad Macías 1569, Anexo 18 de Marzo, 44960 Guadalajara, Jal., México",
+      "phone": "+523334505677",
+      "website": "https://pcsolucionespro.com.mx/",
+      "maps": "https://www.google.com/maps?cid=15002375161912136206",
+      "sources": [
+        "https://www.google.com/maps?cid=15002375161912136206"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-15T21:33:17+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "PC PARTNERS",
+      "category": "Servicio de reparación de ordenadores",
+      "query": "reparación de computadoras en Guadalajara Jalisco",
+      "municipality": "Guadalajara",
+      "address": "Calz del Federalismo Nte 561, Sagrada Familia, 44200 Guadalajara, Jal., México",
+      "phone": "+523331268308",
+      "website": "http://www.pcpartners.com.mx/",
+      "maps": "https://www.google.com/maps?cid=5188484366297906027",
+      "sources": [
+        "https://www.google.com/maps?cid=5188484366297906027"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-15T21:33:22+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Centro de Servicio De Computo Guadalajara COMPUCORP",
+      "category": "Servicio de reparación de ordenadores",
+      "query": "servicio técnico computadoras Guadalajara Jalisco",
+      "municipality": "Guadalajara",
+      "address": "soporte@compucorp.com.mx, Av. de la Paz #1552, Col Americana, 44160 Guadalajara, Jal., México",
+      "phone": "+523336856077",
+      "website": "http://compucorp.com.mx/",
+      "maps": "https://www.google.com/maps?cid=5280082530992491817",
+      "sources": [
+        "https://www.google.com/maps?cid=5280082530992491817"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-15T21:33:26+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Support Center",
+      "category": "Servicio de reparación de ordenadores",
+      "query": "servicio técnico computadoras Guadalajara Jalisco",
+      "municipality": "Guadalajara",
+      "address": "Av. Rubén Darío 662-Int.5A, Prados Providencia, 44670 Guadalajara, Jal., México",
+      "phone": "+523327131812",
+      "website": "http://supportcenter.mx/",
+      "maps": "https://www.google.com/maps?cid=13626525390179734834",
+      "sources": [
+        "https://www.google.com/maps?cid=13626525390179734834"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-15T21:33:31+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Exentec",
+      "category": "Servicio de reparación de ordenadores",
+      "query": "reparación de computadoras en Guadalajara Jalisco",
+      "municipality": "Guadalajara",
+      "address": "C. Alberta 1376, Providencia, 44630 Guadalajara, Jal., México",
+      "phone": "+523315972184",
+      "website": "http://www.exentec.mx/",
+      "maps": "https://www.google.com/maps?cid=8515134520553992790",
+      "sources": [
+        "https://www.google.com/maps?cid=8515134520553992790"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-15T21:33:36+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "SolutecC",
+      "category": "Servicio de informática",
+      "query": "reparación de computadoras en Guadalajara Jalisco",
+      "municipality": "Guadalajara",
+      "address": "C. Emilio Rabaza 1750, Blanco y Cuéllar, 44730 Guadalajara, Jal., México",
+      "phone": "+523331437720",
+      "website": "https://www.facebook.com/profile.php?id=100054456850794",
+      "maps": "https://www.google.com/maps?cid=2967642660254947962",
+      "sources": [
+        "https://www.google.com/maps?cid=2967642660254947962"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-15T21:33:40+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Compubeat",
+      "category": "Servicio de reparación de ordenadores",
+      "query": "reparación de computadoras en Guadalajara Jalisco",
+      "municipality": "Guadalajara",
+      "address": "Av. Alemania 1181, Moderna, 44190 Guadalajara, Jal., México",
+      "phone": "+523310883184",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=6937353285178461766",
+      "sources": [
+        "https://www.google.com/maps?cid=6937353285178461766"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-15T21:33:45+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Reparación De Computadoras",
+      "category": "Servicio de reparación de ordenadores",
+      "query": "reparación de computadoras en Guadalajara Jalisco",
+      "municipality": "Guadalajara",
+      "address": "Calle Vidrio #1217, Mexicaltzingo, 44180 Guadalajara, Jal., México",
+      "phone": "+523331203941",
+      "website": "https://compufixer.com.mx/",
+      "maps": "https://www.google.com/maps?cid=794827287481205725",
+      "sources": [
+        "https://www.google.com/maps?cid=794827287481205725"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-15T21:33:50+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Compuacceso Chapalita",
+      "category": "Servicio de reparación de ordenadores",
+      "query": "reparación de computadoras en Guadalajara Jalisco",
+      "municipality": "Guadalajara",
+      "address": "Av. Tepeyac 850-2, Chapalita, 45040 Guadalajara, Jal., México",
+      "phone": "+523331252613",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=2303826600863401193",
+      "sources": [
+        "https://www.google.com/maps?cid=2303826600863401193"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-15T21:33:55+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    }
+  ],
+  "rejected": [],
+  "errors": [],
+  "candidates": [
+    {
+      "name": "Reparacion Computadoras Compuservice1",
+      "url": "https://www.google.com/maps/place/Reparacion+Computadoras+Compuservice1/data=!4m7!3m6!1s0x8428adfe1f0c384b:0x69e8baf30962dba4!8m2!3d20.6642547!4d-103.3632023!16s%2Fg%2F1vknppzx!19sChIJSzgMH_6tKIQRpNtiCfO66Gk?authuser=0&hl=es&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1",
+      "query": "reparación de computadoras en Guadalajara Jalisco"
+    },
+    {
+      "name": "pc soluciones reparacion de equipo de computo",
+      "url": "https://www.google.com/maps/place/pc+soluciones+reparacion+de+equipo+de+computo/data=!4m7!3m6!1s0x8428ad9179e2bc63:0xd03324b948ea920e!8m2!3d20.6336849!4d-103.3734903!16s%2Fg%2F11cn18dtfd!19sChIJY7zieZGtKIQRDpLqSLkkM9A?authuser=0&hl=es&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1",
+      "query": "servicio técnico computadoras Guadalajara Jalisco"
+    },
+    {
+      "name": "PC PARTNERS",
+      "url": "https://www.google.com/maps/place/PC+PARTNERS/data=!4m7!3m6!1s0x8428b1e14115b439:0x4801330a97dabb6b!8m2!3d20.6854389!4d-103.3542941!16s%2Fg%2F1tcx_49c!19sChIJObQVQeGxKIQRa7valwozAUg?authuser=0&hl=es&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1",
+      "query": "reparación de computadoras en Guadalajara Jalisco"
+    },
+    {
+      "name": "Centro de Servicio De Computo Guadalajara COMPUCORP",
+      "url": "https://www.google.com/maps/place/Centro+de+Servicio+De+Computo+Guadalajara+COMPUCORP/data=!4m7!3m6!1s0x8428ae01f5473325:0x49469f163c8d8d29!8m2!3d20.6704607!4d-103.3601276!16s%2Fg%2F11fx2vsjhc!19sChIJJTNH9QGuKIQRKY2NPBafRkk?authuser=0&hl=es&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1",
+      "query": "servicio técnico computadoras Guadalajara Jalisco"
+    },
+    {
+      "name": "Support Center",
+      "url": "https://www.google.com/maps/place/Support+Center/data=!4m7!3m6!1s0x8428ae0d44a29161:0xbd1b24a55c811532!8m2!3d20.686834!4d-103.3850846!16s%2Fg%2F11g6mtp981!19sChIJYZGiRA2uKIQRMhWBXKUkG70?authuser=0&hl=es&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1",
+      "query": "servicio técnico computadoras Guadalajara Jalisco"
+    },
+    {
+      "name": "Exentec",
+      "url": "https://www.google.com/maps/place/Exentec/data=!4m7!3m6!1s0x8428ae245552899b:0x762bd5bb38497256!8m2!3d20.696193!4d-103.3846292!16s%2Fg%2F11b607kwcc!19sChIJm4lSVSSuKIQRVnJJOLvVK3Y?authuser=0&hl=es&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1",
+      "query": "reparación de computadoras en Guadalajara Jalisco"
+    },
+    {
+      "name": "SolutecC",
+      "url": "https://www.google.com/maps/place/SolutecC/data=!4m7!3m6!1s0x8428b177dce257db:0x292f2f46b8ca9a7a!8m2!3d20.6817567!4d-103.3117831!16s%2Fg%2F11xl66fzy!19sChIJ21fi3HexKIQReprKuEYvLyk?authuser=0&hl=es&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1",
+      "query": "reparación de computadoras en Guadalajara Jalisco"
+    },
+    {
+      "name": "Compubeat",
+      "url": "https://www.google.com/maps/place/Compubeat/data=!4m7!3m6!1s0x8428ae74c20aa35b:0x60466e0ea4738e46!8m2!3d20.6621712!4d-103.3544974!16s%2Fg%2F1tfshqk9!19sChIJW6MKwnSuKIQRRo5zpA5uRmA?authuser=0&hl=es&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1",
+      "query": "reparación de computadoras en Guadalajara Jalisco"
+    },
+    {
+      "name": "Reparación De Computadoras",
+      "url": "https://www.google.com/maps/place/Reparaci%C3%B3n+De+Computadoras/data=!4m7!3m6!1s0x8428b1ffd4baa23b:0xb07cb34f01ac3dd!8m2!3d20.6661274!4d-103.3539173!16s%2Fg%2F1ptxwtn63!19sChIJO6K61P-xKIQR3cMa8DTLBws?authuser=0&hl=es&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1",
+      "query": "reparación de computadoras en Guadalajara Jalisco"
+    },
+    {
+      "name": "Compuacceso Chapalita",
+      "url": "https://www.google.com/maps/place/Compuacceso+Chapalita/data=!4m7!3m6!1s0x8428ae7f99bef9ab:0x1ff8d616588f04e9!8m2!3d20.6631212!4d-103.4030427!16s%2Fg%2F11cr_7lhzj!19sChIJq_m-mX-uKIQR6QSPWBbW-B8?authuser=0&hl=es&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1",
+      "query": "reparación de computadoras en Guadalajara Jalisco"
+    },
+    {
+      "name": "Master TEC",
+      "url": "https://www.google.com/maps/place/Master+TEC/data=!4m7!3m6!1s0x8428af2b131ec537:0xf1c9ba4e5b1c5c5c!8m2!3d20.6875025!4d-103.3611718!16s%2Fg%2F11fjzc74qj!19sChIJN8UeEyuvKIQRXFwcW066yfE?authuser=0&hl=es&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1",
+      "query": "servicio técnico computadoras Guadalajara Jalisco"
+    },
+    {
+      "name": "Doncyber Computadoras, Sistemas, Pantallas Y Electronicos",
+      "url": "https://www.google.com/maps/place/Doncyber+Computadoras,+Sistemas,+Pantallas+Y+Electronicos/data=!4m7!3m6!1s0x8428ade15bebad2d:0x179173155889f781!8m2!3d20.6585966!4d-103.3764955!16s%2Fg%2F1pp2x7l1s!19sChIJLa3rW-GtKIQRgfeJWBVzkRc?authuser=0&hl=es&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1",
+      "query": "reparación de computadoras en Guadalajara Jalisco"
+    },
+    {
+      "name": "IPro MAC & PC Repair.",
+      "url": "https://www.google.com/maps/place/IPro+MAC+%26+PC+Repair./data=!4m7!3m6!1s0x8428ae2c0f5727f7:0xd814559d667b7bbe!8m2!3d20.7069079!4d-103.3631114!16s%2Fg%2F11bvcvhr9q!19sChIJ9ydXDyyuKIQRvnt7Zp1VFNg?authuser=0&hl=es&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1",
+      "query": "servicio técnico computadoras Guadalajara Jalisco"
+    },
+    {
+      "name": "Mr. Fix Américas - Centro de Reparación de Computadoras",
+      "url": "https://www.google.com/maps/place/Mr.+Fix+Am%C3%A9ricas+-+Centro+de+Reparaci%C3%B3n+de+Computadoras/data=!4m7!3m6!1s0x8428afee2c65cdc7:0xb09beb3dca87a470!8m2!3d20.6889385!4d-103.3741805!16s%2Fg%2F11kyxfhdvx!19sChIJx81lLO6vKIQRcKSHyj3rm7A?authuser=0&hl=es&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1",
+      "query": "reparación de computadoras en Guadalajara Jalisco"
+    },
+    {
+      "name": "Tecno Town Chapalita",
+      "url": "https://www.google.com/maps/place/Tecno+Town+Chapalita/data=!4m7!3m6!1s0x8428ae7f12279017:0x8f56261579216f30!8m2!3d20.6602282!4d-103.3983076!16s%2Fg%2F12lkrtk97!19sChIJF5AnEn-uKIQRMG8heRUmVo8?authuser=0&hl=es&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1",
+      "query": "reparación de computadoras en Guadalajara Jalisco"
+    },
+    {
+      "name": "Compuline",
+      "url": "https://www.google.com/maps/place/Compuline/data=!4m7!3m6!1s0x8428b1eb5f33ce89:0x5ebc4d13084a4f33!8m2!3d20.6842038!4d-103.3367255!16s%2Fg%2F1tdpmdbh!19sChIJic4zX-uxKIQRM09KCBNNvF4?authuser=0&hl=es&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1",
+      "query": "servicio técnico computadoras Guadalajara Jalisco"
+    },
+    {
+      "name": "COMPUTEK - Tu Solución en Tecnologías",
+      "url": "https://www.google.com/maps/place/COMPUTEK+-+Tu+Soluci%C3%B3n+en+Tecnolog%C3%ADas/data=!4m7!3m6!1s0x8428b1a2b62284f7:0xc7d82ef21984ea89!8m2!3d20.6892259!4d-103.3467378!16s%2Fg%2F1260l61r7!19sChIJ94QitqKxKIQRieqEGfIu2Mc?authuser=0&hl=es&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1",
+      "query": "reparación de computadoras en Guadalajara Jalisco"
+    },
+    {
+      "name": "ThinkTech - Servicios Informáticos",
+      "url": "https://www.google.com/maps/place/ThinkTech+-+Servicios+Inform%C3%A1ticos/data=!4m7!3m6!1s0x8428ae47bd8ef317:0x33555b09c3ff3242!8m2!3d20.6897236!4d-103.3746415!16s%2Fg%2F11c1qbc6gq!19sChIJF_OOvUeuKIQRQjL_wwlbVTM?authuser=0&hl=es&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1",
+      "query": "servicio técnico computadoras Guadalajara Jalisco"
+    },
+    {
+      "name": "KEEVO",
+      "url": "https://www.google.com/maps/place/KEEVO/data=!4m7!3m6!1s0x8428afa1caab4bf7:0xdde82624867f48f!8m2!3d20.6909616!4d-103.3767915!16s%2Fg%2F11jfddjjcx!19sChIJ90uryqGvKIQRj_RnSGKC3g0?authuser=0&hl=es&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1",
+      "query": "servicio técnico computadoras Guadalajara Jalisco"
+    },
+    {
+      "name": "Reparación De Computadoras y Celulares El Viejo",
+      "url": "https://www.google.com/maps/place/Reparaci%C3%B3n+De+Computadoras+y+Celulares+El+Viejo/data=!4m7!3m6!1s0x8428b3ece0266e51:0xae632f4613611a85!8m2!3d20.6448807!4d-103.3075024!16s%2Fg%2F11hd_xxqvm!19sChIJUW4m4OyzKIQRhRphE0YvY64?authuser=0&hl=es&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1",
+      "query": "reparación de computadoras en Guadalajara Jalisco"
+    },
+    {
+      "name": "Milaptop",
+      "url": "https://www.google.com/maps/place/Milaptop/data=!4m7!3m6!1s0x8428b1eb592c98c9:0x8c24c334a2dca6b7!8m2!3d20.6841998!4d-103.3367255!16s%2Fg%2F1vvdvjk9!19sChIJyZgsWeuxKIQRt6bcojTDJIw?authuser=0&hl=es&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1",
+      "query": "reparación de computadoras en Guadalajara Jalisco"
+    }
+  ],
+  "completed": [
+    "https://www.google.com/maps/place/Reparacion+Computadoras+Compuservice1/data=!4m7!3m6!1s0x8428adfe1f0c384b:0x69e8baf30962dba4!8m2!3d20.6642547!4d-103.3632023!16s%2Fg%2F1vknppzx!19sChIJSzgMH_6tKIQRpNtiCfO66Gk?authuser=0&hl=es&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/pc+soluciones+reparacion+de+equipo+de+computo/data=!4m7!3m6!1s0x8428ad9179e2bc63:0xd03324b948ea920e!8m2!3d20.6336849!4d-103.3734903!16s%2Fg%2F11cn18dtfd!19sChIJY7zieZGtKIQRDpLqSLkkM9A?authuser=0&hl=es&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/PC+PARTNERS/data=!4m7!3m6!1s0x8428b1e14115b439:0x4801330a97dabb6b!8m2!3d20.6854389!4d-103.3542941!16s%2Fg%2F1tcx_49c!19sChIJObQVQeGxKIQRa7valwozAUg?authuser=0&hl=es&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Centro+de+Servicio+De+Computo+Guadalajara+COMPUCORP/data=!4m7!3m6!1s0x8428ae01f5473325:0x49469f163c8d8d29!8m2!3d20.6704607!4d-103.3601276!16s%2Fg%2F11fx2vsjhc!19sChIJJTNH9QGuKIQRKY2NPBafRkk?authuser=0&hl=es&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Support+Center/data=!4m7!3m6!1s0x8428ae0d44a29161:0xbd1b24a55c811532!8m2!3d20.686834!4d-103.3850846!16s%2Fg%2F11g6mtp981!19sChIJYZGiRA2uKIQRMhWBXKUkG70?authuser=0&hl=es&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Exentec/data=!4m7!3m6!1s0x8428ae245552899b:0x762bd5bb38497256!8m2!3d20.696193!4d-103.3846292!16s%2Fg%2F11b607kwcc!19sChIJm4lSVSSuKIQRVnJJOLvVK3Y?authuser=0&hl=es&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/SolutecC/data=!4m7!3m6!1s0x8428b177dce257db:0x292f2f46b8ca9a7a!8m2!3d20.6817567!4d-103.3117831!16s%2Fg%2F11xl66fzy!19sChIJ21fi3HexKIQReprKuEYvLyk?authuser=0&hl=es&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Compubeat/data=!4m7!3m6!1s0x8428ae74c20aa35b:0x60466e0ea4738e46!8m2!3d20.6621712!4d-103.3544974!16s%2Fg%2F1tfshqk9!19sChIJW6MKwnSuKIQRRo5zpA5uRmA?authuser=0&hl=es&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Reparaci%C3%B3n+De+Computadoras/data=!4m7!3m6!1s0x8428b1ffd4baa23b:0xb07cb34f01ac3dd!8m2!3d20.6661274!4d-103.3539173!16s%2Fg%2F1ptxwtn63!19sChIJO6K61P-xKIQR3cMa8DTLBws?authuser=0&hl=es&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Compuacceso+Chapalita/data=!4m7!3m6!1s0x8428ae7f99bef9ab:0x1ff8d616588f04e9!8m2!3d20.6631212!4d-103.4030427!16s%2Fg%2F11cr_7lhzj!19sChIJq_m-mX-uKIQR6QSPWBbW-B8?authuser=0&hl=es&g_ep=EgoyMDI2MDkxMy4wIJJjKgBIAVAD&rclk=1"
+  ],
+  "discovery_complete": true,
+  "updated_at": "2026-09-15T21:33:55+00:00",
+  "complete": true
+}

@@ -1,0 +1,3664 @@
+{
+  "config": {
+    "queries": [
+      "veterinarias en Zapopan",
+      "clínicas veterinarias en Zapopan",
+      "hospital veterinario Zapopan",
+      "veterinarios Zapopan"
+    ],
+    "municipality": "Zapopan",
+    "limit": 60,
+    "categories": [
+      "veterin"
+    ]
+  },
+  "accepted": [
+    {
+      "name": "ACC24 Hospital Veterinario Premium 24 Horas",
+      "category": "Veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av De La Calma 4471, La Calma, 45070 Zapopan, Jal.",
+      "phone": "+523345090742",
+      "website": "https://animalcarecentergdl.com/",
+      "maps": "https://www.google.com/maps?cid=10321786978527926946",
+      "sources": [
+        "https://www.google.com/maps?cid=10321786978527926946"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:44+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "The Animal Health Center",
+      "category": "Hospital veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Patria 3212 A, Loma Bonita Ejidal, 45085 Zapopan, Jal.",
+      "phone": "+523313802324",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=170501629504958411",
+      "sources": [
+        "https://www.google.com/maps?cid=170501629504958411"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:44+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "MASCOTAS",
+      "category": "Veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av 18 de Marzo 1895-A, Las Águilas, 45080 Zapopan, Jal.",
+      "phone": "+523336328648",
+      "website": "https://www.facebook.com/pages/Clinica-Veterinaria-MASCOTAS/422903361073896",
+      "maps": "https://www.google.com/maps?cid=3418038434845338222",
+      "sources": [
+        "https://www.google.com/maps?cid=3418038434845338222"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:44+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "CISAZ (Centro Integral de Salud Animal Zapopan)",
+      "category": "Veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Jardines de las Palmas 1650, Jardines del Vergel, 45130 Zapopan, Jal.",
+      "phone": "+523338182200",
+      "website": "https://www.facebook.com/proteccionanimalzapopan?mibextid=ZbWKwL",
+      "maps": "https://www.google.com/maps?cid=6197159457807394608",
+      "sources": [
+        "https://www.google.com/maps?cid=6197159457807394608"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:44+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Hospital veterinario Alvet",
+      "category": "Veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. de las torres 2137, Sta. Martha esq-B, Santa Margarita1a Secc., 45140 Zapopan, Jal.",
+      "phone": "+523339591227",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=14249634115391482895",
+      "sources": [
+        "https://www.google.com/maps?cid=14249634115391482895"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:44+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Clinica Veterinaria Guadalupe",
+      "category": "Veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av Guadalupe 5233, Guadalupe Jardín, 45030 Zapopan, Jal.",
+      "phone": "+523312040772",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=15855458794925086158",
+      "sources": [
+        "https://www.google.com/maps?cid=15855458794925086158"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:44+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "HVC Hospital Veterinario Casillas",
+      "category": "Cuidados veterinarios",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "C. Moctezuma 48, Centro, 45100 Zapopan, Jal.",
+      "phone": "+523336332408",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=14658948806217693186",
+      "sources": [
+        "https://www.google.com/maps?cid=14658948806217693186"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:44+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Hospital Veterinario VETPETS",
+      "category": "Hospital veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av Naciones Unidas 5260-4, Jardines Universidad, 45110 Zapopan, Jal.",
+      "phone": "+523336822817",
+      "website": "https://hospitalesvetpets.com.mx/",
+      "maps": "https://www.google.com/maps?cid=12059527651188440818",
+      "sources": [
+        "https://www.google.com/maps?cid=12059527651188440818"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:44+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Hospital Veterinario San José Valle Imperial",
+      "category": "Hospital veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Bv. Valle Imperial 260, Copalita, 45134 Zapopan, Jal.",
+      "phone": "+523316521224",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=2720075251002145394",
+      "sources": [
+        "https://www.google.com/maps?cid=2720075251002145394"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:44+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "HOSPITAL VETERINARIO MADIVET",
+      "category": "Hospital veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Santo Santiago 3769, Jardín de San Ignacio, 45040 Zapopan, Jal.",
+      "phone": "+523334265299",
+      "website": "https://www.madivet.com.mx/",
+      "maps": "https://www.google.com/maps?cid=6117411450697200668",
+      "sources": [
+        "https://www.google.com/maps?cid=6117411450697200668"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:44+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Hospital Veterinario Lomont Patria (Oftalmología, Traumatología, Ortopedía, Neurología, Cardiología, Oncología, Tomografia)",
+      "category": "Hospital veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Patria 165, Jardines Vallarta, 45027 Zapopan, Jal.",
+      "phone": "+523323005009",
+      "website": "https://lomont.com.mx/",
+      "maps": "https://www.google.com/maps?cid=10822127862099789817",
+      "sources": [
+        "https://www.google.com/maps?cid=10822127862099789817"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:44+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Veterinaria San Jose",
+      "category": "Hospital veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Acueducto 1120, Girasoles Elite, 45138 Zapopan, Jal.",
+      "phone": "+523315620558",
+      "website": "http://www.facebook.com/veterinaria.sanjose.96",
+      "maps": "https://www.google.com/maps?cid=5330922543312891000",
+      "sources": [
+        "https://www.google.com/maps?cid=5330922543312891000"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:44+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Hospital Veterinario Santa Esther",
+      "category": "Hospital veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Sta. Esther 201-Loc. 12 y 14, Seccion, Santa Margarita1a Secc., 45140 Zapopan, Jal.",
+      "phone": "+523315819082",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=17888433434878578498",
+      "sources": [
+        "https://www.google.com/maps?cid=17888433434878578498"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:44+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Centro Veterinario Hoslom.",
+      "category": "Veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. de la Mancha 308 C, Lomas de Zapopan, 45130 Zapopan, Jal.",
+      "phone": "+523338333738",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=11476493348966695992",
+      "sources": [
+        "https://www.google.com/maps?cid=11476493348966695992"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:44+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Centro Veterinario Valles",
+      "category": "Veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Mariano Otero 3545, La Calma, 45070 Zapopan, Jal.",
+      "phone": "+523315622707",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=15549566837116771183",
+      "sources": [
+        "https://www.google.com/maps?cid=15549566837116771183"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:44+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Dactary Hospital Veterinario",
+      "category": "Hospital veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Patria 516, Lomas del Seminario, 45038 Zapopan, Jal.",
+      "phone": "+523333132111",
+      "website": "http://www.dactary.com/",
+      "maps": "https://www.google.com/maps?cid=1067605314030574499",
+      "sources": [
+        "https://www.google.com/maps?cid=1067605314030574499"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:44+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Hospital Veterinario VitalPets",
+      "category": "Veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Tepeyac 4153, Prados Tepeyac, 45050 Zapopan, Jal.",
+      "phone": "+523331216772",
+      "website": "https://www.instagram.com/vitalpetsveterinaria/",
+      "maps": "https://www.google.com/maps?cid=2838028900172906492",
+      "sources": [
+        "https://www.google.com/maps?cid=2838028900172906492"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:44+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Veterinaria Paseos",
+      "category": "Veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Enrique Ladrón de Guevara 3355-Int. 5, Paseos del Sol, 45079 Zapopan, Jal.",
+      "phone": "+523331318086",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=11559464305287462478",
+      "sources": [
+        "https://www.google.com/maps?cid=11559464305287462478"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:44+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "WooFit Mx",
+      "category": "Veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "C. Juan Manuel 126, Zapopan Centro, Zapopan, 45100 Zapopan, Jal.",
+      "phone": "+523333646906",
+      "website": "https://www.facebook.com/anuvisvet/",
+      "maps": "https://www.google.com/maps?cid=7705236350427628781",
+      "sources": [
+        "https://www.google.com/maps?cid=7705236350427628781"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:44+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Kchorros Hospital Veterinario",
+      "category": "Hospital veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av Guadalupe 4710, Jardines de Guadalupe, 45030 Zapopan, Jal.",
+      "phone": "+523335636528",
+      "website": "https://www.kchorros.com/",
+      "maps": "https://www.google.com/maps?cid=10254928513395666010",
+      "sources": [
+        "https://www.google.com/maps?cid=10254928513395666010"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:44+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Veterinaria Nusske Tesistan",
+      "category": "Veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Valle de Tesistan #110 Tesistán, 45100 Zapopan, Jal.",
+      "phone": "+523335752874",
+      "website": "https://veterinarianusske.com.mx/",
+      "maps": "https://www.google.com/maps?cid=11189345285007820798",
+      "sources": [
+        "https://www.google.com/maps?cid=11189345285007820798"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:44+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "VeteriAna Aviacion",
+      "category": "Veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Base Aerea 550, El Triángulo, 45138 Zapopan, Jal.",
+      "phone": "+523316563074",
+      "website": "http://www.veteriana.com/",
+      "maps": "https://www.google.com/maps?cid=7525259874253225853",
+      "sources": [
+        "https://www.google.com/maps?cid=7525259874253225853"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:44+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "\"DINO\"",
+      "category": "Veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Santa Ana Tepetitlan 965-B, Francisco Sarabia, 45236 Zapopan, Jal.",
+      "phone": "+523335635622",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=4607347216980003579",
+      "sources": [
+        "https://www.google.com/maps?cid=4607347216980003579"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:44+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Clínica Veterinaria de Especialidades Laureles",
+      "category": "Veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Juan Pablo II 119, Zapopan, 45100 Zapopan, Jal.",
+      "phone": "+523336330430",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=16751119823206313472",
+      "sources": [
+        "https://www.google.com/maps?cid=16751119823206313472"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:44+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Vet Inc.",
+      "category": "Hospital veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av Valdepeñas 1920-2, Lomas de Zapopan, 45130 Zapopan, Jal.",
+      "phone": "+523313851770",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=9912828706136644407",
+      "sources": [
+        "https://www.google.com/maps?cid=9912828706136644407"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:44+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Vet 24/7 Dr. Pablo",
+      "category": "Veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Rubi 90, Balcones de la Cantera, 45186 Zapopan, Jal.",
+      "phone": "+523332009322",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=9889481529073099948",
+      "sources": [
+        "https://www.google.com/maps?cid=9889481529073099948"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:44+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "BIENESTAR ANIMAL",
+      "category": "Veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Tepeyac 1719, Cd de los Niños, 45050 Zapopan, Jal.",
+      "phone": "+523331222434",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=5751047961039320182",
+      "sources": [
+        "https://www.google.com/maps?cid=5751047961039320182"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:44+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Clinica Veterinaria Cordilleras",
+      "category": "Veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av Manuel J. Clouthier 290, Jardines de Guadalupe, 45038 Zapopan, Jal.",
+      "phone": "+523336733321",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=11865817251095064941",
+      "sources": [
+        "https://www.google.com/maps?cid=11865817251095064941"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:45+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Clinica Veterinaria Tabachines",
+      "category": "Veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. de los Tabachines 1145, Tabachines, 45188 Zapopan, Jal.",
+      "phone": "+523336600201",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=11843229103375166072",
+      "sources": [
+        "https://www.google.com/maps?cid=11843229103375166072"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:45+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Centro Veterinario Villarejo by Pet Fashion",
+      "category": "Veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av Manuel J. Clouthier 132-A, Prados Vallarta, 45020 Zapopan, Jal.",
+      "phone": "+523331254021",
+      "website": "http://petfashionvet.wixsite.com/cvvillarejo",
+      "maps": "https://www.google.com/maps?cid=10253509443105216927",
+      "sources": [
+        "https://www.google.com/maps?cid=10253509443105216927"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:45+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Veterinaria Mi Granjita",
+      "category": "Veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Tesistán 878, San Isidro Ejidal, 45147 Zapopan, Jal.",
+      "phone": "+523332474213",
+      "website": "https://www.instagram.com/veterinaria.migranjita?igsh=MWp4aG40MzNodHNyOQ==",
+      "maps": "https://www.google.com/maps?cid=169787613480578490",
+      "sources": [
+        "https://www.google.com/maps?cid=169787613480578490"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:45+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Centro de Esterilización Veterinario",
+      "category": "Hospital veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Frederick Chopin 5074, La Estancia, 45030 Zapopan, Jal.",
+      "phone": "+523334738195",
+      "website": "http://cevgdl.com/",
+      "maps": "https://www.google.com/maps?cid=7885385114805649406",
+      "sources": [
+        "https://www.google.com/maps?cid=7885385114805649406"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:45+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Clínica Veterinaria Africam",
+      "category": "Cuidados veterinarios",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Galileo Galilei 4008, Arboledas, 45070 Zapopan, Jal.",
+      "phone": "+523313114196",
+      "website": "http://clinicaveterinariaafricam.com/",
+      "maps": "https://www.google.com/maps?cid=9075376654543531354",
+      "sources": [
+        "https://www.google.com/maps?cid=9075376654543531354"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:45+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Veterinaria VetCare",
+      "category": "Veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Paulino Navarro 1251B, Los Maestros, 45150 Zapopan, Jal.",
+      "phone": "+523312422689",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=11248956070082163231",
+      "sources": [
+        "https://www.google.com/maps?cid=11248956070082163231"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:45+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "CENTRO VETERINARIO DEL VALLE",
+      "category": "Veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av Valle de Atemajac 2025, Jardines del Valle, 45136 Zapopan, Jal.",
+      "phone": "+523313714470",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=7186012484428414890",
+      "sources": [
+        "https://www.google.com/maps?cid=7186012484428414890"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:45+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Veterinaria Huesitos",
+      "category": "Veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Calz de los Enebros 7280, Alamedas de Tesistán, 45180 Zapopan, Jal.",
+      "phone": "+523311341745",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=9698951967701701329",
+      "sources": [
+        "https://www.google.com/maps?cid=9698951967701701329"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:45+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Veterinaria Dogma",
+      "category": "Veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Enrique Ladrón de Guevara 1768, Paseos del Sol, 45079 Zapopan, Jal.",
+      "phone": "+523333551954",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=220305670854471819",
+      "sources": [
+        "https://www.google.com/maps?cid=220305670854471819"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:45+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Clínica Veterinaria San Gabriel",
+      "category": "Veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Blvd. Del Vigía 421c, El Vigía, 45140 Zapopan, Jal.",
+      "phone": "+523338323529",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=5204039709268282839",
+      "sources": [
+        "https://www.google.com/maps?cid=5204039709268282839"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:45+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "GUAGUASH & MIAU, veterinaria y estética canina",
+      "category": "Veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Aurelio Ortega 805-1, Col. de, Los Maestros, 45150 Zapopan, Jal.",
+      "phone": "+523329449047",
+      "website": "http://www.facebook.com/guaguashmiau",
+      "maps": "https://www.google.com/maps?cid=13792086830553463113",
+      "sources": [
+        "https://www.google.com/maps?cid=13792086830553463113"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:45+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "CLÍNICA VETERINARIA DE ALEMÁN",
+      "category": "Veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Tesistán 734A, San José del Bajío, 45140 Zapopan, Jal.",
+      "phone": "+523336331176",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=10613830633058128252",
+      "sources": [
+        "https://www.google.com/maps?cid=10613830633058128252"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:45+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Breli Veterinaria",
+      "category": "Veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Marina Vallarta 466, Santa Margarita1a Secc., 45138 Zapopan, Jal.",
+      "phone": "+523339650634",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=8964338805399962197",
+      "sources": [
+        "https://www.google.com/maps?cid=8964338805399962197"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:45+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Hospital Veterinario Universidad",
+      "category": "Hospital veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Patria 1504 C, Universitaria, 45110 Zapopan, Jal.",
+      "phone": "+523336417232",
+      "website": "http://www.veterinariauniversidad.com.mx/",
+      "maps": "https://www.google.com/maps?cid=13135036426315450939",
+      "sources": [
+        "https://www.google.com/maps?cid=13135036426315450939"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:45+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Clínica Veterinaria VA-GA",
+      "category": "Veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "gredilla y Tepame 1575, C. Arrayán 1575, entre calles:, Paraísos del Colli, 45069 Zapopan, Jal.",
+      "phone": "+523313515726",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=3000885961110530432",
+      "sources": [
+        "https://www.google.com/maps?cid=3000885961110530432"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:45+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Veterinaria Monkey Pet",
+      "category": "Hospital veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Calle Sta. Monica 535d, Parques Zapopan, 45138 Zapopan, Jal.",
+      "phone": "+523316061962",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=13533961949846609928",
+      "sources": [
+        "https://www.google.com/maps?cid=13533961949846609928"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:45+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "VeteriAna",
+      "category": "Veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av Rafael Sanzio 400, La Estancia, 45030 Zapopan, Jal.",
+      "phone": "+523314069299",
+      "website": "http://www.veteriana.com/",
+      "maps": "https://www.google.com/maps?cid=5896023831678242103",
+      "sources": [
+        "https://www.google.com/maps?cid=5896023831678242103"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:45+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Rocky's House",
+      "category": "Veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av Rafael Sanzio 384-1, La Estancia, 45030 Zapopan, Jal.",
+      "phone": "+523331053142",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=10026302849791444179",
+      "sources": [
+        "https://www.google.com/maps?cid=10026302849791444179"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:45+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Clínica Veterinaria Colibri",
+      "category": "Veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Rosario Castellanos 6042-19, Paseos Universidad, 45016 Zapopan, Jal.",
+      "phone": "+523320292921",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=15670368570511565184",
+      "sources": [
+        "https://www.google.com/maps?cid=15670368570511565184"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:45+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Villa Veterinarios; Núcleo de diagnóstico",
+      "category": "Hospital veterinario",
+      "query": "clínicas veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "C. Puerto México 3551, Miramar, 45060 Zapopan, Jal.",
+      "phone": "+523331803967",
+      "website": "https://www.facebook.com/HospitalVillaVeterinarios/",
+      "maps": "https://www.google.com/maps?cid=1644105149389254644",
+      "sources": [
+        "https://www.google.com/maps?cid=1644105149389254644"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:45+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "VETERINARIA \"PERSA\"",
+      "category": "Veterinario",
+      "query": "clínicas veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Belisario Domínguez 1680, Mariano Otero, 45067 Zapopan, Jal.",
+      "phone": "+523316031938",
+      "website": "https://prolimk.com.mx/",
+      "maps": "https://www.google.com/maps?cid=9257187818834466402",
+      "sources": [
+        "https://www.google.com/maps?cid=9257187818834466402"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:45+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Servicios Veterinarios FeliKan",
+      "category": "Veterinario",
+      "query": "clínicas veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Nicolás Copérnico 11811, Moctezuma, 45059 Zapopan, Jal.",
+      "phone": "+523310167608",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=9401841050321926935",
+      "sources": [
+        "https://www.google.com/maps?cid=9401841050321926935"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:45+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "HOSPITAL VETERINARIO ANIMALIA",
+      "category": "Veterinario",
+      "query": "clínicas veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Adolfo López Mateos Sur 5929, Pinar de la Calma, 45080 Zapopan, Jal.",
+      "phone": "+523318158866",
+      "website": "http://www.hospitalveterinarioanimalia.com/",
+      "maps": "https://www.google.com/maps?cid=7077153438102658410",
+      "sources": [
+        "https://www.google.com/maps?cid=7077153438102658410"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:45+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Clinica veterinaria Napo-Leonvets",
+      "category": "Veterinario",
+      "query": "clínicas veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Juan Gil Preciado 4062, Nuevo México, 45138 Zapopan, Jal.",
+      "phone": "+523311355813",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=14617073574235661006",
+      "sources": [
+        "https://www.google.com/maps?cid=14617073574235661006"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:45+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "clinica veterinaria Fauna Care",
+      "category": "Hospital veterinario",
+      "query": "clínicas veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Del Tule 835-int 2, Puertas del Tule, 45017 Zapopan, Jal.",
+      "phone": "+523331101070",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=5608349799189135187",
+      "sources": [
+        "https://www.google.com/maps?cid=5608349799189135187"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:45+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Centro de Salud Animal Siglo XXI",
+      "category": "Hospital veterinario",
+      "query": "clínicas veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Adolfo López Mateos Sur 3139, Agua Blanca Habitacional, 45235 Zapopan, Jal.",
+      "phone": "+523336842235",
+      "website": "http://www.centrodesaludanimalsiglo21.com/",
+      "maps": "https://www.google.com/maps?cid=8871277020596107265",
+      "sources": [
+        "https://www.google.com/maps?cid=8871277020596107265"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:45+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Walking Pet's Clínica Veterinaria",
+      "category": "Hospital veterinario",
+      "query": "clínicas veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av Torremolinos 2761, Francisco Villa, 45130 Zapopan, Jal.",
+      "phone": "+523314531319",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=8892702777931425462",
+      "sources": [
+        "https://www.google.com/maps?cid=8892702777931425462"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:45+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Clínica Veterinaria BLUEVET",
+      "category": "Veterinario",
+      "query": "clínicas veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Calz Federalistas 2123, Jardines del Valle, 45138 Zapopan, Jal.",
+      "phone": "+523315175216",
+      "website": "https://www.facebook.com/share/1Aj5WNKtAS/",
+      "maps": "https://www.google.com/maps?cid=156601692091877340",
+      "sources": [
+        "https://www.google.com/maps?cid=156601692091877340"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:45+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Veterinaria Vet Point Clínica y Estética",
+      "category": "Veterinario",
+      "query": "clínicas veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Camino Viejo a Tesistan 719b, Santa Margarita1a Secc., 45140 Zapopan, Jal.",
+      "phone": "+523313739341",
+      "website": "https://www.facebook.com/search/top?q=vet%20point",
+      "maps": "https://www.google.com/maps?cid=1781180101365928491",
+      "sources": [
+        "https://www.google.com/maps?cid=1781180101365928491"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:45+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Hospital Veterinario de Pequeñas Especies",
+      "category": "Hospital veterinario",
+      "query": "hospital veterinario Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. José Parres Arias 735, Bosques del Centinela II, 45187 Zapopan, Jal.",
+      "phone": "+523327647028",
+      "website": "https://www.facebook.com/HVPEUdeG",
+      "maps": "https://www.google.com/maps?cid=748567467529389901",
+      "sources": [
+        "https://www.google.com/maps?cid=748567467529389901"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:45+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Hospital Veterinario San José Colotlán",
+      "category": "Hospital veterinario",
+      "query": "hospital veterinario Zapopan",
+      "municipality": "Zapopan",
+      "address": "Carr. a Colotlán 887-1A, Altaluz, 45200 Zapopan, Jal.",
+      "phone": "+523316042571",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=15740051741794569414",
+      "sources": [
+        "https://www.google.com/maps?cid=15740051741794569414"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:45+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "HOSPITAL VETERINARIO ORTIZ HVO",
+      "category": "Hospital veterinario",
+      "query": "hospital veterinario Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Obreros de Cananea 1387, Constitución, 45184 Zapopan, Jal.",
+      "phone": "+523336727403",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=17038559708855364082",
+      "sources": [
+        "https://www.google.com/maps?cid=17038559708855364082"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-22T04:26:46+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    }
+  ],
+  "rejected": [
+    {
+      "detail": {
+        "name": "Hospital Veterinario San Jose Solares",
+        "url": "https://www.google.com/maps?cid=6693792511048572433",
+        "category": "Hospital veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "1, P.º Solares 124, Solares Residencial, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://www.facebook.com/veterinaria.sanjose.96"
+          },
+          {
+            "id": "phone:tel:+52 33 1728 3177",
+            "text": "+52 33 1728 3177",
+            "href": ""
+          }
+        ],
+        "query": "veterinarias en Zapopan"
+      },
+      "reason": "municipality_unconfirmed"
+    },
+    {
+      "detail": {
+        "name": "VETERINARIA MORÁN",
+        "url": "https://www.google.com/maps?cid=13313089282821601651",
+        "category": "Veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Mariano Otero 5683, Arboledas, 45070 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://www.facebook.com/vetmoran"
+          }
+        ],
+        "query": "veterinarias en Zapopan"
+      },
+      "reason": "no_public_phone"
+    },
+    {
+      "detail": {
+        "name": "Hospital veterinario",
+        "url": "https://www.google.com/maps?cid=18012030834381798238",
+        "category": "Veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Patria 3212, Rinconada de la Calma, 45080 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          }
+        ],
+        "query": "veterinarias en Zapopan"
+      },
+      "reason": "no_public_phone"
+    },
+    {
+      "detail": {
+        "name": "Hospital Veterinario Arboledas",
+        "url": "https://www.google.com/maps?cid=5290671728718168258",
+        "category": "Hospital veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Cruz del Sur 2909, Bosques de La Victoria, 44540 Guadalajara, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 3623 1208",
+            "text": "+52 33 3623 1208",
+            "href": ""
+          }
+        ],
+        "query": "clínicas veterinarias en Zapopan"
+      },
+      "reason": "municipality_unconfirmed"
+    },
+    {
+      "detail": {
+        "name": "Hospital Veterinario Guadalajara",
+        "url": "https://www.google.com/maps?cid=11196654437708780634",
+        "category": "Hospital veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av Adolfo López Mateos Nte 660 660, Ladrón de Guevara, Ladron De Guevara, 44600 Guadalajara, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://www.facebook.com/hospitalveterinarioguadalajara"
+          },
+          {
+            "id": "phone:tel:+52 33 3630 1730",
+            "text": "+52 33 3630 1730",
+            "href": ""
+          }
+        ],
+        "query": "hospital veterinario Zapopan"
+      },
+      "reason": "municipality_unconfirmed"
+    },
+    {
+      "detail": {
+        "name": "Protección Animal Zapopan",
+        "url": "https://www.google.com/maps?cid=5998728876009532267",
+        "category": "Perrera",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Jardines de las Palmas, Jardines del Vergel, 45180 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://www.facebook.com/proteccionanimalzapopan/"
+          },
+          {
+            "id": "phone:tel:+52 33 2410 1000",
+            "text": "+52 33 2410 1000",
+            "href": ""
+          }
+        ],
+        "query": "hospital veterinario Zapopan"
+      },
+      "reason": "category_mismatch"
+    }
+  ],
+  "errors": [],
+  "candidates": [
+    {
+      "name": "ACC24 Hospital Veterinario Premium 24 Horas",
+      "url": "https://www.google.com/maps?cid=10321786978527926946",
+      "query": "veterinarias en Zapopan",
+      "detail": {
+        "name": "ACC24 Hospital Veterinario Premium 24 Horas",
+        "url": "https://www.google.com/maps?cid=10321786978527926946",
+        "category": "Veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av De La Calma 4471, La Calma, 45070 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://animalcarecentergdl.com/"
+          },
+          {
+            "id": "phone:tel:+52 33 4509 0742",
+            "text": "+52 33 4509 0742",
+            "href": ""
+          }
+        ],
+        "query": "veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "The Animal Health Center",
+      "url": "https://www.google.com/maps?cid=170501629504958411",
+      "query": "veterinarias en Zapopan",
+      "detail": {
+        "name": "The Animal Health Center",
+        "url": "https://www.google.com/maps?cid=170501629504958411",
+        "category": "Hospital veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Patria 3212 A, Loma Bonita Ejidal, 45085 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 1380 2324",
+            "text": "+52 33 1380 2324",
+            "href": ""
+          }
+        ],
+        "query": "veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "MASCOTAS",
+      "url": "https://www.google.com/maps?cid=3418038434845338222",
+      "query": "veterinarias en Zapopan",
+      "detail": {
+        "name": "MASCOTAS",
+        "url": "https://www.google.com/maps?cid=3418038434845338222",
+        "category": "Veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av 18 de Marzo 1895-A, Las Águilas, 45080 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://www.facebook.com/pages/Clinica-Veterinaria-MASCOTAS/422903361073896"
+          },
+          {
+            "id": "phone:tel:+52 33 3632 8648",
+            "text": "+52 33 3632 8648",
+            "href": ""
+          }
+        ],
+        "query": "veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "CISAZ (Centro Integral de Salud Animal Zapopan)",
+      "url": "https://www.google.com/maps?cid=6197159457807394608",
+      "query": "veterinarias en Zapopan",
+      "detail": {
+        "name": "CISAZ (Centro Integral de Salud Animal Zapopan)",
+        "url": "https://www.google.com/maps?cid=6197159457807394608",
+        "category": "Veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Jardines de las Palmas 1650, Jardines del Vergel, 45130 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://www.facebook.com/proteccionanimalzapopan?mibextid=ZbWKwL"
+          },
+          {
+            "id": "phone:tel:+52 33 3818 2200",
+            "text": "+52 33 3818 2200",
+            "href": ""
+          }
+        ],
+        "query": "veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "Hospital veterinario Alvet",
+      "url": "https://www.google.com/maps?cid=14249634115391482895",
+      "query": "veterinarias en Zapopan",
+      "detail": {
+        "name": "Hospital veterinario Alvet",
+        "url": "https://www.google.com/maps?cid=14249634115391482895",
+        "category": "Veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. de las torres 2137, Sta. Martha esq-B, Santa Margarita1a Secc., 45140 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 3959 1227",
+            "text": "+52 33 3959 1227",
+            "href": ""
+          }
+        ],
+        "query": "veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "Clinica Veterinaria Guadalupe",
+      "url": "https://www.google.com/maps?cid=15855458794925086158",
+      "query": "veterinarias en Zapopan",
+      "detail": {
+        "name": "Clinica Veterinaria Guadalupe",
+        "url": "https://www.google.com/maps?cid=15855458794925086158",
+        "category": "Veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av Guadalupe 5233, Guadalupe Jardín, 45030 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 1204 0772",
+            "text": "+52 33 1204 0772",
+            "href": ""
+          }
+        ],
+        "query": "veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "HVC Hospital Veterinario Casillas",
+      "url": "https://www.google.com/maps?cid=14658948806217693186",
+      "query": "veterinarias en Zapopan",
+      "detail": {
+        "name": "HVC Hospital Veterinario Casillas",
+        "url": "https://www.google.com/maps?cid=14658948806217693186",
+        "category": "Cuidados veterinarios",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "C. Moctezuma 48, Centro, 45100 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 3633 2408",
+            "text": "+52 33 3633 2408",
+            "href": ""
+          }
+        ],
+        "query": "veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "Hospital Veterinario VETPETS",
+      "url": "https://www.google.com/maps?cid=12059527651188440818",
+      "query": "veterinarias en Zapopan",
+      "detail": {
+        "name": "Hospital Veterinario VETPETS",
+        "url": "https://www.google.com/maps?cid=12059527651188440818",
+        "category": "Hospital veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av Naciones Unidas 5260-4, Jardines Universidad, 45110 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://hospitalesvetpets.com.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3682 2817",
+            "text": "+52 33 3682 2817",
+            "href": ""
+          }
+        ],
+        "query": "veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "Hospital Veterinario San José Valle Imperial",
+      "url": "https://www.google.com/maps?cid=2720075251002145394",
+      "query": "veterinarias en Zapopan",
+      "detail": {
+        "name": "Hospital Veterinario San José Valle Imperial",
+        "url": "https://www.google.com/maps?cid=2720075251002145394",
+        "category": "Hospital veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Bv. Valle Imperial 260, Copalita, 45134 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 1652 1224",
+            "text": "+52 33 1652 1224",
+            "href": ""
+          }
+        ],
+        "query": "veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "HOSPITAL VETERINARIO MADIVET",
+      "url": "https://www.google.com/maps?cid=6117411450697200668",
+      "query": "veterinarias en Zapopan",
+      "detail": {
+        "name": "HOSPITAL VETERINARIO MADIVET",
+        "url": "https://www.google.com/maps?cid=6117411450697200668",
+        "category": "Hospital veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Santo Santiago 3769, Jardín de San Ignacio, 45040 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://www.madivet.com.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3426 5299",
+            "text": "+52 33 3426 5299",
+            "href": ""
+          }
+        ],
+        "query": "veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "Hospital Veterinario Lomont Patria (Oftalmología, Traumatología, Ortopedía, Neurología, Cardiología, Oncología, Tomografia)",
+      "url": "https://www.google.com/maps?cid=10822127862099789817",
+      "query": "veterinarias en Zapopan",
+      "detail": {
+        "name": "Hospital Veterinario Lomont Patria (Oftalmología, Traumatología, Ortopedía, Neurología, Cardiología, Oncología, Tomografia)",
+        "url": "https://www.google.com/maps?cid=10822127862099789817",
+        "category": "Hospital veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Patria 165, Jardines Vallarta, 45027 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://lomont.com.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 2300 5009",
+            "text": "+52 33 2300 5009",
+            "href": ""
+          }
+        ],
+        "query": "veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "Veterinaria San Jose",
+      "url": "https://www.google.com/maps?cid=5330922543312891000",
+      "query": "veterinarias en Zapopan",
+      "detail": {
+        "name": "Veterinaria San Jose",
+        "url": "https://www.google.com/maps?cid=5330922543312891000",
+        "category": "Hospital veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Acueducto 1120, Girasoles Elite, 45138 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://www.facebook.com/veterinaria.sanjose.96"
+          },
+          {
+            "id": "phone:tel:+52 33 1562 0558",
+            "text": "+52 33 1562 0558",
+            "href": ""
+          }
+        ],
+        "query": "veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "Hospital Veterinario Santa Esther",
+      "url": "https://www.google.com/maps?cid=17888433434878578498",
+      "query": "veterinarias en Zapopan",
+      "detail": {
+        "name": "Hospital Veterinario Santa Esther",
+        "url": "https://www.google.com/maps?cid=17888433434878578498",
+        "category": "Hospital veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Sta. Esther 201-Loc. 12 y 14, Seccion, Santa Margarita1a Secc., 45140 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 1581 9082",
+            "text": "+52 33 1581 9082",
+            "href": ""
+          }
+        ],
+        "query": "veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "Centro Veterinario Hoslom.",
+      "url": "https://www.google.com/maps?cid=11476493348966695992",
+      "query": "veterinarias en Zapopan",
+      "detail": {
+        "name": "Centro Veterinario Hoslom.",
+        "url": "https://www.google.com/maps?cid=11476493348966695992",
+        "category": "Veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. de la Mancha 308 C, Lomas de Zapopan, 45130 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 3833 3738",
+            "text": "+52 33 3833 3738",
+            "href": ""
+          }
+        ],
+        "query": "veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "Centro Veterinario Valles",
+      "url": "https://www.google.com/maps?cid=15549566837116771183",
+      "query": "veterinarias en Zapopan",
+      "detail": {
+        "name": "Centro Veterinario Valles",
+        "url": "https://www.google.com/maps?cid=15549566837116771183",
+        "category": "Veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Mariano Otero 3545, La Calma, 45070 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 1562 2707",
+            "text": "+52 33 1562 2707",
+            "href": ""
+          }
+        ],
+        "query": "veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "Dactary Hospital Veterinario",
+      "url": "https://www.google.com/maps?cid=1067605314030574499",
+      "query": "veterinarias en Zapopan",
+      "detail": {
+        "name": "Dactary Hospital Veterinario",
+        "url": "https://www.google.com/maps?cid=1067605314030574499",
+        "category": "Hospital veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Patria 516, Lomas del Seminario, 45038 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://www.dactary.com/"
+          },
+          {
+            "id": "phone:tel:+52 33 3313 2111",
+            "text": "+52 33 3313 2111",
+            "href": ""
+          }
+        ],
+        "query": "veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "Hospital Veterinario VitalPets",
+      "url": "https://www.google.com/maps?cid=2838028900172906492",
+      "query": "veterinarias en Zapopan",
+      "detail": {
+        "name": "Hospital Veterinario VitalPets",
+        "url": "https://www.google.com/maps?cid=2838028900172906492",
+        "category": "Veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Tepeyac 4153, Prados Tepeyac, 45050 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://www.instagram.com/vitalpetsveterinaria/"
+          },
+          {
+            "id": "phone:tel:+52 33 3121 6772",
+            "text": "+52 33 3121 6772",
+            "href": ""
+          }
+        ],
+        "query": "veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "Hospital Veterinario San Jose Solares",
+      "url": "https://www.google.com/maps?cid=6693792511048572433",
+      "query": "veterinarias en Zapopan",
+      "detail": {
+        "name": "Hospital Veterinario San Jose Solares",
+        "url": "https://www.google.com/maps?cid=6693792511048572433",
+        "category": "Hospital veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "1, P.º Solares 124, Solares Residencial, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://www.facebook.com/veterinaria.sanjose.96"
+          },
+          {
+            "id": "phone:tel:+52 33 1728 3177",
+            "text": "+52 33 1728 3177",
+            "href": ""
+          }
+        ],
+        "query": "veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "Veterinaria Paseos",
+      "url": "https://www.google.com/maps?cid=11559464305287462478",
+      "query": "veterinarias en Zapopan",
+      "detail": {
+        "name": "Veterinaria Paseos",
+        "url": "https://www.google.com/maps?cid=11559464305287462478",
+        "category": "Veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Enrique Ladrón de Guevara 3355-Int. 5, Paseos del Sol, 45079 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 3131 8086",
+            "text": "+52 33 3131 8086",
+            "href": ""
+          }
+        ],
+        "query": "veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "WooFit Mx",
+      "url": "https://www.google.com/maps?cid=7705236350427628781",
+      "query": "veterinarias en Zapopan",
+      "detail": {
+        "name": "WooFit Mx",
+        "url": "https://www.google.com/maps?cid=7705236350427628781",
+        "category": "Veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "C. Juan Manuel 126, Zapopan Centro, Zapopan, 45100 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://www.facebook.com/anuvisvet/"
+          },
+          {
+            "id": "phone:tel:+52 33 3364 6906",
+            "text": "+52 33 3364 6906",
+            "href": ""
+          }
+        ],
+        "query": "veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "Kchorros Hospital Veterinario",
+      "url": "https://www.google.com/maps?cid=10254928513395666010",
+      "query": "veterinarias en Zapopan",
+      "detail": {
+        "name": "Kchorros Hospital Veterinario",
+        "url": "https://www.google.com/maps?cid=10254928513395666010",
+        "category": "Hospital veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av Guadalupe 4710, Jardines de Guadalupe, 45030 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://www.kchorros.com/"
+          },
+          {
+            "id": "phone:tel:+52 33 3563 6528",
+            "text": "+52 33 3563 6528",
+            "href": ""
+          }
+        ],
+        "query": "veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "Veterinaria Nusske Tesistan",
+      "url": "https://www.google.com/maps?cid=11189345285007820798",
+      "query": "veterinarias en Zapopan",
+      "detail": {
+        "name": "Veterinaria Nusske Tesistan",
+        "url": "https://www.google.com/maps?cid=11189345285007820798",
+        "category": "Veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Valle de Tesistan #110 Tesistán, 45100 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://veterinarianusske.com.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3575 2874",
+            "text": "+52 33 3575 2874",
+            "href": ""
+          }
+        ],
+        "query": "veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "VeteriAna Aviacion",
+      "url": "https://www.google.com/maps?cid=7525259874253225853",
+      "query": "veterinarias en Zapopan",
+      "detail": {
+        "name": "VeteriAna Aviacion",
+        "url": "https://www.google.com/maps?cid=7525259874253225853",
+        "category": "Veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Base Aerea 550, El Triángulo, 45138 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://www.veteriana.com/"
+          },
+          {
+            "id": "phone:tel:+52 33 1656 3074",
+            "text": "+52 33 1656 3074",
+            "href": ""
+          }
+        ],
+        "query": "veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "\"DINO\"",
+      "url": "https://www.google.com/maps?cid=4607347216980003579",
+      "query": "veterinarias en Zapopan",
+      "detail": {
+        "name": "\"DINO\"",
+        "url": "https://www.google.com/maps?cid=4607347216980003579",
+        "category": "Veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Santa Ana Tepetitlan 965-B, Francisco Sarabia, 45236 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 3563 5622",
+            "text": "+52 33 3563 5622",
+            "href": ""
+          }
+        ],
+        "query": "veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "Clínica Veterinaria de Especialidades Laureles",
+      "url": "https://www.google.com/maps?cid=16751119823206313472",
+      "query": "veterinarias en Zapopan",
+      "detail": {
+        "name": "Clínica Veterinaria de Especialidades Laureles",
+        "url": "https://www.google.com/maps?cid=16751119823206313472",
+        "category": "Veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Juan Pablo II 119, Zapopan, 45100 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 3633 0430",
+            "text": "+52 33 3633 0430",
+            "href": ""
+          }
+        ],
+        "query": "veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "VETERINARIA MORÁN",
+      "url": "https://www.google.com/maps?cid=13313089282821601651",
+      "query": "veterinarias en Zapopan",
+      "detail": {
+        "name": "VETERINARIA MORÁN",
+        "url": "https://www.google.com/maps?cid=13313089282821601651",
+        "category": "Veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Mariano Otero 5683, Arboledas, 45070 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://www.facebook.com/vetmoran"
+          }
+        ],
+        "query": "veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "Vet Inc.",
+      "url": "https://www.google.com/maps?cid=9912828706136644407",
+      "query": "veterinarias en Zapopan",
+      "detail": {
+        "name": "Vet Inc.",
+        "url": "https://www.google.com/maps?cid=9912828706136644407",
+        "category": "Hospital veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av Valdepeñas 1920-2, Lomas de Zapopan, 45130 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 1385 1770",
+            "text": "+52 33 1385 1770",
+            "href": ""
+          }
+        ],
+        "query": "veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "Vet 24/7 Dr. Pablo",
+      "url": "https://www.google.com/maps?cid=9889481529073099948",
+      "query": "veterinarias en Zapopan",
+      "detail": {
+        "name": "Vet 24/7 Dr. Pablo",
+        "url": "https://www.google.com/maps?cid=9889481529073099948",
+        "category": "Veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Rubi 90, Balcones de la Cantera, 45186 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 3200 9322",
+            "text": "+52 33 3200 9322",
+            "href": ""
+          }
+        ],
+        "query": "veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "BIENESTAR ANIMAL",
+      "url": "https://www.google.com/maps?cid=5751047961039320182",
+      "query": "veterinarias en Zapopan",
+      "detail": {
+        "name": "BIENESTAR ANIMAL",
+        "url": "https://www.google.com/maps?cid=5751047961039320182",
+        "category": "Veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Tepeyac 1719, Cd de los Niños, 45050 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 3122 2434",
+            "text": "+52 33 3122 2434",
+            "href": ""
+          }
+        ],
+        "query": "veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "Clinica Veterinaria Cordilleras",
+      "url": "https://www.google.com/maps?cid=11865817251095064941",
+      "query": "veterinarias en Zapopan",
+      "detail": {
+        "name": "Clinica Veterinaria Cordilleras",
+        "url": "https://www.google.com/maps?cid=11865817251095064941",
+        "category": "Veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av Manuel J. Clouthier 290, Jardines de Guadalupe, 45038 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 3673 3321",
+            "text": "+52 33 3673 3321",
+            "href": ""
+          }
+        ],
+        "query": "veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "Clinica Veterinaria Tabachines",
+      "url": "https://www.google.com/maps?cid=11843229103375166072",
+      "query": "veterinarias en Zapopan",
+      "detail": {
+        "name": "Clinica Veterinaria Tabachines",
+        "url": "https://www.google.com/maps?cid=11843229103375166072",
+        "category": "Veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. de los Tabachines 1145, Tabachines, 45188 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 3660 0201",
+            "text": "+52 33 3660 0201",
+            "href": ""
+          }
+        ],
+        "query": "veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "Centro Veterinario Villarejo by Pet Fashion",
+      "url": "https://www.google.com/maps?cid=10253509443105216927",
+      "query": "veterinarias en Zapopan",
+      "detail": {
+        "name": "Centro Veterinario Villarejo by Pet Fashion",
+        "url": "https://www.google.com/maps?cid=10253509443105216927",
+        "category": "Veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av Manuel J. Clouthier 132-A, Prados Vallarta, 45020 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://petfashionvet.wixsite.com/cvvillarejo"
+          },
+          {
+            "id": "phone:tel:+52 33 3125 4021",
+            "text": "+52 33 3125 4021",
+            "href": ""
+          }
+        ],
+        "query": "veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "Veterinaria Mi Granjita",
+      "url": "https://www.google.com/maps?cid=169787613480578490",
+      "query": "veterinarias en Zapopan",
+      "detail": {
+        "name": "Veterinaria Mi Granjita",
+        "url": "https://www.google.com/maps?cid=169787613480578490",
+        "category": "Veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Tesistán 878, San Isidro Ejidal, 45147 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://www.instagram.com/veterinaria.migranjita?igsh=MWp4aG40MzNodHNyOQ=="
+          },
+          {
+            "id": "phone:tel:+52 33 3247 4213",
+            "text": "+52 33 3247 4213",
+            "href": ""
+          }
+        ],
+        "query": "veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "Centro de Esterilización Veterinario",
+      "url": "https://www.google.com/maps?cid=7885385114805649406",
+      "query": "veterinarias en Zapopan",
+      "detail": {
+        "name": "Centro de Esterilización Veterinario",
+        "url": "https://www.google.com/maps?cid=7885385114805649406",
+        "category": "Hospital veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Frederick Chopin 5074, La Estancia, 45030 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://cevgdl.com/"
+          },
+          {
+            "id": "phone:tel:+52 33 3473 8195",
+            "text": "+52 33 3473 8195",
+            "href": ""
+          }
+        ],
+        "query": "veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "Clínica Veterinaria Africam",
+      "url": "https://www.google.com/maps?cid=9075376654543531354",
+      "query": "veterinarias en Zapopan",
+      "detail": {
+        "name": "Clínica Veterinaria Africam",
+        "url": "https://www.google.com/maps?cid=9075376654543531354",
+        "category": "Cuidados veterinarios",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Galileo Galilei 4008, Arboledas, 45070 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://clinicaveterinariaafricam.com/"
+          },
+          {
+            "id": "phone:tel:+52 33 1311 4196",
+            "text": "+52 33 1311 4196",
+            "href": ""
+          }
+        ],
+        "query": "veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "Veterinaria VetCare",
+      "url": "https://www.google.com/maps?cid=11248956070082163231",
+      "query": "veterinarias en Zapopan",
+      "detail": {
+        "name": "Veterinaria VetCare",
+        "url": "https://www.google.com/maps?cid=11248956070082163231",
+        "category": "Veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Paulino Navarro 1251B, Los Maestros, 45150 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 1242 2689",
+            "text": "+52 33 1242 2689",
+            "href": ""
+          }
+        ],
+        "query": "veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "CENTRO VETERINARIO DEL VALLE",
+      "url": "https://www.google.com/maps?cid=7186012484428414890",
+      "query": "veterinarias en Zapopan",
+      "detail": {
+        "name": "CENTRO VETERINARIO DEL VALLE",
+        "url": "https://www.google.com/maps?cid=7186012484428414890",
+        "category": "Veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av Valle de Atemajac 2025, Jardines del Valle, 45136 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 1371 4470",
+            "text": "+52 33 1371 4470",
+            "href": ""
+          }
+        ],
+        "query": "veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "Veterinaria Huesitos",
+      "url": "https://www.google.com/maps?cid=9698951967701701329",
+      "query": "veterinarias en Zapopan",
+      "detail": {
+        "name": "Veterinaria Huesitos",
+        "url": "https://www.google.com/maps?cid=9698951967701701329",
+        "category": "Veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Calz de los Enebros 7280, Alamedas de Tesistán, 45180 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 1134 1745",
+            "text": "+52 33 1134 1745",
+            "href": ""
+          }
+        ],
+        "query": "veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "Veterinaria Dogma",
+      "url": "https://www.google.com/maps?cid=220305670854471819",
+      "query": "veterinarias en Zapopan",
+      "detail": {
+        "name": "Veterinaria Dogma",
+        "url": "https://www.google.com/maps?cid=220305670854471819",
+        "category": "Veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Enrique Ladrón de Guevara 1768, Paseos del Sol, 45079 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 3355 1954",
+            "text": "+52 33 3355 1954",
+            "href": ""
+          }
+        ],
+        "query": "veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "Hospital veterinario",
+      "url": "https://www.google.com/maps?cid=18012030834381798238",
+      "query": "veterinarias en Zapopan",
+      "detail": {
+        "name": "Hospital veterinario",
+        "url": "https://www.google.com/maps?cid=18012030834381798238",
+        "category": "Veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Patria 3212, Rinconada de la Calma, 45080 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          }
+        ],
+        "query": "veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "Clínica Veterinaria San Gabriel",
+      "url": "https://www.google.com/maps?cid=5204039709268282839",
+      "query": "veterinarias en Zapopan",
+      "detail": {
+        "name": "Clínica Veterinaria San Gabriel",
+        "url": "https://www.google.com/maps?cid=5204039709268282839",
+        "category": "Veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Blvd. Del Vigía 421c, El Vigía, 45140 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 3832 3529",
+            "text": "+52 33 3832 3529",
+            "href": ""
+          }
+        ],
+        "query": "veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "GUAGUASH & MIAU, veterinaria y estética canina",
+      "url": "https://www.google.com/maps?cid=13792086830553463113",
+      "query": "veterinarias en Zapopan",
+      "detail": {
+        "name": "GUAGUASH & MIAU, veterinaria y estética canina",
+        "url": "https://www.google.com/maps?cid=13792086830553463113",
+        "category": "Veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Aurelio Ortega 805-1, Col. de, Los Maestros, 45150 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://www.facebook.com/guaguashmiau"
+          },
+          {
+            "id": "phone:tel:+52 33 2944 9047",
+            "text": "+52 33 2944 9047",
+            "href": ""
+          }
+        ],
+        "query": "veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "CLÍNICA VETERINARIA DE ALEMÁN",
+      "url": "https://www.google.com/maps?cid=10613830633058128252",
+      "query": "veterinarias en Zapopan",
+      "detail": {
+        "name": "CLÍNICA VETERINARIA DE ALEMÁN",
+        "url": "https://www.google.com/maps?cid=10613830633058128252",
+        "category": "Veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Tesistán 734A, San José del Bajío, 45140 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 3633 1176",
+            "text": "+52 33 3633 1176",
+            "href": ""
+          }
+        ],
+        "query": "veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "Breli Veterinaria",
+      "url": "https://www.google.com/maps?cid=8964338805399962197",
+      "query": "veterinarias en Zapopan",
+      "detail": {
+        "name": "Breli Veterinaria",
+        "url": "https://www.google.com/maps?cid=8964338805399962197",
+        "category": "Veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Marina Vallarta 466, Santa Margarita1a Secc., 45138 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 3965 0634",
+            "text": "+52 33 3965 0634",
+            "href": ""
+          }
+        ],
+        "query": "veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "Hospital Veterinario Universidad",
+      "url": "https://www.google.com/maps?cid=13135036426315450939",
+      "query": "veterinarias en Zapopan",
+      "detail": {
+        "name": "Hospital Veterinario Universidad",
+        "url": "https://www.google.com/maps?cid=13135036426315450939",
+        "category": "Hospital veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Patria 1504 C, Universitaria, 45110 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://www.veterinariauniversidad.com.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3641 7232",
+            "text": "+52 33 3641 7232",
+            "href": ""
+          }
+        ],
+        "query": "veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "Clínica Veterinaria VA-GA",
+      "url": "https://www.google.com/maps?cid=3000885961110530432",
+      "query": "veterinarias en Zapopan",
+      "detail": {
+        "name": "Clínica Veterinaria VA-GA",
+        "url": "https://www.google.com/maps?cid=3000885961110530432",
+        "category": "Veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "gredilla y Tepame 1575, C. Arrayán 1575, entre calles:, Paraísos del Colli, 45069 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 1351 5726",
+            "text": "+52 33 1351 5726",
+            "href": ""
+          }
+        ],
+        "query": "veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "Veterinaria Monkey Pet",
+      "url": "https://www.google.com/maps?cid=13533961949846609928",
+      "query": "veterinarias en Zapopan",
+      "detail": {
+        "name": "Veterinaria Monkey Pet",
+        "url": "https://www.google.com/maps?cid=13533961949846609928",
+        "category": "Hospital veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Calle Sta. Monica 535d, Parques Zapopan, 45138 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 1606 1962",
+            "text": "+52 33 1606 1962",
+            "href": ""
+          }
+        ],
+        "query": "veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "VeteriAna",
+      "url": "https://www.google.com/maps?cid=5896023831678242103",
+      "query": "veterinarias en Zapopan",
+      "detail": {
+        "name": "VeteriAna",
+        "url": "https://www.google.com/maps?cid=5896023831678242103",
+        "category": "Veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av Rafael Sanzio 400, La Estancia, 45030 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://www.veteriana.com/"
+          },
+          {
+            "id": "phone:tel:+52 33 1406 9299",
+            "text": "+52 33 1406 9299",
+            "href": ""
+          }
+        ],
+        "query": "veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "Rocky's House",
+      "url": "https://www.google.com/maps?cid=10026302849791444179",
+      "query": "veterinarias en Zapopan",
+      "detail": {
+        "name": "Rocky's House",
+        "url": "https://www.google.com/maps?cid=10026302849791444179",
+        "category": "Veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av Rafael Sanzio 384-1, La Estancia, 45030 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 3105 3142",
+            "text": "+52 33 3105 3142",
+            "href": ""
+          }
+        ],
+        "query": "veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "Clínica Veterinaria Colibri",
+      "url": "https://www.google.com/maps?cid=15670368570511565184",
+      "query": "veterinarias en Zapopan",
+      "detail": {
+        "name": "Clínica Veterinaria Colibri",
+        "url": "https://www.google.com/maps?cid=15670368570511565184",
+        "category": "Veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Rosario Castellanos 6042-19, Paseos Universidad, 45016 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 2029 2921",
+            "text": "+52 33 2029 2921",
+            "href": ""
+          }
+        ],
+        "query": "veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "Villa Veterinarios; Núcleo de diagnóstico",
+      "url": "https://www.google.com/maps?cid=1644105149389254644",
+      "query": "clínicas veterinarias en Zapopan",
+      "detail": {
+        "name": "Villa Veterinarios; Núcleo de diagnóstico",
+        "url": "https://www.google.com/maps?cid=1644105149389254644",
+        "category": "Hospital veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "C. Puerto México 3551, Miramar, 45060 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://www.facebook.com/HospitalVillaVeterinarios/"
+          },
+          {
+            "id": "phone:tel:+52 33 3180 3967",
+            "text": "+52 33 3180 3967",
+            "href": ""
+          }
+        ],
+        "query": "clínicas veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "VETERINARIA \"PERSA\"",
+      "url": "https://www.google.com/maps?cid=9257187818834466402",
+      "query": "clínicas veterinarias en Zapopan",
+      "detail": {
+        "name": "VETERINARIA \"PERSA\"",
+        "url": "https://www.google.com/maps?cid=9257187818834466402",
+        "category": "Veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Belisario Domínguez 1680, Mariano Otero, 45067 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://prolimk.com.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 1603 1938",
+            "text": "+52 33 1603 1938",
+            "href": ""
+          }
+        ],
+        "query": "clínicas veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "Servicios Veterinarios FeliKan",
+      "url": "https://www.google.com/maps?cid=9401841050321926935",
+      "query": "clínicas veterinarias en Zapopan",
+      "detail": {
+        "name": "Servicios Veterinarios FeliKan",
+        "url": "https://www.google.com/maps?cid=9401841050321926935",
+        "category": "Veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Nicolás Copérnico 11811, Moctezuma, 45059 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 1016 7608",
+            "text": "+52 33 1016 7608",
+            "href": ""
+          }
+        ],
+        "query": "clínicas veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "HOSPITAL VETERINARIO ANIMALIA",
+      "url": "https://www.google.com/maps?cid=7077153438102658410",
+      "query": "clínicas veterinarias en Zapopan",
+      "detail": {
+        "name": "HOSPITAL VETERINARIO ANIMALIA",
+        "url": "https://www.google.com/maps?cid=7077153438102658410",
+        "category": "Veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Adolfo López Mateos Sur 5929, Pinar de la Calma, 45080 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://www.hospitalveterinarioanimalia.com/"
+          },
+          {
+            "id": "phone:tel:+52 33 1815 8866",
+            "text": "+52 33 1815 8866",
+            "href": ""
+          }
+        ],
+        "query": "clínicas veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "Clinica veterinaria Napo-Leonvets",
+      "url": "https://www.google.com/maps?cid=14617073574235661006",
+      "query": "clínicas veterinarias en Zapopan",
+      "detail": {
+        "name": "Clinica veterinaria Napo-Leonvets",
+        "url": "https://www.google.com/maps?cid=14617073574235661006",
+        "category": "Veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Juan Gil Preciado 4062, Nuevo México, 45138 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 1135 5813",
+            "text": "+52 33 1135 5813",
+            "href": ""
+          }
+        ],
+        "query": "clínicas veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "clinica veterinaria Fauna Care",
+      "url": "https://www.google.com/maps?cid=5608349799189135187",
+      "query": "clínicas veterinarias en Zapopan",
+      "detail": {
+        "name": "clinica veterinaria Fauna Care",
+        "url": "https://www.google.com/maps?cid=5608349799189135187",
+        "category": "Hospital veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Del Tule 835-int 2, Puertas del Tule, 45017 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 3110 1070",
+            "text": "+52 33 3110 1070",
+            "href": ""
+          }
+        ],
+        "query": "clínicas veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "Centro de Salud Animal Siglo XXI",
+      "url": "https://www.google.com/maps?cid=8871277020596107265",
+      "query": "clínicas veterinarias en Zapopan",
+      "detail": {
+        "name": "Centro de Salud Animal Siglo XXI",
+        "url": "https://www.google.com/maps?cid=8871277020596107265",
+        "category": "Hospital veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Adolfo López Mateos Sur 3139, Agua Blanca Habitacional, 45235 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://www.centrodesaludanimalsiglo21.com/"
+          },
+          {
+            "id": "phone:tel:+52 33 3684 2235",
+            "text": "+52 33 3684 2235",
+            "href": ""
+          }
+        ],
+        "query": "clínicas veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "Walking Pet's Clínica Veterinaria",
+      "url": "https://www.google.com/maps?cid=8892702777931425462",
+      "query": "clínicas veterinarias en Zapopan",
+      "detail": {
+        "name": "Walking Pet's Clínica Veterinaria",
+        "url": "https://www.google.com/maps?cid=8892702777931425462",
+        "category": "Hospital veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av Torremolinos 2761, Francisco Villa, 45130 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 1453 1319",
+            "text": "+52 33 1453 1319",
+            "href": ""
+          }
+        ],
+        "query": "clínicas veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "Clínica Veterinaria BLUEVET",
+      "url": "https://www.google.com/maps?cid=156601692091877340",
+      "query": "clínicas veterinarias en Zapopan",
+      "detail": {
+        "name": "Clínica Veterinaria BLUEVET",
+        "url": "https://www.google.com/maps?cid=156601692091877340",
+        "category": "Veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Calz Federalistas 2123, Jardines del Valle, 45138 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://www.facebook.com/share/1Aj5WNKtAS/"
+          },
+          {
+            "id": "phone:tel:+52 33 1517 5216",
+            "text": "+52 33 1517 5216",
+            "href": ""
+          }
+        ],
+        "query": "clínicas veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "Veterinaria Vet Point Clínica y Estética",
+      "url": "https://www.google.com/maps?cid=1781180101365928491",
+      "query": "clínicas veterinarias en Zapopan",
+      "detail": {
+        "name": "Veterinaria Vet Point Clínica y Estética",
+        "url": "https://www.google.com/maps?cid=1781180101365928491",
+        "category": "Veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Camino Viejo a Tesistan 719b, Santa Margarita1a Secc., 45140 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://www.facebook.com/search/top?q=vet%20point"
+          },
+          {
+            "id": "phone:tel:+52 33 1373 9341",
+            "text": "+52 33 1373 9341",
+            "href": ""
+          }
+        ],
+        "query": "clínicas veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "Hospital Veterinario Arboledas",
+      "url": "https://www.google.com/maps?cid=5290671728718168258",
+      "query": "clínicas veterinarias en Zapopan",
+      "detail": {
+        "name": "Hospital Veterinario Arboledas",
+        "url": "https://www.google.com/maps?cid=5290671728718168258",
+        "category": "Hospital veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Cruz del Sur 2909, Bosques de La Victoria, 44540 Guadalajara, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 3623 1208",
+            "text": "+52 33 3623 1208",
+            "href": ""
+          }
+        ],
+        "query": "clínicas veterinarias en Zapopan"
+      }
+    },
+    {
+      "name": "Hospital Veterinario de Pequeñas Especies",
+      "url": "https://www.google.com/maps?cid=748567467529389901",
+      "query": "hospital veterinario Zapopan",
+      "detail": {
+        "name": "Hospital Veterinario de Pequeñas Especies",
+        "url": "https://www.google.com/maps?cid=748567467529389901",
+        "category": "Hospital veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. José Parres Arias 735, Bosques del Centinela II, 45187 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://www.facebook.com/HVPEUdeG"
+          },
+          {
+            "id": "phone:tel:+52 33 2764 7028",
+            "text": "+52 33 2764 7028",
+            "href": ""
+          }
+        ],
+        "query": "hospital veterinario Zapopan"
+      }
+    },
+    {
+      "name": "Hospital Veterinario San José Colotlán",
+      "url": "https://www.google.com/maps?cid=15740051741794569414",
+      "query": "hospital veterinario Zapopan",
+      "detail": {
+        "name": "Hospital Veterinario San José Colotlán",
+        "url": "https://www.google.com/maps?cid=15740051741794569414",
+        "category": "Hospital veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Carr. a Colotlán 887-1A, Altaluz, 45200 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 1604 2571",
+            "text": "+52 33 1604 2571",
+            "href": ""
+          }
+        ],
+        "query": "hospital veterinario Zapopan"
+      }
+    },
+    {
+      "name": "Hospital Veterinario Guadalajara",
+      "url": "https://www.google.com/maps?cid=11196654437708780634",
+      "query": "hospital veterinario Zapopan",
+      "detail": {
+        "name": "Hospital Veterinario Guadalajara",
+        "url": "https://www.google.com/maps?cid=11196654437708780634",
+        "category": "Hospital veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av Adolfo López Mateos Nte 660 660, Ladrón de Guevara, Ladron De Guevara, 44600 Guadalajara, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://www.facebook.com/hospitalveterinarioguadalajara"
+          },
+          {
+            "id": "phone:tel:+52 33 3630 1730",
+            "text": "+52 33 3630 1730",
+            "href": ""
+          }
+        ],
+        "query": "hospital veterinario Zapopan"
+      }
+    },
+    {
+      "name": "Protección Animal Zapopan",
+      "url": "https://www.google.com/maps?cid=5998728876009532267",
+      "query": "hospital veterinario Zapopan",
+      "detail": {
+        "name": "Protección Animal Zapopan",
+        "url": "https://www.google.com/maps?cid=5998728876009532267",
+        "category": "Perrera",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Jardines de las Palmas, Jardines del Vergel, 45180 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://www.facebook.com/proteccionanimalzapopan/"
+          },
+          {
+            "id": "phone:tel:+52 33 2410 1000",
+            "text": "+52 33 2410 1000",
+            "href": ""
+          }
+        ],
+        "query": "hospital veterinario Zapopan"
+      }
+    },
+    {
+      "name": "HOSPITAL VETERINARIO ORTIZ HVO",
+      "url": "https://www.google.com/maps?cid=17038559708855364082",
+      "query": "hospital veterinario Zapopan",
+      "detail": {
+        "name": "HOSPITAL VETERINARIO ORTIZ HVO",
+        "url": "https://www.google.com/maps?cid=17038559708855364082",
+        "category": "Hospital veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Obreros de Cananea 1387, Constitución, 45184 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 3672 7403",
+            "text": "+52 33 3672 7403",
+            "href": ""
+          }
+        ],
+        "query": "hospital veterinario Zapopan"
+      }
+    },
+    {
+      "name": "Dogtor Care hospital veterinario 24 horas",
+      "url": "https://www.google.com/maps?cid=7136164907009788269",
+      "query": "hospital veterinario Zapopan",
+      "detail": {
+        "name": "Dogtor Care hospital veterinario 24 horas",
+        "url": "https://www.google.com/maps?cid=7136164907009788269",
+        "category": "Hospital veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Fray Antonio Alcalde 2179, Santa Monica, 44220 Guadalajara, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 3112 6142",
+            "text": "+52 33 3112 6142",
+            "href": ""
+          }
+        ],
+        "query": "hospital veterinario Zapopan"
+      }
+    },
+    {
+      "name": "Ortiz Hospital Veterinario",
+      "url": "https://www.google.com/maps?cid=5633683583064576202",
+      "query": "hospital veterinario Zapopan",
+      "detail": {
+        "name": "Ortiz Hospital Veterinario",
+        "url": "https://www.google.com/maps?cid=5633683583064576202",
+        "category": "Hospital veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av Venustiano Carranza 785, Constitución, 45180 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 1377 0879",
+            "text": "+52 33 1377 0879",
+            "href": ""
+          }
+        ],
+        "query": "hospital veterinario Zapopan"
+      }
+    },
+    {
+      "name": "Hospital Veterinario Señor Dog´s",
+      "url": "https://www.google.com/maps?cid=18363378614151553188",
+      "query": "hospital veterinario Zapopan",
+      "detail": {
+        "name": "Hospital Veterinario Señor Dog´s",
+        "url": "https://www.google.com/maps?cid=18363378614151553188",
+        "category": "Hospital veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Calle Aurelio Luis Gallardo 725 José María Vigil, Av Adolfo López Mateos Nte, Ladron De Guevara, 44650 Guadalajara, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://www.srdogs.com.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3342 3239",
+            "text": "+52 33 3342 3239",
+            "href": ""
+          }
+        ],
+        "query": "hospital veterinario Zapopan"
+      }
+    },
+    {
+      "name": "Hospital Veterinario de Occidente",
+      "url": "https://www.google.com/maps?cid=15901271423770218887",
+      "query": "hospital veterinario Zapopan",
+      "detail": {
+        "name": "Hospital Veterinario de Occidente",
+        "url": "https://www.google.com/maps?cid=15901271423770218887",
+        "category": "Veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Tepeyac 4599, Prados Tepeyac, 45050 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 3125 5543",
+            "text": "+52 33 3125 5543",
+            "href": ""
+          }
+        ],
+        "query": "hospital veterinario Zapopan"
+      }
+    },
+    {
+      "name": "HOSPITAL VETERINARIO HAPPY ANIMALS VETERINARY",
+      "url": "https://www.google.com/maps?cid=480823545505269264",
+      "query": "hospital veterinario Zapopan",
+      "detail": {
+        "name": "HOSPITAL VETERINARIO HAPPY ANIMALS VETERINARY",
+        "url": "https://www.google.com/maps?cid=480823545505269264",
+        "category": "Hospital veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av Mandarina 1625, Jardines de La Cruz, 44950 Guadalajara, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 1335 9530",
+            "text": "+52 33 1335 9530",
+            "href": ""
+          }
+        ],
+        "query": "hospital veterinario Zapopan"
+      }
+    },
+    {
+      "name": "Kattos Hospital Veterinario",
+      "url": "https://www.google.com/maps?cid=6751227997997781666",
+      "query": "hospital veterinario Zapopan",
+      "detail": {
+        "name": "Kattos Hospital Veterinario",
+        "url": "https://www.google.com/maps?cid=6751227997997781666",
+        "category": "Hospital veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. la Cima 263, La Cima, 45134 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 1894 9517",
+            "text": "+52 33 1894 9517",
+            "href": ""
+          }
+        ],
+        "query": "hospital veterinario Zapopan"
+      }
+    },
+    {
+      "name": "Hospital Veterinario San Javier",
+      "url": "https://www.google.com/maps?cid=4348838626356187166",
+      "query": "hospital veterinario Zapopan",
+      "detail": {
+        "name": "Hospital Veterinario San Javier",
+        "url": "https://www.google.com/maps?cid=4348838626356187166",
+        "category": "Hospital veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Rubén Darío 1685, Providencia, 44130 Guadalajara, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://hvsanjavier.com/"
+          },
+          {
+            "id": "phone:tel:+52 33 2267 5608",
+            "text": "+52 33 2267 5608",
+            "href": ""
+          }
+        ],
+        "query": "hospital veterinario Zapopan"
+      }
+    },
+    {
+      "name": "UNIDAD DE GERIATRÍA VETERINARIA SAN MIGUEL",
+      "url": "https://www.google.com/maps?cid=8897455133308388607",
+      "query": "hospital veterinario Zapopan",
+      "detail": {
+        "name": "UNIDAD DE GERIATRÍA VETERINARIA SAN MIGUEL",
+        "url": "https://www.google.com/maps?cid=8897455133308388607",
+        "category": "Veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Arco Valentino 592, Arcos de Zapopan, 45138 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 1825 4499",
+            "text": "+52 33 1825 4499",
+            "href": ""
+          }
+        ],
+        "query": "hospital veterinario Zapopan"
+      }
+    },
+    {
+      "name": "Alfa Animal Hospital Veterinario",
+      "url": "https://www.google.com/maps?cid=16817609366869989776",
+      "query": "hospital veterinario Zapopan",
+      "detail": {
+        "name": "Alfa Animal Hospital Veterinario",
+        "url": "https://www.google.com/maps?cid=16817609366869989776",
+        "category": "Hospital veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. de los Arcos 964, centro, Jardines del Bosque, 44520 Guadalajara, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "http://alfaanimal.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 2316 2714",
+            "text": "+52 33 2316 2714",
+            "href": ""
+          }
+        ],
+        "query": "hospital veterinario Zapopan"
+      }
+    },
+    {
+      "name": "Ashoka Hospital Veterinario",
+      "url": "https://www.google.com/maps?cid=623548262134302969",
+      "query": "hospital veterinario Zapopan",
+      "detail": {
+        "name": "Ashoka Hospital Veterinario",
+        "url": "https://www.google.com/maps?cid=623548262134302969",
+        "category": "Hospital veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "C. Juan Álvarez 1702, Ladrón de Guevara, Ladron De Guevara, 44600 Guadalajara, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://ashokaveterinaria.com/"
+          },
+          {
+            "id": "phone:tel:+52 33 1466 3554",
+            "text": "+52 33 1466 3554",
+            "href": ""
+          }
+        ],
+        "query": "hospital veterinario Zapopan"
+      }
+    },
+    {
+      "name": "Hospital Veterinario VetPets Cañadas",
+      "url": "https://www.google.com/maps?cid=9277627851626158518",
+      "query": "hospital veterinario Zapopan",
+      "detail": {
+        "name": "Hospital Veterinario VetPets Cañadas",
+        "url": "https://www.google.com/maps?cid=9277627851626158518",
+        "category": "Hospital veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Bajada de Las Cascadas #6, Las Cañadas Residencial y Club de Golf, Las Cañadas, 45206 Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 3685 0675",
+            "text": "+52 33 3685 0675",
+            "href": ""
+          }
+        ],
+        "query": "hospital veterinario Zapopan"
+      }
+    },
+    {
+      "name": "hospital veterinario Africare",
+      "url": "https://www.google.com/maps?cid=14210585719866723521",
+      "query": "hospital veterinario Zapopan",
+      "detail": {
+        "name": "hospital veterinario Africare",
+        "url": "https://www.google.com/maps?cid=14210585719866723521",
+        "category": "Hospital para veteranos",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Galileo Galilei 4008, Arboledas, 45070 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": ""
+          },
+          {
+            "id": "phone:tel:+52 33 1311 4196",
+            "text": "+52 33 1311 4196",
+            "href": ""
+          }
+        ],
+        "query": "hospital veterinario Zapopan"
+      }
+    },
+    {
+      "name": "Occivet Clínica Veterinaria",
+      "url": "https://www.google.com/maps?cid=11365496915195976096",
+      "query": "hospital veterinario Zapopan",
+      "detail": {
+        "name": "Occivet Clínica Veterinaria",
+        "url": "https://www.google.com/maps?cid=11365496915195976096",
+        "category": "Hospital veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av. Ludwig Van Beethoven 4860a, Lomas del Seminario, 45038 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://www.facebook.com/occivethospital"
+          },
+          {
+            "id": "phone:tel:+52 33 3302 3920",
+            "text": "+52 33 3302 3920",
+            "href": ""
+          }
+        ],
+        "query": "hospital veterinario Zapopan"
+      }
+    },
+    {
+      "name": "Oh Pet!",
+      "url": "https://www.google.com/maps?cid=5701161224425246452",
+      "query": "veterinarios Zapopan",
+      "detail": {
+        "name": "Oh Pet!",
+        "url": "https://www.google.com/maps?cid=5701161224425246452",
+        "category": "Veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "Av Moctezuma, Moctezuma, 45019 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://www.ohpetveterinaria.com/"
+          },
+          {
+            "id": "phone:tel:+52 33 2410 4421",
+            "text": "+52 33 2410 4421",
+            "href": ""
+          }
+        ],
+        "query": "veterinarios Zapopan"
+      }
+    },
+    {
+      "name": "MERAKI Centro Veterinario",
+      "url": "https://www.google.com/maps?cid=16167285926816572002",
+      "query": "veterinarios Zapopan",
+      "detail": {
+        "name": "MERAKI Centro Veterinario",
+        "url": "https://www.google.com/maps?cid=16167285926816572002",
+        "category": "Veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "C. Quetzalcóatl 4410, Jardines del Sol, 45050 Zapopan, Jal.",
+            "href": ""
+          },
+          {
+            "id": "authority",
+            "text": "",
+            "href": "https://merakicentroveterinario.com.mx/"
+          },
+          {
+            "id": "phone:tel:+52 33 3054 6169",
+            "text": "+52 33 3054 6169",
+            "href": ""
+          }
+        ],
+        "query": "veterinarios Zapopan"
+      }
+    }
+  ],
+  "completed": [
+    "https://www.google.com/maps?cid=10321786978527926946",
+    "https://www.google.com/maps?cid=170501629504958411",
+    "https://www.google.com/maps?cid=3418038434845338222",
+    "https://www.google.com/maps?cid=6197159457807394608",
+    "https://www.google.com/maps?cid=14249634115391482895",
+    "https://www.google.com/maps?cid=15855458794925086158",
+    "https://www.google.com/maps?cid=14658948806217693186",
+    "https://www.google.com/maps?cid=12059527651188440818",
+    "https://www.google.com/maps?cid=2720075251002145394",
+    "https://www.google.com/maps?cid=6117411450697200668",
+    "https://www.google.com/maps?cid=10822127862099789817",
+    "https://www.google.com/maps?cid=5330922543312891000",
+    "https://www.google.com/maps?cid=17888433434878578498",
+    "https://www.google.com/maps?cid=11476493348966695992",
+    "https://www.google.com/maps?cid=15549566837116771183",
+    "https://www.google.com/maps?cid=1067605314030574499",
+    "https://www.google.com/maps?cid=2838028900172906492",
+    "https://www.google.com/maps?cid=6693792511048572433",
+    "https://www.google.com/maps?cid=11559464305287462478",
+    "https://www.google.com/maps?cid=7705236350427628781",
+    "https://www.google.com/maps?cid=10254928513395666010",
+    "https://www.google.com/maps?cid=11189345285007820798",
+    "https://www.google.com/maps?cid=7525259874253225853",
+    "https://www.google.com/maps?cid=4607347216980003579",
+    "https://www.google.com/maps?cid=16751119823206313472",
+    "https://www.google.com/maps?cid=13313089282821601651",
+    "https://www.google.com/maps?cid=9912828706136644407",
+    "https://www.google.com/maps?cid=9889481529073099948",
+    "https://www.google.com/maps?cid=5751047961039320182",
+    "https://www.google.com/maps?cid=11865817251095064941",
+    "https://www.google.com/maps?cid=11843229103375166072",
+    "https://www.google.com/maps?cid=10253509443105216927",
+    "https://www.google.com/maps?cid=169787613480578490",
+    "https://www.google.com/maps?cid=7885385114805649406",
+    "https://www.google.com/maps?cid=9075376654543531354",
+    "https://www.google.com/maps?cid=11248956070082163231",
+    "https://www.google.com/maps?cid=7186012484428414890",
+    "https://www.google.com/maps?cid=9698951967701701329",
+    "https://www.google.com/maps?cid=220305670854471819",
+    "https://www.google.com/maps?cid=18012030834381798238",
+    "https://www.google.com/maps?cid=5204039709268282839",
+    "https://www.google.com/maps?cid=13792086830553463113",
+    "https://www.google.com/maps?cid=10613830633058128252",
+    "https://www.google.com/maps?cid=8964338805399962197",
+    "https://www.google.com/maps?cid=13135036426315450939",
+    "https://www.google.com/maps?cid=3000885961110530432",
+    "https://www.google.com/maps?cid=13533961949846609928",
+    "https://www.google.com/maps?cid=5896023831678242103",
+    "https://www.google.com/maps?cid=10026302849791444179",
+    "https://www.google.com/maps?cid=15670368570511565184",
+    "https://www.google.com/maps?cid=1644105149389254644",
+    "https://www.google.com/maps?cid=9257187818834466402",
+    "https://www.google.com/maps?cid=9401841050321926935",
+    "https://www.google.com/maps?cid=7077153438102658410",
+    "https://www.google.com/maps?cid=14617073574235661006",
+    "https://www.google.com/maps?cid=5608349799189135187",
+    "https://www.google.com/maps?cid=8871277020596107265",
+    "https://www.google.com/maps?cid=8892702777931425462",
+    "https://www.google.com/maps?cid=156601692091877340",
+    "https://www.google.com/maps?cid=1781180101365928491",
+    "https://www.google.com/maps?cid=5290671728718168258",
+    "https://www.google.com/maps?cid=748567467529389901",
+    "https://www.google.com/maps?cid=15740051741794569414",
+    "https://www.google.com/maps?cid=11196654437708780634",
+    "https://www.google.com/maps?cid=5998728876009532267",
+    "https://www.google.com/maps?cid=17038559708855364082"
+  ],
+  "discovery_complete": true,
+  "updated_at": "2026-09-22T04:26:46+00:00",
+  "complete": true
+}

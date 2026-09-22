@@ -1,0 +1,2810 @@
+{
+  "config": {
+    "queries": [
+      "veterinarias en Zapopan",
+      "clínicas veterinarias en Zapopan",
+      "hospital veterinario Zapopan",
+      "veterinarios Zapopan",
+      "veterinaria 24 horas Zapopan",
+      "urgencias veterinarias Zapopan"
+    ],
+    "municipality": "Zapopan",
+    "limit": 100,
+    "categories": [
+      "veterin"
+    ]
+  },
+  "accepted": [
+    {
+      "name": "HVC Hospital Veterinario Casillas",
+      "category": "Cuidados veterinarios",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "C. Moctezuma 48, Centro, 45100 Zapopan, Jal., México",
+      "phone": "+523336332408",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=14658948806217693186",
+      "sources": [
+        "https://www.google.com/maps?cid=14658948806217693186"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:19:52+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Hospital Veterinario Santa Esther",
+      "category": "Hospital veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Sta. Esther 201-Loc. 12 y 14, Seccion, Santa Margarita1a Secc., 45140 Zapopan, Jal., México",
+      "phone": "+523315819082",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=17888433434878578498",
+      "sources": [
+        "https://www.google.com/maps?cid=17888433434878578498"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:20:05+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "ACC24 Hospital Veterinario Premium 24 Horas",
+      "category": "Veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av De La Calma 4471, La Calma, 45070 Zapopan, Jal., México",
+      "phone": "+523345090742",
+      "website": "https://animalcarecentergdl.com/",
+      "maps": "https://www.google.com/maps?cid=10321786978527926946",
+      "sources": [
+        "https://www.google.com/maps?cid=10321786978527926946"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:20:18+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Centro Veterinario Hoslom.",
+      "category": "Veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. de la Mancha 308 C, Lomas de Zapopan, 45130 Zapopan, Jal., México",
+      "phone": "+523338333738",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=11476493348966695992",
+      "sources": [
+        "https://www.google.com/maps?cid=11476493348966695992"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:20:29+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "The Animal Health Center",
+      "category": "Hospital veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Patria 3212 A, Loma Bonita Ejidal, 45085 Zapopan, Jal., México",
+      "phone": "+523313802324",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=170501629504958411",
+      "sources": [
+        "https://www.google.com/maps?cid=170501629504958411"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:20:37+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "MASCOTAS",
+      "category": "Hospital veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av 18 de Marzo 1895-A, Las Águilas, 45080 Zapopan, Jal., México",
+      "phone": "+523336328648",
+      "website": "https://www.facebook.com/pages/Clinica-Veterinaria-MASCOTAS/422903361073896",
+      "maps": "https://www.google.com/maps?cid=3418038434845338222",
+      "sources": [
+        "https://www.google.com/maps?cid=3418038434845338222"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:20:45+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "HOSPITAL VETERINARIO ANIMALIA",
+      "category": "Veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Adolfo López Mateos Sur 5929, Pinar de la Calma, 45080 Zapopan, Jal., México",
+      "phone": "+523318158866",
+      "website": "http://www.hospitalveterinarioanimalia.com/",
+      "maps": "https://www.google.com/maps?cid=7077153438102658410",
+      "sources": [
+        "https://www.google.com/maps?cid=7077153438102658410"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:20:52+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Veterinaria Paseos",
+      "category": "Veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Enrique Ladrón de Guevara 3355-Int. 5, Paseos del Sol, 45079 Zapopan, Jal., México",
+      "phone": "+523331318086",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=11559464305287462478",
+      "sources": [
+        "https://www.google.com/maps?cid=11559464305287462478"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:21:00+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "WooFit Mx",
+      "category": "Hospital veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "C. Juan Manuel 126, Zapopan Centro, Zapopan, 45100 Zapopan, Jal., México",
+      "phone": "+523333646906",
+      "website": "https://www.facebook.com/anuvisvet/",
+      "maps": "https://www.google.com/maps?cid=7705236350427628781",
+      "sources": [
+        "https://www.google.com/maps?cid=7705236350427628781"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:21:09+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Hospital veterinario Alvet",
+      "category": "Veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. de las torres 2137, Sta. Martha esq-B, Santa Margarita1a Secc., 45140 Zapopan, Jal., México",
+      "phone": "+523339591227",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=14249634115391482895",
+      "sources": [
+        "https://www.google.com/maps?cid=14249634115391482895"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:21:16+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "CISAZ (Centro Integral de Salud Animal Zapopan)",
+      "category": "Hospital veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Jardines de las Palmas 1650, Jardines del Vergel, 45130 Zapopan, Jal., México",
+      "phone": "+523338182200",
+      "website": "https://www.facebook.com/proteccionanimalzapopan?mibextid=ZbWKwL",
+      "maps": "https://www.google.com/maps?cid=6197159457807394608",
+      "sources": [
+        "https://www.google.com/maps?cid=6197159457807394608"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:21:26+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Vet Inc.",
+      "category": "Hospital veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av Valdepeñas 1920-2, Lomas de Zapopan, 45130 Zapopan, Jal., México",
+      "phone": "+523313851770",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=9912828706136644407",
+      "sources": [
+        "https://www.google.com/maps?cid=9912828706136644407"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:21:34+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Kchorros Hospital Veterinario",
+      "category": "Hospital veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av Guadalupe 4710, Jardines de Guadalupe, 45030 Zapopan, Jal., México",
+      "phone": "+523335636528",
+      "website": "https://www.kchorros.com/",
+      "maps": "https://www.google.com/maps?cid=10254928513395666010",
+      "sources": [
+        "https://www.google.com/maps?cid=10254928513395666010"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:21:40+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Hospital Veterinario VitalPets",
+      "category": "Hospital veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Tepeyac 4153, Prados Tepeyac, 45050 Zapopan, Jal., México",
+      "phone": "+523331216772",
+      "website": "https://www.instagram.com/vitalpetsveterinaria/",
+      "maps": "https://www.google.com/maps?cid=2838028900172906492",
+      "sources": [
+        "https://www.google.com/maps?cid=2838028900172906492"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:21:46+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Clinica Veterinaria Cordilleras",
+      "category": "Veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av Manuel J. Clouthier 290, Jardines de Guadalupe, 45038 Zapopan, Jal., México",
+      "phone": "+523336733321",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=11865817251095064941",
+      "sources": [
+        "https://www.google.com/maps?cid=11865817251095064941"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:21:53+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Clínica veterinaria mascotas +",
+      "category": "Veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Patria 3388B, Rinconada de la Calma, 45080 Zapopan, Jal., México",
+      "phone": "+523336317065",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=3634108506802066767",
+      "sources": [
+        "https://www.google.com/maps?cid=3634108506802066767"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:22:01+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Oh Pet!",
+      "category": "Veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av Moctezuma, Moctezuma, 45019 Zapopan, Jal., México",
+      "phone": "+523324104421",
+      "website": "https://www.ohpetveterinaria.com/",
+      "maps": "https://www.google.com/maps?cid=5701161224425246452",
+      "sources": [
+        "https://www.google.com/maps?cid=5701161224425246452"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:22:16+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Clinica Veterinaria Guadalupe",
+      "category": "Veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av Guadalupe 5233, Guadalupe Jardín, 45030 Zapopan, Jal., México",
+      "phone": "+523312040772",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=15855458794925086158",
+      "sources": [
+        "https://www.google.com/maps?cid=15855458794925086158"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:22:29+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Hospital Veterinario Lomont Patria (Oftalmología, Traumatología, Ortopedía, Neurología, Cardiología, Oncología, Tomografia)",
+      "category": "Hospital veterinario",
+      "query": "hospital veterinario Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Patria 165, Jardines Vallarta, 45027 Zapopan, Jal., México",
+      "phone": "+523323005009",
+      "website": "https://lomont.com.mx/",
+      "maps": "https://www.google.com/maps?cid=10822127862099789817",
+      "sources": [
+        "https://www.google.com/maps?cid=10822127862099789817"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:24:45+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Hospital Veterinario VETPETS",
+      "category": "Hospital veterinario",
+      "query": "hospital veterinario Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av Naciones Unidas 5260-4, Jardines Universidad, 45110 Zapopan, Jal., México",
+      "phone": "+523336822817",
+      "website": "https://hospitalesvetpets.com.mx/",
+      "maps": "https://www.google.com/maps?cid=12059527651188440818",
+      "sources": [
+        "https://www.google.com/maps?cid=12059527651188440818"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:24:53+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Hospital Veterinario Universidad",
+      "category": "Hospital veterinario",
+      "query": "hospital veterinario Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Patria 1504 C, Universitaria, 45110 Zapopan, Jal., México",
+      "phone": "+523336417232",
+      "website": "http://www.veterinariauniversidad.com.mx/",
+      "maps": "https://www.google.com/maps?cid=13135036426315450939",
+      "sources": [
+        "https://www.google.com/maps?cid=13135036426315450939"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:25:01+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Hospital Veterinario de Pequeñas Especies",
+      "category": "Hospital veterinario",
+      "query": "hospital veterinario Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. José Parres Arias 735, Bosques del Centinela II, 45187 Zapopan, Jal., México",
+      "phone": "+523327647028",
+      "website": "https://www.facebook.com/HVPEUdeG",
+      "maps": "https://www.google.com/maps?cid=748567467529389901",
+      "sources": [
+        "https://www.google.com/maps?cid=748567467529389901"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:25:13+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Hospital Veterinario San José Valle Imperial",
+      "category": "Hospital veterinario",
+      "query": "hospital veterinario Zapopan",
+      "municipality": "Zapopan",
+      "address": "Bv. Valle Imperial 260, Copalita, 45134 Zapopan, Jal., México",
+      "phone": "+523316521224",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=2720075251002145394",
+      "sources": [
+        "https://www.google.com/maps?cid=2720075251002145394"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:25:24+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "HOSPITAL VETERINARIO MADIVET",
+      "category": "Hospital veterinario",
+      "query": "veterinarios Zapopan",
+      "municipality": "Zapopan",
+      "address": "Santo Santiago 3769, Jardín de San Ignacio, 45040 Zapopan, Jal., México",
+      "phone": "+523334265299",
+      "website": "https://www.madivet.com.mx/",
+      "maps": "https://www.google.com/maps?cid=6117411450697200668",
+      "sources": [
+        "https://www.google.com/maps?cid=6117411450697200668"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:25:34+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Dactary Hospital Veterinario",
+      "category": "Hospital veterinario",
+      "query": "hospital veterinario Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Patria 516, Lomas del Seminario, 45038 Zapopan, Jal., México",
+      "phone": "+523333132111",
+      "website": "http://www.dactary.com/",
+      "maps": "https://www.google.com/maps?cid=1067605314030574499",
+      "sources": [
+        "https://www.google.com/maps?cid=1067605314030574499"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:25:43+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Centro Veterinario Villarejo by Pet Fashion",
+      "category": "Hospital veterinario",
+      "query": "veterinarios Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av Manuel J. Clouthier 132-A, Prados Vallarta, 45020 Zapopan, Jal., México",
+      "phone": "+523331254021",
+      "website": "http://petfashionvet.wixsite.com/cvvillarejo",
+      "maps": "https://www.google.com/maps?cid=10253509443105216927",
+      "sources": [
+        "https://www.google.com/maps?cid=10253509443105216927"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:25:49+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Clínica Veterinaria San Gabriel",
+      "category": "Veterinario",
+      "query": "clínicas veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Blvd. Del Vigía 421c, El Vigía, 45140 Zapopan, Jal., México",
+      "phone": "+523338323529",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=5204039709268282839",
+      "sources": [
+        "https://www.google.com/maps?cid=5204039709268282839"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:25:57+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "HOSPITAL VETERINARIO ORTIZ HVO",
+      "category": "Hospital veterinario",
+      "query": "hospital veterinario Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Obreros de Cananea 1387, Constitución, 45184 Zapopan, Jal., México",
+      "phone": "+523336727403",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=17038559708855364082",
+      "sources": [
+        "https://www.google.com/maps?cid=17038559708855364082"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:26:09+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Occivet Clínica Veterinaria",
+      "category": "Veterinario",
+      "query": "veterinarios Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Ludwig Van Beethoven 4860a, Lomas del Seminario, 45038 Zapopan, Jal., México",
+      "phone": "+523333023920",
+      "website": "https://www.facebook.com/occivethospital",
+      "maps": "https://www.google.com/maps?cid=11365496915195976096",
+      "sources": [
+        "https://www.google.com/maps?cid=11365496915195976096"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:26:19+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "BIENESTAR ANIMAL",
+      "category": "Veterinario",
+      "query": "clínicas veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Tepeyac 1719, Cd de los Niños, 45050 Zapopan, Jal., México",
+      "phone": "+523331222434",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=5751047961039320182",
+      "sources": [
+        "https://www.google.com/maps?cid=5751047961039320182"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:26:30+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Servicios Veterinarios FeliKan",
+      "category": "Veterinario",
+      "query": "veterinarios Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Nicolás Copérnico 11811, Moctezuma, 45059 Zapopan, Jal., México",
+      "phone": "+523310167608",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=9401841050321926935",
+      "sources": [
+        "https://www.google.com/maps?cid=9401841050321926935"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:26:37+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Veterinaria San Jose",
+      "category": "Hospital veterinario",
+      "query": "hospital veterinario Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Acueducto 1120, Girasoles Elite, 45138 Zapopan, Jal., México",
+      "phone": "+523315620558",
+      "website": "http://www.facebook.com/veterinaria.sanjose.96",
+      "maps": "https://www.google.com/maps?cid=5330922543312891000",
+      "sources": [
+        "https://www.google.com/maps?cid=5330922543312891000"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:26:44+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "VeteriAna",
+      "category": "Veterinario",
+      "query": "veterinarios Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av Rafael Sanzio 400, La Estancia, 45030 Zapopan, Jal., México",
+      "phone": "+523314069299",
+      "website": "http://www.veteriana.com/",
+      "maps": "https://www.google.com/maps?cid=5896023831678242103",
+      "sources": [
+        "https://www.google.com/maps?cid=5896023831678242103"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:27:01+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Clínica Veterinaria BLUEVET",
+      "category": "Veterinario",
+      "query": "clínicas veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Calz Federalistas 2123, Jardines del Valle, 45138 Zapopan, Jal., México",
+      "phone": "+523315175216",
+      "website": "https://www.facebook.com/share/1Aj5WNKtAS/",
+      "maps": "https://www.google.com/maps?cid=156601692091877340",
+      "sources": [
+        "https://www.google.com/maps?cid=156601692091877340"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:27:12+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Hospital Veterinario de Occidente",
+      "category": "Veterinario",
+      "query": "hospital veterinario Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Tepeyac 4599, Prados Tepeyac, 45050 Zapopan, Jal., México",
+      "phone": "+523331255543",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=15901271423770218887",
+      "sources": [
+        "https://www.google.com/maps?cid=15901271423770218887"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:27:21+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Centro Veterinario Valles",
+      "category": "Veterinario",
+      "query": "veterinaria 24 horas Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Mariano Otero 3545, La Calma, 45070 Zapopan, Jal., México",
+      "phone": "+523315622707",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=15549566837116771183",
+      "sources": [
+        "https://www.google.com/maps?cid=15549566837116771183"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:32:40+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Pet Clinik",
+      "category": "Veterinario",
+      "query": "veterinaria 24 horas Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av Paseo de las Aves 2664, Canteras del Centinela, Centinela I, 45130 Zapopan, Jal., México",
+      "phone": "+523339470830",
+      "website": "https://m.facebook.com/pages/category/Pet-Service/PETClinik/",
+      "maps": "https://www.google.com/maps?cid=754042467225598932",
+      "sources": [
+        "https://www.google.com/maps?cid=754042467225598932"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:32:48+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "VETERINARIA \"PERSA\"",
+      "category": "Veterinario",
+      "query": "veterinaria 24 horas Zapopan",
+      "municipality": "Zapopan",
+      "address": "Belisario Domínguez 1680, Mariano Otero, 45067 Zapopan, Jal., México",
+      "phone": "+523316031938",
+      "website": "https://prolimk.com.mx/",
+      "maps": "https://www.google.com/maps?cid=9257187818834466402",
+      "sources": [
+        "https://www.google.com/maps?cid=9257187818834466402"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:32:56+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Clínica Veterinaria Africam",
+      "category": "Cuidados veterinarios",
+      "query": "veterinaria 24 horas Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Galileo Galilei 4008, Arboledas, 45070 Zapopan, Jal., México",
+      "phone": "+523313114196",
+      "website": "http://clinicaveterinariaafricam.com/",
+      "maps": "https://www.google.com/maps?cid=9075376654543531354",
+      "sources": [
+        "https://www.google.com/maps?cid=9075376654543531354"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:33:02+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Centro de Salud Animal Siglo XXI",
+      "category": "Hospital veterinario",
+      "query": "urgencias veterinarias Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Adolfo López Mateos Sur 3139, Agua Blanca Habitacional, 45235 Zapopan, Jal., México",
+      "phone": "+523336842235",
+      "website": "http://www.centrodesaludanimalsiglo21.com/",
+      "maps": "https://www.google.com/maps?cid=8871277020596107265",
+      "sources": [
+        "https://www.google.com/maps?cid=8871277020596107265"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:33:09+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Clínica Veterinaria de Especialidades Laureles",
+      "category": "Veterinario",
+      "query": "veterinaria 24 horas Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Juan Pablo II 119, Zapopan, 45100 Zapopan, Jal., México",
+      "phone": "+523336330430",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=16751119823206313472",
+      "sources": [
+        "https://www.google.com/maps?cid=16751119823206313472"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:33:30+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Ortiz Hospital Veterinario",
+      "category": "Hospital veterinario",
+      "query": "urgencias veterinarias Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av Venustiano Carranza 785, Constitución, 45180 Zapopan, Jal., México",
+      "phone": "+523313770879",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=5633683583064576202",
+      "sources": [
+        "https://www.google.com/maps?cid=5633683583064576202"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:33:36+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Vet 24/7 Dr. Pablo",
+      "category": "Veterinario",
+      "query": "veterinaria 24 horas Zapopan",
+      "municipality": "Zapopan",
+      "address": "Rubi 90, Balcones de la Cantera, 45186 Zapopan, Jal., México",
+      "phone": "+523332009322",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=9889481529073099948",
+      "sources": [
+        "https://www.google.com/maps?cid=9889481529073099948"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:33:43+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "UNIDAD DE GERIATRÍA VETERINARIA SAN MIGUEL",
+      "category": "Veterinario",
+      "query": "urgencias veterinarias Zapopan",
+      "municipality": "Zapopan",
+      "address": "Arco Valentino 592, Arcos de Zapopan, 45138 Zapopan, Jal., México",
+      "phone": "+523318254499",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=8897455133308388607",
+      "sources": [
+        "https://www.google.com/maps?cid=8897455133308388607"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:33:49+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Veterinaria Dogma",
+      "category": "Veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Enrique Ladrón de Guevara 1768, Paseos del Sol, 45079 Zapopan, Jal., México",
+      "phone": "+523333551954",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=220305670854471819",
+      "sources": [
+        "https://www.google.com/maps?cid=220305670854471819"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:33:55+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Clinica veterinaria Napo-Leonvets",
+      "category": "Veterinario",
+      "query": "clínicas veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Juan Gil Preciado 4062, Nuevo México, 45138 Zapopan, Jal., México",
+      "phone": "+523311355813",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=14617073574235661006",
+      "sources": [
+        "https://www.google.com/maps?cid=14617073574235661006"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:34:01+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Veterinaria Mi Granjita",
+      "category": "Veterinario",
+      "query": "veterinarios Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Tesistán 878, San Isidro Ejidal, 45147 Zapopan, Jal., México",
+      "phone": "+523332474213",
+      "website": "https://www.instagram.com/veterinaria.migranjita?igsh=MWp4aG40MzNodHNyOQ==",
+      "maps": "https://www.google.com/maps?cid=169787613480578490",
+      "sources": [
+        "https://www.google.com/maps?cid=169787613480578490"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:34:11+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Clínica Veterinaria Rivenvet",
+      "category": "Veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Marina Mazatlán 349-B, Sta Margarita, 45136 Zapopan, Jal., México",
+      "phone": "+523332165458",
+      "website": "https://www.facebook.com/RivenVet/",
+      "maps": "https://www.google.com/maps?cid=17662108751685327979",
+      "sources": [
+        "https://www.google.com/maps?cid=17662108751685327979"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:34:24+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Veterinaria Nusske Tesistan",
+      "category": "Veterinario",
+      "query": "hospital veterinario Zapopan",
+      "municipality": "Zapopan",
+      "address": "Valle de Tesistan #110 Tesistán, 45100 Zapopan, Jal., México",
+      "phone": "+523335752874",
+      "website": "https://veterinarianusske.com.mx/",
+      "maps": "https://www.google.com/maps?cid=11189345285007820798",
+      "sources": [
+        "https://www.google.com/maps?cid=11189345285007820798"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:34:32+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Veterinaria Huesitos",
+      "category": "Veterinario",
+      "query": "veterinarios Zapopan",
+      "municipality": "Zapopan",
+      "address": "Calz de los Enebros 7280, Alamedas de Tesistán, 45180 Zapopan, Jal., México",
+      "phone": "+523311341745",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=9698951967701701329",
+      "sources": [
+        "https://www.google.com/maps?cid=9698951967701701329"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:34:40+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Veterinaria Inuneko",
+      "category": "Hospital veterinario",
+      "query": "urgencias veterinarias Zapopan",
+      "municipality": "Zapopan",
+      "address": "Calle Ramón Corona, Unidad 446, República, 45146 Zapopan, Jal., México",
+      "phone": "+523339682829",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=8706574520696196074",
+      "sources": [
+        "https://www.google.com/maps?cid=8706574520696196074"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:34:48+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Veterinaria Chapalita",
+      "category": "Veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av Guadalupe 4348, Camino Real, 45040 Zapopan, Jal., México",
+      "phone": "+523336283525",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=5486087921655284758",
+      "sources": [
+        "https://www.google.com/maps?cid=5486087921655284758"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:34:55+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Veterinaria Misión Del Valle",
+      "category": "Cuidados veterinarios",
+      "query": "veterinarios Zapopan",
+      "municipality": "Zapopan",
+      "address": "Prol. Río Blanco 1069-39, Villas Mirador, Misión San Isidro, 45133 Zapopan, Jal., México",
+      "phone": "+523316089323",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=1108211026666160508",
+      "sources": [
+        "https://www.google.com/maps?cid=1108211026666160508"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:35:19+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "CLÍNICA VETERINARIA DE ALEMÁN",
+      "category": "Hospital veterinario",
+      "query": "clínicas veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Tesistán 734A, San José del Bajío, 45140 Zapopan, Jal., México",
+      "phone": "+523336331176",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=10613830633058128252",
+      "sources": [
+        "https://www.google.com/maps?cid=10613830633058128252"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:35:30+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Clínica Veterinaria VA-GA",
+      "category": "Veterinario",
+      "query": "veterinarios Zapopan",
+      "municipality": "Zapopan",
+      "address": "gredilla y Tepame 1575, C. Arrayán 1575, entre calles:, Paraísos del Colli, 45069 Zapopan, Jal., México",
+      "phone": "+523313515726",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=3000885961110530432",
+      "sources": [
+        "https://www.google.com/maps?cid=3000885961110530432"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:35:38+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Veterinaria San Jorge",
+      "category": "Veterinario",
+      "query": "urgencias veterinarias Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av Guadalupe 6152-B, Jardines de Chapalita, Exitmex, 45010 Zapopan, Jal., México",
+      "phone": "+523335875897",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=14973746502055501827",
+      "sources": [
+        "https://www.google.com/maps?cid=14973746502055501827"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:35:46+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Walking Pet's Clínica Veterinaria",
+      "category": "Hospital veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av Torremolinos 2761, Francisco Villa, 45130 Zapopan, Jal., México",
+      "phone": "+523314531319",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=8892702777931425462",
+      "sources": [
+        "https://www.google.com/maps?cid=8892702777931425462"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:35:54+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Veterinaria Franquez",
+      "category": "Veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Tesistán 670-11, Arcos de Zapopan, 45130 Zapopan, Jal., México",
+      "phone": "+523396883513",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=16119400413441448132",
+      "sources": [
+        "https://www.google.com/maps?cid=16119400413441448132"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:36:37+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "CENTRO VETERINARIO DEL VALLE",
+      "category": "Veterinario",
+      "query": "hospital veterinario Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av Valle de Atemajac 2025, Jardines del Valle, 45136 Zapopan, Jal., México",
+      "phone": "+523313714470",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=7186012484428414890",
+      "sources": [
+        "https://www.google.com/maps?cid=7186012484428414890"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:36:44+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Servicios médicos veterinarios de Alba",
+      "category": "Hospital veterinario",
+      "query": "hospital veterinario Zapopan",
+      "municipality": "Zapopan",
+      "address": "C. Libertad 335-B, Atemajac del Valle, 45190 Zapopan, Jal., México",
+      "phone": "+523338239823",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=15694071552017217148",
+      "sources": [
+        "https://www.google.com/maps?cid=15694071552017217148"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:36:51+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Clinica Veterinaria Tabachines",
+      "category": "Veterinario",
+      "query": "urgencias veterinarias Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. de los Tabachines 1145, Tabachines, 45188 Zapopan, Jal., México",
+      "phone": "+523336600201",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=11843229103375166072",
+      "sources": [
+        "https://www.google.com/maps?cid=11843229103375166072"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:36:59+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "CHARLOTTE PETS",
+      "category": "Veterinario",
+      "query": "clínicas veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "C. Misión de Santo Tomás Zapopan 680, Chapalita Inn, Exitmex, 45037 Zapopan, Jal., México",
+      "phone": "+523318151001",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=835043482580612624",
+      "sources": [
+        "https://www.google.com/maps?cid=835043482580612624"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:37:22+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Veterinaria Grand Mastiff",
+      "category": "Veterinario",
+      "query": "veterinarios Zapopan",
+      "municipality": "Zapopan",
+      "address": "Mica 29, Arenales Tapatíos, 45066 Zapopan, Jal., México",
+      "phone": "+523317388769",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=5879018880296386702",
+      "sources": [
+        "https://www.google.com/maps?cid=5879018880296386702"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:37:33+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Hospital Veterinario San José Colotlán",
+      "category": "Hospital veterinario",
+      "query": "urgencias veterinarias Zapopan",
+      "municipality": "Zapopan",
+      "address": "Carr. a Colotlán 887-1A, Altaluz, 45200 Zapopan, Jal., México",
+      "phone": "+523316042571",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=15740051741794569414",
+      "sources": [
+        "https://www.google.com/maps?cid=15740051741794569414"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:37:41+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "clinica veterinaria Fauna Care",
+      "category": "Hospital veterinario",
+      "query": "clínicas veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Del Tule 835-int 2, Puertas del Tule, 45017 Zapopan, Jal., México",
+      "phone": "+523331101070",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=5608349799189135187",
+      "sources": [
+        "https://www.google.com/maps?cid=5608349799189135187"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:37:47+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Clínica Veterinaria LOVET",
+      "category": "Veterinario",
+      "query": "clínicas veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Campo Marquez 225, Campo Real, 45134 Zapopan, Jal., México",
+      "phone": "+523338416869",
+      "website": "https://www.facebook.com/share/14VBfonGnWT/?mibextid=wwXIfr",
+      "maps": "https://www.google.com/maps?cid=14881491774960334612",
+      "sources": [
+        "https://www.google.com/maps?cid=14881491774960334612"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:38:12+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Animal Care Center Guadalajara",
+      "category": "Hospital veterinario",
+      "query": "hospital veterinario Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Adolfo López Mateos Sur 3476, La Calma, 45080 Zapopan, Jal., México",
+      "phone": "+523318178055",
+      "website": "http://animalcarecentergdl.com/",
+      "maps": "https://www.google.com/maps?cid=8252122972489604653",
+      "sources": [
+        "https://www.google.com/maps?cid=8252122972489604653"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:38:20+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "VETERINARIA PERIFERICO",
+      "category": "Veterinario",
+      "query": "veterinarios Zapopan",
+      "municipality": "Zapopan",
+      "address": "433, Arcos de Zapopan, 45130 Zapopan, Jal., México",
+      "phone": "+523336562451",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=5365928521184248205",
+      "sources": [
+        "https://www.google.com/maps?cid=5365928521184248205"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:38:27+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Veterinaria Del Bosque",
+      "category": "Hospital veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Jesús 1554, Sta Margarita, 45138 Zapopan, Jal., México",
+      "phone": "+523314184004",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=6799364488799265150",
+      "sources": [
+        "https://www.google.com/maps?cid=6799364488799265150"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:38:33+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "GUAGUASH & MIAU, veterinaria y estética canina",
+      "category": "Veterinario",
+      "query": "urgencias veterinarias Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Aurelio Ortega 805-1, Col. de, Los Maestros, 45150 Zapopan, Jal., México",
+      "phone": "+523329449047",
+      "website": "http://www.facebook.com/guaguashmiau",
+      "maps": "https://www.google.com/maps?cid=13792086830553463113",
+      "sources": [
+        "https://www.google.com/maps?cid=13792086830553463113"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:39:18+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Clínica Veterinaria Colibri",
+      "category": "Veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Rosario Castellanos 6042-19, Paseos Universidad, 45016 Zapopan, Jal., México",
+      "phone": "+523320292921",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=15670368570511565184",
+      "sources": [
+        "https://www.google.com/maps?cid=15670368570511565184"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:39:27+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Villa Veterinarios; Núcleo de diagnóstico",
+      "category": "Hospital veterinario",
+      "query": "hospital veterinario Zapopan",
+      "municipality": "Zapopan",
+      "address": "C. Puerto México 3551, Miramar, 45060 Zapopan, Jal., México",
+      "phone": "+523331803967",
+      "website": "https://www.facebook.com/HospitalVillaVeterinarios/",
+      "maps": "https://www.google.com/maps?cid=1644105149389254644",
+      "sources": [
+        "https://www.google.com/maps?cid=1644105149389254644"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:39:36+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "NEBLI Veterinaria",
+      "category": "Veterinario",
+      "query": "veterinarios Zapopan",
+      "municipality": "Zapopan",
+      "address": "Arco Románico 930-B-930-B, Arcos de Zapopan, 45130 Zapopan, Jal., México",
+      "phone": "+523313714343",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=12346271200235431291",
+      "sources": [
+        "https://www.google.com/maps?cid=12346271200235431291"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:39:42+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Especialidades Veterinarias de Guadalajara",
+      "category": "Veterinario",
+      "query": "urgencias veterinarias Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Patria 1150-Loc 10F, Mirador del Sol, 45058 Zapopan, Jal., México",
+      "phone": "+523336283868",
+      "website": "http://especialidadesvgdl.wix.com/vgdl",
+      "maps": "https://www.google.com/maps?cid=10526380797153396305",
+      "sources": [
+        "https://www.google.com/maps?cid=10526380797153396305"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:39:49+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Mario el Veterinario",
+      "category": "Veterinario",
+      "query": "veterinarios Zapopan",
+      "municipality": "Zapopan",
+      "address": "Camino Viejo a Tesistan 337, Girasoles Acueducto, 45130 Zapopan, Jal., México",
+      "phone": "+523328748577",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=5325839692086752858",
+      "sources": [
+        "https://www.google.com/maps?cid=5325839692086752858"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:39:55+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Veterinaria HomeVet Aviación",
+      "category": "Veterinario",
+      "query": "veterinarios Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Aviación 2980 B, San Juan de Ocotán, 45019 Zapopan, Jal., México",
+      "phone": "+523329692992",
+      "website": "http://www.instagram.com/veterinariahomevet",
+      "maps": "https://www.google.com/maps?cid=3954851493263744948",
+      "sources": [
+        "https://www.google.com/maps?cid=3954851493263744948"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:40:04+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Veterinaria Andrade",
+      "category": "Veterinario",
+      "query": "urgencias veterinarias Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Juan Palomar y Arias 171, Jardines Universidad, 45027 Zapopan, Jal., México",
+      "phone": "+523336297405",
+      "website": "https://veterinariaandrade.com/",
+      "maps": "https://www.google.com/maps?cid=18406912274977322870",
+      "sources": [
+        "https://www.google.com/maps?cid=18406912274977322870"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:40:18+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Veterinaria y Farmacia Centinela",
+      "category": "Veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. José Parres Arias 129-Loc 4, Centinela I, 45130 Zapopan, Jal., México",
+      "phone": "+523338985335",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=13864071622276247939",
+      "sources": [
+        "https://www.google.com/maps?cid=13864071622276247939"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:40:29+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Veterinaria VetCare",
+      "category": "Veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Paulino Navarro 1251B, Los Maestros, 45150 Zapopan, Jal., México",
+      "phone": "+523312422689",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=11248956070082163231",
+      "sources": [
+        "https://www.google.com/maps?cid=11248956070082163231"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:40:48+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Zampets Veterinaria",
+      "category": "Veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. de los Tabachines 2415, Tabachines, 45188 Zapopan, Jal., México",
+      "phone": "+523332185827",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=17234095609400162945",
+      "sources": [
+        "https://www.google.com/maps?cid=17234095609400162945"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:40:56+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "VETERINARIA LA MANCHA",
+      "category": "Hospital veterinario",
+      "query": "hospital veterinario Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. La Mancha Edf. 604 B-12 Col, Lomas de Zapopan, 45130 Zapopan, Jal., México",
+      "phone": "+523338329343",
+      "website": "http://www.veterinaria.org/",
+      "maps": "https://www.google.com/maps?cid=789973719048027731",
+      "sources": [
+        "https://www.google.com/maps?cid=789973719048027731"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:42:07+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Clínica Veterinaria Lomitos Pets",
+      "category": "Veterinario",
+      "query": "clínicas veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Camino Viejo a Tesistan 3810, Nuevo México, 45138 Zapopan, Jal., México",
+      "phone": "+523336640053",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=18063689996863705129",
+      "sources": [
+        "https://www.google.com/maps?cid=18063689996863705129"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:42:14+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Hospital Veterinario Dimaral",
+      "category": "Veterinario",
+      "query": "hospital veterinario Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av del Colli 5300 El Colli Urbano, Supermanzana 1a, Sección, 45070 Zapopan, Jal., México",
+      "phone": "+523313522274",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=8967991358906101118",
+      "sources": [
+        "https://www.google.com/maps?cid=8967991358906101118"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:42:22+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "AmPY mAR",
+      "category": "Veterinario",
+      "query": "veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Niño Obrero 665, Chapalita Sur, 45050 Zapopan, Jal., México",
+      "phone": "+523331210288",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=9920644302218063562",
+      "sources": [
+        "https://www.google.com/maps?cid=9920644302218063562"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:42:36+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Clínica Veterinaria DN",
+      "category": "Veterinario",
+      "query": "clínicas veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Jesús 3230-B, La Casita, Los Girasoles, 45138 Zapopan, Jal., México",
+      "phone": "+523321187458",
+      "website": "https://instagram.com/clinicaveterinariadn?igshid=MzMyNGUyNmU2YQ==",
+      "maps": "https://www.google.com/maps?cid=2663372894408680977",
+      "sources": [
+        "https://www.google.com/maps?cid=2663372894408680977"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:42:48+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Veterinaria Berny's",
+      "category": "Hospital veterinario",
+      "query": "hospital veterinario Zapopan",
+      "municipality": "Zapopan",
+      "address": "C. Atotonilco 4578, Benito Juárez, 45199 Zapopan, Jal., México",
+      "phone": "+523338614544",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=13230421414983291681",
+      "sources": [
+        "https://www.google.com/maps?cid=13230421414983291681"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:42:57+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Veterinaria Garras y Patas",
+      "category": "Veterinario",
+      "query": "urgencias veterinarias Zapopan",
+      "municipality": "Zapopan",
+      "address": "Arenales, esquina con Calle Caolín 1752 A, Arenales 1752c, Arenales Tapatíos, 45066 Zapopan, Jal., México",
+      "phone": "+523312852188",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=476154575070806282",
+      "sources": [
+        "https://www.google.com/maps?cid=476154575070806282"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:43:05+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Vetland",
+      "category": "Veterinario",
+      "query": "clínicas veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "C. Hidalgo 696-3, La Magdalena, 45200 Zapopan, Jal., México",
+      "phone": "+523313873416",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=3502693380909725999",
+      "sources": [
+        "https://www.google.com/maps?cid=3502693380909725999"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:43:22+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Dr. Pet",
+      "category": "Veterinario",
+      "query": "clínicas veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Lapizlázuli 2731, Victoria, 45089 Zapopan, Jal., México",
+      "phone": "+523315348514",
+      "website": "http://www.drpet.com.mx/",
+      "maps": "https://www.google.com/maps?cid=7448676883062273614",
+      "sources": [
+        "https://www.google.com/maps?cid=7448676883062273614"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:43:36+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Veterinaria del bosque",
+      "category": "Hospital veterinario",
+      "query": "hospital veterinario Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av Bosques del Centinela 898A, Jardines del Vergel, 45187 Zapopan, Jal., México",
+      "phone": "+523317251157",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=15060478654889751742",
+      "sources": [
+        "https://www.google.com/maps?cid=15060478654889751742"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:43:42+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Veterinaria Medical Vet.",
+      "category": "Veterinario",
+      "query": "veterinarios Zapopan",
+      "municipality": "Zapopan",
+      "address": "San Pedro 4583 C, Villas de Guadalupe, 45189 Zapopan, Jal., México",
+      "phone": "+523319197443",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=8135684208011820716",
+      "sources": [
+        "https://www.google.com/maps?cid=8135684208011820716"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:43:48+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Kattos Hospital Veterinario",
+      "category": "Hospital veterinario",
+      "query": "urgencias veterinarias Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. la Cima 263, La Cima, 45134 Zapopan, Jal., México",
+      "phone": "+523318949517",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=6751227997997781666",
+      "sources": [
+        "https://www.google.com/maps?cid=6751227997997781666"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:43:54+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Veterinaria Safarii",
+      "category": "Veterinario",
+      "query": "veterinarios Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av Paseo de las Caobas 3897, Cantera Morada, 45186 Zapopan, Jal., México",
+      "phone": "+523313066660",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=14027368351675689137",
+      "sources": [
+        "https://www.google.com/maps?cid=14027368351675689137"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:44:00+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Centro veterinario de especialidades",
+      "category": "Veterinario",
+      "query": "veterinarios Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. del Valle 1887, Jardines del Valle, 45138 Zapopan, Jal., México",
+      "phone": "+523310136682",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=9591540537830523025",
+      "sources": [
+        "https://www.google.com/maps?cid=9591540537830523025"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:44:09+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "VeteriAna Aviacion",
+      "category": "Veterinario",
+      "query": "hospital veterinario Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Base Aerea 550, El Triángulo, 45138 Zapopan, Jal., México",
+      "phone": "+523316563074",
+      "website": "http://www.veteriana.com/",
+      "maps": "https://www.google.com/maps?cid=7525259874253225853",
+      "sources": [
+        "https://www.google.com/maps?cid=7525259874253225853"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:44:17+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Clínica Veterinaria Hund Bud",
+      "category": "Veterinario",
+      "query": "veterinarios Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av Moctezuma 1332-interior 1, Hacienda del Tepeyac, 45053 Zapopan, Jal., México",
+      "phone": "+523312010085",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=16590238897503406462",
+      "sources": [
+        "https://www.google.com/maps?cid=16590238897503406462"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:44:24+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Clínica Veterinaria Hunter",
+      "category": "Hospital veterinario",
+      "query": "urgencias veterinarias Zapopan",
+      "municipality": "Zapopan",
+      "address": "cerca de Calzada Nte 88B, Granja, 45010 Zapopan, Jal., México",
+      "phone": "+523314198775",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=8993507998524694392",
+      "sources": [
+        "https://www.google.com/maps?cid=8993507998524694392"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:44:30+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Rocky's House",
+      "category": "Veterinario",
+      "query": "hospital veterinario Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av Rafael Sanzio 384-1, La Estancia, 45030 Zapopan, Jal., México",
+      "phone": "+523331053142",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=10026302849791444179",
+      "sources": [
+        "https://www.google.com/maps?cid=10026302849791444179"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:44:37+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Veterinaria Granja animal",
+      "category": "Veterinario",
+      "query": "clínicas veterinarias en Zapopan",
+      "municipality": "Zapopan",
+      "address": "C. Felipe Ruvalcaba 5866, Colli Urbano, 45079 Zapopan, Jal., México",
+      "phone": "+525510967488",
+      "website": "https://www.facebook.com/Granja-Animal-Zapopan-Jalisco-102871437858310/",
+      "maps": "https://www.google.com/maps?cid=16414226125385477170",
+      "sources": [
+        "https://www.google.com/maps?cid=16414226125385477170"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:44:43+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    },
+    {
+      "name": "Veterinaria Animal Premium",
+      "category": "Veterinario",
+      "query": "hospital veterinario Zapopan",
+      "municipality": "Zapopan",
+      "address": "Av. Prol. Alcalde 1020-B, Víctor Hugo, 45190 Zapopan, Jal., México",
+      "phone": "+523312022474",
+      "website": "",
+      "maps": "https://www.google.com/maps?cid=18113705628902518308",
+      "sources": [
+        "https://www.google.com/maps?cid=18113705628902518308"
+      ],
+      "email": "",
+      "whatsapp": "",
+      "notes": "",
+      "checked_at": "2026-09-21T23:44:49+00:00",
+      "status": "Contacto público; sin contactar ni calificar"
+    }
+  ],
+  "rejected": [
+    {
+      "detail": {
+        "name": "Hospital Veterinario San Jose Solares",
+        "url": "https://www.google.com/maps/place/Hospital+Veterinario+San+Jose+Solares/data=!4m7!3m6!1s0x8428a8ca44d492ab:0x5ce520d2d5385e11!8m2!3d20.7256145!4d-103.4544436!16s%2Fg%2F11cl_knx1b!19sChIJq5LURMqoKIQREV441dIg5Vw?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+        "category": "Hospital veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "\n1, P.º Solares 124, Solares Residencial, Jal., México",
+            "href": null
+          },
+          {
+            "id": "authority",
+            "text": "\nfacebook.com",
+            "href": "http://www.facebook.com/veterinaria.sanjose.96"
+          },
+          {
+            "id": "phone:tel:+523317283177",
+            "text": "\n+52 33 1728 3177",
+            "href": null
+          }
+        ],
+        "query": "hospital veterinario Zapopan"
+      },
+      "reason": "municipality_unconfirmed"
+    },
+    {
+      "detail": {
+        "name": "cliniKPet’s",
+        "url": "https://www.google.com/maps/place/cliniKPet%E2%80%99s/data=!4m7!3m6!1s0x8428a675cb1f3ba3:0x52f3208fdfdf9f5f!8m2!3d20.7784216!4d-103.4547016!16s%2Fg%2F12cnxjctj!19sChIJozsfy3WmKIQRX5_f348g81I?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+        "category": "Hospital veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "\nPaseo de Las Calandrias 1757, Villas de La Loma, 45134 Tesistán, Jal., México",
+            "href": null
+          },
+          {
+            "id": "authority",
+            "text": "\nfacebook.com",
+            "href": "https://www.facebook.com/ClinikPets/"
+          },
+          {
+            "id": "phone:tel:+523313777712",
+            "text": "\n+52 33 1377 7712",
+            "href": null
+          }
+        ],
+        "query": "veterinaria 24 horas Zapopan"
+      },
+      "reason": "municipality_unconfirmed"
+    },
+    {
+      "detail": {
+        "name": "Hospital veterinario",
+        "url": "https://www.google.com/maps/place/Hospital+veterinario/data=!4m7!3m6!1s0x8428ad0a23088ea9:0xf9f7969caeb5bb5e!8m2!3d20.6287359!4d-103.4030273!16s%2Fg%2F11flkjhmmm!19sChIJqY4IIwqtKIQRXru1rpyW9_k?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+        "category": "Veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "\nAv. Patria 3212, Rinconada de la Calma, 45080 Zapopan, Jal., México",
+            "href": null
+          }
+        ],
+        "query": "veterinaria 24 horas Zapopan"
+      },
+      "reason": "no_public_phone"
+    },
+    {
+      "detail": {
+        "url": "https://www.google.com/maps/place/Animalia+Cl%C3%ADnica+Veterinaria/data=!4m7!3m6!1s0x8428af86afe50005:0x9aa935e44d7ad132!8m2!3d20.7499974!4d-103.3985008!16s%2Fg%2F11f40s0t9z!19sChIJBQDlr4avKIQRMtF6TeQ1qZo?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+        "category": "",
+        "permanently_closed": false,
+        "details": [],
+        "query": "clínicas veterinarias en Zapopan"
+      },
+      "reason": "municipality_unconfirmed"
+    },
+    {
+      "detail": {
+        "url": "https://www.google.com/maps/place/Veterinaria+San+Jorge/data=!4m7!3m6!1s0x8428aea8044ec4db:0xcfcd6f1bfbc42003!8m2!3d20.6590376!4d-103.440105!16s%2Fg%2F1pty2w4_0!19sChIJ28ROBKiuKIQRAyDE-xtvzc8?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+        "category": "",
+        "permanently_closed": false,
+        "details": [],
+        "query": "veterinarias en Zapopan"
+      },
+      "reason": "municipality_unconfirmed"
+    },
+    {
+      "detail": {
+        "url": "https://www.google.com/maps/place/Walking+Pet%27s+Cl%C3%ADnica+Veterinaria/data=!4m7!3m6!1s0x8428af81a112340f:0x7b693a0f9bbb66b6!8m2!3d20.7501965!4d-103.4022055!16s%2Fg%2F11fxx29ts5!19sChIJDzQSoYGvKIQRtma7mw86aXs?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+        "category": "",
+        "permanently_closed": false,
+        "details": [],
+        "query": "veterinarios Zapopan"
+      },
+      "reason": "municipality_unconfirmed"
+    },
+    {
+      "detail": {
+        "name": "Hospital Veterinario La Granja",
+        "url": "https://www.google.com/maps/place/Hospital+Veterinario+La+Granja/data=!4m7!3m6!1s0x8428ada08eb5ac11:0xe2d78e0dc0691e45!8m2!3d20.6170166!4d-103.3850618!16s%2Fg%2F1ptyfjbxq!19sChIJEay1jqCtKIQRRR5pwA2O1-I?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+        "category": "Hospital veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "\nLaurel de La India 4443, Arboledas Del Sur, 44980 Guadalajara, Jal., México",
+            "href": null
+          },
+          {
+            "id": "authority",
+            "text": "\nes-es.facebook.com",
+            "href": "https://es-es.facebook.com/pages/Hospital-veterinario-LA-Granja/185086144859426"
+          },
+          {
+            "id": "phone:tel:+523336465264",
+            "text": "\n+52 33 3646 5264",
+            "href": null
+          }
+        ],
+        "query": "urgencias veterinarias Zapopan"
+      },
+      "reason": "municipality_unconfirmed"
+    },
+    {
+      "detail": {
+        "name": "Dogtor Care hospital veterinario 24 horas",
+        "url": "https://www.google.com/maps/place/Dogtor+Care+hospital+veterinario+24+horas/data=!4m7!3m6!1s0x8428af9885e9d243:0x6308c02c84ed496d!8m2!3d20.7083603!4d-103.3470414!16s%2Fg%2F11q_1ppp2s!19sChIJQ9LphZivKIQRbUnthCzACGM?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+        "category": "Hospital veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "\nAv. Fray Antonio Alcalde 2179, Santa Monica, 44220 Guadalajara, Jal., México",
+            "href": null
+          },
+          {
+            "id": "phone:tel:+523331126142",
+            "text": "\n+52 33 3112 6142",
+            "href": null
+          }
+        ],
+        "query": "urgencias veterinarias Zapopan"
+      },
+      "reason": "municipality_unconfirmed"
+    },
+    {
+      "detail": {
+        "name": "Clinica Veterinaria Animal Kingdom Suc.Porfirio",
+        "url": "https://www.google.com/maps/place/Clinica+Veterinaria+Animal+Kingdom+Suc.Porfirio/data=!4m7!3m6!1s0x8428b11434fe6be9:0x3ab3b353dfceb68c!8m2!3d20.6834541!4d-103.3201871!16s%2Fg%2F1pty5gsyx!19sChIJ6Wv-NBSxKIQRjLbO31Ozszo?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+        "category": "Veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "\nC. Porfirio Díaz 697, Colonia El Mirador, 44370 Guadalajara, Jal., México",
+            "href": null
+          },
+          {
+            "id": "authority",
+            "text": "\nanimalkingdom.com.mx",
+            "href": "http://www.animalkingdom.com.mx/"
+          },
+          {
+            "id": "phone:tel:+523333454103",
+            "text": "\n+52 33 3345 4103",
+            "href": null
+          }
+        ],
+        "query": "urgencias veterinarias Zapopan"
+      },
+      "reason": "municipality_unconfirmed"
+    },
+    {
+      "detail": {
+        "name": "VETERINARIA MORÁN",
+        "url": "https://www.google.com/maps/place/VETERINARIA+MOR%C3%81N/data=!4m7!3m6!1s0x8428ac410e3b985d:0xb8c1982abda43973!8m2!3d20.6314328!4d-103.4297306!16s%2Fg%2F1tdbr5j1!19sChIJXZg7DkGsKIQRczmkvSqYwbg?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+        "category": "Hospital veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "\nAv. Mariano Otero 5683, Arboledas, 45070 Zapopan, Jal., México",
+            "href": null
+          },
+          {
+            "id": "authority",
+            "text": "\nfacebook.com",
+            "href": "https://www.facebook.com/vetmoran"
+          }
+        ],
+        "query": "urgencias veterinarias Zapopan"
+      },
+      "reason": "no_public_phone"
+    },
+    {
+      "detail": {
+        "name": "Veterinaria y Hospital de Emergencias Vetlez",
+        "url": "https://www.google.com/maps/place/Veterinaria+y+Hospital+de+Emergencias+Vetlez/data=!4m7!3m6!1s0x8428b17c3f889b05:0x5bd3f5109f9596e6!8m2!3d20.6831284!4d-103.2981683!16s%2Fg%2F11jsmp79pd!19sChIJBZuIP3yxKIQR5paVnxD101s?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+        "category": "Servicio de urgencias veterinarias",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "\nC. Abraham González 1299, entre Santa Casilda y Santa Clemencia, Popular, 44710 Guadalajara, Jal., México",
+            "href": null
+          },
+          {
+            "id": "authority",
+            "text": "\nm.facebook.com",
+            "href": "https://m.facebook.com/profile.php?id=100086884445028&eav=Afb-VoBMQZFMvzab-oV2z4K6uMfRc4FP5DRi4tGm6zKX_mlvx4SWNaUgk9s5uV9LjG0&paipv=0"
+          },
+          {
+            "id": "phone:tel:+523222929146",
+            "text": "\n+52 322 292 9146",
+            "href": null
+          }
+        ],
+        "query": "urgencias veterinarias Zapopan"
+      },
+      "reason": "municipality_unconfirmed"
+    },
+    {
+      "detail": {
+        "name": "Cardiología integral veterinaria",
+        "url": "https://www.google.com/maps/place/Cardiolog%C3%ADa+integral+veterinaria/data=!4m7!3m6!1s0x8428afb5f12bb9b1:0x3e9939cff9592665!8m2!3d20.7237145!4d-103.3875817!16s%2Fg%2F1ptyt1y1k!19sChIJsbkr8bWvKIQRZSZZ-c85mT4?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+        "category": "Veterinario",
+        "permanently_closed": false,
+        "details": [
+          {
+            "id": "address",
+            "text": "\nAv. Juan Pablo II 119, Centro, 45150 Zapopan, Jal., México",
+            "href": null
+          },
+          {
+            "id": "authority",
+            "text": "\ninstagram.com",
+            "href": "https://www.instagram.com/cardiologiaintegralveterinaria/"
+          },
+          {
+            "id": "phone:tel:+523336330430",
+            "text": "\n+52 33 3633 0430",
+            "href": null
+          }
+        ],
+        "query": "urgencias veterinarias Zapopan"
+      },
+      "reason": "duplicate: Clínica Veterinaria de Especialidades Laureles"
+    }
+  ],
+  "errors": [
+    {
+      "name": "VETERINARIA LA MANCHA",
+      "url": "https://www.google.com/maps/place/VETERINARIA+LA+MANCHA/data=!4m7!3m6!1s0x8428af83ad69228b:0xaf68ce979c07e53!8m2!3d20.7463475!4d-103.3993499!16s%2Fg%2F1q5bpns5_!19sChIJiyJprYOvKIQRU37AeemM9go?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "error": "TimeoutError"
+    },
+    {
+      "name": "Clínica Veterinaria Lomitos Pets",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+Veterinaria+Lomitos+Pets/data=!4m7!3m6!1s0x8428a534d5c540e5:0xfaaf1e58bbd69029!8m2!3d20.7588026!4d-103.4392405!16s%2Fg%2F11lcr9_fcc!19sChIJ5UDF1TSlKIQRKZDWu1ger_o?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "error": "TimeoutError"
+    }
+  ],
+  "candidates": [
+    {
+      "name": "HVC Hospital Veterinario Casillas",
+      "url": "https://www.google.com/maps/place/HVC+Hospital+Veterinario+Casillas/data=!4m7!3m6!1s0x8428afa4d1833ce3:0xcb6f0c45d73df802!8m2!3d20.7240875!4d-103.3937637!16s%2Fg%2F1w97vq4v!19sChIJ4zyD0aSvKIQRAvg910UMb8s?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinarias en Zapopan"
+    },
+    {
+      "name": "Hospital Veterinario Santa Esther",
+      "url": "https://www.google.com/maps/place/Hospital+Veterinario+Santa+Esther/data=!4m7!3m6!1s0x8428af0cf9cf72d7:0xf8407b6e9a288f42!8m2!3d20.727843!4d-103.4128218!16s%2Fg%2F1pty3ml9h!19sChIJ13LP-QyvKIQRQo8omm57QPg?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinarias en Zapopan"
+    },
+    {
+      "name": "ACC24 Hospital Veterinario Premium 24 Horas",
+      "url": "https://www.google.com/maps/place/ACC24+Hospital+Veterinario+Premium+24+Horas/data=!4m7!3m6!1s0x2f13f4f7850657cd:0x8f3e5a91de68daa2!8m2!3d20.6375744!4d-103.4184612!16s%2Fg%2F11tp4r8g0c!19sChIJzVcGhff0Ey8Rotpo3pFaPo8?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinarias en Zapopan"
+    },
+    {
+      "name": "Centro Veterinario Hoslom.",
+      "url": "https://www.google.com/maps/place/Centro+Veterinario+Hoslom./data=!4m7!3m6!1s0x8428af856a71382f:0x9f44b1e5544b0438!8m2!3d20.7453841!4d-103.3945867!16s%2Fg%2F1tg_xdql!19sChIJLzhxaoWvKIQROARLVOWxRJ8?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinarias en Zapopan"
+    },
+    {
+      "name": "The Animal Health Center",
+      "url": "https://www.google.com/maps/place/The+Animal+Health+Center/data=!4m7!3m6!1s0x8428adb2e5b58185:0x25dbe542444afcb!8m2!3d20.6286921!4d-103.4030367!16s%2Fg%2F1tg1610l!19sChIJhYG15bKtKIQRy69EJFS-XQI?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinarias en Zapopan"
+    },
+    {
+      "name": "MASCOTAS",
+      "url": "https://www.google.com/maps/place/MASCOTAS/data=!4m7!3m6!1s0x8428ac4fee867aad:0x2f6f4fd8d196aa6e!8m2!3d20.6262508!4d-103.4156493!16s%2Fg%2F1vd95dyv!19sChIJrXqG7k-sKIQRbqqW0dhPby8?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinarias en Zapopan"
+    },
+    {
+      "name": "HOSPITAL VETERINARIO ANIMALIA",
+      "url": "https://www.google.com/maps/place/HOSPITAL+VETERINARIO+ANIMALIA/data=!4m7!3m6!1s0x8428ac5b164cc009:0x6237198e3b0b1d6a!8m2!3d20.6232841!4d-103.42093!16s%2Fg%2F1pv5kmqdr!19sChIJCcBMFlusKIQRah0LO44ZN2I?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinarias en Zapopan"
+    },
+    {
+      "name": "Veterinaria Paseos",
+      "url": "https://www.google.com/maps/place/Veterinaria+Paseos/data=!4m7!3m6!1s0x8428ac406cf5a8e9:0xa06b778a7e777e4e!8m2!3d20.635158!4d-103.426418!16s%2Fg%2F1ptypmrsk!19sChIJ6aj1bECsKIQRTn53fop3a6A?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinarias en Zapopan"
+    },
+    {
+      "name": "WooFit Mx",
+      "url": "https://www.google.com/maps/place/WooFit+Mx/data=!4m7!3m6!1s0x8428afbbb2fa30bb:0x6aee7fa2f9aa84ed!8m2!3d20.7238725!4d-103.389634!16s%2Fg%2F1ptvx1jx3!19sChIJuzD6sruvKIQR7YSq-aJ_7mo?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinarias en Zapopan"
+    },
+    {
+      "name": "Hospital veterinario Alvet",
+      "url": "https://www.google.com/maps/place/Hospital+veterinario+Alvet/data=!4m7!3m6!1s0x8428add061a09475:0xc5c0debaeb326c0f!8m2!3d20.7302893!4d-103.411892!16s%2Fg%2F11nn21fbhd!19sChIJdZSgYdCtKIQRD2wy67rewMU?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinarias en Zapopan"
+    },
+    {
+      "name": "CISAZ (Centro Integral de Salud Animal Zapopan)",
+      "url": "https://www.google.com/maps/place/CISAZ+%28Centro+Integral+de+Salud+Animal+Zapopan%29/data=!4m7!3m6!1s0x8428af819ae22861:0x5600bbb1630fe730!8m2!3d20.7513004!4d-103.3727317!16s%2Fg%2F11sx04srd9!19sChIJYSjimoGvKIQRMOcPY7G7AFY?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinarias en Zapopan"
+    },
+    {
+      "name": "Vet Inc.",
+      "url": "https://www.google.com/maps/place/Vet+Inc./data=!4m7!3m6!1s0x8428af4f3ba8e803:0x899171301491db37!8m2!3d20.7412929!4d-103.3990573!16s%2Fg%2F11vht8f24s!19sChIJA-ioO0-vKIQRN9uRFDBxkYk?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinarias en Zapopan"
+    },
+    {
+      "name": "Kchorros Hospital Veterinario",
+      "url": "https://www.google.com/maps/place/Kchorros+Hospital+Veterinario/data=!4m7!3m6!1s0x8428ac2fc9688c01:0x8e50d32665f92c5a!8m2!3d20.6638921!4d-103.4167302!16s%2Fg%2F1hd_7l30m!19sChIJAYxoyS-sKIQRWiz5ZSbTUI4?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinarias en Zapopan"
+    },
+    {
+      "name": "Hospital Veterinario VitalPets",
+      "url": "https://www.google.com/maps/place/Hospital+Veterinario+VitalPets/data=!4m7!3m6!1s0x8428ac29f730615b:0x2762b43f89193ffc!8m2!3d20.659757!4d-103.411021!16s%2Fg%2F1q2w75ms4!19sChIJW2Ew9ymsKIQR_D8ZiT-0Yic?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinarias en Zapopan"
+    },
+    {
+      "name": "Clinica Veterinaria Cordilleras",
+      "url": "https://www.google.com/maps/place/Clinica+Veterinaria+Cordilleras/data=!4m7!3m6!1s0x8428ae9aefa52bad:0xa4abd9ec0d39316d!8m2!3d20.6697389!4d-103.4185841!16s%2Fg%2F1ptygg7zv!19sChIJrSul75quKIQRbTE5DezZq6Q?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinarias en Zapopan"
+    },
+    {
+      "name": "Clínica veterinaria mascotas +",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+veterinaria+mascotas+%2B/data=!4m7!3m6!1s0x8428ac4c862d7c15:0x326ef26ebf29954f!8m2!3d20.6310463!4d-103.4076722!16s%2Fg%2F11f28jk6n7!19sChIJFXwthkysKIQRT5Upv27ybjI?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinarias en Zapopan"
+    },
+    {
+      "name": "Oh Pet!",
+      "url": "https://www.google.com/maps/place/Oh+Pet!/data=!4m7!3m6!1s0x8428ac190983a9ff:0x4f1e97ed75190ef4!8m2!3d20.6504432!4d-103.4319653!16s%2Fg%2F11r8lmtnf!19sChIJ_6mDCRmsKIQR9A4Zde2XHk8?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinarias en Zapopan"
+    },
+    {
+      "name": "Clinica Veterinaria Guadalupe",
+      "url": "https://www.google.com/maps/place/Clinica+Veterinaria+Guadalupe/data=!4m7!3m6!1s0x8428af971019bc4b:0xdc09e7c4a65a55ce!8m2!3d20.6613022!4d-103.4277116!16s%2Fg%2F11fp1t9ssz!19sChIJS7wZEJevKIQRzlVapsTnCdw?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinarias en Zapopan"
+    },
+    {
+      "name": "Hospital Veterinario Lomont Patria (Oftalmología, Traumatología, Ortopedía, Neurología, Cardiología, Oncología, Tomografia)",
+      "url": "https://www.google.com/maps/place/Hospital+Veterinario+Lomont+Patria+%28Oftalmolog%C3%ADa,+Traumatolog%C3%ADa,+Ortoped%C3%ADa,+Neurolog%C3%ADa,+Cardiolog%C3%ADa,+Oncolog%C3%ADa,+Tomografia%29/data=!4m7!3m6!1s0x8428ae936e4f9051:0x962febf3d650c7f9!8m2!3d20.6812154!4d-103.4215558!16s%2Fg%2F11dztsvqr9!19sChIJUZBPbpOuKIQR-cdQ1vPrL5Y?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "hospital veterinario Zapopan"
+    },
+    {
+      "name": "Hospital Veterinario VETPETS",
+      "url": "https://www.google.com/maps/place/Hospital+Veterinario+VETPETS/data=!4m7!3m6!1s0x8428aeea55555555:0xa75c0c8130167ef2!8m2!3d20.6875953!4d-103.4236648!16s%2Fg%2F1tgc02hc!19sChIJVVVVVequKIQR8n4WMIEMXKc?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "hospital veterinario Zapopan"
+    },
+    {
+      "name": "Hospital Veterinario Universidad",
+      "url": "https://www.google.com/maps/place/Hospital+Veterinario+Universidad/data=!4m7!3m6!1s0x8428aefb3007d493:0xb64906098e594a3b!8m2!3d20.6990554!4d-103.4156714!16s%2Fg%2F1ptx_hrgk!19sChIJk9QHMPuuKIQRO0pZjgkGSbY?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "hospital veterinario Zapopan"
+    },
+    {
+      "name": "Hospital Veterinario de Pequeñas Especies",
+      "url": "https://www.google.com/maps/place/Hospital+Veterinario+de+Peque%C3%B1as+Especies/data=!4m7!3m6!1s0x8428afd668223e25:0xa6372254880c74d!8m2!3d20.7562462!4d-103.3797051!16s%2Fg%2F11q7gk2m21!19sChIJJT4iaNavKIQRTceASCVyYwo?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "hospital veterinario Zapopan"
+    },
+    {
+      "name": "Hospital Veterinario San José Valle Imperial",
+      "url": "https://www.google.com/maps/place/Hospital+Veterinario+San+Jos%C3%A9+Valle+Imperial/data=!4m7!3m6!1s0x8428a552e107ed15:0x25bfa6077a507a72!8m2!3d20.7726677!4d-103.4428462!16s%2Fg%2F11g1lgsk_k!19sChIJFe0H4VKlKIQRcnpQegemvyU?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "hospital veterinario Zapopan"
+    },
+    {
+      "name": "HOSPITAL VETERINARIO MADIVET",
+      "url": "https://www.google.com/maps/place/HOSPITAL+VETERINARIO+MADIVET/data=!4m7!3m6!1s0x8428af7da47a38e7:0x54e5694d8fb6b41c!8m2!3d20.6711186!4d-103.4036132!16s%2Fg%2F11mw7rttl4!19sChIJ5zh6pH2vKIQRHLS2j01p5VQ?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinarios Zapopan"
+    },
+    {
+      "name": "Dactary Hospital Veterinario",
+      "url": "https://www.google.com/maps/place/Dactary+Hospital+Veterinario/data=!4m7!3m6!1s0x8428afb569069f91:0xed0e5606f1c9ba3!8m2!3d20.667512!4d-103.4240372!16s%2Fg%2F1tngqm12!19sChIJkZ8GabWvKIQRo5scb2Dl0A4?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "hospital veterinario Zapopan"
+    },
+    {
+      "name": "Centro Veterinario Villarejo by Pet Fashion",
+      "url": "https://www.google.com/maps/place/Centro+Veterinario+Villarejo+by+Pet+Fashion/data=!4m7!3m6!1s0x8428ae8e2964c25d:0x8e4bc8835966599f!8m2!3d20.6752856!4d-103.4162612!16s%2Fg%2F1tfjwlv4!19sChIJXcJkKY6uKIQRn1lmWYPIS44?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinarios Zapopan"
+    },
+    {
+      "name": "Clínica Veterinaria San Gabriel",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+Veterinaria+San+Gabriel/data=!4m7!3m6!1s0x8428af97ff07abf9:0x4838768b1bf68dd7!8m2!3d20.7324337!4d-103.3932712!16s%2Fg%2F11c0xhhr33!19sChIJ-asH_5evKIQR1432G4t2OEg?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "clínicas veterinarias en Zapopan"
+    },
+    {
+      "name": "HOSPITAL VETERINARIO ORTIZ HVO",
+      "url": "https://www.google.com/maps/place/HOSPITAL+VETERINARIO+ORTIZ+HVO/data=!4m7!3m6!1s0x8428afdf510a4f9d:0xec751fc7f29b69f2!8m2!3d20.7295362!4d-103.3592441!16s%2Fg%2F1ptz7xshr!19sChIJnU8KUd-vKIQR8mmb8scfdew?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "hospital veterinario Zapopan"
+    },
+    {
+      "name": "Occivet Clínica Veterinaria",
+      "url": "https://www.google.com/maps/place/Occivet+Cl%C3%ADnica+Veterinaria/data=!4m7!3m6!1s0x8428abd42812fe8f:0x9dba5b3a360dd9a0!8m2!3d20.6690094!4d-103.4210749!16s%2Fg%2F11q1ppt0_q!19sChIJj_4SKNSrKIQRoNkNNjpbup0?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinarios Zapopan"
+    },
+    {
+      "name": "BIENESTAR ANIMAL",
+      "url": "https://www.google.com/maps/place/BIENESTAR+ANIMAL/data=!4m7!3m6!1s0x8428ae802af708bb:0x4fcfd3a673fbb476!8m2!3d20.6609042!4d-103.4077996!16s%2Fg%2F1q2vyn6c5!19sChIJuwj3KoCuKIQRdrT7c6bTz08?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "clínicas veterinarias en Zapopan"
+    },
+    {
+      "name": "Servicios Veterinarios FeliKan",
+      "url": "https://www.google.com/maps/place/Servicios+Veterinarios+FeliKan/data=!4m7!3m6!1s0x8428ad518297b26d:0x827a0c9f471fbb17!8m2!3d20.6528543!4d-103.4319655!16s%2Fg%2F11z131mlw6!19sChIJbbKXglGtKIQRF7sfR58MeoI?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinarios Zapopan"
+    },
+    {
+      "name": "Veterinaria San Jose",
+      "url": "https://www.google.com/maps/place/Veterinaria+San+Jose/data=!4m7!3m6!1s0x8428af68f357280d:0x49fb3dcf07496c78!8m2!3d20.740028!4d-103.4248714!16s%2Fg%2F11xcn6sjj!19sChIJDShX82ivKIQReGxJB889-0k?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "hospital veterinario Zapopan"
+    },
+    {
+      "name": "Hospital Veterinario San Jose Solares",
+      "url": "https://www.google.com/maps/place/Hospital+Veterinario+San+Jose+Solares/data=!4m7!3m6!1s0x8428a8ca44d492ab:0x5ce520d2d5385e11!8m2!3d20.7256145!4d-103.4544436!16s%2Fg%2F11cl_knx1b!19sChIJq5LURMqoKIQREV441dIg5Vw?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "hospital veterinario Zapopan"
+    },
+    {
+      "name": "VeteriAna",
+      "url": "https://www.google.com/maps/place/VeteriAna/data=!4m7!3m6!1s0x8428aea30ede0d83:0x51d2e26fba6b4d37!8m2!3d20.6686853!4d-103.4317502!16s%2Fg%2F11bw47fzd1!19sChIJgw3eDqOuKIQRN01rum_i0lE?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinarios Zapopan"
+    },
+    {
+      "name": "Clínica Veterinaria BLUEVET",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+Veterinaria+BLUEVET/data=!4m7!3m6!1s0x8428af4ff288d9c9:0x22c5c68c45c87dc!8m2!3d20.7464664!4d-103.4293582!16s%2Fg%2F11hhtxssx0!19sChIJydmI8k-vKIQR3IdcxGhcLAI?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "clínicas veterinarias en Zapopan"
+    },
+    {
+      "name": "Hospital Veterinario de Occidente",
+      "url": "https://www.google.com/maps/place/Hospital+Veterinario+de+Occidente/data=!4m7!3m6!1s0x8428ac1638f6d7b3:0xdcacaa1c82e4d187!8m2!3d20.6575277!4d-103.4169299!16s%2Fg%2F11ckrbdzsn!19sChIJs9f2OBasKIQRh9HkghyqrNw?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "hospital veterinario Zapopan"
+    },
+    {
+      "name": "Centro Veterinario Valles",
+      "url": "https://www.google.com/maps/place/Centro+Veterinario+Valles/data=!4m7!3m6!1s0x8428ac37794d8ead:0xd7cb28a7398a1b6f!8m2!3d20.6401214!4d-103.416073!16s%2Fg%2F1pt_3hz78!19sChIJrY5NeTesKIQRbxuKOacoy9c?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinaria 24 horas Zapopan"
+    },
+    {
+      "name": "Pet Clinik",
+      "url": "https://www.google.com/maps/place/Pet+Clinik/data=!4m7!3m6!1s0x8428a5674f2b9e0b:0xa76e5a0fc8a7bd4!8m2!3d20.7629757!4d-103.3831081!16s%2Fg%2F11h4s8p9xz!19sChIJC54rT2elKIQR1HuK_KDldgo?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinaria 24 horas Zapopan"
+    },
+    {
+      "name": "VETERINARIA \"PERSA\"",
+      "url": "https://www.google.com/maps/place/VETERINARIA+%22PERSA%22/data=!4m7!3m6!1s0x8428abf440766ca5:0x8078234648b39662!8m2!3d20.6327645!4d-103.453275!16s%2Fg%2F1pzr_qy3c!19sChIJpWx2QPSrKIQRYpazSEYjeIA?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinaria 24 horas Zapopan"
+    },
+    {
+      "name": "Clínica Veterinaria Africam",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+Veterinaria+Africam/data=!4m7!3m6!1s0x8428ac4301726e6d:0x7df236fbe0f0ad5a!8m2!3d20.6272031!4d-103.4249466!16s%2Fg%2F11c1s2bqxy!19sChIJbW5yAUOsKIQRWq3w4Ps28n0?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinaria 24 horas Zapopan"
+    },
+    {
+      "name": "Centro de Salud Animal Siglo XXI",
+      "url": "https://www.google.com/maps/place/Centro+de+Salud+Animal+Siglo+XXI/data=!4m7!3m6!1s0x8428ac8c266a5849:0x7b1d1b72bcb77801!8m2!3d20.6042512!4d-103.4335336!16s%2Fg%2F1q5bp2_49!19sChIJSVhqJoysKIQRAXi3vHIbHXs?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "urgencias veterinarias Zapopan"
+    },
+    {
+      "name": "cliniKPet’s",
+      "url": "https://www.google.com/maps/place/cliniKPet%E2%80%99s/data=!4m7!3m6!1s0x8428a675cb1f3ba3:0x52f3208fdfdf9f5f!8m2!3d20.7784216!4d-103.4547016!16s%2Fg%2F12cnxjctj!19sChIJozsfy3WmKIQRX5_f348g81I?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinaria 24 horas Zapopan"
+    },
+    {
+      "name": "Hospital veterinario",
+      "url": "https://www.google.com/maps/place/Hospital+veterinario/data=!4m7!3m6!1s0x8428ad0a23088ea9:0xf9f7969caeb5bb5e!8m2!3d20.6287359!4d-103.4030273!16s%2Fg%2F11flkjhmmm!19sChIJqY4IIwqtKIQRXru1rpyW9_k?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinaria 24 horas Zapopan"
+    },
+    {
+      "name": "Clínica Veterinaria de Especialidades Laureles",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+Veterinaria+de+Especialidades+Laureles/data=!4m7!3m6!1s0x8428afb9803a1da7:0xe877eeba5c376e00!8m2!3d20.7237145!4d-103.3875817!16s%2Fg%2F11cmsq04k5!19sChIJpx06gLmvKIQRAG43XLrud-g?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinaria 24 horas Zapopan"
+    },
+    {
+      "name": "Ortiz Hospital Veterinario",
+      "url": "https://www.google.com/maps/place/Ortiz+Hospital+Veterinario/data=!4m7!3m6!1s0x8428afc3792b91f9:0x4e2edd5ec98390ca!8m2!3d20.7283123!4d-103.3730914!16s%2Fg%2F11cnwg0bnm!19sChIJ-ZErecOvKIQRypCDyV7dLk4?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "urgencias veterinarias Zapopan"
+    },
+    {
+      "name": "Vet 24/7 Dr. Pablo",
+      "url": "https://www.google.com/maps/place/Vet+24%2F7+Dr.+Pablo/data=!4m7!3m6!1s0x8428b1cf73dc3c4b:0x893e7f0dd13064ac!8m2!3d20.7443318!4d-103.352595!16s%2Fg%2F11p0cg6g3n!19sChIJSzzcc8-xKIQRrGQw0Q1_Pok?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinaria 24 horas Zapopan"
+    },
+    {
+      "name": "UNIDAD DE GERIATRÍA VETERINARIA SAN MIGUEL",
+      "url": "https://www.google.com/maps/place/UNIDAD+DE+GERIATR%C3%8DA+VETERINARIA+SAN+MIGUEL/data=!4m7!3m6!1s0x8428af775dc36975:0x7b7a1c4d91d284ff!8m2!3d20.7421215!4d-103.4094036!16s%2Fg%2F11cmsq0fqq!19sChIJdWnDXXevKIQR_4TSkU0cens?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "urgencias veterinarias Zapopan"
+    },
+    {
+      "name": "Veterinaria Dogma",
+      "url": "https://www.google.com/maps/place/Veterinaria+Dogma/data=!4m7!3m6!1s0x8428ac3ff8c19207:0x30eaed72548f08b!8m2!3d20.636274!4d-103.4277806!16s%2Fg%2F1tcx_478!19sChIJB5LB-D-sKIQRi_BIJdeuDgM?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinarias en Zapopan"
+    },
+    {
+      "name": "Clinica veterinaria Napo-Leonvets",
+      "url": "https://www.google.com/maps/place/Clinica+veterinaria+Napo-Leonvets/data=!4m7!3m6!1s0x8428a53331bb86b5:0xcada46f8a010e2ce!8m2!3d20.7584619!4d-103.4308664!16s%2Fg%2F11vpr_f9kt!19sChIJtYa7MTOlKIQRzuIQoPhG2so?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "clínicas veterinarias en Zapopan"
+    },
+    {
+      "name": "Veterinaria Mi Granjita",
+      "url": "https://www.google.com/maps/place/Veterinaria+Mi+Granjita/data=!4m7!3m6!1s0x8428afa3feeef319:0x25b34ef54c56dba!8m2!3d20.7261429!4d-103.3989243!16s%2Fg%2F1ptz617z6!19sChIJGfPu_qOvKIQRum3FVO80WwI?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinarios Zapopan"
+    },
+    {
+      "name": "Clínica Veterinaria Rivenvet",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+Veterinaria+Rivenvet/data=!4m7!3m6!1s0x8428afae6e7111b7:0xf51c6a54f0859c6b!8m2!3d20.7334786!4d-103.4205523!16s%2Fg%2F11fpmdctmz!19sChIJtxFxbq6vKIQRa5yF8FRqHPU?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinarias en Zapopan"
+    },
+    {
+      "name": "Veterinaria Nusske Tesistan",
+      "url": "https://www.google.com/maps/place/Veterinaria+Nusske+Tesistan/data=!4m7!3m6!1s0x8428a7b6a43272d9:0x9b488a40c61547fe!8m2!3d20.7959!4d-103.4795162!16s%2Fg%2F11pwdv9vyw!19sChIJ2XIypLanKIQR_kcVxkCKSJs?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "hospital veterinario Zapopan"
+    },
+    {
+      "name": "Veterinaria Huesitos",
+      "url": "https://www.google.com/maps/place/Veterinaria+Huesitos/data=!4m7!3m6!1s0x8428afefa2ea13dd:0x8699996d686f92d1!8m2!3d20.7443548!4d-103.3728616!16s%2Fg%2F1z44b1kwb!19sChIJ3RPqou-vKIQR0ZJvaG2ZmYY?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinarios Zapopan"
+    },
+    {
+      "name": "Veterinaria Inuneko",
+      "url": "https://www.google.com/maps/place/Veterinaria+Inuneko/data=!4m7!3m6!1s0x8428afa418c6fb81:0x78d3f765ac904bea!8m2!3d20.7246135!4d-103.398759!16s%2Fg%2F1tdnfky9!19sChIJgfvGGKSvKIQR6kuQrGX303g?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "urgencias veterinarias Zapopan"
+    },
+    {
+      "name": "Veterinaria Chapalita",
+      "url": "https://www.google.com/maps/place/Veterinaria+Chapalita/data=!4m7!3m6!1s0x8428af1a7f2a86a9:0x4c227fe5f0d30416!8m2!3d20.6644643!4d-103.4139041!16s%2Fg%2F11h0fp99dp!19sChIJqYYqfxqvKIQRFgTT8OV_Ikw?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinarias en Zapopan"
+    },
+    {
+      "name": "Animalia Clínica Veterinaria",
+      "url": "https://www.google.com/maps/place/Animalia+Cl%C3%ADnica+Veterinaria/data=!4m7!3m6!1s0x8428af86afe50005:0x9aa935e44d7ad132!8m2!3d20.7499974!4d-103.3985008!16s%2Fg%2F11f40s0t9z!19sChIJBQDlr4avKIQRMtF6TeQ1qZo?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "clínicas veterinarias en Zapopan"
+    },
+    {
+      "name": "Veterinaria Misión Del Valle",
+      "url": "https://www.google.com/maps/place/Veterinaria+Misi%C3%B3n+Del+Valle/data=!4m7!3m6!1s0x8428a563c962d6fd:0xf61280ea49b817c!8m2!3d20.761123!4d-103.3906424!16s%2Fg%2F1vp742m_!19sChIJ_dZiyWOlKIQRfIGbpA4oYQ8?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinarios Zapopan"
+    },
+    {
+      "name": "CLÍNICA VETERINARIA DE ALEMÁN",
+      "url": "https://www.google.com/maps/place/CL%C3%8DNICA+VETERINARIA+DE+ALEM%C3%81N/data=!4m7!3m6!1s0x8428afa0387573d9:0x934be6b9ed96d17c!8m2!3d20.7300903!4d-103.4029442!16s%2Fg%2F1ptyyckfh!19sChIJ2XN1OKCvKIQRfNGW7bnmS5M?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "clínicas veterinarias en Zapopan"
+    },
+    {
+      "name": "Clínica Veterinaria VA-GA",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+Veterinaria+VA-GA/data=!4m7!3m6!1s0x8428abcd737c58df:0x29a549e1db732980!8m2!3d20.6499582!4d-103.4527602!16s%2Fg%2F11rmsfphly!19sChIJ31h8c82rKIQRgClz2-FJpSk?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinarios Zapopan"
+    },
+    {
+      "name": "Veterinaria San Jorge",
+      "url": "https://www.google.com/maps/place/Veterinaria+San+Jorge/data=!4m7!3m6!1s0x8428aea8044ec4db:0xcfcd6f1bfbc42003!8m2!3d20.6590376!4d-103.440105!16s%2Fg%2F1pty2w4_0!19sChIJ28ROBKiuKIQRAyDE-xtvzc8?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "urgencias veterinarias Zapopan"
+    },
+    {
+      "name": "Walking Pet's Clínica Veterinaria",
+      "url": "https://www.google.com/maps/place/Walking+Pet%27s+Cl%C3%ADnica+Veterinaria/data=!4m7!3m6!1s0x8428af81a112340f:0x7b693a0f9bbb66b6!8m2!3d20.7501965!4d-103.4022055!16s%2Fg%2F11fxx29ts5!19sChIJDzQSoYGvKIQRtma7mw86aXs?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinarias en Zapopan"
+    },
+    {
+      "name": "VETERINARIA LA MANCHA",
+      "url": "https://www.google.com/maps/place/VETERINARIA+LA+MANCHA/data=!4m7!3m6!1s0x8428af83ad69228b:0xaf68ce979c07e53!8m2!3d20.7463475!4d-103.3993499!16s%2Fg%2F1q5bpns5_!19sChIJiyJprYOvKIQRU37AeemM9go?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "hospital veterinario Zapopan"
+    },
+    {
+      "name": "Veterinaria Franquez",
+      "url": "https://www.google.com/maps/place/Veterinaria+Franquez/data=!4m7!3m6!1s0x8428af75cd382131:0xdfb39d45937658c4!8m2!3d20.7358107!4d-103.4078363!16s%2Fg%2F11fxfm12qr!19sChIJMSE4zXWvKIQRxFh2k0Wds98?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinarias en Zapopan"
+    },
+    {
+      "name": "CENTRO VETERINARIO DEL VALLE",
+      "url": "https://www.google.com/maps/place/CENTRO+VETERINARIO+DEL+VALLE/data=!4m7!3m6!1s0x8428af5d4d1adf43:0x63b9d8480de0bfaa!8m2!3d20.7411598!4d-103.4289699!16s%2Fg%2F11c1r1flxw!19sChIJQ98aTV2vKIQRqr_gDUjYuWM?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "hospital veterinario Zapopan"
+    },
+    {
+      "name": "Servicios médicos veterinarios de Alba",
+      "url": "https://www.google.com/maps/place/Servicios+m%C3%A9dicos+veterinarios+de+Alba/data=!4m7!3m6!1s0x8428afd67b241dcf:0xd9cc8aed018cb67c!8m2!3d20.7178365!4d-103.3611581!16s%2Fg%2F11d_787655!19sChIJzx0ke9avKIQRfLaMAe2KzNk?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "hospital veterinario Zapopan"
+    },
+    {
+      "name": "Clinica Veterinaria Tabachines",
+      "url": "https://www.google.com/maps/place/Clinica+Veterinaria+Tabachines/data=!4m7!3m6!1s0x8428afe424f929dd:0xa45b9a1f143eaa78!8m2!3d20.7407398!4d-103.3664507!16s%2Fg%2F11r8w71xd!19sChIJ3Sn5JOSvKIQReKo-FB-aW6Q?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "urgencias veterinarias Zapopan"
+    },
+    {
+      "name": "HarryVet Clínica Veterinaria",
+      "url": "https://www.google.com/maps/place/HarryVet+Cl%C3%ADnica+Veterinaria/data=!4m7!3m6!1s0x8428af0b9b2d8b4b:0x4fd5696b3cb16bed!8m2!3d20.669795!4d-103.4375034!16s%2Fg%2F11h2qy3kh5!19sChIJS4stmwuvKIQR7WuxPGtp1U8?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinarias en Zapopan"
+    },
+    {
+      "name": "CHARLOTTE PETS",
+      "url": "https://www.google.com/maps/place/CHARLOTTE+PETS/data=!4m7!3m6!1s0x8428ac03a3936941:0xb96ab9f8738f610!8m2!3d20.658309!4d-103.4426584!16s%2Fg%2F1pv063fht!19sChIJQWmTowOsKIQREPY4h5-rlgs?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "clínicas veterinarias en Zapopan"
+    },
+    {
+      "name": "Veterinaria Grand Mastiff",
+      "url": "https://www.google.com/maps/place/Veterinaria+Grand+Mastiff/data=!4m7!3m6!1s0x8428ab92a481e40f:0x51967885f3e1808e!8m2!3d20.6322638!4d-103.4633184!16s%2Fg%2F11bzz5w4k7!19sChIJD-SBpJKrKIQRjoDh84V4llE?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinarios Zapopan"
+    },
+    {
+      "name": "Hospital Veterinario San José Colotlán",
+      "url": "https://www.google.com/maps/place/Hospital+Veterinario+San+Jos%C3%A9+Colotl%C3%A1n/data=!4m7!3m6!1s0x8428a78e1a4291d5:0xda6fe5aa2fef0cc6!8m2!3d20.7881274!4d-103.4615515!16s%2Fg%2F11sm75fm2v!19sChIJ1ZFCGo6nKIQRxgzvL6rlb9o?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "urgencias veterinarias Zapopan"
+    },
+    {
+      "name": "clinica veterinaria Fauna Care",
+      "url": "https://www.google.com/maps/place/clinica+veterinaria+Fauna+Care/data=!4m7!3m6!1s0x8428af17cd95fecf:0x4dd4dc6d94cd3f53!8m2!3d20.6951176!4d-103.4492818!16s%2Fg%2F11rsc0850z!19sChIJz_6VzRevKIQRUz_NlG3c1E0?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "clínicas veterinarias en Zapopan"
+    },
+    {
+      "name": "Les Rois Veterinaria",
+      "url": "https://www.google.com/maps/place/Les+Rois+Veterinaria/data=!4m7!3m6!1s0x8428ac59764d85fd:0x3cd73664442cd335!8m2!3d20.6182344!4d-103.4195478!16s%2Fg%2F11f545k8l1!19sChIJ_YVNdlmsKIQRNdMsRGQ21zw?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinarios Zapopan"
+    },
+    {
+      "name": "Hospital Veterinario La Granja",
+      "url": "https://www.google.com/maps/place/Hospital+Veterinario+La+Granja/data=!4m7!3m6!1s0x8428ada08eb5ac11:0xe2d78e0dc0691e45!8m2!3d20.6170166!4d-103.3850618!16s%2Fg%2F1ptyfjbxq!19sChIJEay1jqCtKIQRRR5pwA2O1-I?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "urgencias veterinarias Zapopan"
+    },
+    {
+      "name": "Clínica Veterinaria LOVET",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+Veterinaria+LOVET/data=!4m7!3m6!1s0x8428a5005e75553b:0xce85adec7e687714!8m2!3d20.7877914!4d-103.4428908!16s%2Fg%2F11vm7w4n6l!19sChIJO1V1XgClKIQRFHdofuythc4?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "clínicas veterinarias en Zapopan"
+    },
+    {
+      "name": "Animal Care Center Guadalajara",
+      "url": "https://www.google.com/maps/place/Animal+Care+Center+Guadalajara/data=!4m7!3m6!1s0x8428ac5b32f1772b:0x72856e1f32155e2d!8m2!3d20.6378269!4d-103.4119712!16s%2Fg%2F1ptwqxm77!19sChIJK3fxMlusKIQRLV4VMh9uhXI?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "hospital veterinario Zapopan"
+    },
+    {
+      "name": "VETERINARIA PERIFERICO",
+      "url": "https://www.google.com/maps/place/VETERINARIA+PERIFERICO/data=!4m7!3m6!1s0x8428af75dce96ae5:0x4a779b8f6353018d!8m2!3d20.7364198!4d-103.4066049!16s%2Fg%2F1q2w80nw0!19sChIJ5Wrp3HWvKIQRjQFTY4-bd0o?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinarios Zapopan"
+    },
+    {
+      "name": "Veterinaria Del Bosque",
+      "url": "https://www.google.com/maps/place/Veterinaria+Del+Bosque/data=!4m7!3m6!1s0x8428af6ebd8239bd:0x5e5c31fa5d49217e!8m2!3d20.7368493!4d-103.4208806!16s%2Fg%2F1q2wdm2j_!19sChIJvTmCvW6vKIQRfiFJXfoxXF4?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinarias en Zapopan"
+    },
+    {
+      "name": "Clínica Veterinaria Lomitos Pets",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+Veterinaria+Lomitos+Pets/data=!4m7!3m6!1s0x8428a534d5c540e5:0xfaaf1e58bbd69029!8m2!3d20.7588026!4d-103.4392405!16s%2Fg%2F11lcr9_fcc!19sChIJ5UDF1TSlKIQRKZDWu1ger_o?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "clínicas veterinarias en Zapopan"
+    },
+    {
+      "name": "GUAGUASH & MIAU, veterinaria y estética canina",
+      "url": "https://www.google.com/maps/place/GUAGUASH+%26+MIAU,+veterinaria+y+est%C3%A9tica+canina/data=!4m7!3m6!1s0x8428af3123a13cab:0xbf6755e6167b7949!8m2!3d20.7220134!4d-103.3740754!16s%2Fg%2F11h1n9nvdv!19sChIJqzyhIzGvKIQRSXl7FuZVZ78?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "urgencias veterinarias Zapopan"
+    },
+    {
+      "name": "Clínica Veterinaria Colibri",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+Veterinaria+Colibri/data=!4m7!3m6!1s0x8428aec13170f1fb:0xd978553090c9a180!8m2!3d20.6861949!4d-103.4333952!16s%2Fg%2F11cnwckhx6!19sChIJ-_FwMcGuKIQRgKHJkDBVeNk?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinarias en Zapopan"
+    },
+    {
+      "name": "Villa Veterinarios; Núcleo de diagnóstico",
+      "url": "https://www.google.com/maps/place/Villa+Veterinarios;+N%C3%BAcleo+de+diagn%C3%B3stico/data=!4m7!3m6!1s0x8428abf63418de03:0x16d108ec2abcaff4!8m2!3d20.6425417!4d-103.4523559!16s%2Fg%2F11fzz9tsk2!19sChIJA94YNParKIQR9K-8KuwI0RY?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "hospital veterinario Zapopan"
+    },
+    {
+      "name": "NEBLI Veterinaria",
+      "url": "https://www.google.com/maps/place/NEBLI+Veterinaria/data=!4m7!3m6!1s0x8428af7701fba83b:0xab56c43e46ab257b!8m2!3d20.7398176!4d-103.4081425!16s%2Fg%2F1q5bmv4kb!19sChIJO6j7AXevKIQReyWrRj7EVqs?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinarios Zapopan"
+    },
+    {
+      "name": "Especialidades Veterinarias de Guadalajara",
+      "url": "https://www.google.com/maps/place/Especialidades+Veterinarias+de+Guadalajara/data=!4m7!3m6!1s0x8428ac215ee0caaf:0x9215379058d24651!8m2!3d20.654093!4d-103.423459!16s%2Fg%2F1tzlz8kh!19sChIJr8rgXiGsKIQRUUbSWJA3FZI?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "urgencias veterinarias Zapopan"
+    },
+    {
+      "name": "Mario el Veterinario",
+      "url": "https://www.google.com/maps/place/Mario+el+Veterinario/data=!4m7!3m6!1s0x8428aff18f0da273:0x49e92efb8181b65a!8m2!3d20.7467589!4d-103.4240628!16s%2Fg%2F11h8cnf7_3!19sChIJc6INj_GvKIQRWraBgfsu6Uk?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinarios Zapopan"
+    },
+    {
+      "name": "Veterinaria HomeVet Aviación",
+      "url": "https://www.google.com/maps/place/Veterinaria+HomeVet+Aviaci%C3%B3n/data=!4m7!3m6!1s0x8428a8cc7ba5786d:0x36e2747abb689fb4!8m2!3d20.7213245!4d-103.4546892!16s%2Fg%2F1yghbb64d!19sChIJbXile8yoKIQRtJ9ou3p04jY?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinarios Zapopan"
+    },
+    {
+      "name": "Veterinaria Andrade",
+      "url": "https://www.google.com/maps/place/Veterinaria+Andrade/data=!4m7!3m6!1s0x8428aec001a37119:0xff727d30a9ccf776!8m2!3d20.6829642!4d-103.4282343!16s%2Fg%2F1w0h7v1z!19sChIJGXGjAcCuKIQRdvfMqTB9cv8?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "urgencias veterinarias Zapopan"
+    },
+    {
+      "name": "Veterinaria y Farmacia Centinela",
+      "url": "https://www.google.com/maps/place/Veterinaria+y+Farmacia+Centinela/data=!4m7!3m6!1s0x8428aff57f4d69a1:0xc06713af7a597183!8m2!3d20.7564569!4d-103.3790195!16s%2Fg%2F11cjggrwn2!19sChIJoWlNf_WvKIQRg3FZeq8TZ8A?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinarias en Zapopan"
+    },
+    {
+      "name": "Dogtor Care hospital veterinario 24 horas",
+      "url": "https://www.google.com/maps/place/Dogtor+Care+hospital+veterinario+24+horas/data=!4m7!3m6!1s0x8428af9885e9d243:0x6308c02c84ed496d!8m2!3d20.7083603!4d-103.3470414!16s%2Fg%2F11q_1ppp2s!19sChIJQ9LphZivKIQRbUnthCzACGM?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "urgencias veterinarias Zapopan"
+    },
+    {
+      "name": "Veterinaria VetCare",
+      "url": "https://www.google.com/maps/place/Veterinaria+VetCare/data=!4m7!3m6!1s0x8428afc7ba01e059:0x9c1c51f23b38b21f!8m2!3d20.723462!4d-103.3797182!16s%2Fg%2F11dxl1rkwt!19sChIJWeABusevKIQRH7I4O_JRHJw?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinarias en Zapopan"
+    },
+    {
+      "name": "Zampets Veterinaria",
+      "url": "https://www.google.com/maps/place/Zampets+Veterinaria/data=!4m7!3m6!1s0x8428afb9608afc99:0xef2bcea5876a7a81!8m2!3d20.7405809!4d-103.3708952!16s%2Fg%2F11rc9y8dwd!19sChIJmfyKYLmvKIQRgXpqh6XOK-8?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinarias en Zapopan"
+    },
+    {
+      "name": "Hospital Veterinario Dimaral",
+      "url": "https://www.google.com/maps/place/Hospital+Veterinario+Dimaral/data=!4m7!3m6!1s0x8428ad002b4bf3e3:0x7c74b4a0605eed7e!8m2!3d20.6463894!4d-103.4282569!16s%2Fg%2F11xdr21rfk!19sChIJ4_NLKwCtKIQRfu1eYKC0dHw?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "hospital veterinario Zapopan"
+    },
+    {
+      "name": "Clinica Veterinaria Animal Kingdom Suc.Porfirio",
+      "url": "https://www.google.com/maps/place/Clinica+Veterinaria+Animal+Kingdom+Suc.Porfirio/data=!4m7!3m6!1s0x8428b11434fe6be9:0x3ab3b353dfceb68c!8m2!3d20.6834541!4d-103.3201871!16s%2Fg%2F1pty5gsyx!19sChIJ6Wv-NBSxKIQRjLbO31Ozszo?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "urgencias veterinarias Zapopan"
+    },
+    {
+      "name": "AmPY mAR",
+      "url": "https://www.google.com/maps/place/AmPY+mAR/data=!4m7!3m6!1s0x8428ac2a995f603f:0x89ad356e58b5eeca!8m2!3d20.6607173!4d-103.406889!16s%2Fg%2F1pv0y5nll!19sChIJP2BfmSqsKIQRyu61WG41rYk?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinarias en Zapopan"
+    },
+    {
+      "name": "VETERINARIA MORÁN",
+      "url": "https://www.google.com/maps/place/VETERINARIA+MOR%C3%81N/data=!4m7!3m6!1s0x8428ac410e3b985d:0xb8c1982abda43973!8m2!3d20.6314328!4d-103.4297306!16s%2Fg%2F1tdbr5j1!19sChIJXZg7DkGsKIQRczmkvSqYwbg?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "urgencias veterinarias Zapopan"
+    },
+    {
+      "name": "Clínica Veterinaria DN",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+Veterinaria+DN/data=!4m7!3m6!1s0x8428afe6dbafc7cf:0x24f633894ba22611!8m2!3d20.7369679!4d-103.4233704!16s%2Fg%2F11l796fxhf!19sChIJz8ev2-avKIQRESaiS4kz9iQ?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "clínicas veterinarias en Zapopan"
+    },
+    {
+      "name": "Veterinaria Berny's",
+      "url": "https://www.google.com/maps/place/Veterinaria+Berny%27s/data=!4m7!3m6!1s0x8428b03c1420071f:0xb79be62ddcccd321!8m2!3d20.7314098!4d-103.34225!16s%2Fg%2F11cnwhh26t!19sChIJHwcgFDywKIQRIdPM3C3mm7c?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "hospital veterinario Zapopan"
+    },
+    {
+      "name": "Veterinaria Garras y Patas",
+      "url": "https://www.google.com/maps/place/Veterinaria+Garras+y+Patas/data=!4m7!3m6!1s0x8428ab8cf2309363:0x69ba4103145c10a!8m2!3d20.6312799!4d-103.458677!16s%2Fg%2F1pzr68g_2!19sChIJY5Mw8oyrKIQRCsFFMRCkmwY?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "urgencias veterinarias Zapopan"
+    },
+    {
+      "name": "Veterinaria y Hospital de Emergencias Vetlez",
+      "url": "https://www.google.com/maps/place/Veterinaria+y+Hospital+de+Emergencias+Vetlez/data=!4m7!3m6!1s0x8428b17c3f889b05:0x5bd3f5109f9596e6!8m2!3d20.6831284!4d-103.2981683!16s%2Fg%2F11jsmp79pd!19sChIJBZuIP3yxKIQR5paVnxD101s?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "urgencias veterinarias Zapopan"
+    },
+    {
+      "name": "Vetland",
+      "url": "https://www.google.com/maps/place/Vetland/data=!4m7!3m6!1s0x8428b111888740d5:0x309c1112663c792f!8m2!3d20.8016742!4d-103.4643387!16s%2Fg%2F11p189yvz7!19sChIJ1UCHiBGxKIQRL3k8ZhIRnDA?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "clínicas veterinarias en Zapopan"
+    },
+    {
+      "name": "Cardiología integral veterinaria",
+      "url": "https://www.google.com/maps/place/Cardiolog%C3%ADa+integral+veterinaria/data=!4m7!3m6!1s0x8428afb5f12bb9b1:0x3e9939cff9592665!8m2!3d20.7237145!4d-103.3875817!16s%2Fg%2F1ptyt1y1k!19sChIJsbkr8bWvKIQRZSZZ-c85mT4?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "urgencias veterinarias Zapopan"
+    },
+    {
+      "name": "Dr. Pet",
+      "url": "https://www.google.com/maps/place/Dr.+Pet/data=!4m7!3m6!1s0x8428adc96fadca7d:0x675f04290d97364e!8m2!3d20.6420711!4d-103.3954127!16s%2Fg%2F1tcvjdrm!19sChIJfcqtb8mtKIQRTjaXDSkEX2c?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "clínicas veterinarias en Zapopan"
+    },
+    {
+      "name": "Veterinaria del bosque",
+      "url": "https://www.google.com/maps/place/Veterinaria+del+bosque/data=!4m7!3m6!1s0x8428aff406e63c53:0xd101918af40e74be!8m2!3d20.7512579!4d-103.3765135!16s%2Fg%2F11c5850j60!19sChIJUzzmBvSvKIQRvnQO9IqRAdE?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "hospital veterinario Zapopan"
+    },
+    {
+      "name": "Veterinaria Medical Vet.",
+      "url": "https://www.google.com/maps/place/Veterinaria+Medical+Vet./data=!4m7!3m6!1s0x8428b00fab894b61:0x70e7c1aeb74cbeac!8m2!3d20.7501834!4d-103.3446502!16s%2Fg%2F11bwytwfhp!19sChIJYUuJqw-wKIQRrL5Mt67B53A?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinarios Zapopan"
+    },
+    {
+      "name": "Kattos Hospital Veterinario",
+      "url": "https://www.google.com/maps/place/Kattos+Hospital+Veterinario/data=!4m7!3m6!1s0x8428af22559aee89:0x5db12e183a5452a2!8m2!3d20.7471123!4d-103.4117638!16s%2Fg%2F11vdwds3q1!19sChIJie6aVSKvKIQRolJUOhgusV0?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "urgencias veterinarias Zapopan"
+    },
+    {
+      "name": "Veterinaria Safarii",
+      "url": "https://www.google.com/maps/place/Veterinaria+Safarii/data=!4m7!3m6!1s0x8428b01c3380c0f7:0xc2ab3932172fa8b1!8m2!3d20.7421613!4d-103.3564168!16s%2Fg%2F1z449twlm!19sChIJ98CAMxywKIQRsagvFzI5q8I?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinarios Zapopan"
+    },
+    {
+      "name": "Centro veterinario de especialidades",
+      "url": "https://www.google.com/maps/place/Centro+veterinario+de+especialidades/data=!4m7!3m6!1s0x8428af32be6d7f35:0x851bff4d0e25c091!8m2!3d20.7449679!4d-103.4282751!16s%2Fg%2F11vyrqpndd!19sChIJNX9tvjKvKIQRkcAlDk3_G4U?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinarios Zapopan"
+    },
+    {
+      "name": "VeteriAna Aviacion",
+      "url": "https://www.google.com/maps/place/VeteriAna+Aviacion/data=!4m7!3m6!1s0x8428af302c42b22d:0x686f17fc2f5d3f7d!8m2!3d20.7571103!4d-103.4414102!16s%2Fg%2F11fl794pw3!19sChIJLbJCLDCvKIQRfT9dL_wXb2g?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "hospital veterinario Zapopan"
+    },
+    {
+      "name": "Clínica Veterinaria Hund Bud",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+Veterinaria+Hund+Bud/data=!4m7!3m6!1s0x8428ac04ba2a1171:0xe63c5e60e08f097e!8m2!3d20.6520045!4d-103.4410639!16s%2Fg%2F11c5451lfh!19sChIJcREqugSsKIQRfgmP4GBePOY?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinarios Zapopan"
+    },
+    {
+      "name": "Clínica Veterinaria Hunter",
+      "url": "https://www.google.com/maps/place/Cl%C3%ADnica+Veterinaria+Hunter/data=!4m7!3m6!1s0x8428aecb50311f8d:0x7ccf5be000b2df78!8m2!3d20.6838291!4d-103.4474209!16s%2Fg%2F1thffrz2!19sChIJjR8xUMuuKIQReN-yAOBbz3w?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "urgencias veterinarias Zapopan"
+    },
+    {
+      "name": "Rocky's House",
+      "url": "https://www.google.com/maps/place/Rocky%27s+House/data=!4m7!3m6!1s0x8428afd7878d1905:0x8b249551fc4e44d3!8m2!3d20.6693244!4d-103.4316099!16s%2Fg%2F11p0y8gvsf!19sChIJBRmNh9evKIQR00RO_FGVJIs?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "hospital veterinario Zapopan"
+    },
+    {
+      "name": "Veterinaria Granja animal",
+      "url": "https://www.google.com/maps/place/Veterinaria+Granja+animal/data=!4m7!3m6!1s0x8428ad18b1266457:0xe3cb0bb1da89ac32!8m2!3d20.6420029!4d-103.4356642!16s%2Fg%2F11k019s87d!19sChIJV2QmsRitKIQRMqyJ2rELy-M?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "clínicas veterinarias en Zapopan"
+    },
+    {
+      "name": "Veterinaria Animal Premium",
+      "url": "https://www.google.com/maps/place/Veterinaria+Animal+Premium/data=!4m7!3m6!1s0x8428b03afae1519f:0xfb60cf4c88ba6e24!8m2!3d20.7266612!4d-103.3448626!16s%2Fg%2F1ptyz3n_9!19sChIJn1Hh-jqwKIQRJG66iEzPYPs?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "hospital veterinario Zapopan"
+    },
+    {
+      "name": "Veterinaria Ani-Mall",
+      "url": "https://www.google.com/maps/place/Veterinaria+Ani-Mall/data=!4m7!3m6!1s0x8428b0272e0a4c7d:0xb393c46b1c339bbe!8m2!3d20.7288449!4d-103.3564873!16s%2Fg%2F11c5sx2dxd!19sChIJfUwKLiewKIQRvpszHGvEk7M?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "urgencias veterinarias Zapopan"
+    },
+    {
+      "name": "Veterinaria Ambar",
+      "url": "https://www.google.com/maps/place/Veterinaria+Ambar/data=!4m7!3m6!1s0x8428af5820b075a3:0xc45caade6a499af1!8m2!3d20.7213116!4d-103.3634953!16s%2Fg%2F11gy67hny_!19sChIJo3WwIFivKIQR8ZpJat6qXMQ?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "clínicas veterinarias en Zapopan"
+    },
+    {
+      "name": "Medicina Integral Veterinaria",
+      "url": "https://www.google.com/maps/place/Medicina+Integral+Veterinaria/data=!4m7!3m6!1s0x8428ad32d5b6d163:0x3a2af5d4fa2dff3!8m2!3d20.6475925!4d-103.432978!16s%2Fg%2F11rgzkzj7p!19sChIJY9G21TKtKIQR89-iT12vogM?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinarios Zapopan"
+    },
+    {
+      "name": "Pet Center Centro Médico Veterinario",
+      "url": "https://www.google.com/maps/place/Pet+Center+Centro+M%C3%A9dico+Veterinario/data=!4m7!3m6!1s0x8428ae2537ed2a59:0x5974a81497dc69ca!8m2!3d20.7304343!4d-103.4418071!16s%2Fg%2F1tjdrn7z!19sChIJWSrtNyWuKIQRymnclxSodFk?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "urgencias veterinarias Zapopan"
+    },
+    {
+      "name": "Centro de Esterilización Veterinario",
+      "url": "https://www.google.com/maps/place/Centro+de+Esterilizaci%C3%B3n+Veterinario/data=!4m7!3m6!1s0x8428af17eafa781b:0x6d6e83fbbd24bffe!8m2!3d20.6697184!4d-103.4254248!16s%2Fg%2F11rhdcq4xq!19sChIJG3j66hevKIQR_r8kvfuDbm0?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "hospital veterinario Zapopan"
+    },
+    {
+      "name": "Veterinaria Yuuk",
+      "url": "https://www.google.com/maps/place/Veterinaria+Yuuk/data=!4m7!3m6!1s0x8428ad36dea91cd5:0x58fa8613b4364414!8m2!3d20.624863!4d-103.4087993!16s%2Fg%2F11rh_fgff1!19sChIJ1Ryp3jatKIQRFEQ2tBOG-lg?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "hospital veterinario Zapopan"
+    },
+    {
+      "name": "Doctor Nain Clínica Veterinaria",
+      "url": "https://www.google.com/maps/place/Doctor+Nain+Cl%C3%ADnica+Veterinaria/data=!4m7!3m6!1s0x8428afabe2cb20c7:0x39f1228e41d1fcd3!8m2!3d20.7290276!4d-103.3702952!16s%2Fg%2F11t18__xt0!19sChIJxyDL4quvKIQR0_zRQY4i8Tk?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "urgencias veterinarias Zapopan"
+    },
+    {
+      "name": "CLÍNICA VETERINARIA DE POCAS PULGAS",
+      "url": "https://www.google.com/maps/place/CL%C3%8DNICA+VETERINARIA+DE+POCAS+PULGAS/data=!4m7!3m6!1s0x8428abfec36de6c1:0xafc995fe80f8a03c!8m2!3d20.6525938!4d-103.454976!16s%2Fg%2F1pzys6p96!19sChIJweZtw_6rKIQRPKD4gP6Vya8?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "veterinarios Zapopan"
+    },
+    {
+      "name": "Casa Veterinaria Picolinos",
+      "url": "https://www.google.com/maps/place/Casa+Veterinaria+Picolinos/data=!4m7!3m6!1s0x8428b1743b6b6165:0x4776e58768a9230e!8m2!3d20.7408937!4d-103.3471401!16s%2Fg%2F11y30_6zm4!19sChIJZWFrO3SxKIQRDiOpaIfldkc?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+      "query": "urgencias veterinarias Zapopan"
+    }
+  ],
+  "completed": [
+    "https://www.google.com/maps/place/HVC+Hospital+Veterinario+Casillas/data=!4m7!3m6!1s0x8428afa4d1833ce3:0xcb6f0c45d73df802!8m2!3d20.7240875!4d-103.3937637!16s%2Fg%2F1w97vq4v!19sChIJ4zyD0aSvKIQRAvg910UMb8s?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Hospital+Veterinario+Santa+Esther/data=!4m7!3m6!1s0x8428af0cf9cf72d7:0xf8407b6e9a288f42!8m2!3d20.727843!4d-103.4128218!16s%2Fg%2F1pty3ml9h!19sChIJ13LP-QyvKIQRQo8omm57QPg?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/ACC24+Hospital+Veterinario+Premium+24+Horas/data=!4m7!3m6!1s0x2f13f4f7850657cd:0x8f3e5a91de68daa2!8m2!3d20.6375744!4d-103.4184612!16s%2Fg%2F11tp4r8g0c!19sChIJzVcGhff0Ey8Rotpo3pFaPo8?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Centro+Veterinario+Hoslom./data=!4m7!3m6!1s0x8428af856a71382f:0x9f44b1e5544b0438!8m2!3d20.7453841!4d-103.3945867!16s%2Fg%2F1tg_xdql!19sChIJLzhxaoWvKIQROARLVOWxRJ8?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/The+Animal+Health+Center/data=!4m7!3m6!1s0x8428adb2e5b58185:0x25dbe542444afcb!8m2!3d20.6286921!4d-103.4030367!16s%2Fg%2F1tg1610l!19sChIJhYG15bKtKIQRy69EJFS-XQI?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/MASCOTAS/data=!4m7!3m6!1s0x8428ac4fee867aad:0x2f6f4fd8d196aa6e!8m2!3d20.6262508!4d-103.4156493!16s%2Fg%2F1vd95dyv!19sChIJrXqG7k-sKIQRbqqW0dhPby8?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/HOSPITAL+VETERINARIO+ANIMALIA/data=!4m7!3m6!1s0x8428ac5b164cc009:0x6237198e3b0b1d6a!8m2!3d20.6232841!4d-103.42093!16s%2Fg%2F1pv5kmqdr!19sChIJCcBMFlusKIQRah0LO44ZN2I?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Veterinaria+Paseos/data=!4m7!3m6!1s0x8428ac406cf5a8e9:0xa06b778a7e777e4e!8m2!3d20.635158!4d-103.426418!16s%2Fg%2F1ptypmrsk!19sChIJ6aj1bECsKIQRTn53fop3a6A?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/WooFit+Mx/data=!4m7!3m6!1s0x8428afbbb2fa30bb:0x6aee7fa2f9aa84ed!8m2!3d20.7238725!4d-103.389634!16s%2Fg%2F1ptvx1jx3!19sChIJuzD6sruvKIQR7YSq-aJ_7mo?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Hospital+veterinario+Alvet/data=!4m7!3m6!1s0x8428add061a09475:0xc5c0debaeb326c0f!8m2!3d20.7302893!4d-103.411892!16s%2Fg%2F11nn21fbhd!19sChIJdZSgYdCtKIQRD2wy67rewMU?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/CISAZ+%28Centro+Integral+de+Salud+Animal+Zapopan%29/data=!4m7!3m6!1s0x8428af819ae22861:0x5600bbb1630fe730!8m2!3d20.7513004!4d-103.3727317!16s%2Fg%2F11sx04srd9!19sChIJYSjimoGvKIQRMOcPY7G7AFY?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Vet+Inc./data=!4m7!3m6!1s0x8428af4f3ba8e803:0x899171301491db37!8m2!3d20.7412929!4d-103.3990573!16s%2Fg%2F11vht8f24s!19sChIJA-ioO0-vKIQRN9uRFDBxkYk?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Kchorros+Hospital+Veterinario/data=!4m7!3m6!1s0x8428ac2fc9688c01:0x8e50d32665f92c5a!8m2!3d20.6638921!4d-103.4167302!16s%2Fg%2F1hd_7l30m!19sChIJAYxoyS-sKIQRWiz5ZSbTUI4?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Hospital+Veterinario+VitalPets/data=!4m7!3m6!1s0x8428ac29f730615b:0x2762b43f89193ffc!8m2!3d20.659757!4d-103.411021!16s%2Fg%2F1q2w75ms4!19sChIJW2Ew9ymsKIQR_D8ZiT-0Yic?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Clinica+Veterinaria+Cordilleras/data=!4m7!3m6!1s0x8428ae9aefa52bad:0xa4abd9ec0d39316d!8m2!3d20.6697389!4d-103.4185841!16s%2Fg%2F1ptygg7zv!19sChIJrSul75quKIQRbTE5DezZq6Q?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Cl%C3%ADnica+veterinaria+mascotas+%2B/data=!4m7!3m6!1s0x8428ac4c862d7c15:0x326ef26ebf29954f!8m2!3d20.6310463!4d-103.4076722!16s%2Fg%2F11f28jk6n7!19sChIJFXwthkysKIQRT5Upv27ybjI?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Oh+Pet!/data=!4m7!3m6!1s0x8428ac190983a9ff:0x4f1e97ed75190ef4!8m2!3d20.6504432!4d-103.4319653!16s%2Fg%2F11r8lmtnf!19sChIJ_6mDCRmsKIQR9A4Zde2XHk8?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Clinica+Veterinaria+Guadalupe/data=!4m7!3m6!1s0x8428af971019bc4b:0xdc09e7c4a65a55ce!8m2!3d20.6613022!4d-103.4277116!16s%2Fg%2F11fp1t9ssz!19sChIJS7wZEJevKIQRzlVapsTnCdw?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Hospital+Veterinario+Lomont+Patria+%28Oftalmolog%C3%ADa,+Traumatolog%C3%ADa,+Ortoped%C3%ADa,+Neurolog%C3%ADa,+Cardiolog%C3%ADa,+Oncolog%C3%ADa,+Tomografia%29/data=!4m7!3m6!1s0x8428ae936e4f9051:0x962febf3d650c7f9!8m2!3d20.6812154!4d-103.4215558!16s%2Fg%2F11dztsvqr9!19sChIJUZBPbpOuKIQR-cdQ1vPrL5Y?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Hospital+Veterinario+VETPETS/data=!4m7!3m6!1s0x8428aeea55555555:0xa75c0c8130167ef2!8m2!3d20.6875953!4d-103.4236648!16s%2Fg%2F1tgc02hc!19sChIJVVVVVequKIQR8n4WMIEMXKc?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Hospital+Veterinario+Universidad/data=!4m7!3m6!1s0x8428aefb3007d493:0xb64906098e594a3b!8m2!3d20.6990554!4d-103.4156714!16s%2Fg%2F1ptx_hrgk!19sChIJk9QHMPuuKIQRO0pZjgkGSbY?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Hospital+Veterinario+de+Peque%C3%B1as+Especies/data=!4m7!3m6!1s0x8428afd668223e25:0xa6372254880c74d!8m2!3d20.7562462!4d-103.3797051!16s%2Fg%2F11q7gk2m21!19sChIJJT4iaNavKIQRTceASCVyYwo?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Hospital+Veterinario+San+Jos%C3%A9+Valle+Imperial/data=!4m7!3m6!1s0x8428a552e107ed15:0x25bfa6077a507a72!8m2!3d20.7726677!4d-103.4428462!16s%2Fg%2F11g1lgsk_k!19sChIJFe0H4VKlKIQRcnpQegemvyU?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/HOSPITAL+VETERINARIO+MADIVET/data=!4m7!3m6!1s0x8428af7da47a38e7:0x54e5694d8fb6b41c!8m2!3d20.6711186!4d-103.4036132!16s%2Fg%2F11mw7rttl4!19sChIJ5zh6pH2vKIQRHLS2j01p5VQ?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Dactary+Hospital+Veterinario/data=!4m7!3m6!1s0x8428afb569069f91:0xed0e5606f1c9ba3!8m2!3d20.667512!4d-103.4240372!16s%2Fg%2F1tngqm12!19sChIJkZ8GabWvKIQRo5scb2Dl0A4?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Centro+Veterinario+Villarejo+by+Pet+Fashion/data=!4m7!3m6!1s0x8428ae8e2964c25d:0x8e4bc8835966599f!8m2!3d20.6752856!4d-103.4162612!16s%2Fg%2F1tfjwlv4!19sChIJXcJkKY6uKIQRn1lmWYPIS44?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Cl%C3%ADnica+Veterinaria+San+Gabriel/data=!4m7!3m6!1s0x8428af97ff07abf9:0x4838768b1bf68dd7!8m2!3d20.7324337!4d-103.3932712!16s%2Fg%2F11c0xhhr33!19sChIJ-asH_5evKIQR1432G4t2OEg?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/HOSPITAL+VETERINARIO+ORTIZ+HVO/data=!4m7!3m6!1s0x8428afdf510a4f9d:0xec751fc7f29b69f2!8m2!3d20.7295362!4d-103.3592441!16s%2Fg%2F1ptz7xshr!19sChIJnU8KUd-vKIQR8mmb8scfdew?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Occivet+Cl%C3%ADnica+Veterinaria/data=!4m7!3m6!1s0x8428abd42812fe8f:0x9dba5b3a360dd9a0!8m2!3d20.6690094!4d-103.4210749!16s%2Fg%2F11q1ppt0_q!19sChIJj_4SKNSrKIQRoNkNNjpbup0?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/BIENESTAR+ANIMAL/data=!4m7!3m6!1s0x8428ae802af708bb:0x4fcfd3a673fbb476!8m2!3d20.6609042!4d-103.4077996!16s%2Fg%2F1q2vyn6c5!19sChIJuwj3KoCuKIQRdrT7c6bTz08?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Servicios+Veterinarios+FeliKan/data=!4m7!3m6!1s0x8428ad518297b26d:0x827a0c9f471fbb17!8m2!3d20.6528543!4d-103.4319655!16s%2Fg%2F11z131mlw6!19sChIJbbKXglGtKIQRF7sfR58MeoI?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Veterinaria+San+Jose/data=!4m7!3m6!1s0x8428af68f357280d:0x49fb3dcf07496c78!8m2!3d20.740028!4d-103.4248714!16s%2Fg%2F11xcn6sjj!19sChIJDShX82ivKIQReGxJB889-0k?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Hospital+Veterinario+San+Jose+Solares/data=!4m7!3m6!1s0x8428a8ca44d492ab:0x5ce520d2d5385e11!8m2!3d20.7256145!4d-103.4544436!16s%2Fg%2F11cl_knx1b!19sChIJq5LURMqoKIQREV441dIg5Vw?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/VeteriAna/data=!4m7!3m6!1s0x8428aea30ede0d83:0x51d2e26fba6b4d37!8m2!3d20.6686853!4d-103.4317502!16s%2Fg%2F11bw47fzd1!19sChIJgw3eDqOuKIQRN01rum_i0lE?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Cl%C3%ADnica+Veterinaria+BLUEVET/data=!4m7!3m6!1s0x8428af4ff288d9c9:0x22c5c68c45c87dc!8m2!3d20.7464664!4d-103.4293582!16s%2Fg%2F11hhtxssx0!19sChIJydmI8k-vKIQR3IdcxGhcLAI?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Hospital+Veterinario+de+Occidente/data=!4m7!3m6!1s0x8428ac1638f6d7b3:0xdcacaa1c82e4d187!8m2!3d20.6575277!4d-103.4169299!16s%2Fg%2F11ckrbdzsn!19sChIJs9f2OBasKIQRh9HkghyqrNw?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Centro+Veterinario+Valles/data=!4m7!3m6!1s0x8428ac37794d8ead:0xd7cb28a7398a1b6f!8m2!3d20.6401214!4d-103.416073!16s%2Fg%2F1pt_3hz78!19sChIJrY5NeTesKIQRbxuKOacoy9c?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Pet+Clinik/data=!4m7!3m6!1s0x8428a5674f2b9e0b:0xa76e5a0fc8a7bd4!8m2!3d20.7629757!4d-103.3831081!16s%2Fg%2F11h4s8p9xz!19sChIJC54rT2elKIQR1HuK_KDldgo?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/VETERINARIA+%22PERSA%22/data=!4m7!3m6!1s0x8428abf440766ca5:0x8078234648b39662!8m2!3d20.6327645!4d-103.453275!16s%2Fg%2F1pzr_qy3c!19sChIJpWx2QPSrKIQRYpazSEYjeIA?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Cl%C3%ADnica+Veterinaria+Africam/data=!4m7!3m6!1s0x8428ac4301726e6d:0x7df236fbe0f0ad5a!8m2!3d20.6272031!4d-103.4249466!16s%2Fg%2F11c1s2bqxy!19sChIJbW5yAUOsKIQRWq3w4Ps28n0?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Centro+de+Salud+Animal+Siglo+XXI/data=!4m7!3m6!1s0x8428ac8c266a5849:0x7b1d1b72bcb77801!8m2!3d20.6042512!4d-103.4335336!16s%2Fg%2F1q5bp2_49!19sChIJSVhqJoysKIQRAXi3vHIbHXs?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/cliniKPet%E2%80%99s/data=!4m7!3m6!1s0x8428a675cb1f3ba3:0x52f3208fdfdf9f5f!8m2!3d20.7784216!4d-103.4547016!16s%2Fg%2F12cnxjctj!19sChIJozsfy3WmKIQRX5_f348g81I?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Hospital+veterinario/data=!4m7!3m6!1s0x8428ad0a23088ea9:0xf9f7969caeb5bb5e!8m2!3d20.6287359!4d-103.4030273!16s%2Fg%2F11flkjhmmm!19sChIJqY4IIwqtKIQRXru1rpyW9_k?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Cl%C3%ADnica+Veterinaria+de+Especialidades+Laureles/data=!4m7!3m6!1s0x8428afb9803a1da7:0xe877eeba5c376e00!8m2!3d20.7237145!4d-103.3875817!16s%2Fg%2F11cmsq04k5!19sChIJpx06gLmvKIQRAG43XLrud-g?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Ortiz+Hospital+Veterinario/data=!4m7!3m6!1s0x8428afc3792b91f9:0x4e2edd5ec98390ca!8m2!3d20.7283123!4d-103.3730914!16s%2Fg%2F11cnwg0bnm!19sChIJ-ZErecOvKIQRypCDyV7dLk4?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Vet+24%2F7+Dr.+Pablo/data=!4m7!3m6!1s0x8428b1cf73dc3c4b:0x893e7f0dd13064ac!8m2!3d20.7443318!4d-103.352595!16s%2Fg%2F11p0cg6g3n!19sChIJSzzcc8-xKIQRrGQw0Q1_Pok?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/UNIDAD+DE+GERIATR%C3%8DA+VETERINARIA+SAN+MIGUEL/data=!4m7!3m6!1s0x8428af775dc36975:0x7b7a1c4d91d284ff!8m2!3d20.7421215!4d-103.4094036!16s%2Fg%2F11cmsq0fqq!19sChIJdWnDXXevKIQR_4TSkU0cens?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Veterinaria+Dogma/data=!4m7!3m6!1s0x8428ac3ff8c19207:0x30eaed72548f08b!8m2!3d20.636274!4d-103.4277806!16s%2Fg%2F1tcx_478!19sChIJB5LB-D-sKIQRi_BIJdeuDgM?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Clinica+veterinaria+Napo-Leonvets/data=!4m7!3m6!1s0x8428a53331bb86b5:0xcada46f8a010e2ce!8m2!3d20.7584619!4d-103.4308664!16s%2Fg%2F11vpr_f9kt!19sChIJtYa7MTOlKIQRzuIQoPhG2so?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Veterinaria+Mi+Granjita/data=!4m7!3m6!1s0x8428afa3feeef319:0x25b34ef54c56dba!8m2!3d20.7261429!4d-103.3989243!16s%2Fg%2F1ptz617z6!19sChIJGfPu_qOvKIQRum3FVO80WwI?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Cl%C3%ADnica+Veterinaria+Rivenvet/data=!4m7!3m6!1s0x8428afae6e7111b7:0xf51c6a54f0859c6b!8m2!3d20.7334786!4d-103.4205523!16s%2Fg%2F11fpmdctmz!19sChIJtxFxbq6vKIQRa5yF8FRqHPU?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Veterinaria+Nusske+Tesistan/data=!4m7!3m6!1s0x8428a7b6a43272d9:0x9b488a40c61547fe!8m2!3d20.7959!4d-103.4795162!16s%2Fg%2F11pwdv9vyw!19sChIJ2XIypLanKIQR_kcVxkCKSJs?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Veterinaria+Huesitos/data=!4m7!3m6!1s0x8428afefa2ea13dd:0x8699996d686f92d1!8m2!3d20.7443548!4d-103.3728616!16s%2Fg%2F1z44b1kwb!19sChIJ3RPqou-vKIQR0ZJvaG2ZmYY?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Veterinaria+Inuneko/data=!4m7!3m6!1s0x8428afa418c6fb81:0x78d3f765ac904bea!8m2!3d20.7246135!4d-103.398759!16s%2Fg%2F1tdnfky9!19sChIJgfvGGKSvKIQR6kuQrGX303g?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Veterinaria+Chapalita/data=!4m7!3m6!1s0x8428af1a7f2a86a9:0x4c227fe5f0d30416!8m2!3d20.6644643!4d-103.4139041!16s%2Fg%2F11h0fp99dp!19sChIJqYYqfxqvKIQRFgTT8OV_Ikw?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Animalia+Cl%C3%ADnica+Veterinaria/data=!4m7!3m6!1s0x8428af86afe50005:0x9aa935e44d7ad132!8m2!3d20.7499974!4d-103.3985008!16s%2Fg%2F11f40s0t9z!19sChIJBQDlr4avKIQRMtF6TeQ1qZo?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Veterinaria+Misi%C3%B3n+Del+Valle/data=!4m7!3m6!1s0x8428a563c962d6fd:0xf61280ea49b817c!8m2!3d20.761123!4d-103.3906424!16s%2Fg%2F1vp742m_!19sChIJ_dZiyWOlKIQRfIGbpA4oYQ8?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/CL%C3%8DNICA+VETERINARIA+DE+ALEM%C3%81N/data=!4m7!3m6!1s0x8428afa0387573d9:0x934be6b9ed96d17c!8m2!3d20.7300903!4d-103.4029442!16s%2Fg%2F1ptyyckfh!19sChIJ2XN1OKCvKIQRfNGW7bnmS5M?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Cl%C3%ADnica+Veterinaria+VA-GA/data=!4m7!3m6!1s0x8428abcd737c58df:0x29a549e1db732980!8m2!3d20.6499582!4d-103.4527602!16s%2Fg%2F11rmsfphly!19sChIJ31h8c82rKIQRgClz2-FJpSk?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Veterinaria+San+Jorge/data=!4m7!3m6!1s0x8428aea8044ec4db:0xcfcd6f1bfbc42003!8m2!3d20.6590376!4d-103.440105!16s%2Fg%2F1pty2w4_0!19sChIJ28ROBKiuKIQRAyDE-xtvzc8?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Walking+Pet%27s+Cl%C3%ADnica+Veterinaria/data=!4m7!3m6!1s0x8428af81a112340f:0x7b693a0f9bbb66b6!8m2!3d20.7501965!4d-103.4022055!16s%2Fg%2F11fxx29ts5!19sChIJDzQSoYGvKIQRtma7mw86aXs?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Veterinaria+Franquez/data=!4m7!3m6!1s0x8428af75cd382131:0xdfb39d45937658c4!8m2!3d20.7358107!4d-103.4078363!16s%2Fg%2F11fxfm12qr!19sChIJMSE4zXWvKIQRxFh2k0Wds98?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/CENTRO+VETERINARIO+DEL+VALLE/data=!4m7!3m6!1s0x8428af5d4d1adf43:0x63b9d8480de0bfaa!8m2!3d20.7411598!4d-103.4289699!16s%2Fg%2F11c1r1flxw!19sChIJQ98aTV2vKIQRqr_gDUjYuWM?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Servicios+m%C3%A9dicos+veterinarios+de+Alba/data=!4m7!3m6!1s0x8428afd67b241dcf:0xd9cc8aed018cb67c!8m2!3d20.7178365!4d-103.3611581!16s%2Fg%2F11d_787655!19sChIJzx0ke9avKIQRfLaMAe2KzNk?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Clinica+Veterinaria+Tabachines/data=!4m7!3m6!1s0x8428afe424f929dd:0xa45b9a1f143eaa78!8m2!3d20.7407398!4d-103.3664507!16s%2Fg%2F11r8w71xd!19sChIJ3Sn5JOSvKIQReKo-FB-aW6Q?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/HarryVet+Cl%C3%ADnica+Veterinaria/data=!4m7!3m6!1s0x8428af0b9b2d8b4b:0x4fd5696b3cb16bed!8m2!3d20.669795!4d-103.4375034!16s%2Fg%2F11h2qy3kh5!19sChIJS4stmwuvKIQR7WuxPGtp1U8?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/CHARLOTTE+PETS/data=!4m7!3m6!1s0x8428ac03a3936941:0xb96ab9f8738f610!8m2!3d20.658309!4d-103.4426584!16s%2Fg%2F1pv063fht!19sChIJQWmTowOsKIQREPY4h5-rlgs?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Veterinaria+Grand+Mastiff/data=!4m7!3m6!1s0x8428ab92a481e40f:0x51967885f3e1808e!8m2!3d20.6322638!4d-103.4633184!16s%2Fg%2F11bzz5w4k7!19sChIJD-SBpJKrKIQRjoDh84V4llE?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Hospital+Veterinario+San+Jos%C3%A9+Colotl%C3%A1n/data=!4m7!3m6!1s0x8428a78e1a4291d5:0xda6fe5aa2fef0cc6!8m2!3d20.7881274!4d-103.4615515!16s%2Fg%2F11sm75fm2v!19sChIJ1ZFCGo6nKIQRxgzvL6rlb9o?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/clinica+veterinaria+Fauna+Care/data=!4m7!3m6!1s0x8428af17cd95fecf:0x4dd4dc6d94cd3f53!8m2!3d20.6951176!4d-103.4492818!16s%2Fg%2F11rsc0850z!19sChIJz_6VzRevKIQRUz_NlG3c1E0?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Les+Rois+Veterinaria/data=!4m7!3m6!1s0x8428ac59764d85fd:0x3cd73664442cd335!8m2!3d20.6182344!4d-103.4195478!16s%2Fg%2F11f545k8l1!19sChIJ_YVNdlmsKIQRNdMsRGQ21zw?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Hospital+Veterinario+La+Granja/data=!4m7!3m6!1s0x8428ada08eb5ac11:0xe2d78e0dc0691e45!8m2!3d20.6170166!4d-103.3850618!16s%2Fg%2F1ptyfjbxq!19sChIJEay1jqCtKIQRRR5pwA2O1-I?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Cl%C3%ADnica+Veterinaria+LOVET/data=!4m7!3m6!1s0x8428a5005e75553b:0xce85adec7e687714!8m2!3d20.7877914!4d-103.4428908!16s%2Fg%2F11vm7w4n6l!19sChIJO1V1XgClKIQRFHdofuythc4?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Animal+Care+Center+Guadalajara/data=!4m7!3m6!1s0x8428ac5b32f1772b:0x72856e1f32155e2d!8m2!3d20.6378269!4d-103.4119712!16s%2Fg%2F1ptwqxm77!19sChIJK3fxMlusKIQRLV4VMh9uhXI?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/VETERINARIA+PERIFERICO/data=!4m7!3m6!1s0x8428af75dce96ae5:0x4a779b8f6353018d!8m2!3d20.7364198!4d-103.4066049!16s%2Fg%2F1q2w80nw0!19sChIJ5Wrp3HWvKIQRjQFTY4-bd0o?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Veterinaria+Del+Bosque/data=!4m7!3m6!1s0x8428af6ebd8239bd:0x5e5c31fa5d49217e!8m2!3d20.7368493!4d-103.4208806!16s%2Fg%2F1q2wdm2j_!19sChIJvTmCvW6vKIQRfiFJXfoxXF4?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/GUAGUASH+%26+MIAU,+veterinaria+y+est%C3%A9tica+canina/data=!4m7!3m6!1s0x8428af3123a13cab:0xbf6755e6167b7949!8m2!3d20.7220134!4d-103.3740754!16s%2Fg%2F11h1n9nvdv!19sChIJqzyhIzGvKIQRSXl7FuZVZ78?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Cl%C3%ADnica+Veterinaria+Colibri/data=!4m7!3m6!1s0x8428aec13170f1fb:0xd978553090c9a180!8m2!3d20.6861949!4d-103.4333952!16s%2Fg%2F11cnwckhx6!19sChIJ-_FwMcGuKIQRgKHJkDBVeNk?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Villa+Veterinarios;+N%C3%BAcleo+de+diagn%C3%B3stico/data=!4m7!3m6!1s0x8428abf63418de03:0x16d108ec2abcaff4!8m2!3d20.6425417!4d-103.4523559!16s%2Fg%2F11fzz9tsk2!19sChIJA94YNParKIQR9K-8KuwI0RY?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/NEBLI+Veterinaria/data=!4m7!3m6!1s0x8428af7701fba83b:0xab56c43e46ab257b!8m2!3d20.7398176!4d-103.4081425!16s%2Fg%2F1q5bmv4kb!19sChIJO6j7AXevKIQReyWrRj7EVqs?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Especialidades+Veterinarias+de+Guadalajara/data=!4m7!3m6!1s0x8428ac215ee0caaf:0x9215379058d24651!8m2!3d20.654093!4d-103.423459!16s%2Fg%2F1tzlz8kh!19sChIJr8rgXiGsKIQRUUbSWJA3FZI?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Mario+el+Veterinario/data=!4m7!3m6!1s0x8428aff18f0da273:0x49e92efb8181b65a!8m2!3d20.7467589!4d-103.4240628!16s%2Fg%2F11h8cnf7_3!19sChIJc6INj_GvKIQRWraBgfsu6Uk?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Veterinaria+HomeVet+Aviaci%C3%B3n/data=!4m7!3m6!1s0x8428a8cc7ba5786d:0x36e2747abb689fb4!8m2!3d20.7213245!4d-103.4546892!16s%2Fg%2F1yghbb64d!19sChIJbXile8yoKIQRtJ9ou3p04jY?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Veterinaria+Andrade/data=!4m7!3m6!1s0x8428aec001a37119:0xff727d30a9ccf776!8m2!3d20.6829642!4d-103.4282343!16s%2Fg%2F1w0h7v1z!19sChIJGXGjAcCuKIQRdvfMqTB9cv8?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Veterinaria+y+Farmacia+Centinela/data=!4m7!3m6!1s0x8428aff57f4d69a1:0xc06713af7a597183!8m2!3d20.7564569!4d-103.3790195!16s%2Fg%2F11cjggrwn2!19sChIJoWlNf_WvKIQRg3FZeq8TZ8A?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Dogtor+Care+hospital+veterinario+24+horas/data=!4m7!3m6!1s0x8428af9885e9d243:0x6308c02c84ed496d!8m2!3d20.7083603!4d-103.3470414!16s%2Fg%2F11q_1ppp2s!19sChIJQ9LphZivKIQRbUnthCzACGM?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Veterinaria+VetCare/data=!4m7!3m6!1s0x8428afc7ba01e059:0x9c1c51f23b38b21f!8m2!3d20.723462!4d-103.3797182!16s%2Fg%2F11dxl1rkwt!19sChIJWeABusevKIQRH7I4O_JRHJw?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Zampets+Veterinaria/data=!4m7!3m6!1s0x8428afb9608afc99:0xef2bcea5876a7a81!8m2!3d20.7405809!4d-103.3708952!16s%2Fg%2F11rc9y8dwd!19sChIJmfyKYLmvKIQRgXpqh6XOK-8?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/VETERINARIA+LA+MANCHA/data=!4m7!3m6!1s0x8428af83ad69228b:0xaf68ce979c07e53!8m2!3d20.7463475!4d-103.3993499!16s%2Fg%2F1q5bpns5_!19sChIJiyJprYOvKIQRU37AeemM9go?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Cl%C3%ADnica+Veterinaria+Lomitos+Pets/data=!4m7!3m6!1s0x8428a534d5c540e5:0xfaaf1e58bbd69029!8m2!3d20.7588026!4d-103.4392405!16s%2Fg%2F11lcr9_fcc!19sChIJ5UDF1TSlKIQRKZDWu1ger_o?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Hospital+Veterinario+Dimaral/data=!4m7!3m6!1s0x8428ad002b4bf3e3:0x7c74b4a0605eed7e!8m2!3d20.6463894!4d-103.4282569!16s%2Fg%2F11xdr21rfk!19sChIJ4_NLKwCtKIQRfu1eYKC0dHw?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Clinica+Veterinaria+Animal+Kingdom+Suc.Porfirio/data=!4m7!3m6!1s0x8428b11434fe6be9:0x3ab3b353dfceb68c!8m2!3d20.6834541!4d-103.3201871!16s%2Fg%2F1pty5gsyx!19sChIJ6Wv-NBSxKIQRjLbO31Ozszo?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/AmPY+mAR/data=!4m7!3m6!1s0x8428ac2a995f603f:0x89ad356e58b5eeca!8m2!3d20.6607173!4d-103.406889!16s%2Fg%2F1pv0y5nll!19sChIJP2BfmSqsKIQRyu61WG41rYk?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/VETERINARIA+MOR%C3%81N/data=!4m7!3m6!1s0x8428ac410e3b985d:0xb8c1982abda43973!8m2!3d20.6314328!4d-103.4297306!16s%2Fg%2F1tdbr5j1!19sChIJXZg7DkGsKIQRczmkvSqYwbg?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Cl%C3%ADnica+Veterinaria+DN/data=!4m7!3m6!1s0x8428afe6dbafc7cf:0x24f633894ba22611!8m2!3d20.7369679!4d-103.4233704!16s%2Fg%2F11l796fxhf!19sChIJz8ev2-avKIQRESaiS4kz9iQ?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Veterinaria+Berny%27s/data=!4m7!3m6!1s0x8428b03c1420071f:0xb79be62ddcccd321!8m2!3d20.7314098!4d-103.34225!16s%2Fg%2F11cnwhh26t!19sChIJHwcgFDywKIQRIdPM3C3mm7c?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Veterinaria+Garras+y+Patas/data=!4m7!3m6!1s0x8428ab8cf2309363:0x69ba4103145c10a!8m2!3d20.6312799!4d-103.458677!16s%2Fg%2F1pzr68g_2!19sChIJY5Mw8oyrKIQRCsFFMRCkmwY?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Veterinaria+y+Hospital+de+Emergencias+Vetlez/data=!4m7!3m6!1s0x8428b17c3f889b05:0x5bd3f5109f9596e6!8m2!3d20.6831284!4d-103.2981683!16s%2Fg%2F11jsmp79pd!19sChIJBZuIP3yxKIQR5paVnxD101s?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Vetland/data=!4m7!3m6!1s0x8428b111888740d5:0x309c1112663c792f!8m2!3d20.8016742!4d-103.4643387!16s%2Fg%2F11p189yvz7!19sChIJ1UCHiBGxKIQRL3k8ZhIRnDA?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Cardiolog%C3%ADa+integral+veterinaria/data=!4m7!3m6!1s0x8428afb5f12bb9b1:0x3e9939cff9592665!8m2!3d20.7237145!4d-103.3875817!16s%2Fg%2F1ptyt1y1k!19sChIJsbkr8bWvKIQRZSZZ-c85mT4?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Dr.+Pet/data=!4m7!3m6!1s0x8428adc96fadca7d:0x675f04290d97364e!8m2!3d20.6420711!4d-103.3954127!16s%2Fg%2F1tcvjdrm!19sChIJfcqtb8mtKIQRTjaXDSkEX2c?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Veterinaria+del+bosque/data=!4m7!3m6!1s0x8428aff406e63c53:0xd101918af40e74be!8m2!3d20.7512579!4d-103.3765135!16s%2Fg%2F11c5850j60!19sChIJUzzmBvSvKIQRvnQO9IqRAdE?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Veterinaria+Medical+Vet./data=!4m7!3m6!1s0x8428b00fab894b61:0x70e7c1aeb74cbeac!8m2!3d20.7501834!4d-103.3446502!16s%2Fg%2F11bwytwfhp!19sChIJYUuJqw-wKIQRrL5Mt67B53A?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Kattos+Hospital+Veterinario/data=!4m7!3m6!1s0x8428af22559aee89:0x5db12e183a5452a2!8m2!3d20.7471123!4d-103.4117638!16s%2Fg%2F11vdwds3q1!19sChIJie6aVSKvKIQRolJUOhgusV0?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Veterinaria+Safarii/data=!4m7!3m6!1s0x8428b01c3380c0f7:0xc2ab3932172fa8b1!8m2!3d20.7421613!4d-103.3564168!16s%2Fg%2F1z449twlm!19sChIJ98CAMxywKIQRsagvFzI5q8I?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Centro+veterinario+de+especialidades/data=!4m7!3m6!1s0x8428af32be6d7f35:0x851bff4d0e25c091!8m2!3d20.7449679!4d-103.4282751!16s%2Fg%2F11vyrqpndd!19sChIJNX9tvjKvKIQRkcAlDk3_G4U?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/VeteriAna+Aviacion/data=!4m7!3m6!1s0x8428af302c42b22d:0x686f17fc2f5d3f7d!8m2!3d20.7571103!4d-103.4414102!16s%2Fg%2F11fl794pw3!19sChIJLbJCLDCvKIQRfT9dL_wXb2g?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Cl%C3%ADnica+Veterinaria+Hund+Bud/data=!4m7!3m6!1s0x8428ac04ba2a1171:0xe63c5e60e08f097e!8m2!3d20.6520045!4d-103.4410639!16s%2Fg%2F11c5451lfh!19sChIJcREqugSsKIQRfgmP4GBePOY?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Cl%C3%ADnica+Veterinaria+Hunter/data=!4m7!3m6!1s0x8428aecb50311f8d:0x7ccf5be000b2df78!8m2!3d20.6838291!4d-103.4474209!16s%2Fg%2F1thffrz2!19sChIJjR8xUMuuKIQReN-yAOBbz3w?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Rocky%27s+House/data=!4m7!3m6!1s0x8428afd7878d1905:0x8b249551fc4e44d3!8m2!3d20.6693244!4d-103.4316099!16s%2Fg%2F11p0y8gvsf!19sChIJBRmNh9evKIQR00RO_FGVJIs?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Veterinaria+Granja+animal/data=!4m7!3m6!1s0x8428ad18b1266457:0xe3cb0bb1da89ac32!8m2!3d20.6420029!4d-103.4356642!16s%2Fg%2F11k019s87d!19sChIJV2QmsRitKIQRMqyJ2rELy-M?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1",
+    "https://www.google.com/maps/place/Veterinaria+Animal+Premium/data=!4m7!3m6!1s0x8428b03afae1519f:0xfb60cf4c88ba6e24!8m2!3d20.7266612!4d-103.3448626!16s%2Fg%2F1ptyz3n_9!19sChIJn1Hh-jqwKIQRJG66iEzPYPs?authuser=0&hl=es&g_ep=EgoyMDI2MDkxNi4wIJJjKgBIAVAD&rclk=1"
+  ],
+  "discovery_complete": true,
+  "updated_at": "2026-09-21T23:44:49+00:00",
+  "complete": true
+}

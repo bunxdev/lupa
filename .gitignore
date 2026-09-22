@@ -14,3 +14,4 @@ app/core.*
 # Local Python environments for integrations
 .venv-browser-use/
 integrations/**/__pycache__/
+qwen/__pycache__/
