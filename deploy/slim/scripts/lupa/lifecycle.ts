@@ -1,5 +1,5 @@
 // Run from the repository root after building and starting lupa.yml.
-const compose=['docker','compose','-p','debina-lupa','-f','lupa.yml'];
+const compose=['docker','compose','-p',process.env.LUPA_COMPOSE_PROJECT||'lupa-validation','-f','lupa.yml'];
 const headers={authorization:`Bearer ${process.env.LUPA_API_TOKEN}`, 'content-type':'application/json'};
 const base=`http://127.0.0.1:${process.env.LUPA_API_PORT||3136}`;
 async function api(path:string,body?:unknown){const r=await fetch(base+path,{headers,method:body===undefined?'GET':'POST',body:body===undefined?undefined:JSON.stringify(body),signal:AbortSignal.timeout(20000)});if(!r.ok)throw new Error(`${path}: ${r.status}`);return r.json() as Promise<any>;}
@@ -22,9 +22,9 @@ const lock=await command(['docker','exec',id,'flock','-n','/config/.lupa-runtime
 result.volumeExclusive=lock.code!==0;
 if(!result.volumeExclusive)throw new Error('Profile volume lock not held');
 // A new empty profile must start without network access or runtime downloads.
-const offline='debina-lupa-offline-check';
+const offline=(process.env.LUPA_COMPOSE_PROJECT||'lupa-validation')+'-offline-check';
 try{
- await command(['docker','run','-d','--name',offline,'--network','none','--shm-size','512m','-e','LUPA_API_TOKEN','-e','SELKIES_USER=validation','-e','SELKIES_PASSWORD=validation-only',process.env.LUPA_IMAGE||'debina/lupa:slim-testing']);
+ await command(['docker','run','-d','--name',offline,'--network','none','--shm-size','512m','-e','LUPA_API_TOKEN','-e','SELKIES_USER=validation','-e','SELKIES_PASSWORD=validation-only',process.env.LUPA_IMAGE||'bunxdev/lupa:0.0.3']);
  for(let i=0;i<90;i++){
   const h=await command(['docker','inspect',offline,'--format','{{.State.Health.Status}}']);
   if(h.out.trim()==='healthy'){result.offlineStartup=true;break;}

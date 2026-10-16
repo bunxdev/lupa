@@ -56,3 +56,16 @@ histórica, no mediciones nuevas. Las comprobaciones actuales cubren API y CDP,
 PNG/JPEG/PDF, aislamiento, perfil/cookies, teclado/ratón, extensiones, descargas,
 audio/vídeo y el protocolo MCP. Los resultados de esta publicación se adjuntan
 a la release correspondiente.
+
+Para ejecutar las pruebas que controlan el navegador, usa una instancia dedicada:
+
+```sh
+cd deploy/slim
+set -a; . ./.env; set +a
+export LUPA_COMPOSE_PROJECT=lupa-validation
+./scripts/lupa/test.sh
+bun run scripts/lupa/lifecycle.ts
+```
+
+Estas pruebas navegan y cierran la sesión, recrean el contenedor de pruebas y
+escriben informes en `reports/`. No deben apuntar a un perfil de trabajo activo.

@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -euo pipefail
 cd -- "$(dirname -- "$0")/../.."
-compose=(docker compose -p debina-lupa -f lupa.yml)
+compose=(docker compose -p "${LUPA_COMPOSE_PROJECT:-lupa-validation}" -f lupa.yml)
 mkdir -p .runtime/extensions/lupa-test .runtime/downloads reports
 cp tests/lupa/extension/* .runtime/extensions/lupa-test/
 "${compose[@]}" up -d --no-build --wait --wait-timeout 120

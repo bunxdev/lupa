@@ -1,11 +1,13 @@
 import { chromium } from '/app/node_modules/playwright';
 const api='http://127.0.0.1:3036';
-const headers={authorization:`Bearer ${process.env.LUPA_API_TOKEN}`, 'content-type':'application/json'};
+const token=process.env.LUPA_API_TOKEN_FILE ? (await Bun.file(process.env.LUPA_API_TOKEN_FILE).text()).trim() : process.env.LUPA_API_TOKEN;
+const headers={authorization:`Bearer ${token}`, 'content-type':'application/json'};
 async function post(path:string,body:any){const r=await fetch(api+path,{method:'POST',headers,body:JSON.stringify(body)});if(!r.ok)throw new Error(await r.text());return r.json() as Promise<any>;}
 const fixture=Bun.serve({hostname:'127.0.0.1',port:0,fetch:()=>new Response(`<!doctype html><title>Lupa stream test</title><style>body{margin:0;background:#123;color:white;font:24px sans-serif}button,input{font-size:24px}</style><h1>Lupa stream test</h1><button id="click" onclick="this.textContent='REMOTE CLICK OK'">Click remotely</button><input id="text"><canvas id="c" width="400" height="200"></canvas><script>let t=0;const c=document.querySelector('canvas').getContext('2d');setInterval(()=>{c.fillStyle='hsl('+(t++%360)+',90%,50%)';c.fillRect(0,0,400,200)},50)</script>`,{headers:{'Content-Type':'text/html'}})});
 await post('/live',{url:`http://127.0.0.1:${fixture.port}`});
 const browser=await chromium.launch({channel:'chromium',headless:true,args:['--no-sandbox','--autoplay-policy=no-user-gesture-required']});
-const context=await browser.newContext({viewport:{width:1280,height:800},permissions:['clipboard-read','clipboard-write']});
+const password=process.env.SELKIES_PASSWORD || process.env.PASSWORD;
+const context=await browser.newContext({httpCredentials:password?{username:process.env.SELKIES_USER || process.env.CUSTOM_USER || 'lupa',password}:undefined,viewport:{width:1280,height:800},permissions:['clipboard-read','clipboard-write']});
 await context.addInitScript(()=>{
   const w=window as any;w.__stream={videoDecodes:0,draws:0,audioAnalysers:[],websockets:0};
   const originalDecode=VideoDecoder.prototype.decode;
