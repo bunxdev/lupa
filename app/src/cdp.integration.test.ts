@@ -9,7 +9,7 @@ test.skipIf(process.env.RUN_BROWSER_TESTS !== '1')('CDP shares the live session,
   const dir = mkdtempSync(join(tmpdir(), 'lupa-cdp-test-'));
   const token = '0123456789abcdef0123456789abcdef';
   writeFileSync(join(dir, 'token'), token + '\n');
-  const fixture = Bun.serve({ port: 0, hostname: '0.0.0.0', fetch: () => new Response('<title>CDP fixture</title><h1>Shared session</h1>', { headers: { 'content-type': 'text/html' } }) });
+  const fixture = Bun.serve({ port: 0, hostname: '0.0.0.0', fetch: () => new Response('<title>CDP fixture</title><h1>Shared session</h1><input id="keyboard"><script>window.keyEvents=[];window.addEventListener("keydown",e=>keyEvents.push({key:e.key,trusted:e.isTrusted}),true)</script>', { headers: { 'content-type': 'text/html' } }) });
   const reservation = Bun.serve({ port: 0, hostname: '127.0.0.1', fetch: () => new Response() });
   const port = reservation.port!;
   reservation.stop(true);
@@ -49,6 +49,16 @@ test.skipIf(process.env.RUN_BROWSER_TESTS !== '1')('CDP shares the live session,
     await page!.bringToFront();
     await page!.evaluate(() => new Promise<void>(resolve => requestAnimationFrame(() => requestAnimationFrame(() => resolve()))));
     expect((await page!.screenshot()).length).toBeGreaterThan(100);
+    // Guard the HTTP keyboard contract independently of extension shortcuts.
+    await post('/live/click', { selector: '#keyboard' });
+    await post('/live/key', { key: 'a' });
+    await post('/live/type', { text: 'bc' });
+    const keyboard = await (await post('/live/eval', {
+      script: 'return {value:document.querySelector("#keyboard").value,events:window.keyEvents};',
+    })).json();
+    expect(keyboard.result.value).toBe('abc');
+    expect(keyboard.result.events.some((event: {key: string; trusted: boolean}) => event.key === 'a' && event.trusted)).toBe(true);
+    expect(keyboard.result.events.some((event: {key: string; trusted: boolean}) => event.key === 'b' && event.trusted)).toBe(true);
     await first.close(); // Playwright disconnects its CDP transport.
     expect(second.isConnected()).toBe(true);
     const status = await (await fetch(base + '/live', { headers })).json();
