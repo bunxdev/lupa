@@ -1,6 +1,10 @@
-// Run from the repository root after building and starting lupa.yml.
+// Run from deploy/slim after building and starting the dedicated test instance.
+// Bun loads .env here. A token file must also be readable on this host.
+const token=(process.env.LUPA_API_TOKEN_FILE ? await Bun.file(process.env.LUPA_API_TOKEN_FILE).text() : process.env.LUPA_API_TOKEN || "").trim();
+if(!token)throw new Error("LUPA_API_TOKEN or LUPA_API_TOKEN_FILE is required");
+process.env.LUPA_API_TOKEN=token;
 const compose=['docker','compose','-p',process.env.LUPA_COMPOSE_PROJECT||'lupa-validation','-f','lupa.yml'];
-const headers={authorization:`Bearer ${process.env.LUPA_API_TOKEN}`, 'content-type':'application/json'};
+const headers={authorization:`Bearer ${token}`, 'content-type':'application/json'};
 const base=`http://127.0.0.1:${process.env.LUPA_API_PORT||3136}`;
 async function api(path:string,body?:unknown){const r=await fetch(base+path,{headers,method:body===undefined?'GET':'POST',body:body===undefined?undefined:JSON.stringify(body),signal:AbortSignal.timeout(20000)});if(!r.ok)throw new Error(`${path}: ${r.status}`);return r.json() as Promise<any>;}
 async function command(args:string[],allowFail=false){const p=Bun.spawn(args,{stdout:'pipe',stderr:'pipe'});const out=await new Response(p.stdout).text();const err=await new Response(p.stderr).text();const code=await p.exited;if(code&&!allowFail)throw new Error(err||out);return {out,err,code};}

@@ -26,7 +26,7 @@ cp -n .env.example .env
 openssl rand -hex 32
 # Pega el resultado en LUPA_API_TOKEN dentro de .env.
 mkdir -p .runtime/extensions .runtime/downloads
-docker compose -p debina-lupa -f lupa.yml up -d --build --wait
+docker compose -p lupa-validation -f lupa.yml up -d --build --wait
 ```
 
 Los puertos predeterminados permiten probarla junto a la Lupa original:
@@ -47,10 +47,10 @@ Para acceder desde otro ordenador, reenvía los puertos por SSH o usa el reenví
 de puertos de tu entorno. La publicación predeterminada está en loopback.
 
 ```bash
-docker compose -p debina-lupa -f lupa.yml ps
-docker compose -p debina-lupa -f lupa.yml logs -f
-docker compose -p debina-lupa -f lupa.yml stop
-docker compose -p debina-lupa -f lupa.yml start
+docker compose -p lupa-validation -f lupa.yml ps
+docker compose -p lupa-validation -f lupa.yml logs -f
+docker compose -p lupa-validation -f lupa.yml stop
+docker compose -p lupa-validation -f lupa.yml start
 ```
 
 ### Qué cambia para reducir espacio
@@ -80,7 +80,7 @@ las fuentes y bibliotecas que permiten conservar el alcance funcional.
 
 ### Persistencia y extensiones
 
-- Volumen `debina-lupa_lupa_config`: `/config`, perfiles live y por extensión.
+- Volumen `lupa-validation_lupa_config`: `/config`, perfiles live y por extensión.
 - `.runtime/downloads`: descargas guardadas en el host.
 - `.runtime/extensions/<nombre>/manifest.json`: extensiones desempaquetadas.
 - `lupa` dentro del contenedor permite reabrir la sesión; `lupa close` y
@@ -104,7 +104,8 @@ lectura; tiene prioridad sobre la variable, como en Lupa. `LUPA_MAX_BODY_BYTES`,
 ### Comprobar funciones y tamaño
 
 ```bash
-# Usa esta instancia de pruebas; abre/cierra su sesión y monta una extensión de prueba.
+# Ejecuta solo en esta instancia dedicada de pruebas, sin sesiones de usuario.
+# Usa el mismo proyecto lupa-validation del arranque anterior.
 ./scripts/lupa/test.sh
 # Recreación, persistencia y arranque con red desactivada:
 bun run scripts/lupa/lifecycle.ts
@@ -123,7 +124,7 @@ la configuración X11/CPU en Linux amd64; ARM y GPU requieren pruebas propias.
 
 ```bash
 # Sustituye TU_USUARIO por tu cuenta de Docker Hub.
-LUPA_IMAGE=TU_USUARIO/lupa:slim docker compose -p debina-lupa -f lupa.yml build
+LUPA_IMAGE=TU_USUARIO/lupa:slim docker compose -p lupa-validation -f lupa.yml build
 # Tras revisar la imagen:
 docker login
 docker push TU_USUARIO/lupa:slim
@@ -144,19 +145,19 @@ y no se descarga al consumir la imagen final.
 - `clipboard-worker-8s-IQrUv.js` es el `clipboard-worker.js` sin modificar de esa
   revisión de Selkies (MPL-2.0). Se incluye en la ruta esperada por el frontend,
   pues el donante empaqueta la referencia al worker pero omite el archivo.
-- Playwright y sus dependencias quedan fijados en `vendor/lupa/app/bun.lock`.
+- Playwright y sus dependencias quedan fijados en `app/bun.lock`.
 - Las bibliotecas conservan sus licencias y metadatos de distribución. Los
   paquetes Debian se resuelven al construir; las dos imágenes base usan digest.
 
-### Imagen publicada en Docker Hub
+### Imagen histórica en Docker Hub
 
-Publicada para `linux/amd64`: `bunxdev/lupa:slim-20260915`.
+La base histórica, anterior a 0.0.3, está publicada para `linux/amd64`: `bunxdev/lupa:slim-20260915`.
 El archivo `lupa.hub.yml` fija también el digest verificado para reproducibilidad.
 Con `.env` configurado como arriba:
 
 ```bash
-docker compose -p debina-lupa -f lupa.yml -f lupa.hub.yml pull
-docker compose -p debina-lupa -f lupa.yml -f lupa.hub.yml up -d --no-build --wait
+docker compose -p lupa-validation -f lupa.yml -f lupa.hub.yml pull
+docker compose -p lupa-validation -f lupa.yml -f lupa.hub.yml up -d --no-build --wait
 ```
 
 Consulta [la comparación secuencial de navegadores](reports/browsers/ANALYSIS.md).
