@@ -1,5 +1,7 @@
 # Lupa
 
+[Extensiones y complementos: Dedo, Cinder, Lumbre, Mutus, Tinta y Vimium](docs/EXTENSIONS.md).
+
 Versión 0.0.3. [Cambios por versión](CHANGELOG.md) · [Imagen Docker y actualización](docs/RELEASES.md).
 La distribución preparada para AMD64 es `bunxdev/lupa:0.0.3`; la receta siguiente
 conserva el despliegue desde código sobre la base original de Selkies.
