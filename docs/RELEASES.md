@@ -63,9 +63,11 @@ a la release correspondiente.
 Para ejecutar las pruebas que controlan el navegador, usa una instancia dedicada:
 
 ```sh
+# Usa otra copia del repositorio, con sus propios .runtime y .env.
 cd deploy/slim
 set -a; . ./.env; set +a
 export LUPA_COMPOSE_PROJECT=lupa-validation
+export LUPA_API_PORT=13136 SELKIES_PORT=16180
 ./scripts/lupa/test.sh
 bun run scripts/lupa/lifecycle.ts
 ```

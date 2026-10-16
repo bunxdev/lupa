@@ -65,3 +65,20 @@ repetidos. No se ejecutó sobre las pestañas del usuario durante esta revisión
 Abrir un segundo visor Selkies puede interferir con la sesión que el usuario
 está mirando. Para automatización textual usa API/CDP o X11 en el contenedor;
 para las pruebas del visor utiliza otra instancia y otro perfil.
+
+## Comprobación de la candidata 0.0.3
+
+En la imagen `0.0.3-rc.1`, commit `b11531a`, se ejecutó una página HTTP local
+con Vimium 2.4.2 y un perfil aislado:
+
+- `/live/key` con `a` y `/live/type` con `bc` produjeron `abc` y eventos
+  `keydown` con `isTrusted: true`.
+- `j` por API y por X11 desplazó la página 60 píxeles en ambos casos. El
+  listener de la página no registró esos eventos, aunque el atajo funcionó.
+- Con una segunda pestaña seleccionada, `/live/key` escribió en la pestaña
+  gestionada por la API y dejó vacío el campo de la segunda pestaña.
+
+Esto contradice la generalización de que CDP nunca genera `keydown`; no invalida
+las observaciones de otras builds o páginas. Los informes y el script de esta
+comprobación se adjuntan a la release. No se validó aquí la fiabilidad de todos
+los atajos de Vimium ni se confirmó la causa de las intermitencias anteriores.
