@@ -11,17 +11,20 @@ RUN mkdir -p /export && cp -a /lsiopy /export/lsiopy && \
 
 FROM oven/bun:1.4.2-slim AS browser-build
 WORKDIR /app
-COPY vendor/lupa/app/package.json vendor/lupa/app/bun.lock ./
+COPY app/package.json app/bun.lock ./
 RUN bun install --production --frozen-lockfile
 ENV PLAYWRIGHT_BROWSERS_PATH=/opt/browsers
 # Use one full Chromium for both headed and new-headless operation.
 RUN bunx playwright install chromium --no-shell && rm -rf /opt/browsers/.links
 
 FROM ${DEBIAN_IMAGE} AS runtime
-ARG LUPA_REVISION=aa70039502e2aebb23a502774115eedc8455086e
+ARG LUPA_REVISION=unknown
+ARG LUPA_VERSION=0.0.3
 LABEL org.opencontainers.image.title="Lupa slim" \
       org.opencontainers.image.description="Lupa API, authenticated CDP, persistent Chromium and Selkies desktop on Debian slim" \
-      org.opencontainers.image.source="https://github.com/bunxdev/debina" \
+      org.opencontainers.image.source="https://github.com/bunxdev/lupa" \
+      org.opencontainers.image.version="${LUPA_VERSION}" \
+      org.opencontainers.image.revision="${LUPA_REVISION}" \
       io.lupa.upstream.revision="${LUPA_REVISION}"
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && apt-get install -y --no-install-recommends \
@@ -51,10 +54,10 @@ COPY --from=selkies /proot-apps /proot-apps
 COPY --from=browser-build /usr/local/bin/bun /usr/local/bin/bun
 COPY --from=browser-build /opt/browsers /opt/browsers
 COPY --from=browser-build /app/node_modules /app/node_modules
-COPY vendor/lupa/app/src /app/src
-COPY vendor/lupa/app/package.json vendor/lupa/UPSTREAM /app/
-COPY Dockerfiles/lupa/rootfs/ /
-COPY --chmod=755 scripts/lupa/entrypoint.sh scripts/lupa/session.sh scripts/lupa/healthcheck.sh scripts/lupa/lupa /usr/local/bin/
+COPY app/src /app/src
+COPY app/package.json VERSION /app/
+COPY deploy/slim/Dockerfiles/lupa/rootfs/ /
+COPY --chmod=755 deploy/slim/scripts/lupa/entrypoint.sh deploy/slim/scripts/lupa/session.sh deploy/slim/scripts/lupa/healthcheck.sh deploy/slim/scripts/lupa/lupa /usr/local/bin/
 ENV HOME=/config DISPLAY=:1 XDG_RUNTIME_DIR=/run/lupa \
     PATH=/lsiopy/bin:/proot-apps:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin \
     PLAYWRIGHT_BROWSERS_PATH=/opt/browsers LUPA_HEADLESS_CHANNEL=chromium LUPA_MANAGED_SHUTDOWN=1 \

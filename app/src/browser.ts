@@ -2,6 +2,11 @@ import { chromium, type Browser, type BrowserContext, type Cookie, type Page } f
 import { existsSync, mkdirSync, readdirSync, readFileSync, rmSync, writeFileSync } from 'node:fs';
 import { join } from 'node:path';
 
+// The container supervisor delegates shutdown to server.ts so profiles flush.
+const MANAGED_SIGNALS = process.env.LUPA_MANAGED_SHUTDOWN === '1'
+  ? { handleSIGTERM: false, handleSIGINT: false, handleSIGHUP: false }
+  : {};
+
 const BASE_ARGS = [
   '--no-sandbox',
   '--disable-dev-shm-usage',
@@ -34,7 +39,7 @@ function trackDisconnect(b: Browser, slot: 'headless' | 'headed') {
 
 export async function getBrowser(): Promise<Browser> {
   if (!browserPromise) {
-    browserPromise = chromium.launch({ headless: true, args: BASE_ARGS })
+    browserPromise = chromium.launch({ ...MANAGED_SIGNALS, headless: true, channel: process.env.LUPA_HEADLESS_CHANNEL || undefined, args: BASE_ARGS })
       .then((b) => { trackDisconnect(b, 'headless'); return b; });
   }
   return browserPromise;
@@ -46,6 +51,7 @@ export async function getHeadedBrowser(): Promise<Browser> {
     // para hacer match con el navegador del cliente, así que dejamos que el WM
     // (openbox) maximice y chromium ocupará lo que selkies decida.
     headedPromise = chromium.launch({
+      ...MANAGED_SIGNALS,
       headless: false,
       args: [
         ...BASE_ARGS,
@@ -93,6 +99,7 @@ export async function getExtContext(
   let p = extContexts.get(ext);
   if (!p) {
     p = chromium.launchPersistentContext(profile, {
+      ...MANAGED_SIGNALS,
       headless: false,
       args: [
         '--no-sandbox',
@@ -236,6 +243,7 @@ async function prepareLivePage(viewport?: Viewport): Promise<Page> {
     ensureDownloadPrefs(LIVE_PROFILE, DOWNLOAD_DIR);
     rmSync(join(LIVE_PROFILE, 'DevToolsActivePort'), { force: true });
     liveCtx = await chromium.launchPersistentContext(LIVE_PROFILE, {
+      ...MANAGED_SIGNALS,
       headless: false,
       // acceptDownloads:true es el default; Playwright intercepta cada download.
       // Lo usamos a propósito y lo redirigimos al DOWNLOAD_DIR con el filename

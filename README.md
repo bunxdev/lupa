@@ -1,5 +1,9 @@
 # Lupa
 
+Versión 0.0.3. [Cambios por versión](CHANGELOG.md) · [Imagen Docker y actualización](docs/RELEASES.md).
+La distribución preparada para AMD64 es `bunxdev/lupa:0.0.3`; la receta siguiente
+conserva el despliegue desde código sobre la base original de Selkies.
+
 Lupa es un servicio de automatización de Chromium con API HTTP, acceso CDP autenticado y una sesión visual persistente transmitida por Selkies WebRTC. Incluye audio, perfiles persistentes, descargas al host, carga de extensiones, captura de pantalla y contenido, render de HTML, PDF, evaluación JavaScript y controles de sesión en vivo.
 
 ![Autotest de video y audio](docs/screenshots/selftest-20260503-014754.png)

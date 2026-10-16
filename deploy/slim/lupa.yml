@@ -1,13 +1,13 @@
 services:
   lupa:
-    image: ${LUPA_IMAGE:-debina/lupa:slim-testing}
+    image: ${LUPA_IMAGE:-bunxdev/lupa:0.0.3}
     build:
-      context: .
-      dockerfile: Dockerfiles/lupa/Dockerfile
+      context: ../..
+      dockerfile: Dockerfile
     shm_size: 2gb
     ports:
       - "${LUPA_BIND:-127.0.0.1}:${LUPA_API_PORT:-3136}:3036"
-      - "${LUPA_BIND:-127.0.0.1}:${SELKIES_PORT:-6180}:3001"
+      - "${LUPA_BIND:-127.0.0.1}:${SELKIES_PORT:-6180}:3000"
     environment:
       LUPA_API_TOKEN: ${LUPA_API_TOKEN:-}
       LUPA_API_TOKEN_FILE: ${LUPA_API_TOKEN_FILE:-}

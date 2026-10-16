@@ -1,7 +1,8 @@
-# debina
+# Lupa slim
 
-Recetas Docker basadas en Debian slim. Los servicios originales siguen en
-`debian.yml`, `neofetch.yml` y `Dockerfiles/debian/Dockerfile`.
+Distribución AMD64 de Lupa. Consulta [las releases](../../docs/RELEASES.md).
+La imagen versionada reutiliza el runtime publicado por digest. La receta completa
+se puede construir desde la raíz con `docker build -f deploy/slim/Dockerfiles/lupa/Dockerfile .`.
 
 ## Lupa con menos espacio
 
@@ -9,7 +10,8 @@ Recetas Docker basadas en Debian slim. Los servicios originales siguen en
 Chromium persistente y el escritorio Selkies con vídeo, audio, teclado, ratón,
 portapapeles, redimensionado y transferencia de archivos.
 
-El código de Lupa procede del commit registrado en `vendor/lupa/UPSTREAM`.
+La imagen de release usa `app/` de la raíz del repositorio. `vendor/lupa/` es una
+copia histórica de referencia; ya no se compila ni se actualiza por separado.
 Las adaptaciones del navegador permiten elegir `channel: chromium` para las
 operaciones headless y delegar las señales de apagado al cierre ordenado de Lupa. Así utiliza el mismo binario completo que la sesión visual;
 Playwright conserva contextos independientes por trabajo.

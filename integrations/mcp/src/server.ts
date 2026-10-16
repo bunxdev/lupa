@@ -59,7 +59,7 @@ export function createServer(options: Options) {
   tool('lupa_live_close','Close the shared visible browser, disconnecting all its clients. Reopening retains the profile.',{},'/live/close','POST',false,true);
   tool('lupa_live_eval','Run JavaScript in the shared visible page. Can read or modify its content.',{script},'/live/eval');
   tool('lupa_live_click','Click a selector in the visible page. May submit forms or trigger actions.',{selector},'/live/click');
-  tool('lupa_live_type','Type into the currently focused field. Click/focus the field first.',{text:z.string().max(262144)},'/live/type');
+  tool('lupa_live_type','Type into the currently focused field. Click/focus the field first.',{text:z.string().max(65536)},'/live/type');
   tool('lupa_live_key','Press a Playwright key or chord, e.g. Enter or Control+a.',{key:z.string().min(1).max(100)},'/live/key');
   tool('lupa_live_mouse_click','Click at viewport coordinates in the visible page.',{x:coord,y:coord,button:z.enum(['left','right','middle']).optional()},'/live/mouse-click');
   tool('lupa_live_mouse_move','Move the pointer to viewport coordinates.',{x:coord,y:coord},'/live/mouse-move');

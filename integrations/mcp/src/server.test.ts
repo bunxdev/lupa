@@ -41,3 +41,11 @@ test('API redirects do not forward the token and timeout returns MCP error',asyn
  try{await harness(()=>Response.redirect(`http://127.0.0.1:${target.port}`),async c=>{const r:any=await c.callTool({name:'lupa_health',arguments:{}});expect(r.isError).toBe(true);expect(redirected).toBe(0);});}finally{target.stop(true);}
  await harness(async()=>{await Bun.sleep(100);return Response.json({ok:true});},async c=>{const r:any=await c.callTool({name:'lupa_health',arguments:{}});expect(r.isError).toBe(true);},10);
 });
+
+test('typing above the API limit is rejected before contacting Lupa',async()=>{
+ let requests=0;
+ await harness(()=>{requests++;return Response.json({ok:true});},async client=>{
+  const result:any=await client.callTool({name:'lupa_live_type',arguments:{text:'x'.repeat(65537)}});
+  expect(result.isError).toBe(true);expect(requests).toBe(0);
+ });
+});

@@ -107,8 +107,8 @@ try {
     assert(data.time>0 && data.width===320 && data.frames>0,'video decode');return data;
   });
   await check('desktop-http-https',async()=>{
-    assert((await fetch('http://127.0.0.1:3000/')).ok,'desktop HTTP');
-    const https=Bun.spawn(['curl','-kfsS','https://127.0.0.1:3001/'],{stdout:'pipe',stderr:'pipe'});
+    const user=process.env.SELKIES_USER || process.env.CUSTOM_USER || 'lupa'; const password=process.env.SELKIES_PASSWORD || process.env.PASSWORD || ''; const auth='Basic '+Buffer.from(user+':'+password).toString('base64'); assert((await fetch('http://127.0.0.1:3000/',{headers:password?{authorization:auth}:{}})).ok,'desktop HTTP');
+    const https=Bun.spawn(['curl','-kfsS',...(password?['-H','Authorization: '+auth]:[]),'https://127.0.0.1:3001/'],{stdout:'pipe',stderr:'pipe'});
     const body=await new Response(https.stdout).text();assert(await https.exited===0&&body.includes('<html'),'desktop HTTPS');return {http:true,https:true};
   });
 } finally {

@@ -1,0 +1,16 @@
+**
+!Dockerfile
+!VERSION
+!app/
+!app/package.json
+!app/bun.lock
+!app/src/
+!app/src/**
+!deploy/
+!deploy/slim/
+!deploy/slim/scripts/
+!deploy/slim/scripts/lupa/
+!deploy/slim/scripts/lupa/**
+!deploy/slim/Dockerfiles/
+!deploy/slim/Dockerfiles/lupa/
+!deploy/slim/Dockerfiles/lupa/**
