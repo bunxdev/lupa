@@ -12,6 +12,7 @@ Comparación: `v0.0.2...v0.0.3`. Integra MCP y el despliegue slim de `lupax`.
 - Puerto de escritorio Compose corregido a HTTP, conforme a la documentación.
 - Límite de escritura MCP alineado con la API (65536 caracteres), con regresión probada.
 - Prueba de escritorio compatible con autenticación configurada.
+- Guía de teclado, foco, pestañas y Vimium basada en la revisión de las skills locales.
 
 La imagen incluye sus dependencias y arranca sin red. El MCP se instala en el
 cliente; consulta [docs/RELEASES.md](docs/RELEASES.md). La rama `qwen` y sus datos

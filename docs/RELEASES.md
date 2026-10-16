@@ -48,6 +48,9 @@ La imagen slim incluye Bun, Playwright y Chromium y arranca sin descargar
 paquetes. `docker-compose.yml` en la raíz conserva la instalación tradicional,
 que descarga dependencias durante el primer arranque.
 
+Consulta también [teclado, pestañas y Vimium](INPUT.md) para distinguir el
+destino de API/CDP del foco del escritorio.
+
 ## Validación
 
 Las notas de cada release registran las pruebas ejecutadas en Linux AMD64.
