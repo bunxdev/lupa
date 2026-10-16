@@ -1,5 +1,7 @@
 # Lupa
 
+Versión 0.0.2. Consulta los cambios y requisitos de actualización en [CHANGELOG.md](CHANGELOG.md).
+
 Lupa es un servicio de automatización de Chromium con API HTTP, acceso CDP autenticado y una sesión visual persistente transmitida por Selkies WebRTC. Incluye audio, perfiles persistentes, descargas al host, carga de extensiones, captura de pantalla y contenido, render de HTML, PDF, evaluación JavaScript y controles de sesión en vivo.
 
 ![Autotest de video y audio](docs/screenshots/selftest-20260503-014754.png)
