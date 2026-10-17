@@ -32,6 +32,17 @@ describe('HTTP security boundary', () => {
     expect(wrongType.status).toBe(415);
   });
 
+  test('rejects invalid live navigation readiness before browser work', async () => {
+    for (const waitFor of ['invalid', 12, null]) {
+      const response = await handle(new Request('http://localhost/live', {
+        method: 'POST',
+        headers: { authorization: `Bearer ${token}`, 'content-type': 'application/json' },
+        body: JSON.stringify({ url: 'https://example.com', waitFor }),
+      }));
+      expect(response.status).toBe(400);
+    }
+  });
+
   test('validates viewport bounds before browser work', async () => {
     const response = await handle(new Request('http://localhost/screenshot', {
       method: 'POST',

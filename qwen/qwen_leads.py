@@ -105,13 +105,19 @@ class Lupa:
     def wait(self, script, timeout=30, interval=0.25):
         end = time.monotonic() + timeout
         while True:
-            if self.blocked():
-                raise BlockedError('Bloqueo o consentimiento de Google Maps; avance guardado')
             try:
+                if self.blocked():
+                    raise BlockedError('Bloqueo o consentimiento de Google Maps; avance guardado')
                 if self.eval(script) is True:
                     return
             except CollectionError:
                 raise
+            except urllib.error.HTTPError as error:
+                # Poll only transient local API failures while navigation settles.
+                # Authentication, rate limiting and Google block detection still stop.
+                if error.code != 500:
+                    raise
+                error.close()
             except RuntimeError:
                 pass  # La navegación puede reemplazar el contexto de ejecución.
             if time.monotonic() >= end:
@@ -119,7 +125,7 @@ class Lupa:
             time.sleep(interval)
 
     def goto(self, url, timeout=45):
-        self.request('/live', {'url': url})
+        self.request('/live', {'url': url, 'waitFor': 'domcontentloaded'})
         self.wait('return document.readyState !== "loading"', timeout=timeout)
 
     def blocked(self):

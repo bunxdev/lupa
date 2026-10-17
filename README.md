@@ -106,7 +106,7 @@ Todos los cuerpos indicados son objetos JSON con `Content-Type: application/json
 | `POST` | `/eval` | `{ url, script }` | Resultado, consola y errores de página. |
 | `POST` | `/content` | `{ url }` | HTML final de la página. |
 | `POST` | `/extension/run` | `{ extension, url, script?, screenshot?, waitFor?, fresh?, viewport? }` | Resultado y captura base64 opcional. |
-| `POST` | `/live` | `{ url, viewport? }` | Abre la URL en la sesión visual persistente. |
+| `POST` | `/live` | `{ url, viewport?, waitFor? }` | Abre la URL en la sesión visual persistente; espera `load` por defecto. |
 | `GET` | `/live` | ninguno | Estado y URL de la sesión. |
 | `GET` | `/cdp/json/version` | ninguno | Metadatos Chromium y URL WebSocket CDP. |
 | `GET` (WebSocket) | `/cdp` | mensajes CDP | Conexión al navegador de la sesión visual. |
@@ -165,6 +165,8 @@ try {
 ```
 
 Para otras herramientas, configura la URL WebSocket y el encabezado `Authorization`. La ruta de descubrimiento es `GET /cdp/json/version` y también admite barra final, como requiere Playwright. El gateway expone el endpoint de navegador; los targets se enumeran mediante CDP, sin implementar `/json/list` ni el frontend de DevTools. Detrás de un proxy TLS, usa directamente `wss://tu-host/cdp` y habilita el forwarding de WebSocket y Authorization.
+
+Desde 0.0.5, `POST /live` admite `waitFor: "domcontentloaded"`, `"load"` o `"networkidle"`. Para automatizar páginas con recursos lentos se puede esperar solo el DOM y comprobar después los elementos requeridos. El valor predeterminado sigue siendo `load`; los valores inválidos devuelven HTTP 400.
 
 Desconectar el transporte deja la sesión abierta. Un comando CDP `Browser.close` (incluido `browser.close()` de Puppeteer) sí cierra el navegador compartido, igual que `POST /live/close`; los clientes pierden la conexión y deben reconectarse. La siguiente conexión inicia Chromium de nuevo con el perfil persistente. CDP concede control completo sobre esa sesión a quien posea el token.
 

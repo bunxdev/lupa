@@ -295,10 +295,10 @@ export async function getLiveCdpEndpoint(): Promise<string> {
   return `ws://127.0.0.1:${port}${path}`;
 }
 
-export async function liveOpen(url: string, viewport?: Viewport): Promise<void> {
+export async function liveOpen(url: string, viewport?: Viewport, waitUntil: 'load' | 'domcontentloaded' | 'networkidle' = 'load'): Promise<void> {
   const page = await ensureLivePage(viewport);
   if (viewport) await page.setViewportSize(viewport);
-  await page.goto(url, { waitUntil: 'load' });
+  await page.goto(url, { waitUntil });
   // bringToFront fuerza al WM (openbox) a poner el chromium al frente — sin
   // esto, una `lupa` repetida sobre el mismo URL no es visible si el usuario
   // tenía otra ventana arriba o el window manager la había hidden.

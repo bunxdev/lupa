@@ -247,7 +247,9 @@ async function live(b: Body): Promise<Response> {
   const url = b.url;
   if (!validUrl(url)) return err('url must be a non-empty string of at most 8192 characters');
   if (!validViewport(b.viewport)) return err('viewport must contain integer width/height within supported bounds');
-  await liveOpen(url, viewport(b.viewport));
+  if (b.waitFor !== undefined && !(VALID_WAIT as readonly unknown[]).includes(b.waitFor)) return err('invalid waitFor');
+  const waitFor = (b.waitFor ?? 'load') as WaitUntil;
+  await liveOpen(url, viewport(b.viewport), waitFor);
   // noVNC se sirve por su propio puerto (6080) — el cliente debe usar el host
   // del navegador, así que sólo devolvemos el path para que el caller resuelva.
   const configuredPort = Number(process.env.SELKIES_PUBLIC_PORT ?? 6080);

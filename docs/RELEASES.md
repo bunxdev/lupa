@@ -13,6 +13,9 @@
 0.0.4 integra los [colectores de Maps](../qwen/README.md) revisados, sin los
 conjuntos de contactos de la rama `qwen`. Consulta el [informe de pruebas](MAPS-0.0.4.md).
 
+0.0.5 añade la variante multistage y correcciones de búsquedas vacías y concurrencia.
+Consulta el [informe del VPS](VALIDATION-0.0.5.md) y las [recetas](BUILD-IMAGES.md).
+
 ## Imagen 0.0.5
 
 ```sh

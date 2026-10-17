@@ -102,3 +102,14 @@ invocación tiene un límite de seis minutos. `summary.json` solo contiene conte
 y estados; los demás archivos pueden incluir contactos y deben seguir privados.
 La clasificación y el orden de resultados pueden variar: las coincidencias son
 medidas, no condiciones para declarar que el método funciona.
+
+### Navegación de la variante UI en 0.0.5
+
+El cliente solicita `waitFor: "domcontentloaded"` al abrir cada página y espera
+después el feed, el panel vacío o el título de la ficha. Así no depende de que
+terminen todos los recursos de Maps. Durante esa espera vuelve a comprobar el
+bloqueo y la condición tras un HTTP 500 transitorio de la API local, dentro del
+plazo de polling. Los errores 401, 403 y 429 no se reintentan; detectar un bloqueo
+o consentimiento de Google sigue deteniendo el trabajo. Una navegación que
+falla antes de iniciar la espera mantiene el tratamiento de error y checkpoint.
+Las APIs anteriores ignoran `waitFor` y conservan su espera de carga completa.

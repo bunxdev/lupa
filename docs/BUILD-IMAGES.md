@@ -74,3 +74,8 @@ opción solo cambia el cliente de pruebas y sus esperas CDP; no aumenta los
 límites del servicio. El informe registra el margen empleado. Conserva también
 los fallos de la ejecución original para no presentar como rendimiento normal
 lo que necesitó un margen mayor.
+
+En un VPS con pocos recursos se puede configurar `SELKIES_FRAMERATE=15` en
+`.env` y recrear el contenedor. Compose expone esta opción de Selkies y mantiene
+60 por defecto. Registra el valor usado al comparar resultados: bajar los FPS
+reduce el trabajo de captura, codificación y decodificación del escritorio.

@@ -12,7 +12,16 @@ test.skipIf(process.env.RUN_BROWSER_TESTS !== '1')('CDP shares the live session,
   const dir = mkdtempSync(join(tmpdir(), 'lupa-cdp-test-'));
   const token = '0123456789abcdef0123456789abcdef';
   writeFileSync(join(dir, 'token'), token + '\n');
-  const fixture = Bun.serve({ port: 0, hostname: '0.0.0.0', fetch: () => new Response('<title>CDP fixture</title><h1>Shared session</h1><input id="keyboard"><script>window.keyEvents=[];window.addEventListener("keydown",e=>keyEvents.push({key:e.key,trusted:e.isTrusted}),true)</script>', { headers: { 'content-type': 'text/html' } }) });
+  let releaseImage!: () => void;
+  const imageGate = new Promise<void>(resolve => { releaseImage = resolve; });
+  const fixture = Bun.serve({ port: 0, hostname: '0.0.0.0', idleTimeout: 255, fetch: async (req) => {
+    const path = new URL(req.url).pathname;
+    if (path === '/held-image') {
+      await imageGate;
+      return new Response('<svg xmlns="http://www.w3.org/2000/svg" width="1" height="1"/>', { headers: { 'content-type': 'image/svg+xml' } });
+    }
+    if (path === '/dom-ready') return new Response('<h1 id="ready">DOM ready</h1><img src="/held-image">', { headers: { 'content-type': 'text/html' } });
+    return new Response('<title>CDP fixture</title><h1>Shared session</h1><input id="keyboard"><script>window.keyEvents=[];window.addEventListener("keydown",e=>keyEvents.push({key:e.key,trusted:e.isTrusted}),true)</script>', { headers: { 'content-type': 'text/html' } }); } });
   const reservation = Bun.serve({ port: 0, hostname: '127.0.0.1', fetch: () => new Response() });
   const port = reservation.port!;
   reservation.stop(true);
@@ -75,7 +84,15 @@ test.skipIf(process.env.RUN_BROWSER_TESTS !== '1')('CDP shares the live session,
     await post('/live', { url: `http://127.0.0.1:${fixture.port}`, viewport: { width: 800, height: 600 } });
     const cookies = await (await fetch(base + '/live/cookies', { headers })).json();
     expect(cookies.cookies.some((cookie: { name: string; value: string }) => cookie.name === 'cdp' && cookie.value === 'shared')).toBe(true);
+    // DOM readiness must not wait for a deliberately unfinished image request.
+    await post('/live', { url: `http://127.0.0.1:${fixture.port}/dom-ready`, waitFor: 'domcontentloaded' });
+    const readiness = await (await post('/live/eval', {
+      script: 'return {ready:!!document.querySelector("#ready"),pending:!document.querySelector("img").complete};',
+    })).json();
+    expect(readiness.result).toEqual({ ready: true, pending: true });
+    releaseImage();
   } finally {
+    releaseImage();
     for (const client of clients) await client.close().catch(() => {});
     child.kill('SIGTERM');
     await child.exited;

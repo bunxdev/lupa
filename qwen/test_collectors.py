@@ -7,6 +7,7 @@ import sys
 import threading
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 import unittest
+import urllib.error
 from pathlib import Path
 from types import SimpleNamespace
 from unittest.mock import patch
@@ -70,7 +71,68 @@ class FakeLupa:
         return True
 
 
+@contextlib.contextmanager
+def api_fixture(responses):
+    queue = list(responses)
+    requests = []
+
+    class Handler(BaseHTTPRequestHandler):
+        def log_message(self, *args):
+            pass
+
+        def do_POST(self):
+            body = json.loads(self.rfile.read(int(self.headers['Content-Length'])))
+            requests.append((self.path, body))
+            status, result = queue.pop(0) if len(queue) > 1 else queue[0]
+            data = json.dumps({'result': result} if status == 200 else {'error': 'fixture failure'}).encode()
+            self.send_response(status)
+            self.send_header('Content-Type', 'application/json')
+            self.send_header('Content-Length', str(len(data)))
+            self.end_headers()
+            self.wfile.write(data)
+
+    server = ThreadingHTTPServer(('127.0.0.1', 0), Handler)
+    worker = threading.Thread(target=server.serve_forever, daemon=True)
+    worker.start()
+    try:
+        yield ui.Lupa(f'http://127.0.0.1:{server.server_port}', 'fixture-token'), requests
+    finally:
+        server.shutdown()
+        server.server_close()
+        worker.join()
+
+
 class CollectorTests(unittest.TestCase):
+    def test_ui_wait_recovers_api_context_failures_during_block_and_ready_checks(self):
+        responses = [(500, None), (200, False), (500, None), (200, False), (200, True)]
+        with api_fixture(responses) as (lupa, requests):
+            lupa.wait('return true', timeout=10, interval=0)
+        self.assertEqual(len(requests), 5)
+        self.assertEqual(requests[0][1]['script'], ui.BLOCK_JS)
+
+    def test_ui_wait_does_not_retry_auth_rate_limits_or_google_blocks(self):
+        for status in (401, 403, 429):
+            with self.subTest(status=status), api_fixture([(status, None)]) as (lupa, requests):
+                with self.assertRaises(urllib.error.HTTPError):
+                    lupa.wait('return true', timeout=10, interval=0)
+                self.assertEqual(len(requests), 1)
+        with api_fixture([(500, None), (200, True)]) as (lupa, requests):
+            with self.assertRaises(BlockedError):
+                lupa.wait('return true', timeout=10, interval=0)
+            self.assertEqual(len(requests), 2)
+            self.assertTrue(all(body['script'] == ui.BLOCK_JS for _, body in requests))
+
+    def test_ui_wait_deadline_stops_persistent_api_failure(self):
+        with api_fixture([(500, None)]) as (lupa, requests):
+            with self.assertRaises(TimeoutError):
+                lupa.wait('return true', timeout=0, interval=0)
+            self.assertEqual(len(requests), 1)
+
+    def test_ui_navigation_requests_dom_readiness(self):
+        with api_fixture([(200, None), (200, False), (200, True)]) as (lupa, requests):
+            lupa.goto('https://www.google.com/maps/search/fixture')
+        self.assertEqual(requests[0], ('/live', {'url': 'https://www.google.com/maps/search/fixture', 'waitFor': 'domcontentloaded'}))
+
     def test_single_result_is_a_valid_collection(self):
         with tempfile.TemporaryDirectory() as directory, patch.object(fast, 'fetch_results', return_value=[[None, payload()]]), patch.object(fast.time, 'sleep'), contextlib.redirect_stdout(io.StringIO()):
             fast.collect(args(directory), '!1sold!7i20')
