@@ -175,3 +175,45 @@ impide también la repetición intencional al mantener una tecla pulsada.
 
 Las comprobaciones enfocadas no convierten la batería inicial en una ejecución
 sin fallos. Los informes conservan las condiciones y resultados de cada corrida.
+
+## Matriz UI con navegación DOM
+
+Se ejecuta el colector instalado de la revisión `43731cb`, cuyo código UI es
+idéntico al de la candidata final `c63f4a0`. La nueva matriz conserva carpetas
+separadas de las ejecuciones anteriores.
+
+| Consulta | Inicial | Reanudación | Teléfonos únicos al final | Errores registrados |
+|---|---:|---:|---:|---|
+| Farmacias en Guadalajara | 3 | 5 | 5 | HTTP 500; el servidor registró timeout; el colector siguió con otras fichas |
+| Ferreterías en Monterrey | 3 | 5 | 5 | Ninguno |
+| Panaderías en Mérida | 0/3 | No ejecutada tras el fallo | 0 | Cinco HTTPError consecutivos; salida 1 con CollectionError y checkpoint guardado |
+
+El código HTTP y sus dependencias de extracción no cambiaron desde la revisión
+`855ddef` que aprobó la matriz HTTP; el adjunto incluye sus identificadores de
+contenido Git. Las comprobaciones UI corresponden a la revisión de navegación,
+no a la candidata inicial que produjo resultados incompletos.
+
+Mérida descubrió 20 candidatas, pero sus cinco primeras comprobaciones de
+detalle devolvieron errores HTTP y activaron el límite de fallos consecutivos.
+El resultado UI de esta consulta no queda validado en el VPS. No se repite
+indefinidamente ni se sustituye este fallo por la aprobación de la variante HTTP.
+Los logs del servidor registraron timeouts, pero no se aisló la causa de cada
+HTTP 500. Queda pendiente diagnosticar y validar este caso en una ejecución
+posterior; no se atribuye toda la incidencia exclusivamente a la CPU.
+
+La consulta vacía posterior también falló con HTTPError y
+`discovery_complete: false`: esta ejecución no verificó su resultado vacío.
+La matriz UI termina con **4/6 comprobaciones aprobadas**. Las pruebas DOM y
+las consultas vacías anteriores sí pasaron, pero no sustituyen estos dos fallos
+de la matriz final. La matriz HTTP mantiene **7/7** comprobaciones aprobadas.
+
+## Aislamiento del viewport del laboratorio
+
+En la batería final multistage pasaron las 15 comprobaciones funcionales. El
+escritorio comprobó audio, vídeo, resolución y repintado, pero sus clics no
+alcanzaron los controles y el texto quedó vacío, pese a la repetición X11
+desactivada. La batería funcional anterior había fijado un viewport emulado de
+1024×768; el cálculo de coordenadas del escritorio requiere la ventana nativa.
+El laboratorio reinicia ahora su sesión dedicada antes del fixture de escritorio
+y registra las dimensiones internas, externas y de pantalla usadas para cada
+control. Este cambio solo afecta al laboratorio, no a las sesiones del usuario.

@@ -8,6 +8,9 @@ const headers={authorization:`Bearer ${token}`, 'content-type':'application/json
 async function post(path:string,body:any){const r=await fetch(api+path,{method:'POST',headers,body:JSON.stringify(body),signal:AbortSignal.timeout(timeoutMs)});if(!r.ok)throw new Error(await r.text());return r.json() as Promise<any>;}
 const fixture=Bun.serve({hostname:'127.0.0.1',port:0,fetch:()=>new Response(`<!doctype html><title>Lupa stream test</title><style>body{margin:0;background:#123;color:white;font:24px sans-serif}button,input{font-size:24px}</style><h1>Lupa stream test</h1><button id="click" onclick="this.textContent='REMOTE CLICK OK'">Click remotely</button><input id="text"><canvas id="c" width="400" height="200"></canvas><script>let t=0;const c=document.querySelector('canvas').getContext('2d');setInterval(()=>{c.fillStyle='hsl('+(t++%360)+',90%,50%)';c.fillRect(0,0,400,200)},50)</script>`,{headers:{'Content-Type':'text/html'}})});
 console.log('desktop: open fixture');
+// The functional suite deliberately sets a Playwright viewport. Restart this
+// dedicated browser so desktop coordinates use the native X11 window again.
+await post('/live/close',{});
 await post('/live',{url:`http://127.0.0.1:${fixture.port}`});
 console.log('desktop: launch viewer');
 const browser=await chromium.launch({channel:'chromium',headless:true,timeout:timeoutMs,args:['--no-sandbox','--autoplay-policy=no-user-gesture-required']});
@@ -74,7 +77,8 @@ try {
   // Map DOM coordinates through Chromium's toolbar into the streamed X desktop.
   const canvasBox=await page.locator('canvas').first().boundingBox();
   async function remotePoint(selector:string){
-    const {result}=await post('/live/eval',{script:`const r=document.querySelector(${JSON.stringify(selector)}).getBoundingClientRect();return {x:r.x+r.width/2,y:r.y+r.height/2+outerHeight-innerHeight,w:screen.width,h:screen.height};`});
+    const {result}=await post('/live/eval',{script:`const r=document.querySelector(${JSON.stringify(selector)}).getBoundingClientRect();return {x:r.x+r.width/2,y:r.y+r.height/2+outerHeight-innerHeight,w:screen.width,h:screen.height,innerWidth,innerHeight,outerWidth,outerHeight};`});
+    (report.remoteInputGeometry??={})[selector]=result;
     return {x:canvasBox!.x+result.x*canvasBox!.width/result.w,y:canvasBox!.y+result.y*canvasBox!.height/result.h};
   }
   console.log('desktop: remote mouse, keyboard and clipboard');
