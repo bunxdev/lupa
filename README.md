@@ -2,7 +2,8 @@
 
 [Extensiones y complementos: Dedo, Cinder, Lumbre, Mutus, Tinta y Vimium](docs/EXTENSIONS.md).
 
-Versión 0.0.5. [Cambios por versión](CHANGELOG.md) · [Imagen Docker y actualización](docs/RELEASES.md).
+Versión 0.0.5 (**pre-release**). [Cambios por versión](CHANGELOG.md) · [Imagen Docker y actualización](docs/RELEASES.md).
+La validación conserva fallos de Maps UI y mayúsculas en escritorio; consulta el [informe del VPS](docs/VALIDATION-0.0.5.md).
 La distribución preparada para AMD64 es `bunxdev/lupa:0.0.5`; la receta siguiente
 conserva el despliegue desde código sobre la base original de Selkies.
 

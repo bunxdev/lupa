@@ -8,10 +8,13 @@
 | 0.0.2 | CDP compartido, Browser Use y laboratorio | Código y Compose original |
 | 0.0.3 | MCP de 21 herramientas y runtime slim | Código y `bunxdev/lupa:0.0.3` (linux/amd64) |
 | 0.0.4 | Colectores Maps y checkpoints por método | Código y `bunxdev/lupa:0.0.4` (linux/amd64) |
-| 0.0.5 | Resultados vacíos, bloqueo de escritores y matriz VPS | `bunxdev/lupa:0.0.5` y `bunxdev/lupa:0.0.5-multistage` (linux/amd64) |
+| 0.0.5 (pre-release) | Resultados vacíos, bloqueo de escritores y matriz VPS | `bunxdev/lupa:0.0.5` y `bunxdev/lupa:0.0.5-multistage` (linux/amd64) |
 
 0.0.4 integra los [colectores de Maps](../qwen/README.md) revisados, sin los
 conjuntos de contactos de la rama `qwen`. Consulta el [informe de pruebas](MAPS-0.0.4.md).
+
+0.0.5 se publica como pre-release por los fallos conservados de Maps UI y teclado
+en el VPS; 0.0.4 sigue siendo la última release estable de GitHub.
 
 0.0.5 añade la variante multistage y correcciones de búsquedas vacías y concurrencia.
 Consulta el [informe del VPS](VALIDATION-0.0.5.md) y las [recetas](BUILD-IMAGES.md).

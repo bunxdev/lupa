@@ -1,5 +1,8 @@
 # Construcción de imágenes Lupa
 
+0.0.5 se publica como **pre-release**; el [informe del VPS](VALIDATION-0.0.5.md)
+conserva los fallos y las condiciones de cada comprobación.
+
 Desde 0.0.5 se distinguen dos recetas para Linux AMD64:
 
 | Etiqueta | Receta | Base del runtime |
@@ -42,6 +45,7 @@ docker push "bunxdev/lupa:$version-multistage"
 
 `org.opencontainers.image.version`, `org.opencontainers.image.revision` e
 `io.lupa.build.variant` permiten identificar la versión, el commit y la receta.
+En 0.0.5, `io.lupa.release.channel=prerelease` identifica el estado de publicación.
 Los `COPY` del contexto hacia el runtime normalizan los permisos con `u=rwX,go=rX`, para que
 `abc` pueda leer la aplicación aunque el checkout se haya creado con `umask 077`.
 Esto usa la sintaxis de Dockerfile 1.14 o posterior, resuelta por el frontend

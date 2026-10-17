@@ -5,6 +5,30 @@ contenedores y perfiles dedicados en un VPS Debian con 2 vCPU, 3922 MiB de RAM
 sin swap, Docker 29.9.1 y Compose 5.6.0. No se navega el perfil de trabajo del
 usuario. Los datasets y respuestas de Maps se conservan fuera del repositorio.
 
+## Resultado y estado de publicación
+
+0.0.5 se publica como **pre-release**. La batería completa no termina sin fallos;
+se conservan las ejecuciones originales y las comprobaciones enfocadas.
+
+| Comprobación | Estándar | Multistage |
+|---|---|---|
+| API/CDP de la batería final | 9/9, 55 aserciones | 8/9; CDP aislado posterior 1/1, 25 aserciones |
+| Funciones | 15/15 | 15/15 |
+| Regresiones de colectores instalados como `abc` | 25, más 1 DOM omitida en modo offline | 25, más 1 DOM omitida en modo offline |
+| DOM real con fixtures | Pasa | Pasa |
+| Persistencia, exclusión de volumen, arranque sin red y autenticación | Pasa en candidata final | Pasa en candidata de navegación `43731cb` |
+| Escritorio completo | Falla el texto exacto: `Selkies input oK` | La primera batería falla en coordenadas; con ventana nativa falla la misma mayúscula |
+| Audio, vídeo, clic, portapapeles, resolución y repintado | Pasan | Pasan en la comprobación con ventana nativa |
+
+La matriz HTTP aprobó 7/7; la UI aprobó 4/6. Fallaron la extracción de Mérida
+y la consulta vacía posterior. Las comprobaciones enfocadas de teclado se
+registran por separado; no sustituyen las baterías completas fallidas.
+
+Las candidatas finales `0.0.5-rc.3` y `0.0.5-multistage-rc.4` contienen el
+runtime de `c63f4a0`. Los cambios posteriores corrigen el laboratorio y documentan
+resultados. Antes de publicar se comparan las capas del runtime final con las
+de estas candidatas, y se verifican revisión OCI y digests en DockerHub.
+
 ## Versiones instaladas
 
 Las dos candidatas contienen las mismas versiones principales:
@@ -234,3 +258,24 @@ fallando. Se cambia el laboratorio para esperar cada pulsación y liberación
 en orden, incluidas las transiciones de Shift; no se relaja la comparación
 de mayúsculas. La repetición X11 desactivada evita repetir una tecla mientras
 se espera la ida y vuelta de CDP.
+
+## Comprobaciones finales de teclado aislado
+
+El fixture con eventos CDP secuenciales recibió `Selkies input OK` en multistage,
+con una `O` nativa y `Shift` activo. Un segundo fixture usando
+`page.keyboard.down`, `press` y `up` de Playwright pasó en ambas imágenes,
+conservando la misma comparación exacta y observando eventos de teclado fiables
+(`isTrusted`). El laboratorio de escritorio utiliza ahora esta API de Playwright
+para gestionar modificadores y ubicación de teclas.
+
+Estos fixtures usan una página estática y no reproducen simultáneamente toda
+la carga animada de la batería completa. Por tanto, sus aprobaciones no prueban
+que haya desaparecido la intermitencia observada bajo esa carga. Se adjuntan
+ambos fixtures, sus hashes y sus resultados; las baterías completas fallidas se
+conservan. La publicación permanece como pre-release.
+
+La candidata estándar terminó con 9/9 de API/CDP, 15/15 de funciones, DOM y
+ciclo de vida aprobados; el escritorio completo falló solo en la mayúscula.
+Su recreación tardó 51,04 segundos. Ambas imágenes aprobaron los 25 casos
+instalados y la CLI como `abc`. Sus versiones instaladas se volvieron a medir
+en las candidatas finales y coinciden con la tabla de este informe.

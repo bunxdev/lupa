@@ -85,21 +85,14 @@ try {
   let point=await remotePoint('#click');await page.mouse.click(point.x,point.y);await page.waitForTimeout(500);
   report.remoteClick=(await post('/live/eval',{script:'return document.querySelector("#click").textContent;'})).result;
   point=await remotePoint('#text');await page.mouse.click(point.x,point.y);
-  // Preserve event order, including Shift transitions. On a slow host use
-  // LUPA_KEY_REPEAT=off so remote round trips do not produce held-key repeats.
-  const keyboardSession=await context.newCDPSession(page);
-  const dispatch=(type:'keyDown'|'keyUp',key:string,code:string,windowsVirtualKeyCode:number,modifiers=0,text?:string)=>
-    keyboardSession.send('Input.dispatchKeyEvent',{type,key,code,windowsVirtualKeyCode,modifiers,...(text?{text}:{} )});
+  // Let Playwright track modifier state and key locations, in event order.
+  // LUPA_KEY_REPEAT=off avoids held-key repeats during slow remote round trips.
   for(const character of 'Selkies input OK'){
     const shifted=/[A-Z]/.test(character);
-    const code=character===' '?'Space':'Key'+character.toUpperCase();
-    const vk=character.toUpperCase().charCodeAt(0);
-    if(shifted)await dispatch('keyDown','Shift','ShiftLeft',16,8);
-    await dispatch('keyDown',character,code,vk,shifted?8:0,character);
-    await dispatch('keyUp',character,code,vk,shifted?8:0);
-    if(shifted)await dispatch('keyUp','Shift','ShiftLeft',16);
+    if(shifted)await page.keyboard.down('Shift');
+    await page.keyboard.press(character===' '?'Space':character);
+    if(shifted)await page.keyboard.up('Shift');
   }
-  await keyboardSession.detach();
   const keyboardDeadline=performance.now()+timeoutMs;
   do{
     report.remoteKeyboard=(await post('/live/eval',{script:'return document.querySelector("#text").value;'})).result;

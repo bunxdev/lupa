@@ -1,6 +1,6 @@
 # Changelog
 
-## 0.0.5
+## 0.0.5 (pre-release)
 
 - Añade `waitFor` a `/live`, conservando `load` por defecto; el colector UI espera el DOM y tolera HTTP 500 transitorios durante su polling, sin reintentar autenticación ni bloqueos.
 - Reconoce búsquedas vacías reales de Maps: panel sin feed en UI y envoltura JSON sin lista en HTTP. Un formato desconocido sigue siendo un error.

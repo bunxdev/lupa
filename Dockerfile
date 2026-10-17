@@ -15,6 +15,7 @@ COPY --chmod=755 deploy/slim/scripts/lupa/entrypoint.sh deploy/slim/scripts/lupa
 ARG LUPA_VERSION=0.0.5
 ARG LUPA_REVISION=unknown
 LABEL io.lupa.build.variant="runtime-overlay" \
+      io.lupa.release.channel="prerelease" \
       org.opencontainers.image.title="Lupa" \
       org.opencontainers.image.description="Chromium HTTP/CDP automation with a persistent Selkies desktop" \
       org.opencontainers.image.source="https://github.com/bunxdev/lupa" \

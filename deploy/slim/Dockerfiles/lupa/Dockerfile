@@ -74,6 +74,7 @@ ENTRYPOINT ["/usr/bin/tini", "--", "/usr/local/bin/entrypoint.sh"]
 ARG LUPA_REVISION=unknown
 ARG LUPA_VERSION=0.0.5
 LABEL io.lupa.build.variant="multistage" \
+      io.lupa.release.channel="prerelease" \
       org.opencontainers.image.title="Lupa slim" \
       org.opencontainers.image.description="Lupa API, authenticated CDP, persistent Chromium and Selkies desktop on Debian slim" \
       org.opencontainers.image.source="https://github.com/bunxdev/lupa" \
