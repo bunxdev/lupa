@@ -9,6 +9,7 @@
 - Normaliza los permisos de los archivos copiados a las imágenes y corrige la copia de fixtures del laboratorio para checkouts creados con `umask 077`.
 - Permite configurar y registrar el margen de espera de las pruebas mediante `LUPA_TEST_TIMEOUT_MS`, sin modificar los límites del servicio.
 - Expone `SELKIES_FRAMERATE` en Compose (60 por defecto) y mejora la observación de teclado y resolución del laboratorio en hosts lentos.
+- Añade `LUPA_KEY_REPEAT=off` para desactivar repeticiones X11 en escritorios con latencia; conserva `on` por defecto. El laboratorio espera vídeo y repintado observables en lugar de pausas fijas.
 - Añade la distribución `0.0.5-multistage`, construida desde etapas independientes de Selkies, Bun/Chromium y Debian slim; [recetas y validación](docs/BUILD-IMAGES.md).
 
 Las pruebas, condiciones del VPS y resultados están en el [informe de validación](docs/VALIDATION-0.0.5.md).

@@ -79,3 +79,9 @@ En un VPS con pocos recursos se puede configurar `SELKIES_FRAMERATE=15` en
 `.env` y recrear el contenedor. Compose expone esta opción de Selkies y mantiene
 60 por defecto. Registra el valor usado al comparar resultados: bajar los FPS
 reduce el trabajo de captura, codificación y decodificación del escritorio.
+
+Si las liberaciones de teclas llegan con retraso y aparecen caracteres repetidos,
+configura también `LUPA_KEY_REPEAT=off` y recrea el contenedor. Esta opción
+desactiva la repetición de X11 al mantener una tecla pulsada; su valor por defecto
+es `on`. Solo admite `on` u `off`. La validación de escritorio en este VPS usa
+15 FPS y repetición desactivada, con un margen de pruebas de 90 segundos.

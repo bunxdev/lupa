@@ -32,6 +32,11 @@ for attempt in {1..100}; do
   sleep .1
 done
 xset q >/dev/null
+# Delayed key-up messages can trigger X11 repeat on a contended remote desktop.
+case "${LUPA_KEY_REPEAT:-on}" in
+  on|off) xset r "${LUPA_KEY_REPEAT:-on}" ;;
+  *) echo 'LUPA_KEY_REPEAT must be on or off' >&2; exit 1 ;;
+esac
 # Start at a usable size, while retaining the large virtual screen for live resize.
 selkies-resize 1280x720
 pulseaudio --daemonize=no --exit-idle-time=-1 --log-target=stderr --log-level=error \

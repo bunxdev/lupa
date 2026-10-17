@@ -1,6 +1,6 @@
 # Validación de Lupa 0.0.5
 
-Trabajo del 17 de octubre de 2026 UTC (16 de octubre en México). Se usan
+Trabajo iniciado el 17 de octubre de 2026 UTC (16 de octubre en México). Se usan
 contenedores y perfiles dedicados en un VPS Debian con 2 vCPU, 3922 MiB de RAM
 sin swap, Docker 29.9.1 y Compose 5.6.0. No se navega el perfil de trabajo del
 usuario. Los datasets y respuestas de Maps se conservan fuera del repositorio.
@@ -95,7 +95,7 @@ comprobaciones de feed, ficha, cierre permanente, bloqueo y panel vacío.
 ### Escritorio con límite configurado de 15 FPS
 
 Tras recrear la instancia con `SELKIES_FRAMERATE=15` y el laboratorio actualizado,
-la comprobación completa del escritorio aprobó:
+las comprobaciones de entrada y transmisión del escritorio aprobaron:
 
 | Comprobación | Resultado |
 |---|---|
@@ -105,6 +105,10 @@ la comprobación completa del escritorio aprobó:
 | Teclado | `Selkies input OK`, sin repeticiones |
 | Portapapeles | `Clipboard OK` |
 | Resolución | 1280×800 → 1120×740 |
+
+La captura inicial se tomó durante el repintado después de cambiar el tamaño.
+El laboratorio añade una espera visual de una región del fondo del fixture
+antes de capturar el fotograma final, además de comprobar las dimensiones.
 
 15 FPS es la configuración solicitada, no una medición de rendimiento sostenido.
 El valor predeterminado de la imagen y de Compose sigue siendo 60. El informe
@@ -146,3 +150,28 @@ propagan inmediatamente. Cuatro nuevas regresiones HTTP verifican recuperación,
 autenticación/bloqueos, plazo y contrato de navegación: 25 regresiones en total.
 La integración CDP incluye una imagen cuya respuesta permanece retenida para
 comprobar que la opción DOM devuelve el control antes de terminar esa descarga.
+
+Las 25 regresiones de la revisión de navegación pasaron en Python 3.11 y 3.13
+en [CI](https://github.com/bunxdev/lupa/actions/runs/39013217704), junto con las
+pruebas de la capa de datos compartida. También pasó `bun run typecheck` y las
+ocho pruebas locales de API; la integración real de Chromium se ejecuta en el VPS.
+
+## Revisión del laboratorio de escritorio y vídeo
+
+La candidata de navegación aprobó las nueve pruebas de API/CDP (55 aserciones),
+incluida la navegación DOM con una respuesta de imagen retenida. Las funciones
+aprobaron 14/15: volvió a fallar el fixture que grababa vídeo durante una pausa
+fija. Se sustituyó por una espera de chunks codificados y de un fotograma
+presentado, conservando las comprobaciones de avance, anchura y decodificación.
+La comprobación enfocada pasó con cinco fotogramas, 4325 bytes y cuatro chunks.
+
+Con 15 FPS, la nueva prueba detectó repintado correcto tras redimensionar
+(píxel observado `[17, 34, 49]` frente al fondo `[17, 34, 51]`), pero volvió a
+observar repeticiones del teclado. La ejecución enfocada con `xset r off` pasó:
+320 decodificaciones, pico de audio 0.502, texto exacto, clic, portapapeles y
+1280×800 → 1120×740. La imagen expone ahora `LUPA_KEY_REPEAT=off` para aplicar
+ese ajuste al arrancar; el valor predeterminado sigue siendo `on`. Desactivarlo
+impide también la repetición intencional al mantener una tecla pulsada.
+
+Las comprobaciones enfocadas no convierten la batería inicial en una ejecución
+sin fallos. Los informes conservan las condiciones y resultados de cada corrida.

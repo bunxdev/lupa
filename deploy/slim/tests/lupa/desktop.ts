@@ -1,4 +1,5 @@
 import { chromium } from '/app/node_modules/playwright';
+import { inflateSync } from 'node:zlib';
 const api='http://127.0.0.1:3036';
 const timeoutMs=Number(process.env.LUPA_TEST_TIMEOUT_MS||30000);
 if(!Number.isInteger(timeoutMs)||timeoutMs<1000||timeoutMs>120000)throw new Error('LUPA_TEST_TIMEOUT_MS must be 1000–120000');
@@ -37,6 +38,8 @@ const page=await context.newPage();
 const logs:any[]=[];page.on('console',m=>{if(m.type()==='error'||m.type()==='warning')logs.push(m.text());});page.on('pageerror',e=>logs.push(e.message));
 let binaryBytes=0;page.on('websocket',ws=>ws.on('framereceived',e=>{if(Buffer.isBuffer(e.payload))binaryBytes+=e.payload.length;}));
 const report:any={timeoutMs,configuredFramerate:process.env.SELKIES_FRAMERATE||'60',failedRequests:[]};
+const keyboardState=Bun.spawnSync(['xset','q'],{stdout:'pipe',stderr:'pipe'});
+report.keyRepeat=new TextDecoder().decode(keyboardState.stdout).match(/auto repeat:\s+(on|off)/)?.[1]||'unknown';
 page.on('response',response=>{if(response.status()>=400)report.failedRequests.push({path:new URL(response.url()).pathname,status:response.status()});});
 try {
   console.log('desktop: load dashboard');
@@ -81,19 +84,17 @@ try {
   // Queue each down/up pair together. Waiting for a CDP round trip between
   // them can leave a key held long enough for X11 autorepeat on a slow host.
   const keyboardSession=await context.newCDPSession(page);
-  const keyEvents:Promise<unknown>[]=[];
   const dispatch=(type:'keyDown'|'keyUp',key:string,code:string,windowsVirtualKeyCode:number,modifiers=0,text?:string)=>
-    keyEvents.push(keyboardSession.send('Input.dispatchKeyEvent',{type,key,code,windowsVirtualKeyCode,modifiers,...(text?{text}:{} )}));
+    keyboardSession.send('Input.dispatchKeyEvent',{type,key,code,windowsVirtualKeyCode,modifiers,...(text?{text}:{} )});
   for(const character of 'Selkies input OK'){
     const shifted=/[A-Z]/.test(character);
     const code=character===' '?'Space':'Key'+character.toUpperCase();
     const vk=character.toUpperCase().charCodeAt(0);
-    if(shifted)dispatch('keyDown','Shift','ShiftLeft',16,8);
-    dispatch('keyDown',character,code,vk,shifted?8:0,character);
-    dispatch('keyUp',character,code,vk,shifted?8:0);
-    if(shifted)dispatch('keyUp','Shift','ShiftLeft',16);
+    if(shifted)await dispatch('keyDown','Shift','ShiftLeft',16,8);
+    await Promise.all([dispatch('keyDown',character,code,vk,shifted?8:0,character),dispatch('keyUp',character,code,vk,shifted?8:0)]);
+    if(shifted)await dispatch('keyUp','Shift','ShiftLeft',16);
   }
-  await Promise.all(keyEvents);await keyboardSession.detach();
+  await keyboardSession.detach();
   const keyboardDeadline=performance.now()+timeoutMs;
   do{
     report.remoteKeyboard=(await post('/live/eval',{script:'return document.querySelector("#text").value;'})).result;
@@ -119,15 +120,29 @@ try {
   report.canvases=await page.locator('canvas').evaluateAll(cs=>cs.map(c=>({width:c.width,height:c.height,visible:!!c.getBoundingClientRect().width})));
   report.errors=logs;
   console.log('desktop: wait for repainted frame after resize');
-  // Resizing a canvas clears it before the remote full frame arrives. Check a
-  // stable region of the fixture background, not only the server dimensions.
-  await page.waitForFunction(()=>{
-    const canvas=document.querySelector('canvas');
-    const ctx=canvas?.getContext('2d');
-    if(!canvas||!ctx)return false;
-    const pixel=ctx.getImageData(Math.floor(canvas.width*.1),Math.floor(canvas.height*.8),1,1).data;
-    return Math.abs(pixel[0]-17)<20&&Math.abs(pixel[1]-34)<20&&Math.abs(pixel[2]-51)<20;
-  },null,{timeout:timeoutMs,polling:250});
+  // Sample the composited screenshot: Selkies may render with WebGL or workers,
+  // so the display canvas need not expose a 2D context to this page.
+  const repaintDeadline=performance.now()+timeoutMs;
+  let framePixel:number[]=[];
+  do{
+    const box=await page.locator('canvas').first().boundingBox();
+    if(!box)throw new Error('Missing desktop canvas after resize');
+    const png=await page.screenshot({clip:{x:Math.floor(box.x+box.width*.1),y:Math.floor(box.y+box.height*.8),width:1,height:1}});
+    const chunks:Buffer[]=[];
+    for(let at=8;at+12<=png.length;){
+      const length=png.readUInt32BE(at),type=png.toString('ascii',at+4,at+8);
+      if(type==='IHDR'&&(png.readUInt32BE(at+8)!==1||png.readUInt32BE(at+12)!==1||png[at+16]!==8||![2,6].includes(png[at+17])))throw new Error('Unexpected screenshot pixel format');
+      if(type==='IDAT')chunks.push(png.subarray(at+8,at+8+length));
+      at+=length+12;
+    }
+    // The first pixel has no left/up neighbours for any PNG row filter.
+    const row=inflateSync(Buffer.concat(chunks));
+    framePixel=[...row.subarray(1,4)];
+    if(framePixel.length===3&&Math.abs(framePixel[0]-17)<20&&Math.abs(framePixel[1]-34)<20&&Math.abs(framePixel[2]-51)<20)break;
+    await Bun.sleep(250);
+  }while(performance.now()<repaintDeadline);
+  report.framePixel=framePixel;
+  if(framePixel.length!==3||Math.abs(framePixel[0]-17)>=20||Math.abs(framePixel[1]-34)>=20||Math.abs(framePixel[2]-51)>=20)throw new Error('Desktop frame did not repaint after resize');
   report.frameRepainted=true;
   console.log('desktop: capture final frame');
   await page.screenshot({path:'/tmp/lupa-verify/desktop.png'});

@@ -105,7 +105,30 @@ try {
     assert(peak>500,'silent PulseAudio output');await liveEval('window.verifyAudio.osc.stop();window.verifyAudio.ctx.close();return true;');return {state:data.state,samples:bytes.length/2,peak};
   });
   await check('video-decode',async()=>{
-    const data=await liveEval(`const canvas=document.querySelector('canvas');const stream=canvas.captureStream(10);const recorder=new MediaRecorder(stream,{mimeType:'video/webm;codecs=vp8'});const chunks=[];const stopped=new Promise(r=>recorder.onstop=r);recorder.ondataavailable=e=>chunks.push(e.data);recorder.start();await new Promise(r=>setTimeout(r,800));recorder.stop();await stopped;stream.getTracks().forEach(t=>t.stop());const video=document.createElement('video');video.muted=true;video.src=URL.createObjectURL(new Blob(chunks,{type:'video/webm'}));document.body.append(video);await video.play();await new Promise(r=>setTimeout(r,300));return {time:video.currentTime,width:video.videoWidth,frames:video.getVideoPlaybackQuality().totalVideoFrames};`);
+    const data=await liveEval(`
+      const canvas=document.querySelector('canvas');const stream=canvas.captureStream(10);
+      const recorder=new MediaRecorder(stream,{mimeType:'video/webm;codecs=vp8'});const chunks=[];
+      let captureTimer;
+      const stopped=new Promise(resolve=>recorder.onstop=resolve);
+      const ready=new Promise((resolve,reject)=>{
+        captureTimer=setTimeout(()=>reject(new Error('No encoded video frames within 10 seconds')),10000);
+        recorder.ondataavailable=e=>{if(e.data.size)chunks.push(e.data);if(chunks.length>=3)resolve();};
+        recorder.onerror=e=>reject(new Error('Video recording failed: '+e.error?.name));
+      });
+      try{recorder.start(100);await ready;}
+      finally{clearTimeout(captureTimer);if(recorder.state!=='inactive'){recorder.stop();await stopped;}stream.getTracks().forEach(t=>t.stop());}
+      const blob=new Blob(chunks,{type:'video/webm'});const video=document.createElement('video');
+      video.muted=true;const source=URL.createObjectURL(blob);video.src=source;document.body.append(video);
+      try{
+        await video.play();
+        await new Promise((resolve,reject)=>{
+          const timer=setTimeout(()=>reject(new Error('No presented video frame within 10 seconds')),10000);
+          const frame=()=>{if(video.currentTime>0&&video.getVideoPlaybackQuality().totalVideoFrames>0){clearTimeout(timer);resolve();}else video.requestVideoFrameCallback(frame);};
+          frame();
+        });
+        return {time:video.currentTime,width:video.videoWidth,frames:video.getVideoPlaybackQuality().totalVideoFrames,encodedBytes:blob.size,encodedChunks:chunks.length};
+      }finally{video.pause();video.remove();URL.revokeObjectURL(source);}
+    `);
     assert(data.time>0 && data.width===320 && data.frames>0,'video decode');return data;
   });
   await check('desktop-http-https',async()=>{
