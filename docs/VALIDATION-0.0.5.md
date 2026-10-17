@@ -217,3 +217,20 @@ desactivada. La batería funcional anterior había fijado un viewport emulado de
 El laboratorio reinicia ahora su sesión dedicada antes del fixture de escritorio
 y registra las dimensiones internas, externas y de pantalla usadas para cada
 control. Este cambio solo afecta al laboratorio, no a las sesiones del usuario.
+
+La batería final de API multistage obtuvo 8/9: falló `/live/click` en la
+integración CDP, con el límite interno de cinco segundos. La comprobación CDP
+aislada posterior pasó (1 prueba, 25 aserciones, unos 104 segundos totales), sin
+cambiar ese límite. La batería funcional aprobó 15/15, incluido teclado/ratón
+y CDP compartido. El fallo inicial permanece registrado; la causa concreta
+de esa intermitencia no quedó aislada. Durante esta fase, una muestra de un
+segundo registró 69,7 % de CPU steal.
+
+Al reiniciar con viewport nativo pasaron clic, foco, portapapeles, audio, vídeo,
+redimensionado y repintado. Las dimensiones registradas fueron 1280×800 de
+pantalla y 1280×713 del contenido, con 87 píxeles de interfaz del navegador.
+El teclado quedó en `Selkies input oK`, por lo que la prueba completa siguió
+fallando. Se cambia el laboratorio para esperar cada pulsación y liberación
+en orden, incluidas las transiciones de Shift; no se relaja la comparación
+de mayúsculas. La repetición X11 desactivada evita repetir una tecla mientras
+se espera la ida y vuelta de CDP.

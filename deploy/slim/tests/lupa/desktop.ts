@@ -85,8 +85,8 @@ try {
   let point=await remotePoint('#click');await page.mouse.click(point.x,point.y);await page.waitForTimeout(500);
   report.remoteClick=(await post('/live/eval',{script:'return document.querySelector("#click").textContent;'})).result;
   point=await remotePoint('#text');await page.mouse.click(point.x,point.y);
-  // Queue each down/up pair together. Waiting for a CDP round trip between
-  // them can leave a key held long enough for X11 autorepeat on a slow host.
+  // Preserve event order, including Shift transitions. On a slow host use
+  // LUPA_KEY_REPEAT=off so remote round trips do not produce held-key repeats.
   const keyboardSession=await context.newCDPSession(page);
   const dispatch=(type:'keyDown'|'keyUp',key:string,code:string,windowsVirtualKeyCode:number,modifiers=0,text?:string)=>
     keyboardSession.send('Input.dispatchKeyEvent',{type,key,code,windowsVirtualKeyCode,modifiers,...(text?{text}:{} )});
@@ -95,7 +95,8 @@ try {
     const code=character===' '?'Space':'Key'+character.toUpperCase();
     const vk=character.toUpperCase().charCodeAt(0);
     if(shifted)await dispatch('keyDown','Shift','ShiftLeft',16,8);
-    await Promise.all([dispatch('keyDown',character,code,vk,shifted?8:0,character),dispatch('keyUp',character,code,vk,shifted?8:0)]);
+    await dispatch('keyDown',character,code,vk,shifted?8:0,character);
+    await dispatch('keyUp',character,code,vk,shifted?8:0);
     if(shifted)await dispatch('keyUp','Shift','ShiftLeft',16);
   }
   await keyboardSession.detach();
