@@ -5,7 +5,7 @@ import threading
 import unittest
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 
-from qwen_leads import BATCH_JS, BLOCK_JS, DETAIL_JS, Lupa, resolve_token
+from qwen_leads import BATCH_JS, BLOCK_JS, DETAIL_JS, EMPTY_JS, SEARCH_READY_JS, Lupa, resolve_token
 from collector_state import lead_from_detail
 
 
@@ -17,6 +17,8 @@ class DomTests(unittest.TestCase):
             def do_GET(self):
                 if self.path == '/feed':
                     body='<div role="feed"><a aria-label="Clínica Uno" href="https://www.google.com/maps/place/Fixture/data=!1s0x1:0x1">Uno</a></div>'
+                elif self.path == '/empty':
+                    body='<main role="main">Google Maps no encuentra fixture</main>'
                 elif self.path == '/blocked':
                     body='Nuestros sistemas han detectado tráfico inusual'
                 else:
@@ -32,7 +34,8 @@ class DomTests(unittest.TestCase):
             visit('/open');detail=json.loads(lupa.eval(DETAIL_JS));detail['query']='fixture'
             row,reason=lead_from_detail(detail,'Zapopan');self.assertEqual(reason,'');self.assertEqual(row['phone'],'+523300000001');self.assertFalse(detail['permanently_closed'])
             visit('/closed');detail=json.loads(lupa.eval(DETAIL_JS));detail['query']='fixture';self.assertTrue(detail['permanently_closed']);self.assertEqual(lead_from_detail(detail,'Zapopan')[1],'permanently_closed')
-            visit('/blocked');self.assertTrue(lupa.eval(BLOCK_JS))
+            visit('/blocked');self.assertTrue(lupa.eval(BLOCK_JS));self.assertFalse(lupa.eval(EMPTY_JS))
+            visit('/empty');self.assertTrue(lupa.eval(EMPTY_JS));self.assertTrue(lupa.eval(SEARCH_READY_JS))
         finally:
             lupa.request('/live',{'url':'about:blank'})
             server.shutdown();server.server_close();worker.join()

@@ -2,6 +2,8 @@ import contextlib
 import io
 import json
 import tempfile
+import subprocess
+import sys
 import threading
 from http.server import BaseHTTPRequestHandler, ThreadingHTTPServer
 import unittest
@@ -11,7 +13,7 @@ from unittest.mock import patch
 
 import qwen_leads_fast as fast
 import qwen_leads as ui
-from collector_state import BlockedError, CollectionError, SchemaError
+from collector_state import BlockedError, CollectionError, SchemaError, output_lock
 
 
 def payload(cid=1, name=None, address='Calle Uno, 45100 Zapopan, Jalisco'):
@@ -29,7 +31,7 @@ def args(output, **updates):
 
 
 class FakeLupa:
-    def __init__(self, count=1, fail_details=False, block=False, interrupt_batch=False):
+    def __init__(self, count=1, fail_details=False, block=False, interrupt_batch=False, empty=False):
         self.cards = [dict(name=f'Clínica {n}', url=f'https://www.google.com/maps/place/Fixture{n}/data=!1s0x1:0x{n:x}') for n in range(1,count+1)]
         self.url = ''
         self.visited = []
@@ -38,6 +40,7 @@ class FakeLupa:
         self.fail_details = fail_details
         self.block = block
         self.interrupt_batch = interrupt_batch
+        self.empty = empty
 
     def goto(self, url):
         self.url = url
@@ -50,6 +53,8 @@ class FakeLupa:
         self.waits += 1
 
     def eval(self, script):
+        if script == ui.EMPTY_JS:
+            return self.empty
         if script == ui.BATCH_JS:
             self.batches += 1
             if self.interrupt_batch and self.batches == 2:
@@ -224,6 +229,83 @@ class CollectorTests(unittest.TestCase):
             fast.collect(args(directory),'!1sold!7i20')
             self.assertEqual(json.loads((Path(directory)/'leads.json').read_text())[0]['checked_at'],detail['retrieved_at'])
 
+
+    def test_output_lock_blocks_other_process_before_state_changes(self):
+        code = """
+import sys
+from types import SimpleNamespace
+import qwen_leads_fast as fast
+import qwen_leads as ui
+from collector_state import CollectionError
+args = SimpleNamespace(output=sys.argv[1])
+for call in (lambda: fast.collect(args, ''), lambda: ui.collect(None, args)):
+    try:
+        call()
+    except CollectionError as error:
+        assert 'Otro colector' in str(error)
+    else:
+        raise AssertionError('concurrent writer was allowed')
+"""
+        with tempfile.TemporaryDirectory() as directory:
+            state = Path(directory) / 'state.json'
+            state.write_text('existing checkpoint')
+            with output_lock(directory):
+                result = subprocess.run([sys.executable, '-c', code, directory],
+                                        cwd=Path(__file__).parent, capture_output=True, text=True, timeout=10)
+                self.assertEqual(result.returncode, 0, result.stderr)
+                self.assertEqual(state.read_text(), 'existing checkpoint')
+            self.assertTrue((Path(directory) / '.collector.lock').exists())
+
+    def test_output_lock_releases_after_error_and_process_death(self):
+        with tempfile.TemporaryDirectory() as directory:
+            with self.assertRaises(RuntimeError):
+                with output_lock(directory):
+                    raise RuntimeError('fixture')
+            with output_lock(directory):
+                pass
+            code = "from collector_state import output_lock; import sys,time; lock=output_lock(sys.argv[1]); lock.__enter__(); print('ready',flush=True); time.sleep(30)"
+            child = subprocess.Popen([sys.executable, '-c', code, directory], cwd=Path(__file__).parent,
+                                     stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+            try:
+                import selectors
+                with selectors.DefaultSelector() as selector:
+                    selector.register(child.stdout, selectors.EVENT_READ)
+                    self.assertTrue(selector.select(10), 'child lock startup timed out')
+                self.assertEqual(child.stdout.readline().strip(), 'ready')
+                with self.assertRaises(CollectionError):
+                    with output_lock(directory):
+                        pass
+            finally:
+                child.kill(); child.communicate(timeout=10)
+            with output_lock(directory):
+                pass
+
+    def test_real_empty_envelope_requires_explicit_empty_marker(self):
+        response = [None] * 72
+        header = [None] * 19
+        header[8], header[9] = 'fixture', 'fixture'
+        header[12], header[18] = ['fixture', '/search?q=fixture'], []
+        response[0] = ['fixture', [header]]
+        self.assertEqual(fast.parse_response(")]}'\n" + json.dumps(response)), [])
+        header[18] = None
+        with self.assertRaises(SchemaError):
+            fast.parse_response(")]}'\n" + json.dumps(response))
+        header[18] = []
+        response[0][1].append([None] * 15)
+        with self.assertRaises(SchemaError):
+            fast.parse_response(")]}'\n" + json.dumps(response))
+
+    def test_ui_empty_panel_completes_discovery_without_errors(self):
+        with tempfile.TemporaryDirectory() as directory, contextlib.redirect_stdout(io.StringIO()):
+            lupa = FakeLupa(empty=True)
+            with self.assertRaises(SystemExit):
+                ui.collect(lupa, args(directory))
+            state = json.loads((Path(directory) / 'state.json').read_text())
+            self.assertTrue(state['discovery_complete'])
+            self.assertEqual(state['completed_queries'], state['config']['queries'])
+            self.assertEqual(state['errors'], [])
+            self.assertEqual(state['accepted'], [])
+            self.assertEqual(lupa.batches, 0)
 
 
 if __name__ == '__main__':

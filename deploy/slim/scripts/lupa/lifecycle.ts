@@ -4,10 +4,12 @@ const token=(process.env.LUPA_API_TOKEN_FILE ? await Bun.file(process.env.LUPA_A
 if(!token)throw new Error("LUPA_API_TOKEN or LUPA_API_TOKEN_FILE is required");
 const compose=['docker','compose','-p',process.env.LUPA_COMPOSE_PROJECT||'lupa-validation','-f','lupa.yml'];
 const headers={authorization:`Bearer ${token}`, 'content-type':'application/json'};
+const timeoutMs=Number(process.env.LUPA_TEST_TIMEOUT_MS||20000);
+if(!Number.isInteger(timeoutMs)||timeoutMs<1000||timeoutMs>120000)throw new Error('LUPA_TEST_TIMEOUT_MS must be 1000–120000');
 const base=`http://127.0.0.1:${process.env.LUPA_API_PORT||3136}`;
-async function api(path:string,body?:unknown){const r=await fetch(base+path,{headers,method:body===undefined?'GET':'POST',body:body===undefined?undefined:JSON.stringify(body),signal:AbortSignal.timeout(20000)});if(!r.ok)throw new Error(`${path}: ${r.status}`);return r.json() as Promise<any>;}
+async function api(path:string,body?:unknown){const r=await fetch(base+path,{headers,method:body===undefined?'GET':'POST',body:body===undefined?undefined:JSON.stringify(body),signal:AbortSignal.timeout(timeoutMs)});if(!r.ok)throw new Error(`${path}: ${r.status}`);return r.json() as Promise<any>;}
 async function command(args:string[],allowFail=false){const p=Bun.spawn(args,{env:{...process.env,LUPA_API_TOKEN:token},stdout:'pipe',stderr:'pipe'});const out=await new Response(p.stdout).text();const err=await new Response(p.stderr).text();const code=await p.exited;if(code&&!allowFail)throw new Error(err||out);return {out,err,code};}
-const result:any={};
+const result:any={timeoutMs};
 await api('/live',{url:'about:blank'});
 await api('/live/cookies/add',{cookies:[{name:'lifecycle',value:'preserved',domain:'lupa.test',path:'/',expires:Math.floor(Date.now()/1000)+3600}]});
 await api('/extension/run',{extension:'lupa-test',url:'http://127.0.0.1:3036/health',fresh:true,script:'document.cookie="extensionLifecycle=preserved; Max-Age=3600; path=/"; return document.cookie;'});
@@ -27,7 +29,7 @@ if(!result.volumeExclusive)throw new Error('Profile volume lock not held');
 // A new empty profile must start without network access or runtime downloads.
 const offline=(process.env.LUPA_COMPOSE_PROJECT||'lupa-validation')+'-offline-check';
 try{
- await command(['docker','run','-d','--name',offline,'--network','none','--shm-size','512m','-e','LUPA_API_TOKEN','-e','SELKIES_USER=validation','-e','SELKIES_PASSWORD=validation-only',process.env.LUPA_IMAGE||'bunxdev/lupa:0.0.4']);
+ await command(['docker','run','-d','--name',offline,'--network','none','--shm-size','512m','-e','LUPA_API_TOKEN','-e','SELKIES_USER=validation','-e','SELKIES_PASSWORD=validation-only',process.env.LUPA_IMAGE||'bunxdev/lupa:0.0.5']);
  for(let i=0;i<90;i++){
   const h=await command(['docker','inspect',offline,'--format','{{.State.Health.Status}}']);
   if(h.out.trim()==='healthy'){result.offlineStartup=true;break;}

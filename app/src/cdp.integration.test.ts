@@ -4,6 +4,9 @@ import { mkdtempSync, writeFileSync, rmSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
 
+const timeoutMs=Number(process.env.LUPA_TEST_TIMEOUT_MS||30000);
+if(!Number.isInteger(timeoutMs)||timeoutMs<1000||timeoutMs>120000)throw new Error('LUPA_TEST_TIMEOUT_MS must be 1000–120000');
+
 // Requires the same Chromium installation and DISPLAY as the app container.
 test.skipIf(process.env.RUN_BROWSER_TESTS !== '1')('CDP shares the live session, supports discovery and reconnects after close', async () => {
   const dir = mkdtempSync(join(tmpdir(), 'lupa-cdp-test-'));
@@ -36,8 +39,8 @@ test.skipIf(process.env.RUN_BROWSER_TESTS !== '1')('CDP shares the live session,
     await expect(chromium.connectOverCDP(base.replace('http:', 'ws:') + '/cdp', { timeout: 3000 })).rejects.toThrow();
     // Startup CDP races with the eager splash: both must use one profile launch.
     const [first, second] = await Promise.all([
-      chromium.connectOverCDP(base + '/cdp', { headers }),
-      chromium.connectOverCDP(base.replace('http:', 'ws:') + '/cdp', { headers }),
+      chromium.connectOverCDP(base + '/cdp', { headers, timeout:timeoutMs }),
+      chromium.connectOverCDP(base.replace('http:', 'ws:') + '/cdp', { headers, timeout:timeoutMs }),
     ]);
     clients.push(first, second);
     await post('/live', { url: `http://127.0.0.1:${fixture.port}`, viewport: { width: 800, height: 600 } });
@@ -66,7 +69,7 @@ test.skipIf(process.env.RUN_BROWSER_TESTS !== '1')('CDP shares the live session,
     await post('/live/close');
     for (let i = 0; i < 50 && second.isConnected(); i++) await Bun.sleep(20);
     expect(second.isConnected()).toBe(false);
-    const reconnected = await chromium.connectOverCDP(base + '/cdp/', { headers });
+    const reconnected = await chromium.connectOverCDP(base + '/cdp/', { headers, timeout:timeoutMs });
     clients.push(reconnected);
     expect(reconnected.contexts().length).toBeGreaterThan(0);
     await post('/live', { url: `http://127.0.0.1:${fixture.port}`, viewport: { width: 800, height: 600 } });
@@ -79,4 +82,4 @@ test.skipIf(process.env.RUN_BROWSER_TESTS !== '1')('CDP shares the live session,
     fixture.stop(true);
     rmSync(dir, { recursive: true, force: true });
   }
-}, 60000);
+}, process.env.LUPA_TEST_TIMEOUT_MS ? timeoutMs*3 : 60000);

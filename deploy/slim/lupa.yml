@@ -1,6 +1,6 @@
 services:
   lupa:
-    image: ${LUPA_IMAGE:-bunxdev/lupa:0.0.4}
+    image: ${LUPA_IMAGE:-bunxdev/lupa:0.0.5}
     build:
       context: ../..
       dockerfile: Dockerfile

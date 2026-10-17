@@ -9,23 +9,15 @@ RUN mkdir -p /export && cp -a /lsiopy /export/lsiopy && \
     rm -rf /export/lsiopy/lib/python3.13/site-packages/pip* && \
     rm -f /export/lsiopy/bin/pip*
 
-FROM oven/bun:1.4.2-slim AS browser-build
+FROM oven/bun:1.4.2-slim@sha256:cb3bbbb08e13a4a2ff400f24c7a2a1d5efa83f6ef8544d52d95a519631e2fc61 AS browser-build
 WORKDIR /app
-COPY app/package.json app/bun.lock ./
+COPY --chmod=u=rwX,go=rX app/package.json app/bun.lock ./
 RUN bun install --production --frozen-lockfile
 ENV PLAYWRIGHT_BROWSERS_PATH=/opt/browsers
 # Use one full Chromium for both headed and new-headless operation.
 RUN bunx playwright install chromium --no-shell && rm -rf /opt/browsers/.links
 
 FROM ${DEBIAN_IMAGE} AS runtime
-ARG LUPA_REVISION=unknown
-ARG LUPA_VERSION=0.0.4
-LABEL org.opencontainers.image.title="Lupa slim" \
-      org.opencontainers.image.description="Lupa API, authenticated CDP, persistent Chromium and Selkies desktop on Debian slim" \
-      org.opencontainers.image.source="https://github.com/bunxdev/lupa" \
-      org.opencontainers.image.version="${LUPA_VERSION}" \
-      org.opencontainers.image.revision="${LUPA_REVISION}" \
-      io.lupa.upstream.revision="${LUPA_REVISION}"
 ENV DEBIAN_FRONTEND=noninteractive
 RUN apt-get update && apt-get install -y --no-install-recommends \
       ca-certificates curl tini gosu python3 \
@@ -54,12 +46,12 @@ COPY --from=selkies /proot-apps /proot-apps
 COPY --from=browser-build /usr/local/bin/bun /usr/local/bin/bun
 COPY --from=browser-build /opt/browsers /opt/browsers
 COPY --from=browser-build /app/node_modules /app/node_modules
-COPY app/src /app/src
-COPY app/package.json VERSION /app/
-COPY deploy/slim/Dockerfiles/lupa/rootfs/ /
+COPY --chmod=u=rwX,go=rX app/src /app/src
+COPY --chmod=u=rwX,go=rX app/package.json VERSION /app/
+COPY --chmod=u=rwX,go=rX deploy/slim/Dockerfiles/lupa/rootfs/ /
 
-COPY qwen/qwen_leads.py qwen/qwen_leads_fast.py qwen/collector_state.py qwen/maps_pb.txt /opt/lupa/qwen/
-COPY integrations/browser-use/lead_data.py /opt/lupa/integrations/browser-use/lead_data.py
+COPY --chmod=u=rwX,go=rX qwen/qwen_leads.py qwen/qwen_leads_fast.py qwen/collector_state.py qwen/maps_pb.txt /opt/lupa/qwen/
+COPY --chmod=u=rwX,go=rX integrations/browser-use/lead_data.py /opt/lupa/integrations/browser-use/lead_data.py
 COPY --chmod=755 deploy/slim/scripts/lupa/entrypoint.sh deploy/slim/scripts/lupa/session.sh deploy/slim/scripts/lupa/healthcheck.sh deploy/slim/scripts/lupa/lupa /usr/local/bin/
 ENV HOME=/config DISPLAY=:1 XDG_RUNTIME_DIR=/run/lupa \
     PATH=/lsiopy/bin:/proot-apps:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin \
@@ -77,3 +69,14 @@ EXPOSE 3036 3000 3001
 VOLUME ["/config"]
 HEALTHCHECK --interval=20s --timeout=5s --start-period=40s --retries=3 CMD ["/usr/local/bin/healthcheck.sh"]
 ENTRYPOINT ["/usr/bin/tini", "--", "/usr/local/bin/entrypoint.sh"]
+
+# Metadata last: release labels must not invalidate dependency layers.
+ARG LUPA_REVISION=unknown
+ARG LUPA_VERSION=0.0.5
+LABEL io.lupa.build.variant="multistage" \
+      org.opencontainers.image.title="Lupa slim" \
+      org.opencontainers.image.description="Lupa API, authenticated CDP, persistent Chromium and Selkies desktop on Debian slim" \
+      org.opencontainers.image.source="https://github.com/bunxdev/lupa" \
+      org.opencontainers.image.version="${LUPA_VERSION}" \
+      org.opencontainers.image.revision="${LUPA_REVISION}" \
+      io.lupa.upstream.revision="${LUPA_REVISION}"

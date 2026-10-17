@@ -36,7 +36,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'integrations' / 'browser-use'))
 from collector_state import (BlockedError, CollectionError, SchemaError, accept_detail,
-                             finish, open_state, record_error, save)
+                             finish, open_state, output_lock, record_error, save)
 
 HERE = Path(__file__).resolve().parent
 ENDPOINT = 'https://www.google.com/search?tbm=map&authuser=0&hl={hl}&gl={gl}&q={q}&pb={pb}'
@@ -70,6 +70,18 @@ def parse_response(body):
     except (ValueError, TypeError):
         raise SchemaError('JSON de Maps inválido') from None
     results = safe_get(data, 64)
+    # Observed no-result envelope: only the search header, with an explicit
+    # empty result marker at [18]. A missing [64] alone is never enough.
+    table = safe_get(data, 0, 1)
+    header = safe_get(table, 0)
+    if (isinstance(data, list) and len(data) > 64 and results is None
+            and isinstance(safe_get(data, 0, 0), str)
+            and isinstance(table, list) and len(table) == 1
+            and isinstance(header, list) and len(header) == 19
+            and header[:8] == [None] * 8 and header[18] == []
+            and isinstance(safe_get(header, 12, 1), str)
+            and safe_get(header, 12, 1).startswith('/search?q=')):
+        return []
     if not isinstance(results, list):
         raise SchemaError('La respuesta de Maps cambió: falta la lista de resultados')
     return results
@@ -170,6 +182,11 @@ def discover(queries, state, template, hl, gl, count, checkpoint=lambda: None):
 
 
 def collect(args, template):
+    with output_lock(args.output):
+        return _collect(args, template)
+
+
+def _collect(args, template):
     state = open_state(args, 'maps-http', dict(hl=args.hl, gl=args.gl, count=args.count))
     checkpoint = lambda: save(state, args.output)
     checkpoint()  # A resumable checkpoint exists before the first network request.

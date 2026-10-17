@@ -1,6 +1,6 @@
-# Colectores de Google Maps — Lupa 0.0.4
+# Colectores de Google Maps — Lupa 0.0.5
 
-Dos clientes Python 3 de biblioteca estándar, derivados de la rama `qwen` y revisados para 0.0.4. Ambos reutilizan `integrations/browser-use/lead_data.py`; conserva la estructura del checkout. No hay una copia `qwen/lead_data.py`.
+Dos clientes Python 3 para Linux de biblioteca estándar, derivados de la rama `qwen` y revisados desde 0.0.4. Ambos reutilizan `integrations/browser-use/lead_data.py`; conserva la estructura del checkout. No hay una copia `qwen/lead_data.py`.
 
 | Método | Comando | Qué consulta |
 |---|---|---|
@@ -38,25 +38,25 @@ python3 qwen/qwen_leads_fast.py \
 ```
 
 - Usa el mismo método, municipio, categorías, idioma y país. Conserva las consultas anteriores; puedes añadir otras y aumentar el límite. No reduzcas el límite por debajo de los contactos guardados.
-- Cada método tiene su propio `state.json`, con `schema_version: 1` e identificador `collector`. Los estados antiguos sin identificar y los de otro método se rechazan sin modificarlos. Inicia otra carpeta para esas corridas; los archivos anteriores se conservan.
+- Cada método tiene su propio `state.json`, con `schema_version: 1` e identificador `collector`. Los checkpoints identificados de 0.0.4 siguen siendo compatibles con 0.0.5. Los estados antiguos sin identificar y los de otro método se rechazan sin modificarlos. Inicia otra carpeta para esas corridas; los archivos anteriores se conservan.
 - Hay un checkpoint antes de la primera petición, después de cada lote/consulta y tras cada ficha. Una interrupción con Ctrl+C o un error guarda lo reunido; el proceso no promete recuperar una respuesta que todavía no llegó.
 - La vía HTTP reusa las candidatas guardadas y solo vuelve a consultar las búsquedas pendientes. Aumentar `--count` vuelve a descubrir candidatos; no refresca los contactos ya aceptados. La fecha del feed se conserva al aceptar una ficha guardada.
 - Si no se alcanza el objetivo, el comando termina con código distinto de cero y deja exportaciones parciales. Cinco fallos consecutivos de detalle detienen el trabajo; las fichas fallidas quedan pendientes para reintentar.
-- Usa un solo proceso por carpeta de salida. El JSON se reemplaza de forma atómica, pero no hay coordinación entre escritores concurrentes.
+- Los colectores toman un bloqueo exclusivo `.collector.lock` durante toda la ejecución, incluidas las exportaciones. Otro colector con la misma carpeta se detiene antes de modificar el estado. El bloqueo se libera al salir, también si el proceso muere; no borres el archivo de bloqueo. El exportador independiente no participa en este bloqueo: ejecútalo después de terminar el colector.
 
 ## Datos y límites
 
 Se exportan `leads.json`, `leads.csv` y `leads.html`, además del checkpoint. Se filtra por municipio confirmado en la dirección, categoría y teléfono público; se deduplica por Maps, teléfono o nombre+dirección. La capa compartida escapa HTML y fórmulas CSV. Los datos no se contactan ni se califican y los teléfonos no se verifican por llamada.
 
-La vía HTTP depende de `maps_pb.txt` y posiciones internas del JSON. **Es experimental**: un cambio de Google puede romperla. No se prometen velocidad, estabilidad ni extracción exhaustiva. Una lista vacía es un resultado vacío; HTML, 403/429 o una estructura desconocida detienen la ejecución. No intenta resolver CAPTCHAs ni eludir consentimientos. Si el formato cambia, revisa la respuesta y la plantilla en una sesión de pruebas antes de modificar los índices.
+La vía HTTP depende de `maps_pb.txt` y posiciones internas del JSON. **Es experimental**: un cambio de Google puede romperla. No se prometen velocidad, estabilidad ni extracción exhaustiva. Una lista vacía o la envoltura de búsqueda sin coincidencias reconocida es un resultado vacío; HTML, 403/429 o una estructura desconocida detienen la ejecución. No intenta resolver CAPTCHAs ni eludir consentimientos. Si el formato cambia, revisa la respuesta y la plantilla en una sesión de pruebas antes de modificar los índices.
 
-El feed no comprueba el cierre comercial: exporta `closure_status: unverified` y una nota visible. La UI descarta el texto de cierre permanente reconocido en la ficha; `not_marked_closed` significa que no detectó ese indicador, no una garantía de que el negocio esté abierto. Los resultados públicos cambian y requieren revisión humana según el uso.
+El feed no comprueba el cierre comercial: exporta `closure_status: unverified` y una nota visible. La UI reconoce el aviso «Google Maps no encuentra» sin esperar un feed que no existe. También descarta el texto de cierre permanente reconocido en la ficha; `not_marked_closed` significa que no detectó ese indicador, no una garantía de que el negocio esté abierto. Los resultados públicos cambian y requieren revisión humana según el uso.
 
 Las exportaciones mantienen el esquema de contactos para `integrations/browser-use/export_leads.py`. Esto no hace interoperables los checkpoints de distintos recolectores.
 
 ## Imagen Docker
 
-La imagen `bunxdev/lupa:0.0.4` incluye los scripts y la capa de datos. Dentro de una instancia **dedicada**, por ejemplo:
+La imagen `bunxdev/lupa:0.0.5` incluye los scripts y la capa de datos. Dentro de una instancia **dedicada**, por ejemplo:
 
 ```sh
 docker exec --user abc -e LUPA_URL=http://127.0.0.1:3036 lupa-pruebas \
@@ -81,3 +81,22 @@ LUPA_MAPS_DOM_TESTS=1 python3 -m unittest discover -s qwen -p test_dom.py -v
 ```
 
 [Informe de validación 0.0.4](../docs/MAPS-0.0.4.md). No se incorporan los datasets de la rama `qwen` ni los scripts antiguos de captura CDP ligados a una sesión concreta.
+
+## Matriz real optativa
+
+`validate_live.py` prueba farmacias en Guadalajara, ferreterías en Monterrey,
+panaderías en Mérida y una búsqueda sintética sin resultados. Usa una instancia
+dedicada, una carpeta vacía privada y las mismas variables de URL/token anteriores:
+
+```sh
+python3 qwen/validate_live.py --run-live --method both --output /ruta/privada/matriz
+```
+
+Solicita tres contactos y reanuda hasta cinco por caso positivo. `--method http`
+o `--method ui` permite ejecutar cada vía por separado y `--case` selecciona un
+caso. La prueba vacía espera cero contactos, descubrimiento terminado y salida
+parcial sin errores. Se detiene ante bloqueos de Google; no los reintenta. Cada
+invocación tiene un límite de seis minutos. `summary.json` solo contiene conteos
+y estados; los demás archivos pueden incluir contactos y deben seguir privados.
+La clasificación y el orden de resultados pueden variar: las coincidencias son
+medidas, no condiciones para declarar que el método funciona.

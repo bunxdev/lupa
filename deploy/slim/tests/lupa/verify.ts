@@ -2,6 +2,8 @@ import { chromium } from '/app/node_modules/playwright';
 import { mkdir, readFile, stat } from 'node:fs/promises';
 
 const api = `http://127.0.0.1:${process.env.PORT || 3036}`;
+const timeoutMs = Number(process.env.LUPA_TEST_TIMEOUT_MS || 30000);
+if (!Number.isInteger(timeoutMs) || timeoutMs < 1000 || timeoutMs > 120000) throw new Error('LUPA_TEST_TIMEOUT_MS must be 1000–120000');
 const token = process.env.LUPA_API_TOKEN_FILE
   ? (await Bun.file(process.env.LUPA_API_TOKEN_FILE).text()).trim()
   : process.env.LUPA_API_TOKEN;
@@ -15,7 +17,7 @@ async function check(name: string, fn: () => Promise<unknown>) {
   catch(error) { results.push({name,ok:false,error:String(error)}); console.error(`FAIL ${name}: ${error}`); }
 }
 async function post(path: string, body: unknown = {}) {
-  const response = await fetch(api + path, {method:'POST',headers,body:JSON.stringify(body),signal:AbortSignal.timeout(30000)});
+  const response = await fetch(api + path, {method:'POST',headers,body:JSON.stringify(body),signal:AbortSignal.timeout(timeoutMs)});
   assert(response.ok, `${path}: HTTP ${response.status} ${await response.clone().text()}`);
   return response;
 }
@@ -82,7 +84,7 @@ try {
     throw new Error('download missing');
   });
   await check('cdp-shared-session',async()=>{
-    client=await chromium.connectOverCDP(api+'/cdp',{headers});
+    client=await chromium.connectOverCDP(api+'/cdp',{headers,timeout:timeoutMs});
     const page=client.contexts()[0].pages().find(p=>p.url().startsWith(url));assert(page,'live tab missing');
     await page.evaluate(()=>{document.title='Changed via CDP';});
     assert(await liveEval('return document.title;')==='Changed via CDP','shared title');
@@ -116,6 +118,6 @@ try {
   // Leave the fixture serving only until all tests finish; idle live page stays usable.
   await post('/live',{url:'about:blank'}).catch(()=>{});
   fixture.stop(true);
-  await Bun.write(`${reportDir}/results.json`,JSON.stringify({timestamp:new Date().toISOString(),results},null,2));
+  await Bun.write(`${reportDir}/results.json`,JSON.stringify({timestamp:new Date().toISOString(),timeoutMs,results},null,2));
 }
 if(results.some(r=>!r.ok))process.exitCode=1;

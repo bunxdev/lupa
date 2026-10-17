@@ -1,5 +1,16 @@
 # Changelog
 
+## 0.0.5
+
+- Reconoce búsquedas vacías reales de Maps: panel sin feed en UI y envoltura JSON sin lista en HTTP. Un formato desconocido sigue siendo un error.
+- Bloquea la carpeta de salida durante toda la ejecución de cada colector; evita escritores simultáneos y libera el bloqueo al terminar o morir el proceso.
+- Añade una matriz real optativa de tres municipios/giros, reanudación y resultados vacíos, con informe agregado separado de datasets privados.
+- Normaliza los permisos de los archivos copiados a las imágenes y corrige la copia de fixtures del laboratorio para checkouts creados con `umask 077`.
+- Permite configurar y registrar el margen de espera de las pruebas mediante `LUPA_TEST_TIMEOUT_MS`, sin modificar los límites del servicio.
+- Añade la distribución `0.0.5-multistage`, construida desde etapas independientes de Selkies, Bun/Chromium y Debian slim; [recetas y validación](docs/BUILD-IMAGES.md).
+
+La paginación HTTP y la migración de checkpoints antiguos sin identificar siguen pendientes. Los checkpoints versionados de 0.0.4 son compatibles; para estados anteriores sin versión se debe iniciar una carpeta nueva.
+
 ## 0.0.4
 
 - Integra los dos colectores Maps de `qwen`, sin sus conjuntos de contactos.

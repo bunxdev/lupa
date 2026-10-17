@@ -2,9 +2,11 @@
 
 [Extensiones y complementos: Dedo, Cinder, Lumbre, Mutus, Tinta y Vimium](docs/EXTENSIONS.md).
 
-Versión 0.0.4. [Cambios por versión](CHANGELOG.md) · [Imagen Docker y actualización](docs/RELEASES.md).
-La distribución preparada para AMD64 es `bunxdev/lupa:0.0.4`; la receta siguiente
+Versión 0.0.5. [Cambios por versión](CHANGELOG.md) · [Imagen Docker y actualización](docs/RELEASES.md).
+La distribución preparada para AMD64 es `bunxdev/lupa:0.0.5`; la receta siguiente
 conserva el despliegue desde código sobre la base original de Selkies.
+
+[Construcción multistage e imágenes](docs/BUILD-IMAGES.md): variante `bunxdev/lupa:0.0.5-multistage` sobre Debian slim.
 
 [Colectores de Maps](qwen/README.md): vía UI por Lupa y HTTP directo experimental, con checkpoints por método y pruebas de reanudación.
 

@@ -29,7 +29,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'integrations' / 'browser-use'))
 from collector_state import (BlockedError, CollectionError, accept_detail, finish,
-                             open_state, record_error, save)
+                             open_state, output_lock, record_error, save)
 
 BATCH_JS = (
     "return JSON.stringify([...document.querySelectorAll('[role=feed] a[href*=\"/maps/place/\"]')]"
@@ -46,6 +46,11 @@ DETAIL_JS = (
 BLOCK_JS = (
     "return /captcha|recaptcha|unusual traffic|tráfico inusual|trafico inusual|antes de continuar/i.test((document.body&&document.body.innerText)||'')"
 )
+
+# Google uses a message panel, not a feed, when there are no matches.
+EMPTY_EXPRESSION = "(/^Google Maps (?:no encuentra|can't find|cannot find)\\b/i.test((document.querySelector('[role=main]')?.innerText||'').trim()))"
+EMPTY_JS = 'return ' + EMPTY_EXPRESSION
+SEARCH_READY_JS = 'return !!document.querySelector("[role=feed]") || ' + EMPTY_EXPRESSION
 
 
 def token_from_container(container):
@@ -133,7 +138,12 @@ def discover(lupa, queries, limit, state, checkpoint=lambda: None):
         lupa.goto(url)
         if lupa.blocked():
             raise BlockedError('Bloqueo o consentimiento de Maps; avance guardado')
-        lupa.wait('return !!document.querySelector("[role=feed]")', timeout=40)
+        lupa.wait(SEARCH_READY_JS, timeout=40)
+        if lupa.eval(EMPTY_JS) is True:
+            state['completed_queries'].append(query)
+            checkpoint()
+            print('  0 tarjetas; Maps indica que no encontró resultados', flush=True)
+            continue
         cards = set()
         stalled = 0
         for _ in range(30):
@@ -165,6 +175,11 @@ def discover(lupa, queries, limit, state, checkpoint=lambda: None):
 
 
 def collect(lupa, args):
+    with output_lock(args.output):
+        return _collect(lupa, args)
+
+
+def _collect(lupa, args):
     state = open_state(args, 'maps-ui')
     checkpoint = lambda: save(state, args.output)
     checkpoint()

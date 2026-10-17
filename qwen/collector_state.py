@@ -1,5 +1,8 @@
 """Versioned checkpoints shared by the two Maps collectors (stdlib only)."""
 import json
+import errno
+import fcntl
+from contextlib import contextmanager
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
@@ -18,6 +21,28 @@ class BlockedError(CollectionError):
 
 class SchemaError(CollectionError):
     pass
+
+
+@contextmanager
+def output_lock(output):
+    """Hold one OS lock for the complete collection, including exports.
+
+    Keep the lock file: unlinking it allows another process to lock a new inode.
+    The kernel releases the lock even when the process exits unexpectedly.
+    """
+    directory = Path(output)
+    directory.mkdir(parents=True, exist_ok=True)
+    with (directory / '.collector.lock').open('a') as handle:
+        try:
+            fcntl.flock(handle, fcntl.LOCK_EX | fcntl.LOCK_NB)
+        except OSError as error:
+            if error.errno in (errno.EACCES, errno.EAGAIN):
+                raise CollectionError('Otro colector está usando la carpeta de salida') from None
+            raise
+        try:
+            yield
+        finally:
+            fcntl.flock(handle, fcntl.LOCK_UN)
 
 
 def open_state(args, method, source_options=None):
