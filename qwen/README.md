@@ -94,7 +94,9 @@ python3 qwen/validate_live.py --run-live --method both --output /ruta/privada/ma
 
 Solicita tres contactos y reanuda hasta cinco por caso positivo. `--method http`
 o `--method ui` permite ejecutar cada vía por separado y `--case` selecciona un
-caso. La prueba vacía espera cero contactos, descubrimiento terminado y salida
+caso. `--collector-dir /opt/lupa/qwen` permite validar los scripts instalados
+dentro de la imagen, copiando únicamente el ejecutor de la matriz a `/tmp`.
+La prueba vacía espera cero contactos, descubrimiento terminado y salida
 parcial sin errores. Se detiene ante bloqueos de Google; no los reintenta. Cada
 invocación tiene un límite de seis minutos. `summary.json` solo contiene conteos
 y estados; los demás archivos pueden incluir contactos y deben seguir privados.

@@ -14,6 +14,7 @@ docker cp tests/lupa/. "$container:/tmp/lupa-tests/"
 docker exec "$container" chmod -R a+rX /tmp/lupa-tests
 # Clear only generated test artifacts so a failed run cannot reuse old reports.
 docker exec "$container" rm -rf /tmp/lupa-verify
+docker exec --user abc "$container" rm -f /config/Downloads/lupa-verify.txt
 rm -f reports/functions.json reports/desktop.json reports/desktop.png reports/page.pdf
 # Reopen after loading the test extension; this affects only this test instance.
 docker exec --user abc "$container" lupa close >/dev/null

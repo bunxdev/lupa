@@ -23,6 +23,8 @@ def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--run-live', action='store_true', help='Explicitly enable requests to Google and navigation in Lupa')
     parser.add_argument('--output', required=True)
+    parser.add_argument('--collector-dir', type=Path, default=Path(__file__).resolve().parent,
+                        help='Directory containing the collectors; use /opt/lupa/qwen to test an image installation')
     parser.add_argument('--method', choices=['http', 'ui', 'both'], default='both')
     parser.add_argument('--case', choices=[c[0] for c in CASES], action='append')
     args = parser.parse_args()
@@ -45,7 +47,7 @@ def main():
         for method in methods:
             folder = output / f'{name}-{method}'
             script = 'qwen_leads_fast.py' if method == 'http' else 'qwen_leads.py'
-            command = [sys.executable, str(Path(__file__).with_name(script)), '--query', query,
+            command = [sys.executable, str(args.collector_dir.resolve() / script), '--query', query,
                        '--municipality', municipality, '--output', str(folder)]
             if category:
                 command += ['--category', category]
