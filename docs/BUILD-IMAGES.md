@@ -42,7 +42,7 @@ docker push "bunxdev/lupa:$version-multistage"
 
 `org.opencontainers.image.version`, `org.opencontainers.image.revision` e
 `io.lupa.build.variant` permiten identificar la versión, el commit y la receta.
-Los `COPY` del contexto normalizan los permisos con `u=rwX,go=rX`, para que
+Los `COPY` del contexto hacia el runtime normalizan los permisos con `u=rwX,go=rX`, para que
 `abc` pueda leer la aplicación aunque el checkout se haya creado con `umask 077`.
 Esto usa la sintaxis de Dockerfile 1.14 o posterior, resuelta por el frontend
 `docker/dockerfile:1` ([referencia oficial](https://docs.docker.com/reference/dockerfile/#copy---chmod)).

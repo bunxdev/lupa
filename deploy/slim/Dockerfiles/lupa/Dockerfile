@@ -11,7 +11,7 @@ RUN mkdir -p /export && cp -a /lsiopy /export/lsiopy && \
 
 FROM oven/bun:1.4.2-slim@sha256:cb3bbbb08e13a4a2ff400f24c7a2a1d5efa83f6ef8544d52d95a519631e2fc61 AS browser-build
 WORKDIR /app
-COPY --chmod=u=rwX,go=rX app/package.json app/bun.lock ./
+COPY app/package.json app/bun.lock ./
 RUN bun install --production --frozen-lockfile
 ENV PLAYWRIGHT_BROWSERS_PATH=/opt/browsers
 # Use one full Chromium for both headed and new-headless operation.
