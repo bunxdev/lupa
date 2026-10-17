@@ -19,7 +19,7 @@ RUN bunx playwright install chromium --no-shell && rm -rf /opt/browsers/.links
 
 FROM ${DEBIAN_IMAGE} AS runtime
 ARG LUPA_REVISION=unknown
-ARG LUPA_VERSION=0.0.3
+ARG LUPA_VERSION=0.0.4
 LABEL org.opencontainers.image.title="Lupa slim" \
       org.opencontainers.image.description="Lupa API, authenticated CDP, persistent Chromium and Selkies desktop on Debian slim" \
       org.opencontainers.image.source="https://github.com/bunxdev/lupa" \
@@ -57,6 +57,9 @@ COPY --from=browser-build /app/node_modules /app/node_modules
 COPY app/src /app/src
 COPY app/package.json VERSION /app/
 COPY deploy/slim/Dockerfiles/lupa/rootfs/ /
+
+COPY qwen/qwen_leads.py qwen/qwen_leads_fast.py qwen/collector_state.py qwen/maps_pb.txt /opt/lupa/qwen/
+COPY integrations/browser-use/lead_data.py /opt/lupa/integrations/browser-use/lead_data.py
 COPY --chmod=755 deploy/slim/scripts/lupa/entrypoint.sh deploy/slim/scripts/lupa/session.sh deploy/slim/scripts/lupa/healthcheck.sh deploy/slim/scripts/lupa/lupa /usr/local/bin/
 ENV HOME=/config DISPLAY=:1 XDG_RUNTIME_DIR=/run/lupa \
     PATH=/lsiopy/bin:/proot-apps:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin \

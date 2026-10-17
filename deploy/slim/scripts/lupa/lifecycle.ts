@@ -27,7 +27,7 @@ if(!result.volumeExclusive)throw new Error('Profile volume lock not held');
 // A new empty profile must start without network access or runtime downloads.
 const offline=(process.env.LUPA_COMPOSE_PROJECT||'lupa-validation')+'-offline-check';
 try{
- await command(['docker','run','-d','--name',offline,'--network','none','--shm-size','512m','-e','LUPA_API_TOKEN','-e','SELKIES_USER=validation','-e','SELKIES_PASSWORD=validation-only',process.env.LUPA_IMAGE||'bunxdev/lupa:0.0.3']);
+ await command(['docker','run','-d','--name',offline,'--network','none','--shm-size','512m','-e','LUPA_API_TOKEN','-e','SELKIES_USER=validation','-e','SELKIES_PASSWORD=validation-only',process.env.LUPA_IMAGE||'bunxdev/lupa:0.0.4']);
  for(let i=0;i<90;i++){
   const h=await command(['docker','inspect',offline,'--format','{{.State.Health.Status}}']);
   if(h.out.trim()==='healthy'){result.offlineStartup=true;break;}

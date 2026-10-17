@@ -7,14 +7,15 @@
 | 0.0.1 | HTTP autenticado y sesión visual | Código y Compose original |
 | 0.0.2 | CDP compartido, Browser Use y laboratorio | Código y Compose original |
 | 0.0.3 | MCP de 21 herramientas y runtime slim | Código y `bunxdev/lupa:0.0.3` (linux/amd64) |
+| 0.0.4 | Colectores Maps y checkpoints por método | Código y `bunxdev/lupa:0.0.4` (linux/amd64) |
 
-La rama `qwen` agrega recolectores y resultados de Maps. No forma parte de estas
-releases; su integración requiere una revisión independiente de sus scripts y datos.
+0.0.4 integra los [colectores de Maps](../qwen/README.md) revisados, sin los
+conjuntos de contactos de la rama `qwen`. Consulta el [informe de pruebas](MAPS-0.0.4.md).
 
-## Imagen 0.0.3
+## Imagen 0.0.4
 
 ```sh
-git clone --branch v0.0.3 https://github.com/bunxdev/lupa.git
+git clone --branch v0.0.4 https://github.com/bunxdev/lupa.git
 cd lupa/deploy/slim
 cp .env.example .env
 openssl rand -hex 32
@@ -30,7 +31,7 @@ Los puertos se publican en loopback. Para acceso remoto usa un túnel SSH o un
 proxy autenticado. El MCP se ejecuta en el cliente siguiendo
 [integrations/mcp](../integrations/mcp/README.md); no requiere un puerto adicional.
 
-`0.0.3` usa el runtime AMD64 de `slim-20260915`, fijado por digest
+`0.0.4` usa el runtime AMD64 de `slim-20260915`, fijado por digest
 `sha256:d7c94e9360e2b9d258b4cf659e586517a7b635a132e0e7b4694fb85d138cf6f6`,
 y copia el código canónico `app/` de esta release. Las etiquetas OCI identifican
 la versión y el commit exactos. La receta completa está en

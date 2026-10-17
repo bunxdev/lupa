@@ -14,3 +14,11 @@
 !deploy/slim/Dockerfiles/
 !deploy/slim/Dockerfiles/lupa/
 !deploy/slim/Dockerfiles/lupa/**
+!qwen/
+!qwen/qwen_leads.py
+!qwen/qwen_leads_fast.py
+!qwen/collector_state.py
+!qwen/maps_pb.txt
+!integrations/
+!integrations/browser-use/
+!integrations/browser-use/lead_data.py

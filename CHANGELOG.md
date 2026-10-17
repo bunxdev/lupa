@@ -1,5 +1,18 @@
 # Changelog
 
+## 0.0.4
+
+- Integra los dos colectores Maps de `qwen`, sin sus conjuntos de contactos.
+- Checkpoints versionados por método antes de la primera petición, por lote y ante errores/interrupciones.
+- Reanuda consultas pendientes y candidatos guardados; rechaza estados de otro método o anteriores sin identificar.
+- Corrige búsquedas de una/dos fichas y distingue resultados vacíos, bloqueos y cambios de formato.
+- Conserva la fecha de consulta del feed y marca el cierre comercial como no verificado en HTTP directo.
+- Evita que redirecciones de la API propaguen el token Bearer; detiene el trabajo ante bloqueo/consentimiento.
+- Incluye los colectores Python estándar en `/opt/lupa/qwen/` de la imagen AMD64.
+- Pruebas de regresión, comprobación DOM en Chromium y comparación real de ambos métodos; [informe](docs/MAPS-0.0.4.md).
+
+El endpoint HTTP de Maps sigue siendo experimental, sin paginación ni garantía de exhaustividad. No se modificó el núcleo del navegador de 0.0.3.
+
 ## 0.0.3
 
 Comparación: `v0.0.2...v0.0.3`. Integra MCP y el despliegue slim de `lupax`.
